@@ -1,0 +1,696 @@
+{
+  "1": {
+    "subject": "misc",
+    "images": [
+      {
+        "filename": "misc-p1-1.jpeg",
+        "width": 2481,
+        "height": 3507,
+        "size": 1263037,
+        "index": 0
+      }
+    ]
+  },
+  "2": {
+    "subject": "misc",
+    "images": [
+      {
+        "filename": "misc-p2-1.png",
+        "width": 130,
+        "height": 130,
+        "size": 6455,
+        "index": 0
+      }
+    ]
+  },
+  "3": {
+    "subject": "misc",
+    "images": [
+      {
+        "filename": "misc-p3-1.jpeg",
+        "width": 420,
+        "height": 630,
+        "size": 20747,
+        "index": 0
+      }
+    ]
+  },
+  "11": {
+    "subject": "nonverbal",
+    "images": [
+      {
+        "filename": "nonverbal-p11-1.png",
+        "width": 609,
+        "height": 367,
+        "size": 23783,
+        "index": 0
+      },
+      {
+        "filename": "nonverbal-p11-2.png",
+        "width": 686,
+        "height": 153,
+        "size": 17397,
+        "index": 1
+      },
+      {
+        "filename": "nonverbal-p11-3.png",
+        "width": 702,
+        "height": 210,
+        "size": 17054,
+        "index": 2
+      },
+      {
+        "filename": "nonverbal-p11-4.png",
+        "width": 558,
+        "height": 150,
+        "size": 16202,
+        "index": 3
+      }
+    ]
+  },
+  "13": {
+    "subject": "nonverbal",
+    "images": [
+      {
+        "filename": "nonverbal-p13-1.png",
+        "width": 332,
+        "height": 249,
+        "size": 8131,
+        "index": 0
+      },
+      {
+        "filename": "nonverbal-p13-2.png",
+        "width": 111,
+        "height": 111,
+        "size": 3122,
+        "index": 1
+      },
+      {
+        "filename": "nonverbal-p13-3.png",
+        "width": 111,
+        "height": 111,
+        "size": 3456,
+        "index": 2
+      },
+      {
+        "filename": "nonverbal-p13-4.png",
+        "width": 112,
+        "height": 111,
+        "size": 2967,
+        "index": 3
+      },
+      {
+        "filename": "nonverbal-p13-5.png",
+        "width": 111,
+        "height": 111,
+        "size": 2878,
+        "index": 4
+      }
+    ]
+  },
+  "14": {
+    "subject": "nonverbal",
+    "images": [
+      {
+        "filename": "nonverbal-p14-1.png",
+        "width": 134,
+        "height": 130,
+        "size": 5254,
+        "index": 0
+      },
+      {
+        "filename": "nonverbal-p14-2.png",
+        "width": 552,
+        "height": 171,
+        "size": 27858,
+        "index": 1
+      },
+      {
+        "filename": "nonverbal-p14-3.png",
+        "width": 273,
+        "height": 273,
+        "size": 9620,
+        "index": 2
+      },
+      {
+        "filename": "nonverbal-p14-4.png",
+        "width": 472,
+        "height": 160,
+        "size": 10092,
+        "index": 3
+      },
+      {
+        "filename": "nonverbal-p14-5.png",
+        "width": 227,
+        "height": 77,
+        "size": 1416,
+        "index": 4
+      },
+      {
+        "filename": "nonverbal-p14-6.png",
+        "width": 227,
+        "height": 77,
+        "size": 1691,
+        "index": 5
+      }
+    ]
+  },
+  "30": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p30-1.png",
+        "width": 517,
+        "height": 253,
+        "size": 17102,
+        "index": 0
+      }
+    ]
+  },
+  "31": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p31-1.png",
+        "width": 315,
+        "height": 162,
+        "size": 8051,
+        "index": 0
+      },
+      {
+        "filename": "science-p31-2.png",
+        "width": 327,
+        "height": 178,
+        "size": 13638,
+        "index": 1
+      }
+    ]
+  },
+  "32": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p32-1.png",
+        "width": 229,
+        "height": 122,
+        "size": 7848,
+        "index": 0
+      },
+      {
+        "filename": "science-p32-2.png",
+        "width": 327,
+        "height": 171,
+        "size": 16928,
+        "index": 1
+      },
+      {
+        "filename": "science-p32-3.jpeg",
+        "width": 510,
+        "height": 256,
+        "size": 13610,
+        "index": 2
+      }
+    ]
+  },
+  "35": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p35-1.png",
+        "width": 437,
+        "height": 231,
+        "size": 18152,
+        "index": 0
+      }
+    ]
+  },
+  "36": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p36-1.png",
+        "width": 785,
+        "height": 278,
+        "size": 34902,
+        "index": 0
+      },
+      {
+        "filename": "science-p36-2.png",
+        "width": 517,
+        "height": 310,
+        "size": 19621,
+        "index": 1
+      }
+    ]
+  },
+  "37": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p37-1.png",
+        "width": 302,
+        "height": 384,
+        "size": 54946,
+        "index": 0
+      }
+    ]
+  },
+  "38": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p38-1.jpeg",
+        "width": 218,
+        "height": 205,
+        "size": 9436,
+        "index": 0
+      }
+    ]
+  },
+  "39": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p39-1.jpeg",
+        "width": 680,
+        "height": 298,
+        "size": 28517,
+        "index": 0
+      },
+      {
+        "filename": "science-p39-2.jpeg",
+        "width": 457,
+        "height": 308,
+        "size": 14804,
+        "index": 1
+      }
+    ]
+  },
+  "40": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p40-1.jpeg",
+        "width": 532,
+        "height": 187,
+        "size": 19277,
+        "index": 0
+      },
+      {
+        "filename": "science-p40-2.jpeg",
+        "width": 540,
+        "height": 102,
+        "size": 12914,
+        "index": 1
+      },
+      {
+        "filename": "science-p40-3.png",
+        "width": 364,
+        "height": 242,
+        "size": 15895,
+        "index": 2
+      }
+    ]
+  },
+  "41": {
+    "subject": "science",
+    "images": [
+      {
+        "filename": "science-p41-1.jpeg",
+        "width": 410,
+        "height": 301,
+        "size": 22472,
+        "index": 0
+      }
+    ]
+  },
+  "43": {
+    "subject": "math",
+    "images": [
+      {
+        "filename": "math-p43-1.png",
+        "width": 173,
+        "height": 111,
+        "size": 1564,
+        "index": 0
+      }
+    ]
+  },
+  "45": {
+    "subject": "math",
+    "images": [
+      {
+        "filename": "math-p45-1.png",
+        "width": 295,
+        "height": 122,
+        "size": 518,
+        "index": 0
+      }
+    ]
+  },
+  "48": {
+    "subject": "math",
+    "images": [
+      {
+        "filename": "math-p48-1.png",
+        "width": 454,
+        "height": 211,
+        "size": 1002,
+        "index": 0
+      },
+      {
+        "filename": "math-p48-2.png",
+        "width": 424,
+        "height": 191,
+        "size": 846,
+        "index": 1
+      }
+    ]
+  },
+  "51": {
+    "subject": "mechanical",
+    "images": [
+      {
+        "filename": "mechanical-p51-1.jpeg",
+        "width": 420,
+        "height": 278,
+        "size": 13162,
+        "index": 0
+      }
+    ]
+  },
+  "52": {
+    "subject": "mechanical",
+    "images": [
+      {
+        "filename": "mechanical-p52-1.jpeg",
+        "width": 68,
+        "height": 87,
+        "size": 2151,
+        "index": 0
+      },
+      {
+        "filename": "mechanical-p52-2.jpeg",
+        "width": 93,
+        "height": 93,
+        "size": 2346,
+        "index": 1
+      },
+      {
+        "filename": "mechanical-p52-3.jpeg",
+        "width": 100,
+        "height": 84,
+        "size": 1651,
+        "index": 2
+      },
+      {
+        "filename": "mechanical-p52-4.jpeg",
+        "width": 90,
+        "height": 90,
+        "size": 1622,
+        "index": 3
+      },
+      {
+        "filename": "mechanical-p52-5.png",
+        "width": 539,
+        "height": 253,
+        "size": 21551,
+        "index": 4
+      },
+      {
+        "filename": "mechanical-p52-6.png",
+        "width": 453,
+        "height": 169,
+        "size": 3430,
+        "index": 5
+      },
+      {
+        "filename": "mechanical-p52-7.png",
+        "width": 186,
+        "height": 87,
+        "size": 2817,
+        "index": 6
+      },
+      {
+        "filename": "mechanical-p52-8.png",
+        "width": 186,
+        "height": 87,
+        "size": 3067,
+        "index": 7
+      },
+      {
+        "filename": "mechanical-p52-9.png",
+        "width": 186,
+        "height": 87,
+        "size": 3156,
+        "index": 8
+      },
+      {
+        "filename": "mechanical-p52-10.png",
+        "width": 186,
+        "height": 87,
+        "size": 2761,
+        "index": 9
+      }
+    ]
+  },
+  "55": {
+    "subject": "mechanical",
+    "images": [
+      {
+        "filename": "mechanical-p55-1.jpeg",
+        "width": 135,
+        "height": 135,
+        "size": 3085,
+        "index": 0
+      },
+      {
+        "filename": "mechanical-p55-2.jpeg",
+        "width": 191,
+        "height": 91,
+        "size": 2143,
+        "index": 1
+      },
+      {
+        "filename": "mechanical-p55-3.jpeg",
+        "width": 145,
+        "height": 98,
+        "size": 4374,
+        "index": 2
+      },
+      {
+        "filename": "mechanical-p55-4.png",
+        "width": 319,
+        "height": 274,
+        "size": 1063,
+        "index": 3
+      },
+      {
+        "filename": "mechanical-p55-5.jpeg",
+        "width": 83,
+        "height": 195,
+        "size": 2255,
+        "index": 4
+      },
+      {
+        "filename": "mechanical-p55-6.jpeg",
+        "width": 181,
+        "height": 47,
+        "size": 3412,
+        "index": 5
+      }
+    ]
+  },
+  "56": {
+    "subject": "mechanical",
+    "images": [
+      {
+        "filename": "mechanical-p56-1.png",
+        "width": 453,
+        "height": 169,
+        "size": 3430,
+        "index": 0
+      }
+    ]
+  },
+  "57": {
+    "subject": "mechanical",
+    "images": [
+      {
+        "filename": "mechanical-p57-41.png",
+        "width": 60,
+        "height": 103,
+        "size": 1046,
+        "index": 40
+      },
+      {
+        "filename": "mechanical-p57-42.png",
+        "width": 60,
+        "height": 103,
+        "size": 1046,
+        "index": 41
+      },
+      {
+        "filename": "mechanical-p57-43.png",
+        "width": 60,
+        "height": 103,
+        "size": 1062,
+        "index": 42
+      }
+    ]
+  },
+  "58": {
+    "subject": "mechanical",
+    "images": [
+      {
+        "filename": "mechanical-p58-1.png",
+        "width": 203,
+        "height": 150,
+        "size": 1266,
+        "index": 0
+      },
+      {
+        "filename": "mechanical-p58-2.png",
+        "width": 203,
+        "height": 150,
+        "size": 1080,
+        "index": 1
+      },
+      {
+        "filename": "mechanical-p58-3.png",
+        "width": 203,
+        "height": 150,
+        "size": 1381,
+        "index": 2
+      },
+      {
+        "filename": "mechanical-p58-4.png",
+        "width": 203,
+        "height": 150,
+        "size": 1346,
+        "index": 3
+      }
+    ]
+  },
+  "60": {
+    "subject": "answer-nonverbal",
+    "images": [
+      {
+        "filename": "answer-nonverbal-p60-3.png",
+        "width": 96,
+        "height": 96,
+        "size": 4546,
+        "index": 2
+      },
+      {
+        "filename": "answer-nonverbal-p60-4.png",
+        "width": 113,
+        "height": 110,
+        "size": 5683,
+        "index": 3
+      },
+      {
+        "filename": "answer-nonverbal-p60-5.png",
+        "width": 118,
+        "height": 117,
+        "size": 3134,
+        "index": 4
+      },
+      {
+        "filename": "answer-nonverbal-p60-6.png",
+        "width": 235,
+        "height": 164,
+        "size": 3323,
+        "index": 5
+      }
+    ]
+  },
+  "61": {
+    "subject": "answer-nonverbal",
+    "images": [
+      {
+        "filename": "answer-nonverbal-p61-1.png",
+        "width": 767,
+        "height": 498,
+        "size": 61644,
+        "index": 0
+      },
+      {
+        "filename": "answer-nonverbal-p61-2.png",
+        "width": 47,
+        "height": 69,
+        "size": 500,
+        "index": 1
+      }
+    ]
+  },
+  "62": {
+    "subject": "answer-nonverbal",
+    "images": [
+      {
+        "filename": "answer-nonverbal-p62-1.png",
+        "width": 164,
+        "height": 156,
+        "size": 5345,
+        "index": 0
+      },
+      {
+        "filename": "answer-nonverbal-p62-2.png",
+        "width": 125,
+        "height": 150,
+        "size": 2381,
+        "index": 1
+      },
+      {
+        "filename": "answer-nonverbal-p62-3.png",
+        "width": 90,
+        "height": 90,
+        "size": 564,
+        "index": 2
+      }
+    ]
+  },
+  "73": {
+    "subject": "answer-math",
+    "images": [
+      {
+        "filename": "answer-math-p73-1.png",
+        "width": 247,
+        "height": 190,
+        "size": 747,
+        "index": 0
+      },
+      {
+        "filename": "answer-math-p73-2.png",
+        "width": 280,
+        "height": 266,
+        "size": 11172,
+        "index": 1
+      }
+    ]
+  },
+  "76": {
+    "subject": "answer-math",
+    "images": [
+      {
+        "filename": "answer-math-p76-1.png",
+        "width": 114,
+        "height": 84,
+        "size": 1266,
+        "index": 0
+      }
+    ]
+  },
+  "81": {
+    "subject": "answer-mechanical",
+    "images": [
+      {
+        "filename": "answer-mechanical-p81-1.png",
+        "width": 1009,
+        "height": 287,
+        "size": 14867,
+        "index": 0
+      }
+    ]
+  }
+}

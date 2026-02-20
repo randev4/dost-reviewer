@@ -1,0 +1,1138 @@
+[
+    {
+        "id": "mt-001",
+        "subject": "mechanical-technical",
+        "topic": "gears",
+        "difficulty": 1,
+        "question": "If Gear A turns clockwise, and it meshes directly with Gear B, which direction does Gear B turn?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Clockwise"
+            },
+            {
+                "key": "B",
+                "text": "Counter-clockwise"
+            },
+            {
+                "key": "C",
+                "text": "It doesn't turn"
+            },
+            {
+                "key": "D",
+                "text": "Both directions alternately"
+            }
+        ],
+        "answer": "B",
+        "explanation": "When two gears mesh directly, they rotate in opposite directions. If Gear A turns clockwise, Gear B turns counter-clockwise.",
+        "wrongExplanations": {
+            "A": "Meshing gears rotate in opposite directions, not the same direction.",
+            "C": "A meshed gear will always rotate when its partner rotates.",
+            "D": "Gears rotate continuously in one direction, not alternately."
+        }
+    },
+    {
+        "id": "mt-002",
+        "subject": "mechanical-technical",
+        "topic": "levers",
+        "difficulty": 1,
+        "question": "Which of the following is an example of a first-class lever?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Wheelbarrow"
+            },
+            {
+                "key": "B",
+                "text": "Seesaw"
+            },
+            {
+                "key": "C",
+                "text": "Fishing rod"
+            },
+            {
+                "key": "D",
+                "text": "Stapler"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A seesaw is a first-class lever — the fulcrum is between the effort and the load. First-class: fulcrum in middle.",
+        "wrongExplanations": {
+            "A": "A wheelbarrow is a second-class lever — the load is between the fulcrum and effort.",
+            "C": "A fishing rod is a third-class lever — the effort is between the fulcrum and load.",
+            "D": "A stapler is a second-class lever — the paper (load) is between the hinge (fulcrum) and your hand (effort)."
+        }
+    },
+    {
+        "id": "mt-003",
+        "subject": "mechanical-technical",
+        "topic": "pulleys",
+        "difficulty": 2,
+        "question": "A single fixed pulley is used to lift a 100 N load. What force must be applied?",
+        "questionLatex": "A single fixed pulley is used to lift a $100$ N load. What force must be applied?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "50 N"
+            },
+            {
+                "key": "B",
+                "text": "100 N"
+            },
+            {
+                "key": "C",
+                "text": "200 N"
+            },
+            {
+                "key": "D",
+                "text": "25 N"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A single fixed pulley changes the direction of force but does not provide a mechanical advantage. You must apply 100 N (equal to the load).",
+        "wrongExplanations": {
+            "A": "50 N would be the force if using a single movable pulley (MA = 2). A fixed pulley has MA = 1.",
+            "C": "200 N is double the load. A pulley never requires more force than the load.",
+            "D": "25 N would require a mechanical advantage of 4, which needs a compound pulley system."
+        }
+    },
+    {
+        "id": "mt-004",
+        "subject": "mechanical-technical",
+        "topic": "electrical",
+        "difficulty": 1,
+        "question": "In a simple circuit, what is the function of a switch?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "To increase voltage"
+            },
+            {
+                "key": "B",
+                "text": "To store electricity"
+            },
+            {
+                "key": "C",
+                "text": "To open or close the circuit"
+            },
+            {
+                "key": "D",
+                "text": "To convert AC to DC"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A switch controls the flow of electricity by opening (breaking) or closing (completing) the circuit.",
+        "wrongExplanations": {
+            "A": "A transformer increases voltage, not a switch.",
+            "B": "A battery or capacitor stores electricity, not a switch.",
+            "D": "A rectifier converts AC to DC, not a switch."
+        }
+    },
+    {
+        "id": "mt-005",
+        "subject": "mechanical-technical",
+        "topic": "gears",
+        "difficulty": 2,
+        "question": "A gear with 30 teeth drives a gear with 10 teeth. If the driving gear makes 1 revolution, how many revolutions does the driven gear make?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "1/3 revolution"
+            },
+            {
+                "key": "B",
+                "text": "1 revolution"
+            },
+            {
+                "key": "C",
+                "text": "3 revolutions"
+            },
+            {
+                "key": "D",
+                "text": "10 revolutions"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Gear ratio = driving teeth / driven teeth = 30/10 = 3. The smaller gear turns 3 times for every 1 turn of the larger gear.",
+        "wrongExplanations": {
+            "A": "1/3 revolution would be if the smaller gear drove the larger gear.",
+            "B": "Both gears would make 1 revolution only if they had the same number of teeth.",
+            "D": "10 revolutions would mean a 10:1 ratio, but the actual ratio is 30:10 = 3:1."
+        }
+    },
+    {
+        "id": "mt-006",
+        "subject": "mechanical-technical",
+        "topic": "forces",
+        "difficulty": 2,
+        "question": "A person pushes a box across a rough floor at constant speed. What can be said about the net force?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Net force is in the direction of motion"
+            },
+            {
+                "key": "B",
+                "text": "Net force is against the direction of motion"
+            },
+            {
+                "key": "C",
+                "text": "Net force is zero"
+            },
+            {
+                "key": "D",
+                "text": "Net force increases over time"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Constant speed means no acceleration, so by Newton's First Law, the net force is zero. The pushing force equals the friction force.",
+        "wrongExplanations": {
+            "A": "If net force were in the direction of motion, the box would accelerate (speed up).",
+            "B": "If net force were against motion, the box would decelerate (slow down).",
+            "D": "Net force doesn't change if speed is constant."
+        }
+    },
+    {
+        "id": "mt-007",
+        "subject": "mechanical-technical",
+        "topic": "electrical",
+        "difficulty": 2,
+        "question": "In a series circuit with three identical light bulbs, what happens when one bulb burns out?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "The other two bulbs get brighter"
+            },
+            {
+                "key": "B",
+                "text": "The other two bulbs get dimmer"
+            },
+            {
+                "key": "C",
+                "text": "All bulbs go out"
+            },
+            {
+                "key": "D",
+                "text": "Nothing happens to the other bulbs"
+            }
+        ],
+        "answer": "C",
+        "explanation": "In a series circuit, all components share a single path. If one bulb burns out (breaks the circuit), current stops flowing and all bulbs go out.",
+        "wrongExplanations": {
+            "A": "Bulbs getting brighter would happen in a parallel circuit if one path is removed.",
+            "B": "Dimming would require reduced current while maintaining flow, not a break.",
+            "D": "In a series circuit, all components are interdependent."
+        }
+    },
+    {
+        "id": "mt-008",
+        "subject": "mechanical-technical",
+        "topic": "forces",
+        "difficulty": 3,
+        "question": "A 60 kg person stands on a scale in an elevator accelerating upward at 2 m/s². What does the scale read? (g = 10 m/s²)",
+        "questionLatex": "A $60$ kg person stands on a scale in an elevator accelerating upward at $2$ m/s². What does the scale read? ($g = 10$ m/s²)",
+        "choices": [
+            {
+                "key": "A",
+                "text": "480 N"
+            },
+            {
+                "key": "B",
+                "text": "600 N"
+            },
+            {
+                "key": "C",
+                "text": "720 N"
+            },
+            {
+                "key": "D",
+                "text": "120 N"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Apparent weight = m(g + a) = 60(10 + 2) = 60 × 12 = 720 N. When accelerating up, you feel heavier.",
+        "explanationLatex": "$W_{\\text{apparent}} = m(g + a) = 60(10 + 2) = 720 \\text{ N}$",
+        "wrongExplanations": {
+            "A": "480 N = 60 × 8 = m(g-a). This would be the reading when accelerating downward.",
+            "B": "600 N = mg is the normal weight. The upward acceleration adds extra force.",
+            "D": "120 N = ma is just the additional force, not the total scale reading."
+        }
+    },
+    {
+        "id": "mt-009",
+        "subject": "mechanical-technical",
+        "topic": "levers",
+        "difficulty": 1,
+        "question": "What type of simple machine is a ramp?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Lever"
+            },
+            {
+                "key": "B",
+                "text": "Pulley"
+            },
+            {
+                "key": "C",
+                "text": "Inclined plane"
+            },
+            {
+                "key": "D",
+                "text": "Wheel and axle"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A ramp is an inclined plane — one of the six simple machines. It reduces the force needed to raise objects by increasing the distance.",
+        "wrongExplanations": {
+            "A": "A lever is a rigid bar that pivots around a fulcrum.",
+            "B": "A pulley uses a wheel and rope to change force direction.",
+            "D": "A wheel and axle is a circular device (like a doorknob or wheel)."
+        }
+    },
+    {
+        "id": "mt-010",
+        "subject": "mechanical-technical",
+        "topic": "electrical",
+        "difficulty": 3,
+        "question": "Which material is the best conductor of electricity?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Rubber"
+            },
+            {
+                "key": "B",
+                "text": "Wood"
+            },
+            {
+                "key": "C",
+                "text": "Copper"
+            },
+            {
+                "key": "D",
+                "text": "Glass"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Copper is an excellent conductor of electricity due to its free electrons. It's widely used in wiring and electrical components.",
+        "wrongExplanations": {
+            "A": "Rubber is an insulator — it resists the flow of electricity.",
+            "B": "Wood is a poor conductor (insulator). It does not allow easy flow of electricity.",
+            "D": "Glass is an insulator and is used to prevent electrical conduction."
+        }
+    },
+    {
+        "id": "mec-2020-001",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "A crate is sitting in the center of a flatbed truck. As the truck accelerates to the east, the \ncrate moves with it, not sliding on the bed of the truck. In what direction is the force \nexerted by the bed of the truck on the crate?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sideways"
+            },
+            {
+                "key": "B",
+                "text": "To the East"
+            },
+            {
+                "key": "C",
+                "text": "To the West"
+            },
+            {
+                "key": "D",
+                "text": "There is no friction force, because the crate isn’t sliding"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The four quarter circles add up to one. The square is also a rectangle. [161]"
+    },
+    {
+        "id": "mec-2020-002",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "Arrange through which medium the sound travel does from the slowest to fastest. \n \nI. \nSolid \nII. \nLiquid \nIII. \nGas",
+        "choices": [
+            {
+                "key": "A",
+                "text": "I, II, III"
+            },
+            {
+                "key": "B",
+                "text": "I, III, II"
+            },
+            {
+                "key": "C",
+                "text": "II, III, I"
+            },
+            {
+                "key": "D",
+                "text": "III, II, I"
+            }
+        ],
+        "answer": "D",
+        "explanation": "Separate into polygonal regions because it is easier to use area addition [187]"
+    },
+    {
+        "id": "mec-2020-003",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "A current of 5 μA flows through a wire. How many coulombs of charge have passed \nthrough the wire in 10 seconds?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "2 x 10-5 coulombs"
+            },
+            {
+                "key": "B",
+                "text": "5 x 10-5 coulombs"
+            },
+            {
+                "key": "C",
+                "text": "15 x 10-5 coulombs"
+            },
+            {
+                "key": "D",
+                "text": "50 x 10-5 coulombs"
+            }
+        ],
+        "answer": "B",
+        "explanation": "2 circles is equivalent to 3 squares [207]"
+    },
+    {
+        "id": "mec-2020-004",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "How can gears be used to change the speed of a machine?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "use more gears"
+            },
+            {
+                "key": "B",
+                "text": "use two gears of the same size"
+            },
+            {
+                "key": "C",
+                "text": "use two gears of different sizes"
+            },
+            {
+                "key": "D",
+                "text": "use two large gears"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Remember that 1 circle is ―as heavy as‖ 1.5 squares. [232]"
+    },
+    {
+        "id": "mec-2020-005",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "Choose the most closely related tool or object for the tool given below. \n \n \n \n \n\n \n \n \n \nA.\n                            B. \n \nC. \n                        D.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Option A"
+            },
+            {
+                "key": "B",
+                "text": "Option B"
+            },
+            {
+                "key": "C",
+                "text": "Option C"
+            },
+            {
+                "key": "D",
+                "text": "Option D"
+            }
+        ],
+        "answer": "B",
+        "explanation": "1500 = 0.3T so Tuition fee should be 5000 and 3500 is shouldered by the [259]",
+        "image": "mechanical-p51-1.jpeg"
+    },
+    {
+        "id": "mec-2020-006",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "In the figure shown below, gears A, B and C are connected by a chain. The diameters of \nthe gears are 2 inches, 4 inches, and 8 inches respectively.  If gear A is turning at 20 \nrevolutions per minute (RPM), what is the turning rate of gear C?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "5 RPM"
+            },
+            {
+                "key": "B",
+                "text": "20 RPM"
+            },
+            {
+                "key": "C",
+                "text": "40 RPM"
+            },
+            {
+                "key": "D",
+                "text": "80 RPM"
+            }
+        ],
+        "answer": "A",
+        "explanation": "20 does not divide 350 [280]",
+        "image": "mechanical-p52-5.png"
+    },
+    {
+        "id": "mec-2020-007",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "You are playing with a ball on an uneven surface as shown in the figure. If the ball moves \nfrom point A to point D across the surface, what is the difference between the \ngravitational potential energy at point A and point B?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Option A"
+            },
+            {
+                "key": "B",
+                "text": "Option B"
+            },
+            {
+                "key": "C",
+                "text": "Option C"
+            },
+            {
+                "key": "D",
+                "text": "Option D"
+            }
+        ],
+        "answer": "A",
+        "explanation": "m = 4 and n =  8 [304]"
+    },
+    {
+        "id": "mec-2020-008",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "The pictures below show pairs of metal blocks and their temperatures. Which of these \ncorrectly shows the direction that heat energy will move?",
+        "choices": [
+            {
+                "key": "A",
+                "text": ""
+            },
+            {
+                "key": "B",
+                "text": ""
+            },
+            {
+                "key": "C",
+                "text": ""
+            },
+            {
+                "key": "D",
+                "text": ""
+            }
+        ],
+        "answer": "C",
+        "explanation": "b can either be 1, 2, 3, 5, 6, 10, 15, or 30 [326]"
+    },
+    {
+        "id": "mec-2020-009",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "During your piano recital, a pure musical note causes a thin wooden panel in the school \ntheater to vibrate with the same frequency. This is an example of __________________.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "an overtone"
+            },
+            {
+                "key": "B",
+                "text": "diffraction"
+            },
+            {
+                "key": "C",
+                "text": "resonance"
+            },
+            {
+                "key": "D",
+                "text": "interference"
+            }
+        ],
+        "answer": "C",
+        "explanation": "s = 80 so 30% of it 24 [349]"
+    },
+    {
+        "id": "mec-2020-010",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 1,
+        "question": "In a projectile motion: for a given initial velocity Vi and angle  which is less than 60°, \ndetermine the projectile that will reach the farthest.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Projectile W"
+            },
+            {
+                "key": "B",
+                "text": "Projectile X"
+            },
+            {
+                "key": "C",
+                "text": "Projectile Y"
+            },
+            {
+                "key": "D",
+                "text": "Both Projectile X and Y"
+            }
+        ],
+        "answer": "B",
+        "explanation": "2.25 + 4.75 + 2.25 = 9.25 [372] Displacement is the area under the v-t graph and there are three different"
+    },
+    {
+        "id": "mec-2020-011",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "Given the set of front and rear wheels, which bicycle will reach a greater distance upon \none rotation of the pedal?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Bicycles W and Z"
+            },
+            {
+                "key": "B",
+                "text": "Bicycles X and Y"
+            },
+            {
+                "key": "C",
+                "text": "Bicycle W only"
+            },
+            {
+                "key": "D",
+                "text": "Bicycle X only"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Region 2 has the most number of organisms that performs various [560]"
+    },
+    {
+        "id": "mec-2020-012",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "Multiple holes of the same sizes are drilled on one side of the container but on different \nheight. The container is filled with water, which of the following will be the flow of the \nwater jet on the holes.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Situation A"
+            },
+            {
+                "key": "B",
+                "text": "Situation B"
+            },
+            {
+                "key": "C",
+                "text": "Situation C"
+            },
+            {
+                "key": "D",
+                "text": "Situation D \nW \nVi \n \nX \n2Vi \n \nY \nVi \n2 \nW \nX \nY \nZ \nA \nB \nC \nD"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Diminished number of beetles is a result of predation. Birds are possible [586]"
+    },
+    {
+        "id": "mec-2020-013",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "Different types of blocks are subjected to burning wood. If the same amount of heat from \nthe burning wood is absorbed by the rectangular block at a given short time interval, \nwhich block has the hottest top surface? Provided that all blocks have the same length, \nwidth and thickness.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Copper"
+            },
+            {
+                "key": "B",
+                "text": "Aluminum"
+            },
+            {
+                "key": "C",
+                "text": "Steel"
+            },
+            {
+                "key": "D",
+                "text": "Brick"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Lactose, when undigested can form extensive hydrogen bonds with [609]  [617] Buoyancy of a substance is determined by its specific gravity [618] Object [637] Water [640]"
+    },
+    {
+        "id": "mec-2020-014",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "The water supply in your house comes from a water tank that is located beside your \nhouse.  One day, you noticed that water hardly comes out of the faucet in the bathroom \nat the second floor of your house.  Which of the following can you do to increase the exit \nspeed of water in the second-floor bathroom? \n \nI. \nReplace the water tank with one that has a larger capacity.  \nII. \nReplace the second-floor bathroom faucet’s pipe with a larger diameter one. \nIII. \nIncrease the height of the water t",
+        "choices": [
+            {
+                "key": "A",
+                "text": "I and IV only"
+            },
+            {
+                "key": "B",
+                "text": "II and IV only"
+            },
+            {
+                "key": "C",
+                "text": "II and III only"
+            },
+            {
+                "key": "D",
+                "text": "III and IV only"
+            }
+        ],
+        "answer": "D",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-015",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "You are to construct a water tank with a horizontal exit pipe at the bottom.  You want the \nwater to exit the pipe at high speed when the tank is full.  Which of the tank designs below \nshould you consider? \nA.                              B.                              \nC.                                          D.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Option A"
+            },
+            {
+                "key": "B",
+                "text": "Option B"
+            },
+            {
+                "key": "C",
+                "text": "Option C"
+            },
+            {
+                "key": "D",
+                "text": "Option D"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The second image is a fruit belonging to the same trophic level as the [779] SYENSIYA-bilidad: Developing One’s Skills in Test-taking"
+    },
+    {
+        "id": "mec-2020-016",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "Which of the following machines is not an application of the lever principle?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "wheelbarrow"
+            },
+            {
+                "key": "B",
+                "text": "pliers"
+            },
+            {
+                "key": "C",
+                "text": "ladder"
+            },
+            {
+                "key": "D",
+                "text": "pulley \nCopper \nAluminum \nSteel \nBrick"
+            }
+        ],
+        "answer": "C",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-017",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "Which example proves light is faster than sound?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "We hear lightning before seeing thunder"
+            },
+            {
+                "key": "B",
+                "text": "We see lightning before hearing thunder"
+            },
+            {
+                "key": "C",
+                "text": "We see ripples in water after hearing a splash"
+            },
+            {
+                "key": "D",
+                "text": "We see ripples in water before hearing a splash"
+            }
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-018",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "The tool shown below would most likely be used to:",
+        "choices": [
+            {
+                "key": "A",
+                "text": "carve wood"
+            },
+            {
+                "key": "B",
+                "text": "drive nails"
+            },
+            {
+                "key": "C",
+                "text": "tighten bolts"
+            },
+            {
+                "key": "D",
+                "text": "weld metal"
+            }
+        ],
+        "answer": "A",
+        "explanation": "",
+        "image": "mechanical-p55-5.jpeg"
+    },
+    {
+        "id": "mec-2020-019",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "Which among the tool/s are used by electrician? \nI. \n      III. \n \n \nII. \n IV.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "I and II"
+            },
+            {
+                "key": "B",
+                "text": "I, II and III"
+            },
+            {
+                "key": "C",
+                "text": "I, II and IV"
+            },
+            {
+                "key": "D",
+                "text": "I, II, III and IV"
+            }
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-020",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 2,
+        "question": "In the figure shown below, which gears are turning clockwise?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "A, C and E"
+            },
+            {
+                "key": "B",
+                "text": "B, D and F"
+            },
+            {
+                "key": "C",
+                "text": "C and D"
+            },
+            {
+                "key": "D",
+                "text": "E and F"
+            }
+        ],
+        "answer": "C",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-021",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "You are playing with a ball on an uneven surface as shown in the figure below. Assuming \nthat the ball moves from point A to point D across the surface, at what point from the \nfigure will your ball have a minimum gravitational potential energy?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Point A"
+            },
+            {
+                "key": "B",
+                "text": "Point B"
+            },
+            {
+                "key": "C",
+                "text": "Point C"
+            },
+            {
+                "key": "D",
+                "text": "Point D"
+            }
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-022",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "You are in a resort enjoying your summer vacation in the pool. Curious as you are, you \nwanted to know the density of water in the pool. The owner told you that the pool has a \n300-cubic meter capacity which is equivalent to 297,000 kg of water. What is the density \nof water inside the pool?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "1.01 m3/kg"
+            },
+            {
+                "key": "B",
+                "text": "2.02 m3/kg"
+            },
+            {
+                "key": "C",
+                "text": "990 kg/m"
+            },
+            {
+                "key": "D",
+                "text": "1980 kg/m"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Given are animals and their corresponding structures used in food [499]"
+    },
+    {
+        "id": "mec-2020-023",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "Mr. Havana found a large piece of wood drifting during the flood after the Typhoon \nYolanda. Since he sees the wood as still useful, he plans to smoothen the surface using a \nhand tool. Which of the following tools can he use to smooth the piece of wood?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "A wrench"
+            },
+            {
+                "key": "B",
+                "text": "A screwdriver"
+            },
+            {
+                "key": "C",
+                "text": "A plane"
+            },
+            {
+                "key": "D",
+                "text": "A hammer"
+            }
+        ],
+        "answer": "C",
+        "explanation": "Phytoplanktons are photosynthetic making them a producer. [519] The absence of hole on the guava is sign that the worm was already [536]"
+    },
+    {
+        "id": "mec-2020-024",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "A firetruck is sounding its horn while it’s moving away from you to respond to a burning \nhouse. As you observe, the pitch of the horn's sound relative to its normal pitch is \n____________________.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Higher"
+            },
+            {
+                "key": "B",
+                "text": "Lower"
+            },
+            {
+                "key": "C",
+                "text": "the same"
+            },
+            {
+                "key": "D",
+                "text": "higher or lower depending upon the exact frequency"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The tendency to increase or decrease the wavelength of the sound due to [810] Developing One’s Skills in Test-Taking"
+    },
+    {
+        "id": "mec-2020-025",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "In a projectile motion: for a given initial velocity Vi and angle  which is less than 90°, \ndetermine the projectile that will reach the highest point (maximum height).",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Projectile W"
+            },
+            {
+                "key": "B",
+                "text": "Projectile X"
+            },
+            {
+                "key": "C",
+                "text": "Projectile Y"
+            },
+            {
+                "key": "D",
+                "text": "Both Projectile X and Y"
+            }
+        ],
+        "answer": "B",
+        "explanation": "All of those given are aquatic organisms capable of locomotion, except [604]"
+    },
+    {
+        "id": "mec-2020-026",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "A U-tube manometer is closed one end and open on the other end which is exposed to \nthe atmosphere. It contains oil, water and air with different levels as shown. From the \ngiven statement below, which of them are true about the pressure at the same level?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "I only"
+            },
+            {
+                "key": "B",
+                "text": "II only"
+            },
+            {
+                "key": "C",
+                "text": "II and III"
+            },
+            {
+                "key": "D",
+                "text": "I and IV"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Defective dynein molecules in cilia and flagella [626]"
+    },
+    {
+        "id": "mec-2020-027",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "Considering a steady state heat conduction across a plane composite wall composed of \nsteel and brick. If both the brick and steel have the same thickness and the coefficient of \nthermal conductivity of steel is higher compared to that of the brick, which of the \nfollowing points considered to be with the highest temperature given that the \nsurrounding air on both sides is 100°",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Option A"
+            },
+            {
+                "key": "B",
+                "text": "Option B"
+            },
+            {
+                "key": "C",
+                "text": "Option C"
+            },
+            {
+                "key": "D",
+                "text": "Option D"
+            }
+        ],
+        "answer": "A",
+        "explanation": "In conduction of heat, the point closer to the thermal source has the higher [298] C [810] Developing One’s Skills in Test-Taking"
+    },
+    {
+        "id": "mec-2020-028",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "Pulleys A, B, C and D are linked together using a belt, while pulleys C and D are linked using \na crossed belt. Pulleys A and E are of the same size, while pulleys B, C and D are of the \nsame size and half of the bigger pulleys. What will be the rotation and speed of the pulley \nat E relative to the pulley at A if the pulley at A is rotating counter clockwise?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Clockwise and twice the speed of the pulley at A"
+            },
+            {
+                "key": "B",
+                "text": "Counter clockwise and twice the speed of the pulley at A"
+            },
+            {
+                "key": "C",
+                "text": "Clockwise and the same speed as pulley at A"
+            },
+            {
+                "key": "D",
+                "text": "Counter clockwise and the same speed as pulley at A"
+            }
+        ],
+        "answer": "D",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-029",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "Which system will have a downward motion on the suspended block if the lever on the \nright is moved downward?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "I and II only"
+            },
+            {
+                "key": "B",
+                "text": "II and IV only"
+            },
+            {
+                "key": "C",
+                "text": "I, II and III only"
+            },
+            {
+                "key": "D",
+                "text": "II and III only"
+            }
+        ],
+        "answer": "B",
+        "explanation": ""
+    },
+    {
+        "id": "mec-2020-030",
+        "subject": "mechanical_technical",
+        "topic": "mechanics",
+        "difficulty": 3,
+        "question": "In sieving wet sand, which process is the most efficient to separate various sizes of \naggregates to course and fine granules of sand using different sieving opening or wire \nmesh with one mesh is over the other.",
+        "choices": [
+            {
+                "key": "A",
+                "text": "W – X – Y – Z"
+            },
+            {
+                "key": "C",
+                "text": "W – Z – Y – X"
+            },
+            {
+                "key": "B",
+                "text": "Z – Y – X – W"
+            },
+            {
+                "key": "D",
+                "text": "Z – X – Y – W  \nA \nB \nC \nE \nD \nMesh W \nMesh X \nMesh Y \nMesh Z"
+            }
+        ],
+        "answer": "A",
+        "explanation": "Given different sizes of sand grains (from gravels or rocks to the finest sand); [589] Mesh W [589] Mesh Y [590] Mesh Z [590] Mesh X [602] E only [810] Developing One’s Skills in Test-Taking"
+    }
+]

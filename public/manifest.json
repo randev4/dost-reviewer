@@ -1,0 +1,16 @@
+{
+    "name": "DOST-SEI Reviewer",
+    "short_name": "DOST Review",
+    "description": "Practice reviewer for the DOST-SEI Scholarship Exam",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a1628",
+    "theme_color": "#0a1628",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}
