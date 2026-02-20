@@ -1,1591 +1,1591 @@
 [
-    {
-        "id": "eng-001",
-        "subject": "english",
-        "topic": "grammar",
-        "difficulty": 1,
-        "question": "Choose the correct sentence:",
-        "choices": [
-            {
-                "key": "A",
-                "text": "She don't like ice cream."
-            },
-            {
-                "key": "B",
-                "text": "She doesn't likes ice cream."
-            },
-            {
-                "key": "C",
-                "text": "She doesn't like ice cream."
-            },
-            {
-                "key": "D",
-                "text": "She not like ice cream."
-            }
-        ],
-        "answer": "C",
-        "explanation": "'Doesn't' is the correct contraction for third-person singular (she/he/it), and the base form 'like' follows (not 'likes').",
-        "wrongExplanations": {
-            "A": "'Don't' is used with I/you/we/they. For she/he/it, use 'doesn't'.",
-            "B": "After 'doesn't', use the base form 'like', not 'likes'. The -s is already in 'doesn't'.",
-            "D": "'Not' alone cannot negate a verb. Use 'does not' or 'doesn't'."
-        }
-    },
-    {
-        "id": "eng-002",
-        "subject": "english",
-        "topic": "vocabulary",
-        "difficulty": 1,
-        "question": "What does 'benevolent' mean?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Cruel and unkind"
-            },
-            {
-                "key": "B",
-                "text": "Kind and generous"
-            },
-            {
-                "key": "C",
-                "text": "Lazy and careless"
-            },
-            {
-                "key": "D",
-                "text": "Angry and hostile"
-            }
-        ],
-        "answer": "B",
-        "explanation": "'Benevolent' means well-meaning, kind, and generous. It comes from Latin 'bene' (good) + 'volent' (wishing).",
-        "wrongExplanations": {
-            "A": "That describes 'malevolent', the opposite of benevolent.",
-            "C": "That describes 'indolent' or 'negligent', not benevolent.",
-            "D": "That describes 'belligerent' or 'hostile', not benevolent."
-        }
-    },
-    {
-        "id": "eng-003",
-        "subject": "english",
-        "topic": "grammar",
-        "difficulty": 2,
-        "question": "Choose the correct sentence:",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Neither the teacher nor the students was absent."
-            },
-            {
-                "key": "B",
-                "text": "Neither the teacher nor the students were absent."
-            },
-            {
-                "key": "C",
-                "text": "Neither the teacher nor the students is absent."
-            },
-            {
-                "key": "D",
-                "text": "Neither the teacher nor the students has been absent."
-            }
-        ],
-        "answer": "B",
-        "explanation": "With 'neither...nor', the verb agrees with the nearer subject. 'Students' (plural) is nearer, so use 'were'.",
-        "wrongExplanations": {
-            "A": "'Was' is singular but 'students' (the nearer subject) is plural.",
-            "C": "'Is' is singular present tense, but the nearer subject 'students' requires a plural verb.",
-            "D": "'Has been' is singular. The nearer subject 'students' requires 'have been'."
-        }
-    },
-    {
-        "id": "eng-004",
-        "subject": "english",
-        "topic": "reading",
-        "difficulty": 2,
-        "question": "\"The early bird catches the worm.\" This proverb means:",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Birds should wake up early to find food."
-            },
-            {
-                "key": "B",
-                "text": "Those who act quickly get the best opportunities."
-            },
-            {
-                "key": "C",
-                "text": "Morning is the best time to go fishing."
-            },
-            {
-                "key": "D",
-                "text": "Hard work always leads to success."
-            }
-        ],
-        "answer": "B",
-        "explanation": "This proverb uses a metaphor — the 'early bird' represents someone who acts promptly, and the 'worm' represents the reward or opportunity.",
-        "wrongExplanations": {
-            "A": "This is the literal meaning. Proverbs should be interpreted figuratively.",
-            "C": "The proverb is not about fishing; it's about seizing opportunities early.",
-            "D": "While related, the proverb specifically emphasizes being early/first, not just hard work."
-        }
-    },
-    {
-        "id": "eng-005",
-        "subject": "english",
-        "topic": "vocabulary",
-        "difficulty": 2,
-        "question": "Choose the word that is closest in meaning to 'METICULOUS':",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Careless"
-            },
-            {
-                "key": "B",
-                "text": "Thorough"
-            },
-            {
-                "key": "C",
-                "text": "Rapid"
-            },
-            {
-                "key": "D",
-                "text": "Creative"
-            }
-        ],
-        "answer": "B",
-        "explanation": "'Meticulous' means showing great attention to detail; very careful and precise. 'Thorough' is the closest synonym.",
-        "wrongExplanations": {
-            "A": "'Careless' is an antonym of meticulous.",
-            "C": "'Rapid' means fast, which has no relation to being careful or precise.",
-            "D": "'Creative' means inventive, which is unrelated to carefulness."
-        }
-    },
-    {
-        "id": "eng-006",
-        "subject": "english",
-        "topic": "grammar",
-        "difficulty": 1,
-        "question": "Identify the correct plural form of 'child':",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Childs"
-            },
-            {
-                "key": "B",
-                "text": "Children"
-            },
-            {
-                "key": "C",
-                "text": "Childrens"
-            },
-            {
-                "key": "D",
-                "text": "Childes"
-            }
-        ],
-        "answer": "B",
-        "explanation": "'Children' is the irregular plural form of 'child'. It doesn't follow standard -s/-es rules.",
-        "wrongExplanations": {
-            "A": "'Childs' treats it as a regular noun, but 'child' has an irregular plural.",
-            "C": "'Childrens' adds an unnecessary -s. 'Children' is already plural.",
-            "D": "'Childes' is not a valid English word."
-        }
-    },
-    {
-        "id": "eng-007",
-        "subject": "english",
-        "topic": "grammar",
-        "difficulty": 3,
-        "question": "\"Had I known about the traffic, I ___ earlier.\"",
-        "choices": [
-            {
-                "key": "A",
-                "text": "would leave"
-            },
-            {
-                "key": "B",
-                "text": "would have left"
-            },
-            {
-                "key": "C",
-                "text": "will leave"
-            },
-            {
-                "key": "D",
-                "text": "had left"
-            }
-        ],
-        "answer": "B",
-        "explanation": "This is a third conditional (past unreal). The structure is: Had + subject + past participle, subject + would have + past participle.",
-        "wrongExplanations": {
-            "A": "'Would leave' is for the second conditional (present unreal), not past unreal.",
-            "C": "'Will leave' is future tense, incompatible with the past hypothetical 'had I known'.",
-            "D": "'Had left' makes a double past perfect without the conditional element."
-        }
-    },
-    {
-        "id": "eng-008",
-        "subject": "english",
-        "topic": "reading",
-        "difficulty": 1,
-        "question": "Which of these is an example of a simile?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "The wind howled through the trees."
-            },
-            {
-                "key": "B",
-                "text": "She is as brave as a lion."
-            },
-            {
-                "key": "C",
-                "text": "Time is money."
-            },
-            {
-                "key": "D",
-                "text": "The stars danced in the sky."
-            }
-        ],
-        "answer": "B",
-        "explanation": "A simile compares two things using 'as' or 'like'. \"As brave as a lion\" uses 'as...as' to make the comparison.",
-        "wrongExplanations": {
-            "A": "This is personification — the wind is given the human action of howling.",
-            "C": "This is a metaphor — it says time IS money, not that it's LIKE money.",
-            "D": "This is personification — stars are given the human ability to dance."
-        }
-    },
-    {
-        "id": "eng-009",
-        "subject": "english",
-        "topic": "vocabulary",
-        "difficulty": 3,
-        "question": "What is the meaning of the prefix 'anti-'?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Before"
-            },
-            {
-                "key": "B",
-                "text": "Against"
-            },
-            {
-                "key": "C",
-                "text": "After"
-            },
-            {
-                "key": "D",
-                "text": "Under"
-            }
-        ],
-        "answer": "B",
-        "explanation": "The prefix 'anti-' means against or opposed to. Examples: antibacterial (against bacteria), antiwar (against war).",
-        "wrongExplanations": {
-            "A": "'Before' is the meaning of 'ante-' (e.g., antecedent), not 'anti-'.",
-            "C": "'After' is the meaning of 'post-' (e.g., postpone).",
-            "D": "'Under' is the meaning of 'sub-' (e.g., submarine)."
-        }
-    },
-    {
-        "id": "eng-010",
-        "subject": "english",
-        "topic": "grammar",
-        "difficulty": 2,
-        "question": "Choose the correctly punctuated sentence:",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Its going to rain today."
-            },
-            {
-                "key": "B",
-                "text": "It's going to rain today."
-            },
-            {
-                "key": "C",
-                "text": "Its' going to rain today."
-            },
-            {
-                "key": "D",
-                "text": "It is' going to rain today."
-            }
-        ],
-        "answer": "B",
-        "explanation": "\"It's\" is the contraction of \"it is\". \"Its\" (without apostrophe) is the possessive form.",
-        "wrongExplanations": {
-            "A": "'Its' without an apostrophe is possessive (e.g., 'its color'). Here you need 'it is' = 'it's'.",
-            "C": "'Its'' is not a valid English form.",
-            "D": "'It is'' has a misplaced apostrophe."
-        }
-    },
-    {
-        "id": "eng-2020-001",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Roman got 85% in his Math exam in the last quarter and 87% this quarter. Which \nsentence best describes Roman’s scores?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Roman’s Math scores had improved."
-            },
-            {
-                "key": "B",
-                "text": "Roman’s Math scores have improved."
-            },
-            {
-                "key": "C",
-                "text": "Roman’s Math scores will have improved."
-            },
-            {
-                "key": "D",
-                "text": "Roman’s Math scores have been improved."
-            }
-        ],
-        "answer": "B",
-        "explanation": "The answer is “Roman’s Math scores have improved”. [810] Developing One’s Skills in Test-Taking"
-    },
-    {
-        "id": "eng-2020-002",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "A group of students submitted a report on renewable energy. Which of the following \nrephrases the sentence above?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "A report on renewable energy was submitted by a group of students."
-            },
-            {
-                "key": "B",
-                "text": "A report on renewable energy is submitted by a group of students."
-            },
-            {
-                "key": "C",
-                "text": "A report on renewable energy were submitted by a group of students."
-            },
-            {
-                "key": "D",
-                "text": "A report on renewable energy had been submitted by a group of students."
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-003",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Had the truck driver been more careful, the accident",
-        "choices": [
-            {
-                "key": "A",
-                "text": "will not have happen."
-            },
-            {
-                "key": "B",
-                "text": "would not have happened."
-            },
-            {
-                "key": "C",
-                "text": "had not happened."
-            },
-            {
-                "key": "D",
-                "text": "have not happened."
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-004",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Men and women differ in childhood socialization. Girls create friendships by exchanging \nsecrets while boys establish bonds by doing things together. Which of the following is a \ngood paraphrase for this passage?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "There is gender difference among children as girls like spilling secrets while boys \nlike playing games."
-            },
-            {
-                "key": "B",
-                "text": "There are gender differences in childhood socialization since girls like sharing \nsecrets and boys like doing things as a group."
-            },
-            {
-                "key": "C",
-                "text": "Girls’ bond over sharing secrets and boys’ preference for doing activities together \nshow gender differences when children socialize."
-            },
-            {
-                "key": "D",
-                "text": "Girls like intimate sharing of secrets while boys enjoy playing games, so they are \ndifferent in their childhood socialization."
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-005",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Which of the following sentences has a different meaning?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Technology-mediated communication which uses various media has changed \nhow people build relationships."
-            },
-            {
-                "key": "B",
-                "text": "Technology-mediated communication has changed how people use various \nmedia to build relationships."
-            },
-            {
-                "key": "C",
-                "text": "Technology-mediated \ncommunication \nhas \nchanged \nhow \npeople \nbuild \nrelationships through various media."
-            },
-            {
-                "key": "D",
-                "text": "Technology-mediated communication through various media has changed how \nrelationships are built among people."
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-006",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "“Leadership is not about education or job experience. It is not about power or charisma. \nAnd it is not about social class or distinction. As John Maxwell once wrote, ‘Leadership is \ninfluence. Nothing more, nothing less.’ And by this definition, every man, woman and \nchild in this nation of 90 million is a leader in his or her own right.” - John Xavier R. Valdes \n(2009) \n \nWhich of the following restates the author’s main idea?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Anyone can be a leader who belong in this nation."
-            },
-            {
-                "key": "B",
-                "text": "Anyone who has power and charisma can be a leader."
-            },
-            {
-                "key": "C",
-                "text": "Anyone is capable of leadership which is defined as influence."
-            },
-            {
-                "key": "D",
-                "text": "Anyone with an education that is respectable has leadership."
-            }
-        ],
-        "answer": "C",
-        "explanation": "The answer is “Anyone is capable of leadership which is defined as [810] Developing One’s Skills in Test-Taking"
-    },
-    {
-        "id": "eng-2020-007",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "1A strand of spider’s silk is one of the strongest substances in the world. 2It can hold five \ntimes more weight than a similar strand of steel. 3The silk is extremely elastic. 4A strand \ncan stretch to twice its original length before breaking. \n \nHow can this paragraph be improved?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Use “Moreover” to begin sentence 3 to improve coherence."
-            },
-            {
-                "key": "B",
-                "text": "Add the phrase “of spider’s silk” in sentence 4 to improve clarity."
-            },
-            {
-                "key": "C",
-                "text": "Mention examples of other substances to improve content."
-            },
-            {
-                "key": "D",
-                "text": "Replace sentence 2 with another detail to improve unity."
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-008",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "1Telescopes opened our eyes to the modern age of astronomy. 2It was Galileo who first \nused this instrument to observe the skies up close. 3Through the telescope, Galileo \ndiscovered that moons orbit around Jupiter. 4Scientists after him then discovered that \nthere are eight moons in the said planet. 5Early telescopes were able to show that the sun \nand not the Earth is the center of the universe. 6The more advanced telescopes that came \nlater revealed geography and weather on the planets in the",
-        "choices": [
-            {
-                "key": "A",
-                "text": "To draw an inference"
-            },
-            {
-                "key": "B",
-                "text": "To provide an illustration"
-            },
-            {
-                "key": "C",
-                "text": "To conclude the paragraph"
-            },
-            {
-                "key": "D",
-                "text": "To restate the first sentence"
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-009",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Same text as item #8 (Telescopes). \n \nHow did telescopes help in discovering the wonders in space?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Telescopes studied gravity and speed of light."
-            },
-            {
-                "key": "B",
-                "text": "Scientists used telescopes to learn about planets."
-            },
-            {
-                "key": "C",
-                "text": "Galileo discovered moons orbiting around Jupiter."
-            },
-            {
-                "key": "D",
-                "text": "Astronomy became modern because of telescopes."
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-010",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Same text as item #8 (Telescopes). \n \nThe use of telescopes led to important discoveries. Which sentences support this?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Sentences 3 and"
-            },
-            {
-                "key": "B",
-                "text": "Sentences 1 and"
-            },
-            {
-                "key": "C",
-                "text": "Sentences 2 and"
-            },
-            {
-                "key": "D",
-                "text": "Sentences 6 and"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-011",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "1Renewable energy is more cost-efficient and environment-friendly than fossil fuels. The \nprocess of generating it relies on wind, sun, water, and organic matter. 2Since these \nenergy sources are abundant and easily replenished, the cost of electricity is not too \nexpensive. 3In contrast, fossil fuels depend on limited resources that may eventually \ndeplete, thus the cost of electricity can considerably increase. 4Electricity generated from \nrenewable sources is also more beneficial to nature.  ",
-        "choices": [
-            {
-                "key": "A",
-                "text": "cause-effect"
-            },
-            {
-                "key": "B",
-                "text": "problem-solution"
-            },
-            {
-                "key": "C",
-                "text": "definition by example"
-            },
-            {
-                "key": "D",
-                "text": "comparison-contrast"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-012",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Same text as item #11 (Renewable energy). If you are to use the author’s claims to \nadvocate the use of renewable energy, which of the following should be emphasized?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "The reduced cost of electricity helps consumers."
-            },
-            {
-                "key": "B",
-                "text": "The environment benefits from the use of renewable energy."
-            },
-            {
-                "key": "C",
-                "text": "The use of renewable energy benefits people and the environment."
-            },
-            {
-                "key": "D",
-                "text": "The need for alternative energy resource demands increased attention."
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-013",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Same text as item #11 (Renewable energy). An infographic based on the passage will be \ndesigned to inform the public about the advantages of renewable energy. How should the \ninformation be presented?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Enumerate the disadvantages of fossil fuels."
-            },
-            {
-                "key": "B",
-                "text": "Describe the process of producing renewable energy."
-            },
-            {
-                "key": "C",
-                "text": "Draw charts that indicate difference in cost of electricity."
-            },
-            {
-                "key": "D",
-                "text": "Show a comparison of renewable energy and fossil fuels."
-            }
-        ],
-        "answer": "D",
-        "explanation": "The answer is “Show a comparison of renewable energy and fossil fuels”. [810] Developing One’s Skills in Test-Taking"
-    },
-    {
-        "id": "eng-2020-014",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Which underlined part of the sentence shows an ERROR? \nI hope our varsity win  \nA \nthe basketball championship  \nB \nbecause the players are  \nC \nworking so hard.  \nD \n\n \n \n \n",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-015",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Which underlined part of the sentence shows an ERROR? \nHam and cheese are \nA \nmy favorite sandwich, while  \nB \nwater and pineapple juice are  \nC \nmy favorite drinks. \nD",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-016",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 1,
-        "question": "Which underlined part of the sentence shows an ERROR? \nMy baby sister always falls  \nA \nasleep whenever  \nB \nI sings to  \nC \nher favorite song.      \n \nD",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-017",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Choose the option that best expresses the same idea as the sentence below. \n \nThe cancellation of the Taal field trip turned out to be a blessing in disguise because all \nwho went to Tagaytay are still stuck in traffic jams until now.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "If not for the typhoon, the Taal field trip wouldn’t have been cancelled and also \nno traffic jams in Tagaytay now."
-            },
-            {
-                "key": "B",
-                "text": "It’s a good thing that the Taal field trip was cancelled because of the typhoon and \nthe traffic jams."
-            },
-            {
-                "key": "C",
-                "text": "The cancellation of the Taal field trip was an unexpected flash of luck."
-            },
-            {
-                "key": "D",
-                "text": "The cancellation of the Taal field trip was disappointing, but it turned out for the \nbest after all."
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-018",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Choose the option that best expresses the same idea as the sentence below. \n \nI know I will pass the scholarship test because I’ve prepared well for it.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "I will pass the scholarship test because I know I’ve prepared well for it."
-            },
-            {
-                "key": "B",
-                "text": "I will pass the scholarship test because I’ve prepared well for it I know."
-            },
-            {
-                "key": "C",
-                "text": "I’ve prepared well for it, so I know I will pass it."
-            },
-            {
-                "key": "D",
-                "text": "I’ve prepared well for the scholarship test, so I know I will pass it."
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-019",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Which of the following pairs of sentences is the conjunction YET be best used?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "The boy found money in the classroom. He surrendered it to the teacher."
-            },
-            {
-                "key": "B",
-                "text": "The little girl likes the color blue. She also likes the color yellow."
-            },
-            {
-                "key": "C",
-                "text": "The mother promised to bring her son to the movies. He finished his \nassignments on time."
-            },
-            {
-                "key": "D",
-                "text": "The student is not feeling well. She still attended her classes."
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-020",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Article: \n“Mobile Phones” \nThe Philippines is known as the texting capital of the world. Filipinos send over 200 million \ntexts daily, ten times the per capita world average. Texting allows Filipinos to express \nthemselves in new ways. They text what they would not normally say in a face-to-face \nencounter. This has led to new ways of relating with others as well as opened areas of \ninner-subjective reflection. New and radical identities become possible.  \nHowever, these technologies have also h",
-        "choices": [
-            {
-                "key": "A",
-                "text": "boundary"
-            },
-            {
-                "key": "B",
-                "text": "core"
-            },
-            {
-                "key": "C",
-                "text": "flank"
-            },
-            {
-                "key": "D",
-                "text": "margin"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-021",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "*Refer to “Mobile Phones” (article included in item #20) \n \nThe article claims that texting allows Filipinos to express what they would not normally \nsay in a face-to-face encounter. This advantage may also have a most harmful effect in \nthat _____.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Someone could text others the feelings he’s been keeping to himself"
-            },
-            {
-                "key": "B",
-                "text": "Someone could use text messaging as a way to play pranks on others"
-            },
-            {
-                "key": "C",
-                "text": "Someone could use text messaging to incite rebellion against the government"
-            },
-            {
-                "key": "D",
-                "text": "Someone could use text messaging to scam the unwary of their money"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-022",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "*Refer to “Mobile Phones” (article included in item #20) \n \nBelow are the author’s possible purposes in writing the article. \n \nDetermine the author’s main purpose by judging their best order of relevance from most \nto least relevant.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-001",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Analyze the disadvantages of using text messaging services",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "B",
-        "explanation": "The answer is “Roman’s Math scores have improved”. [810] Developing One’s Skills in Test-Taking"
-    },
-    {
-        "id": "eng-2020-002",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Compare smart mobs with demonstrations with controlling centers",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-003",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Discuss how text messaging services are used to mobilize people",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-004",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Examine the benefits of using text messaging services",
-        "choices": [
-            {
-                "key": "A",
-                "text": "2-3-4-"
-            },
-            {
-                "key": "B",
-                "text": "2-4-1-"
-            },
-            {
-                "key": "C",
-                "text": "3-2-4-"
-            },
-            {
-                "key": "D",
-                "text": "3-4-1-"
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-023",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "*Refer to “Mobile Phones” (article included in item #20) \n \nAccording to the article, Filipinos send over _____ text messages daily.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "200,"
-            },
-            {
-                "key": "B",
-                "text": "2,000,"
-            },
-            {
-                "key": "C",
-                "text": "20,000,"
-            },
-            {
-                "key": "D",
-                "text": "200,000,"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-024",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Yumi began working in the bank in 2009. She still works in the same bank now and recently \nreceived a Loyalty Award. Which sentence is true about Yumi?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Yumi is working in the bank since 2009."
-            },
-            {
-                "key": "B",
-                "text": "Yumi was working in the bank since 2009."
-            },
-            {
-                "key": "C",
-                "text": "Yumi has been working in the bank since 2009."
-            },
-            {
-                "key": "D",
-                "text": "Yumi had been working in the bank since 2009."
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-025",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "The number of teen mothers continue to increase. Stronger programs on sex education \nand responsible parenting are needed.  \nWhich of the following is a good paraphrase for this passage?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Programs on sex education and responsible parenting address the problem of \nteenage mothers."
-            },
-            {
-                "key": "B",
-                "text": "Sex education and responsible parenting programs must be developed to address \nthe growing number of teenage pregnancies."
-            },
-            {
-                "key": "C",
-                "text": "Teenage pregnancies can be prevented by stronger programs on sex education \nand responsible parenting."
-            },
-            {
-                "key": "D",
-                "text": "The number of teenage mothers continuously grow that better programs on sex \neducation and responsible parenting are a must."
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-026",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "Which of the following sentences has a different meaning?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Today, the result of the qualifying examination which I took last month will be \nreleased."
-            },
-            {
-                "key": "B",
-                "text": "The result of last month’s qualifying examination which I took will be released \ntoday."
-            },
-            {
-                "key": "C",
-                "text": "The result of the qualifying examination today is what I took last month."
-            },
-            {
-                "key": "D",
-                "text": "The result of the qualifying examination that I took last month will be released \ntoday."
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-027",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 2,
-        "question": "1Mathematics is the key to opportunity. 2No longer just the language of science, \nmathematics now contributes in direct and fundamental ways to our daily life and nation \nbuilding. 3For students, it opens doors to careers. 4For citizens, it enables informed \ndecision. 5For nations, it provides knowledge to compete in a technological economy. 6To \nparticipate fully in the world of the future, we must tap the power of mathematics. \nAccording to the passage, why is Mathematics considered important?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Mathematics make daily life more manageable as math knowledge guide in \nmaking practical decisions."
-            },
-            {
-                "key": "B",
-                "text": "Mathematics inform nations to become more competitive in the global economy \nthrough adapting relevant technologies."
-            },
-            {
-                "key": "C",
-                "text": "Mathematics helps students find financially and professionally rewarding careers \nin different fields, thus improving the quality of their lives."
-            },
-            {
-                "key": "D",
-                "text": "Mathematics does not only provide opportunities for improving personal and \nprofessional lives of people but also opportunities for developing the economy of \na nation."
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-028",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 27 (Passage on Mathematics) \n \nMathematics is the key to opportunity. Which sentence does not directly support this?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Sentences"
-            },
-            {
-                "key": "B",
-                "text": "Sentences"
-            },
-            {
-                "key": "C",
-                "text": "Sentences"
-            },
-            {
-                "key": "D",
-                "text": "Sentences"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-029",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 27 (Passage on Mathematics) \n \nWhat is the purpose of sentence 6?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "To draw an inference"
-            },
-            {
-                "key": "B",
-                "text": "To provide an illustration"
-            },
-            {
-                "key": "C",
-                "text": "To conclude the paragraph"
-            },
-            {
-                "key": "D",
-                "text": "To restate the first sentence"
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-030",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "1Metabolism is a biochemical process wherein what we eat and drink are converted into \nenergy. 2Calories in food and beverages are combined with oxygen to release energy our \nbody needs. 3The number of calories burned by the body to carry out its basic functions, \nlike breathing and growing cells, is technically called metabolic rate—also known as \nmetabolism. 4There are several factors that determine how much calories our body burns \n\n \n \n \n \neach day. 5Body size, sex, and age are some of these",
-        "choices": [
-            {
-                "key": "A",
-                "text": "cause-effect"
-            },
-            {
-                "key": "B",
-                "text": "classification"
-            },
-            {
-                "key": "C",
-                "text": "process"
-            },
-            {
-                "key": "D",
-                "text": "definition"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-031",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 30 (Passage on Metabolism) \n \nIf you are to explain the effectiveness of the paragraph in achieving its purpose, which of \nthe following will NOT support your claim?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Relevant details were included."
-            },
-            {
-                "key": "B",
-                "text": "Technical terms were clarified."
-            },
-            {
-                "key": "C",
-                "text": "Examples were used to explain concepts."
-            },
-            {
-                "key": "D",
-                "text": "Research data were used to validate the information."
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-032",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 30 (Passage on Metabolism) \n \nAn infographic based on the passage will be designed to illustrate “Metabolism.” How \nshould the information be presented?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Construct a paragraph that explains “Metabolism” as a process."
-            },
-            {
-                "key": "B",
-                "text": "Draw a concept map plotting the important details about “Metabolism.”"
-            },
-            {
-                "key": "C",
-                "text": "Illustrate the digestive system that shows a graphic representation of metabolic \nrate."
-            },
-            {
-                "key": "D",
-                "text": "Make a table that indicates the factors that affect metabolic rate."
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-033",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 30 (Passage on Metabolism) \n \nYou need to state the gist of the passage in a sentence. Which of the following do you \nthink best captures it?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Metabolism is the process of burning calories to support body functions."
-            },
-            {
-                "key": "B",
-                "text": "Metabolism is affected by several factors like age and hormones."
-            },
-            {
-                "key": "C",
-                "text": "Metabolism support digestion and physical activity."
-            },
-            {
-                "key": "D",
-                "text": "Metabolism is another term for metabolic rate."
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-034",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Which underlined part of the sentence shows an ERROR? \n \nPhysics are  \nA \nthe science concerned with  \nB \nthe qualities and properties  \nC \nof matter and energy.  \nD \n \n \n\n \n \n \n",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-035",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Which underlined part of the sentence shows an ERROR? \n \nRock and roll are \nA \nthe kind of music his mother  \nB \nlistened to when \nC \nshe was growing up. \nD",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-036",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Which underlined part of the sentence shows an ERROR? \n \nThe 12-year-old boy, \nA \nalong with his classmates \nB \nand their parents, \nC \nare going to the amusement park. \nD",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-037",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Which underlined part of the sentence shows an ERROR? \nLucia’s \nA \nfather’s \nB \nnephew is also \nC \nhis cousin.       \nD",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-038",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "“A Eulogy of Roaches” (an excerpt) Bienvenido Lumbera \n \nBlessed are the cockroaches. \n \nIn this country they are \nthe citizens who last. \nThey need no police \nto promulgate their peace \nbecause they tolerate \neach other’s smell or greed. \n \nFriends to dark and filth, \nthey do not choose their meat. \nThey settle where they wish \nand have no rent to pay. \nEviction is a word \nquite meaningless to them \nwho do not have to own \n\n \n \n \n \ntheir dingy crack of wall. \nNot knowing dearth or taxes, \nthey ",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Death comes to one and all."
-            },
-            {
-                "key": "B",
-                "text": "Life is full of challenges."
-            },
-            {
-                "key": "C",
-                "text": "Roaches will outlast humans."
-            },
-            {
-                "key": "D",
-                "text": "The tough will survive."
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-039",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe word EULOGY is closest in meaning to _____.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "accolade"
-            },
-            {
-                "key": "B",
-                "text": "tribute"
-            },
-            {
-                "key": "C",
-                "text": "triumph"
-            },
-            {
-                "key": "D",
-                "text": "worship"
-            }
-        ],
-        "answer": "B",
-        "explanation": "This is a vocabulary in context item. A and B are similar in meaning, but [810] Developing One’s Skills in Test-Taking"
-    },
-    {
-        "id": "eng-2020-040",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe attitude of the author in the preceding poem is _____.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "confused"
-            },
-            {
-                "key": "B",
-                "text": "detached"
-            },
-            {
-                "key": "C",
-                "text": "sad"
-            },
-            {
-                "key": "D",
-                "text": "scared"
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-041",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nRoaches could be said to live with each other in peace and harmony because according to \nthe poem, they tolerate their own kind’s _____.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "death"
-            },
-            {
-                "key": "B",
-                "text": "filth"
-            },
-            {
-                "key": "C",
-                "text": "pain"
-            },
-            {
-                "key": "D",
-                "text": "smell"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-042",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nIf you were to write the roaches in the poem an email, which parts of a mail should be \nconsidered the most important and in what order would you write them?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "To, CC/BCC, Message, Subject"
-            },
-            {
-                "key": "B",
-                "text": "To, CC/BCC, Subject, Message"
-            },
-            {
-                "key": "C",
-                "text": "To, Subject, Message, Attachments"
-            },
-            {
-                "key": "D",
-                "text": "To, Subject, Message, Signature"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "eng-2020-043",
-        "subject": "english",
-        "topic": "language",
-        "difficulty": 3,
-        "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe word EVICTION in line 12 is closest in meaning to _____.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "abandonment"
-            },
-            {
-                "key": "B",
-                "text": "departure"
-            },
-            {
-                "key": "C",
-                "text": "expulsion"
-            },
-            {
-                "key": "D",
-                "text": "suspension"
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
+  {
+    "id": "eng-001",
+    "subject": "english",
+    "topic": "grammar",
+    "difficulty": 1,
+    "question": "Choose the correct sentence:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "She don't like ice cream."
+      },
+      {
+        "key": "B",
+        "text": "She doesn't likes ice cream."
+      },
+      {
+        "key": "C",
+        "text": "She doesn't like ice cream."
+      },
+      {
+        "key": "D",
+        "text": "She not like ice cream."
+      }
+    ],
+    "answer": "C",
+    "explanation": "'Doesn't' is the correct contraction for third-person singular (she/he/it), and the base form 'like' follows (not 'likes').",
+    "wrongExplanations": {
+      "A": "'Don't' is used with I/you/we/they. For she/he/it, use 'doesn't'.",
+      "B": "After 'doesn't', use the base form 'like', not 'likes'. The -s is already in 'doesn't'.",
+      "D": "'Not' alone cannot negate a verb. Use 'does not' or 'doesn't'."
     }
+  },
+  {
+    "id": "eng-002",
+    "subject": "english",
+    "topic": "vocabulary",
+    "difficulty": 1,
+    "question": "What does 'benevolent' mean?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Cruel and unkind"
+      },
+      {
+        "key": "B",
+        "text": "Kind and generous"
+      },
+      {
+        "key": "C",
+        "text": "Lazy and careless"
+      },
+      {
+        "key": "D",
+        "text": "Angry and hostile"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'Benevolent' means well-meaning, kind, and generous. It comes from Latin 'bene' (good) + 'volent' (wishing).",
+    "wrongExplanations": {
+      "A": "That describes 'malevolent', the opposite of benevolent.",
+      "C": "That describes 'indolent' or 'negligent', not benevolent.",
+      "D": "That describes 'belligerent' or 'hostile', not benevolent."
+    }
+  },
+  {
+    "id": "eng-003",
+    "subject": "english",
+    "topic": "grammar",
+    "difficulty": 2,
+    "question": "Choose the correct sentence:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Neither the teacher nor the students was absent."
+      },
+      {
+        "key": "B",
+        "text": "Neither the teacher nor the students were absent."
+      },
+      {
+        "key": "C",
+        "text": "Neither the teacher nor the students is absent."
+      },
+      {
+        "key": "D",
+        "text": "Neither the teacher nor the students has been absent."
+      }
+    ],
+    "answer": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the nearer subject. 'Students' (plural) is nearer, so use 'were'.",
+    "wrongExplanations": {
+      "A": "'Was' is singular but 'students' (the nearer subject) is plural.",
+      "C": "'Is' is singular present tense, but the nearer subject 'students' requires a plural verb.",
+      "D": "'Has been' is singular. The nearer subject 'students' requires 'have been'."
+    }
+  },
+  {
+    "id": "eng-004",
+    "subject": "english",
+    "topic": "reading",
+    "difficulty": 2,
+    "question": "\"The early bird catches the worm.\" This proverb means:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Birds should wake up early to find food."
+      },
+      {
+        "key": "B",
+        "text": "Those who act quickly get the best opportunities."
+      },
+      {
+        "key": "C",
+        "text": "Morning is the best time to go fishing."
+      },
+      {
+        "key": "D",
+        "text": "Hard work always leads to success."
+      }
+    ],
+    "answer": "B",
+    "explanation": "This proverb uses a metaphor — the 'early bird' represents someone who acts promptly, and the 'worm' represents the reward or opportunity.",
+    "wrongExplanations": {
+      "A": "This is the literal meaning. Proverbs should be interpreted figuratively.",
+      "C": "The proverb is not about fishing; it's about seizing opportunities early.",
+      "D": "While related, the proverb specifically emphasizes being early/first, not just hard work."
+    }
+  },
+  {
+    "id": "eng-005",
+    "subject": "english",
+    "topic": "vocabulary",
+    "difficulty": 2,
+    "question": "Choose the word that is closest in meaning to 'METICULOUS':",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Careless"
+      },
+      {
+        "key": "B",
+        "text": "Thorough"
+      },
+      {
+        "key": "C",
+        "text": "Rapid"
+      },
+      {
+        "key": "D",
+        "text": "Creative"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'Meticulous' means showing great attention to detail; very careful and precise. 'Thorough' is the closest synonym.",
+    "wrongExplanations": {
+      "A": "'Careless' is an antonym of meticulous.",
+      "C": "'Rapid' means fast, which has no relation to being careful or precise.",
+      "D": "'Creative' means inventive, which is unrelated to carefulness."
+    }
+  },
+  {
+    "id": "eng-006",
+    "subject": "english",
+    "topic": "grammar",
+    "difficulty": 1,
+    "question": "Identify the correct plural form of 'child':",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Childs"
+      },
+      {
+        "key": "B",
+        "text": "Children"
+      },
+      {
+        "key": "C",
+        "text": "Childrens"
+      },
+      {
+        "key": "D",
+        "text": "Childes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'Children' is the irregular plural form of 'child'. It doesn't follow standard -s/-es rules.",
+    "wrongExplanations": {
+      "A": "'Childs' treats it as a regular noun, but 'child' has an irregular plural.",
+      "C": "'Childrens' adds an unnecessary -s. 'Children' is already plural.",
+      "D": "'Childes' is not a valid English word."
+    }
+  },
+  {
+    "id": "eng-007",
+    "subject": "english",
+    "topic": "grammar",
+    "difficulty": 3,
+    "question": "\"Had I known about the traffic, I ___ earlier.\"",
+    "choices": [
+      {
+        "key": "A",
+        "text": "would leave"
+      },
+      {
+        "key": "B",
+        "text": "would have left"
+      },
+      {
+        "key": "C",
+        "text": "will leave"
+      },
+      {
+        "key": "D",
+        "text": "had left"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is a third conditional (past unreal). The structure is: Had + subject + past participle, subject + would have + past participle.",
+    "wrongExplanations": {
+      "A": "'Would leave' is for the second conditional (present unreal), not past unreal.",
+      "C": "'Will leave' is future tense, incompatible with the past hypothetical 'had I known'.",
+      "D": "'Had left' makes a double past perfect without the conditional element."
+    }
+  },
+  {
+    "id": "eng-008",
+    "subject": "english",
+    "topic": "reading",
+    "difficulty": 1,
+    "question": "Which of these is an example of a simile?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The wind howled through the trees."
+      },
+      {
+        "key": "B",
+        "text": "She is as brave as a lion."
+      },
+      {
+        "key": "C",
+        "text": "Time is money."
+      },
+      {
+        "key": "D",
+        "text": "The stars danced in the sky."
+      }
+    ],
+    "answer": "B",
+    "explanation": "A simile compares two things using 'as' or 'like'. \"As brave as a lion\" uses 'as...as' to make the comparison.",
+    "wrongExplanations": {
+      "A": "This is personification — the wind is given the human action of howling.",
+      "C": "This is a metaphor — it says time IS money, not that it's LIKE money.",
+      "D": "This is personification — stars are given the human ability to dance."
+    }
+  },
+  {
+    "id": "eng-009",
+    "subject": "english",
+    "topic": "vocabulary",
+    "difficulty": 3,
+    "question": "What is the meaning of the prefix 'anti-'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Before"
+      },
+      {
+        "key": "B",
+        "text": "Against"
+      },
+      {
+        "key": "C",
+        "text": "After"
+      },
+      {
+        "key": "D",
+        "text": "Under"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The prefix 'anti-' means against or opposed to. Examples: antibacterial (against bacteria), antiwar (against war).",
+    "wrongExplanations": {
+      "A": "'Before' is the meaning of 'ante-' (e.g., antecedent), not 'anti-'.",
+      "C": "'After' is the meaning of 'post-' (e.g., postpone).",
+      "D": "'Under' is the meaning of 'sub-' (e.g., submarine)."
+    }
+  },
+  {
+    "id": "eng-010",
+    "subject": "english",
+    "topic": "grammar",
+    "difficulty": 2,
+    "question": "Choose the correctly punctuated sentence:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Its going to rain today."
+      },
+      {
+        "key": "B",
+        "text": "It's going to rain today."
+      },
+      {
+        "key": "C",
+        "text": "Its' going to rain today."
+      },
+      {
+        "key": "D",
+        "text": "It is' going to rain today."
+      }
+    ],
+    "answer": "B",
+    "explanation": "\"It's\" is the contraction of \"it is\". \"Its\" (without apostrophe) is the possessive form.",
+    "wrongExplanations": {
+      "A": "'Its' without an apostrophe is possessive (e.g., 'its color'). Here you need 'it is' = 'it's'.",
+      "C": "'Its'' is not a valid English form.",
+      "D": "'It is'' has a misplaced apostrophe."
+    }
+  },
+  {
+    "id": "eng-2020-001",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Roman got 85% in his Math exam in the last quarter and 87% this quarter. Which \nsentence best describes Roman’s scores?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Roman’s Math scores had improved."
+      },
+      {
+        "key": "B",
+        "text": "Roman’s Math scores have improved."
+      },
+      {
+        "key": "C",
+        "text": "Roman’s Math scores will have improved."
+      },
+      {
+        "key": "D",
+        "text": "Roman’s Math scores have been improved."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The answer is “Roman’s Math scores have improved”. [810] Developing One’s Skills in Test-Taking"
+  },
+  {
+    "id": "eng-2020-002",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "A group of students submitted a report on renewable energy. Which of the following \nrephrases the sentence above?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A report on renewable energy was submitted by a group of students."
+      },
+      {
+        "key": "B",
+        "text": "A report on renewable energy is submitted by a group of students."
+      },
+      {
+        "key": "C",
+        "text": "A report on renewable energy were submitted by a group of students."
+      },
+      {
+        "key": "D",
+        "text": "A report on renewable energy had been submitted by a group of students."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-003",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Had the truck driver been more careful, the accident",
+    "choices": [
+      {
+        "key": "A",
+        "text": "will not have happen."
+      },
+      {
+        "key": "B",
+        "text": "would not have happened."
+      },
+      {
+        "key": "C",
+        "text": "had not happened."
+      },
+      {
+        "key": "D",
+        "text": "have not happened."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-004",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Men and women differ in childhood socialization. Girls create friendships by exchanging \nsecrets while boys establish bonds by doing things together. Which of the following is a \ngood paraphrase for this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "There is gender difference among children as girls like spilling secrets while boys \nlike playing games."
+      },
+      {
+        "key": "B",
+        "text": "There are gender differences in childhood socialization since girls like sharing \nsecrets and boys like doing things as a group."
+      },
+      {
+        "key": "C",
+        "text": "Girls’ bond over sharing secrets and boys’ preference for doing activities together \nshow gender differences when children socialize."
+      },
+      {
+        "key": "D",
+        "text": "Girls like intimate sharing of secrets while boys enjoy playing games, so they are \ndifferent in their childhood socialization."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-005",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Which of the following sentences has a different meaning?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Technology-mediated communication which uses various media has changed \nhow people build relationships."
+      },
+      {
+        "key": "B",
+        "text": "Technology-mediated communication has changed how people use various \nmedia to build relationships."
+      },
+      {
+        "key": "C",
+        "text": "Technology-mediated \ncommunication \nhas \nchanged \nhow \npeople \nbuild \nrelationships through various media."
+      },
+      {
+        "key": "D",
+        "text": "Technology-mediated communication through various media has changed how \nrelationships are built among people."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-006",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "“Leadership is not about education or job experience. It is not about power or charisma. \nAnd it is not about social class or distinction. As John Maxwell once wrote, ‘Leadership is \ninfluence. Nothing more, nothing less.’ And by this definition, every man, woman and \nchild in this nation of 90 million is a leader in his or her own right.” - John Xavier R. Valdes \n(2009) \n \nWhich of the following restates the author’s main idea?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Anyone can be a leader who belong in this nation."
+      },
+      {
+        "key": "B",
+        "text": "Anyone who has power and charisma can be a leader."
+      },
+      {
+        "key": "C",
+        "text": "Anyone is capable of leadership which is defined as influence."
+      },
+      {
+        "key": "D",
+        "text": "Anyone with an education that is respectable has leadership."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The answer is “Anyone is capable of leadership which is defined as [810] Developing One’s Skills in Test-Taking"
+  },
+  {
+    "id": "eng-2020-007",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "1A strand of spider’s silk is one of the strongest substances in the world. 2It can hold five \ntimes more weight than a similar strand of steel. 3The silk is extremely elastic. 4A strand \ncan stretch to twice its original length before breaking. \n \nHow can this paragraph be improved?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Use “Moreover” to begin sentence 3 to improve coherence."
+      },
+      {
+        "key": "B",
+        "text": "Add the phrase “of spider’s silk” in sentence 4 to improve clarity."
+      },
+      {
+        "key": "C",
+        "text": "Mention examples of other substances to improve content."
+      },
+      {
+        "key": "D",
+        "text": "Replace sentence 2 with another detail to improve unity."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-008",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "1Telescopes opened our eyes to the modern age of astronomy. 2It was Galileo who first \nused this instrument to observe the skies up close. 3Through the telescope, Galileo \ndiscovered that moons orbit around Jupiter. 4Scientists after him then discovered that \nthere are eight moons in the said planet. 5Early telescopes were able to show that the sun \nand not the Earth is the center of the universe. 6The more advanced telescopes that came \nlater revealed geography and weather on the planets in the",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To draw an inference"
+      },
+      {
+        "key": "B",
+        "text": "To provide an illustration"
+      },
+      {
+        "key": "C",
+        "text": "To conclude the paragraph"
+      },
+      {
+        "key": "D",
+        "text": "To restate the first sentence"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-009",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Same text as item #8 (Telescopes). \n \nHow did telescopes help in discovering the wonders in space?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Telescopes studied gravity and speed of light."
+      },
+      {
+        "key": "B",
+        "text": "Scientists used telescopes to learn about planets."
+      },
+      {
+        "key": "C",
+        "text": "Galileo discovered moons orbiting around Jupiter."
+      },
+      {
+        "key": "D",
+        "text": "Astronomy became modern because of telescopes."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-010",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Same text as item #8 (Telescopes). \n \nThe use of telescopes led to important discoveries. Which sentences support this?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sentences 3 and"
+      },
+      {
+        "key": "B",
+        "text": "Sentences 1 and"
+      },
+      {
+        "key": "C",
+        "text": "Sentences 2 and"
+      },
+      {
+        "key": "D",
+        "text": "Sentences 6 and"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-011",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "1Renewable energy is more cost-efficient and environment-friendly than fossil fuels. The \nprocess of generating it relies on wind, sun, water, and organic matter. 2Since these \nenergy sources are abundant and easily replenished, the cost of electricity is not too \nexpensive. 3In contrast, fossil fuels depend on limited resources that may eventually \ndeplete, thus the cost of electricity can considerably increase. 4Electricity generated from \nrenewable sources is also more beneficial to nature.  ",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cause-effect"
+      },
+      {
+        "key": "B",
+        "text": "problem-solution"
+      },
+      {
+        "key": "C",
+        "text": "definition by example"
+      },
+      {
+        "key": "D",
+        "text": "comparison-contrast"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-012",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Same text as item #11 (Renewable energy). If you are to use the author’s claims to \nadvocate the use of renewable energy, which of the following should be emphasized?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The reduced cost of electricity helps consumers."
+      },
+      {
+        "key": "B",
+        "text": "The environment benefits from the use of renewable energy."
+      },
+      {
+        "key": "C",
+        "text": "The use of renewable energy benefits people and the environment."
+      },
+      {
+        "key": "D",
+        "text": "The need for alternative energy resource demands increased attention."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-013",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Same text as item #11 (Renewable energy). An infographic based on the passage will be \ndesigned to inform the public about the advantages of renewable energy. How should the \ninformation be presented?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Enumerate the disadvantages of fossil fuels."
+      },
+      {
+        "key": "B",
+        "text": "Describe the process of producing renewable energy."
+      },
+      {
+        "key": "C",
+        "text": "Draw charts that indicate difference in cost of electricity."
+      },
+      {
+        "key": "D",
+        "text": "Show a comparison of renewable energy and fossil fuels."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The answer is “Show a comparison of renewable energy and fossil fuels”. [810] Developing One’s Skills in Test-Taking"
+  },
+  {
+    "id": "eng-2020-014",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Which underlined part of the sentence shows an ERROR? \nI hope our varsity win  \nA \nthe basketball championship  \nB \nbecause the players are  \nC \nworking so hard.  \nD \n\n \n \n \n",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-015",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Which underlined part of the sentence shows an ERROR? \nHam and cheese are \nA \nmy favorite sandwich, while  \nB \nwater and pineapple juice are  \nC \nmy favorite drinks. \nD",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-016",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 1,
+    "question": "Which underlined part of the sentence shows an ERROR? \nMy baby sister always falls  \nA \nasleep whenever  \nB \nI sings to  \nC \nher favorite song.      \n \nD",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-017",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Choose the option that best expresses the same idea as the sentence below. \n \nThe cancellation of the Taal field trip turned out to be a blessing in disguise because all \nwho went to Tagaytay are still stuck in traffic jams until now.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "If not for the typhoon, the Taal field trip wouldn’t have been cancelled and also \nno traffic jams in Tagaytay now."
+      },
+      {
+        "key": "B",
+        "text": "It’s a good thing that the Taal field trip was cancelled because of the typhoon and \nthe traffic jams."
+      },
+      {
+        "key": "C",
+        "text": "The cancellation of the Taal field trip was an unexpected flash of luck."
+      },
+      {
+        "key": "D",
+        "text": "The cancellation of the Taal field trip was disappointing, but it turned out for the \nbest after all."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-018",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Choose the option that best expresses the same idea as the sentence below. \n \nI know I will pass the scholarship test because I’ve prepared well for it.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "I will pass the scholarship test because I know I’ve prepared well for it."
+      },
+      {
+        "key": "B",
+        "text": "I will pass the scholarship test because I’ve prepared well for it I know."
+      },
+      {
+        "key": "C",
+        "text": "I’ve prepared well for it, so I know I will pass it."
+      },
+      {
+        "key": "D",
+        "text": "I’ve prepared well for the scholarship test, so I know I will pass it."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-019",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Which of the following pairs of sentences is the conjunction YET be best used?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The boy found money in the classroom. He surrendered it to the teacher."
+      },
+      {
+        "key": "B",
+        "text": "The little girl likes the color blue. She also likes the color yellow."
+      },
+      {
+        "key": "C",
+        "text": "The mother promised to bring her son to the movies. He finished his \nassignments on time."
+      },
+      {
+        "key": "D",
+        "text": "The student is not feeling well. She still attended her classes."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-020",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Article: \n“Mobile Phones” \nThe Philippines is known as the texting capital of the world. Filipinos send over 200 million \ntexts daily, ten times the per capita world average. Texting allows Filipinos to express \nthemselves in new ways. They text what they would not normally say in a face-to-face \nencounter. This has led to new ways of relating with others as well as opened areas of \ninner-subjective reflection. New and radical identities become possible.  \nHowever, these technologies have also h",
+    "choices": [
+      {
+        "key": "A",
+        "text": "boundary"
+      },
+      {
+        "key": "B",
+        "text": "core"
+      },
+      {
+        "key": "C",
+        "text": "flank"
+      },
+      {
+        "key": "D",
+        "text": "margin"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-021",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "*Refer to “Mobile Phones” (article included in item #20) \n \nThe article claims that texting allows Filipinos to express what they would not normally \nsay in a face-to-face encounter. This advantage may also have a most harmful effect in \nthat _____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Someone could text others the feelings he’s been keeping to himself"
+      },
+      {
+        "key": "B",
+        "text": "Someone could use text messaging as a way to play pranks on others"
+      },
+      {
+        "key": "C",
+        "text": "Someone could use text messaging to incite rebellion against the government"
+      },
+      {
+        "key": "D",
+        "text": "Someone could use text messaging to scam the unwary of their money"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-022",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "*Refer to “Mobile Phones” (article included in item #20) \n \nBelow are the author’s possible purposes in writing the article. \n \nDetermine the author’s main purpose by judging their best order of relevance from most \nto least relevant.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-001",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Analyze the disadvantages of using text messaging services",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The answer is “Roman’s Math scores have improved”. [810] Developing One’s Skills in Test-Taking"
+  },
+  {
+    "id": "eng-2020-002",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Compare smart mobs with demonstrations with controlling centers",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-003",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Discuss how text messaging services are used to mobilize people",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-004",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Examine the benefits of using text messaging services",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2-3-4-"
+      },
+      {
+        "key": "B",
+        "text": "2-4-1-"
+      },
+      {
+        "key": "C",
+        "text": "3-2-4-"
+      },
+      {
+        "key": "D",
+        "text": "3-4-1-"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-023",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "*Refer to “Mobile Phones” (article included in item #20) \n \nAccording to the article, Filipinos send over _____ text messages daily.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "200,"
+      },
+      {
+        "key": "B",
+        "text": "2,000,"
+      },
+      {
+        "key": "C",
+        "text": "20,000,"
+      },
+      {
+        "key": "D",
+        "text": "200,000,"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-024",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Yumi began working in the bank in 2009. She still works in the same bank now and recently \nreceived a Loyalty Award. Which sentence is true about Yumi?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Yumi is working in the bank since 2009."
+      },
+      {
+        "key": "B",
+        "text": "Yumi was working in the bank since 2009."
+      },
+      {
+        "key": "C",
+        "text": "Yumi has been working in the bank since 2009."
+      },
+      {
+        "key": "D",
+        "text": "Yumi had been working in the bank since 2009."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-025",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "The number of teen mothers continue to increase. Stronger programs on sex education \nand responsible parenting are needed.  \nWhich of the following is a good paraphrase for this passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Programs on sex education and responsible parenting address the problem of \nteenage mothers."
+      },
+      {
+        "key": "B",
+        "text": "Sex education and responsible parenting programs must be developed to address \nthe growing number of teenage pregnancies."
+      },
+      {
+        "key": "C",
+        "text": "Teenage pregnancies can be prevented by stronger programs on sex education \nand responsible parenting."
+      },
+      {
+        "key": "D",
+        "text": "The number of teenage mothers continuously grow that better programs on sex \neducation and responsible parenting are a must."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-026",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "Which of the following sentences has a different meaning?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Today, the result of the qualifying examination which I took last month will be \nreleased."
+      },
+      {
+        "key": "B",
+        "text": "The result of last month’s qualifying examination which I took will be released \ntoday."
+      },
+      {
+        "key": "C",
+        "text": "The result of the qualifying examination today is what I took last month."
+      },
+      {
+        "key": "D",
+        "text": "The result of the qualifying examination that I took last month will be released \ntoday."
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-027",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 2,
+    "question": "1Mathematics is the key to opportunity. 2No longer just the language of science, \nmathematics now contributes in direct and fundamental ways to our daily life and nation \nbuilding. 3For students, it opens doors to careers. 4For citizens, it enables informed \ndecision. 5For nations, it provides knowledge to compete in a technological economy. 6To \nparticipate fully in the world of the future, we must tap the power of mathematics. \nAccording to the passage, why is Mathematics considered important?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Mathematics make daily life more manageable as math knowledge guide in \nmaking practical decisions."
+      },
+      {
+        "key": "B",
+        "text": "Mathematics inform nations to become more competitive in the global economy \nthrough adapting relevant technologies."
+      },
+      {
+        "key": "C",
+        "text": "Mathematics helps students find financially and professionally rewarding careers \nin different fields, thus improving the quality of their lives."
+      },
+      {
+        "key": "D",
+        "text": "Mathematics does not only provide opportunities for improving personal and \nprofessional lives of people but also opportunities for developing the economy of \na nation."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-028",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 27 (Passage on Mathematics) \n \nMathematics is the key to opportunity. Which sentence does not directly support this?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Sentences"
+      },
+      {
+        "key": "B",
+        "text": "Sentences"
+      },
+      {
+        "key": "C",
+        "text": "Sentences"
+      },
+      {
+        "key": "D",
+        "text": "Sentences"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-029",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 27 (Passage on Mathematics) \n \nWhat is the purpose of sentence 6?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To draw an inference"
+      },
+      {
+        "key": "B",
+        "text": "To provide an illustration"
+      },
+      {
+        "key": "C",
+        "text": "To conclude the paragraph"
+      },
+      {
+        "key": "D",
+        "text": "To restate the first sentence"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-030",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "1Metabolism is a biochemical process wherein what we eat and drink are converted into \nenergy. 2Calories in food and beverages are combined with oxygen to release energy our \nbody needs. 3The number of calories burned by the body to carry out its basic functions, \nlike breathing and growing cells, is technically called metabolic rate—also known as \nmetabolism. 4There are several factors that determine how much calories our body burns \n\n \n \n \n \neach day. 5Body size, sex, and age are some of these",
+    "choices": [
+      {
+        "key": "A",
+        "text": "cause-effect"
+      },
+      {
+        "key": "B",
+        "text": "classification"
+      },
+      {
+        "key": "C",
+        "text": "process"
+      },
+      {
+        "key": "D",
+        "text": "definition"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-031",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 30 (Passage on Metabolism) \n \nIf you are to explain the effectiveness of the paragraph in achieving its purpose, which of \nthe following will NOT support your claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Relevant details were included."
+      },
+      {
+        "key": "B",
+        "text": "Technical terms were clarified."
+      },
+      {
+        "key": "C",
+        "text": "Examples were used to explain concepts."
+      },
+      {
+        "key": "D",
+        "text": "Research data were used to validate the information."
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-032",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 30 (Passage on Metabolism) \n \nAn infographic based on the passage will be designed to illustrate “Metabolism.” How \nshould the information be presented?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Construct a paragraph that explains “Metabolism” as a process."
+      },
+      {
+        "key": "B",
+        "text": "Draw a concept map plotting the important details about “Metabolism.”"
+      },
+      {
+        "key": "C",
+        "text": "Illustrate the digestive system that shows a graphic representation of metabolic \nrate."
+      },
+      {
+        "key": "D",
+        "text": "Make a table that indicates the factors that affect metabolic rate."
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-033",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 30 (Passage on Metabolism) \n \nYou need to state the gist of the passage in a sentence. Which of the following do you \nthink best captures it?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Metabolism is the process of burning calories to support body functions."
+      },
+      {
+        "key": "B",
+        "text": "Metabolism is affected by several factors like age and hormones."
+      },
+      {
+        "key": "C",
+        "text": "Metabolism support digestion and physical activity."
+      },
+      {
+        "key": "D",
+        "text": "Metabolism is another term for metabolic rate."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-034",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Which underlined part of the sentence shows an ERROR? \n \nPhysics are  \nA \nthe science concerned with  \nB \nthe qualities and properties  \nC \nof matter and energy.  \nD \n \n \n\n \n \n \n",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-035",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Which underlined part of the sentence shows an ERROR? \n \nRock and roll are \nA \nthe kind of music his mother  \nB \nlistened to when \nC \nshe was growing up. \nD",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-036",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Which underlined part of the sentence shows an ERROR? \n \nThe 12-year-old boy, \nA \nalong with his classmates \nB \nand their parents, \nC \nare going to the amusement park. \nD",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-037",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Which underlined part of the sentence shows an ERROR? \nLucia’s \nA \nfather’s \nB \nnephew is also \nC \nhis cousin.       \nD",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-038",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "“A Eulogy of Roaches” (an excerpt) Bienvenido Lumbera \n \nBlessed are the cockroaches. \n \nIn this country they are \nthe citizens who last. \nThey need no police \nto promulgate their peace \nbecause they tolerate \neach other’s smell or greed. \n \nFriends to dark and filth, \nthey do not choose their meat. \nThey settle where they wish \nand have no rent to pay. \nEviction is a word \nquite meaningless to them \nwho do not have to own \n\n \n \n \n \ntheir dingy crack of wall. \nNot knowing dearth or taxes, \nthey ",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Death comes to one and all."
+      },
+      {
+        "key": "B",
+        "text": "Life is full of challenges."
+      },
+      {
+        "key": "C",
+        "text": "Roaches will outlast humans."
+      },
+      {
+        "key": "D",
+        "text": "The tough will survive."
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-039",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe word EULOGY is closest in meaning to _____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "accolade"
+      },
+      {
+        "key": "B",
+        "text": "tribute"
+      },
+      {
+        "key": "C",
+        "text": "triumph"
+      },
+      {
+        "key": "D",
+        "text": "worship"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This is a vocabulary in context item. A and B are similar in meaning, but [810] Developing One’s Skills in Test-Taking"
+  },
+  {
+    "id": "eng-2020-040",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe attitude of the author in the preceding poem is _____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "confused"
+      },
+      {
+        "key": "B",
+        "text": "detached"
+      },
+      {
+        "key": "C",
+        "text": "sad"
+      },
+      {
+        "key": "D",
+        "text": "scared"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-041",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nRoaches could be said to live with each other in peace and harmony because according to \nthe poem, they tolerate their own kind’s _____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "death"
+      },
+      {
+        "key": "B",
+        "text": "filth"
+      },
+      {
+        "key": "C",
+        "text": "pain"
+      },
+      {
+        "key": "D",
+        "text": "smell"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-042",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nIf you were to write the roaches in the poem an email, which parts of a mail should be \nconsidered the most important and in what order would you write them?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "To, CC/BCC, Message, Subject"
+      },
+      {
+        "key": "B",
+        "text": "To, CC/BCC, Subject, Message"
+      },
+      {
+        "key": "C",
+        "text": "To, Subject, Message, Attachments"
+      },
+      {
+        "key": "D",
+        "text": "To, Subject, Message, Signature"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "eng-2020-043",
+    "subject": "english",
+    "topic": "language",
+    "difficulty": 3,
+    "question": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe word EVICTION in line 12 is closest in meaning to _____.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "abandonment"
+      },
+      {
+        "key": "B",
+        "text": "departure"
+      },
+      {
+        "key": "C",
+        "text": "expulsion"
+      },
+      {
+        "key": "D",
+        "text": "suspension"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  }
 ]

@@ -1,874 +1,874 @@
 [
-    {
-        "id": "nvr-001",
-        "subject": "nonverbal-reasoning",
-        "topic": "pattern",
-        "difficulty": 1,
-        "question": "If a square is rotated 90° clockwise, which of the following describes the result?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "It looks the same as the original"
-            },
-            {
-                "key": "B",
-                "text": "It becomes a rectangle"
-            },
-            {
-                "key": "C",
-                "text": "It becomes a diamond"
-            },
-            {
-                "key": "D",
-                "text": "It becomes a triangle"
-            }
-        ],
-        "answer": "A",
-        "explanation": "A square has rotational symmetry of order 4. Rotating it 90° produces an identical shape.",
-        "wrongExplanations": {
-            "B": "A square remains a square when rotated; it doesn't change into a rectangle.",
-            "C": "A diamond (rhombus) has a different orientation, but a square rotated 90° still looks the same.",
-            "D": "Rotation doesn't add or remove sides. A 4-sided shape stays 4-sided."
-        }
-    },
-    {
-        "id": "nvr-002",
-        "subject": "nonverbal-reasoning",
-        "topic": "pattern",
-        "difficulty": 1,
-        "question": "How many lines of symmetry does a regular hexagon have?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "3"
-            },
-            {
-                "key": "B",
-                "text": "4"
-            },
-            {
-                "key": "C",
-                "text": "6"
-            },
-            {
-                "key": "D",
-                "text": "12"
-            }
-        ],
-        "answer": "C",
-        "explanation": "A regular hexagon has 6 lines of symmetry — 3 through opposite vertices and 3 through midpoints of opposite sides.",
-        "wrongExplanations": {
-            "A": "3 lines of symmetry describes an equilateral triangle, not a hexagon.",
-            "B": "4 lines of symmetry describes a square.",
-            "D": "12 is double the actual number. A hexagon has 6 lines of symmetry."
-        }
-    },
-    {
-        "id": "nvr-003",
-        "subject": "nonverbal-reasoning",
-        "topic": "spatial",
-        "difficulty": 2,
-        "question": "If you fold a piece of paper in half, punch a hole in the center of the folded edge, and unfold it, how many holes will you see?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "1"
-            },
-            {
-                "key": "B",
-                "text": "2"
-            },
-            {
-                "key": "C",
-                "text": "3"
-            },
-            {
-                "key": "D",
-                "text": "4"
-            }
-        ],
-        "answer": "A",
-        "explanation": "Punching at the fold creates a single hole along the fold line. When unfolded, it's one hole (the fold is where the two layers meet).",
-        "wrongExplanations": {
-            "B": "2 holes would appear if you punched away from the fold line, not on the fold.",
-            "C": "3 holes would require multiple punches or additional folds.",
-            "D": "4 holes would require two folds and punching away from all fold lines."
-        }
-    },
-    {
-        "id": "nvr-004",
-        "subject": "nonverbal-reasoning",
-        "topic": "pattern",
-        "difficulty": 2,
-        "question": "A cube has 6 faces. If you paint all faces red and then cut it into 27 smaller equal cubes, how many smaller cubes have exactly 3 painted faces?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "4"
-            },
-            {
-                "key": "B",
-                "text": "6"
-            },
-            {
-                "key": "C",
-                "text": "8"
-            },
-            {
-                "key": "D",
-                "text": "12"
-            }
-        ],
-        "answer": "C",
-        "explanation": "The 8 corner cubes each have exactly 3 painted faces (they sit at the intersection of 3 faces of the original cube).",
-        "wrongExplanations": {
-            "A": "A cube has 8 corners, not 4. Each corner cube has 3 painted faces.",
-            "B": "6 is the number of cubes with exactly 1 painted face (center of each face).",
-            "D": "12 is the number of edge cubes with exactly 2 painted faces."
-        }
-    },
-    {
-        "id": "nvr-005",
-        "subject": "nonverbal-reasoning",
-        "topic": "spatial",
-        "difficulty": 1,
-        "question": "Which of the following shapes is a mirror image (reflection) of the letter 'b'?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "p"
-            },
-            {
-                "key": "B",
-                "text": "d"
-            },
-            {
-                "key": "C",
-                "text": "q"
-            },
-            {
-                "key": "D",
-                "text": "g"
-            }
-        ],
-        "answer": "B",
-        "explanation": "Reflecting 'b' horizontally (left-right mirror) produces 'd'. They are mirror images of each other.",
-        "wrongExplanations": {
-            "A": "'p' is what you get by rotating 'b' 180°, or reflecting it vertically.",
-            "C": "'q' is a vertical reflection of 'd', not a mirror of 'b'.",
-            "D": "'g' is a completely different letter shape, not a reflection of 'b'."
-        }
-    },
-    {
-        "id": "nvr-006",
-        "subject": "nonverbal-reasoning",
-        "topic": "pattern",
-        "difficulty": 2,
-        "question": "If ★ ○ △ represents 1-2-3, what does △ ★ ○ represent?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "1-2-3"
-            },
-            {
-                "key": "B",
-                "text": "3-2-1"
-            },
-            {
-                "key": "C",
-                "text": "3-1-2"
-            },
-            {
-                "key": "D",
-                "text": "2-3-1"
-            }
-        ],
-        "answer": "C",
-        "explanation": "★=1, ○=2, △=3. So △ ★ ○ = 3-1-2.",
-        "wrongExplanations": {
-            "A": "1-2-3 is ★ ○ △, which is the original order.",
-            "B": "3-2-1 would be △ ○ ★.",
-            "D": "2-3-1 would be ○ △ ★."
-        }
-    },
-    {
-        "id": "nvr-007",
-        "subject": "nonverbal-reasoning",
-        "topic": "spatial",
-        "difficulty": 3,
-        "question": "A cube is painted blue on all sides and cut into 64 smaller equal cubes. How many cubes have NO painted face?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "0"
-            },
-            {
-                "key": "B",
-                "text": "4"
-            },
-            {
-                "key": "C",
-                "text": "8"
-            },
-            {
-                "key": "D",
-                "text": "16"
-            }
-        ],
-        "answer": "C",
-        "explanation": "A 4×4×4 cube has an inner 2×2×2 core = 8 cubes with no painted faces (completely enclosed).",
-        "explanationLatex": "Inner core: $(4-2)^3 = 2^3 = 8$ cubes with no painted face.",
-        "wrongExplanations": {
-            "A": "There are interior cubes that don't touch any outer face.",
-            "B": "4 would be too few. The inner core is 2×2×2 = 8.",
-            "D": "16 overcounts. Only the 2×2×2 = 8 interior cubes have no paint."
-        }
-    },
-    {
-        "id": "nvr-008",
-        "subject": "nonverbal-reasoning",
-        "topic": "pattern",
-        "difficulty": 1,
-        "question": "Which shape does NOT belong in the group: Circle, Oval, Sphere, Triangle?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Circle"
-            },
-            {
-                "key": "B",
-                "text": "Oval"
-            },
-            {
-                "key": "C",
-                "text": "Sphere"
-            },
-            {
-                "key": "D",
-                "text": "Triangle"
-            }
-        ],
-        "answer": "D",
-        "explanation": "Circle, oval, and sphere are all rounded shapes with no straight edges or corners. Triangle has straight edges and corners.",
-        "wrongExplanations": {
-            "A": "A circle is a rounded shape, like the others in the group.",
-            "B": "An oval is a rounded shape (elongated circle), it fits with the group.",
-            "C": "A sphere is a rounded 3D shape. While it's 3D, it's still rounded like the others."
-        }
-    },
-    {
-        "id": "nvr-009",
-        "subject": "nonverbal-reasoning",
-        "topic": "spatial",
-        "difficulty": 2,
-        "question": "If you look at a clock in a mirror at 3:00, what time does it appear to show?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "3:00"
-            },
-            {
-                "key": "B",
-                "text": "6:00"
-            },
-            {
-                "key": "C",
-                "text": "9:00"
-            },
-            {
-                "key": "D",
-                "text": "12:00"
-            }
-        ],
-        "answer": "C",
-        "explanation": "A mirror reverses left and right. At 3:00, the hour hand points right. In the mirror, it appears to point left, showing 9:00.",
-        "wrongExplanations": {
-            "A": "3:00 would appear unchanged only if the clock face were symmetrical at that position.",
-            "B": "6:00 would be a vertical flip. Mirrors flip horizontally.",
-            "D": "12:00 has the hand pointing up, which is not what a mirror reflection of 3:00 shows."
-        }
-    },
-    {
-        "id": "nvr-010",
-        "subject": "nonverbal-reasoning",
-        "topic": "pattern",
-        "difficulty": 3,
-        "question": "What is the next figure in the sequence: 1 dot, 3 dots, 6 dots, 10 dots, ___?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "12 dots"
-            },
-            {
-                "key": "B",
-                "text": "14 dots"
-            },
-            {
-                "key": "C",
-                "text": "15 dots"
-            },
-            {
-                "key": "D",
-                "text": "16 dots"
-            }
-        ],
-        "answer": "C",
-        "explanation": "These are triangular numbers. Each term adds one more than the previous increment: +2, +3, +4, +5. So 10 + 5 = 15.",
-        "explanationLatex": "Triangular numbers: $T_n = \\frac{n(n+1)}{2}$. $T_5 = \\frac{5 \\times 6}{2} = 15$",
-        "wrongExplanations": {
-            "A": "12 adds only 2 to 10. The increments are +2, +3, +4, so next is +5.",
-            "B": "14 adds 4 to 10. But the increment increases by 1 each time, so it should be +5.",
-            "D": "16 adds 6 to 10. The next increment should be 5, not 6."
-        }
-    },
-    {
-        "id": "non-2020-001",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 1,
-        "question": "Which one is identical to this figure? \n \n \n \nA.                      \n \nC.  \n \n \nB.                       \n \nD.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "C",
-        "explanation": "",
-        "image": "nonverbal-p11-1.png"
-    },
-    {
-        "id": "non-2020-002",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 1,
-        "question": "Which box contains the same shape as the top series?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": "When the other options are spatially rotated, they are a mirror image of the",
-        "image": "nonverbal-p11-1.png"
-    },
-    {
-        "id": "non-2020-003",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 1,
-        "question": "Which of the following frames completes the pattern? \n \n \nOptions:",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": "Each diagram can be seen as a series of triangles around a horizontal axis. [385] Back view [399]",
-        "image": "nonverbal-p11-1.png"
-    },
-    {
-        "id": "non-2020-004",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 1,
-        "question": "Which of the following frames does not belong to the group? \n \n \n\n \n \n \n",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": "",
-        "image": "nonverbal-p11-1.png"
-    },
-    {
-        "id": "non-2020-005",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 1,
-        "question": "A three-dimensional object is shown. Which front side view is correct?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-006",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 1,
-        "question": "Which of the four figures below is the result when the figure is folded along the dotted \nlines?  \n \n \n \n \n \nA.                               \n B.                                            C.                                          D.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-007",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 1,
-        "question": "Which of the four choices below is the rotated version of the given figure?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "C",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-008",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 2,
-        "question": "If you rotate the given figure, which of the following will be the result? \n \n \n \n \n \nA.                                     B.                                    C.                                D.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "C",
-        "explanation": "",
-        "image": "nonverbal-p13-1.png"
-    },
-    {
-        "id": "non-2020-009",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 2,
-        "question": "Which is the next figure in the series? \n \n \n \n \n \nA.                               B.                                 C.                                D.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "C",
-        "explanation": "",
-        "image": "nonverbal-p13-1.png"
-    },
-    {
-        "id": "non-2020-010",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 2,
-        "question": "Which cube cannot be made based on the unfolded cube?",
-        "choices": [
-            {
-                "key": "A",
-                "text": ""
-            },
-            {
-                "key": "B",
-                "text": ""
-            },
-            {
-                "key": "C",
-                "text": ""
-            },
-            {
-                "key": "D",
-                "text": ""
-            }
-        ],
-        "answer": "B",
-        "explanation": "",
-        "image": "nonverbal-p13-1.png"
-    },
-    {
-        "id": "non-2020-011",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 2,
-        "question": "Which of the answer cubes is the original cube rotated in any direction?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": "",
-        "image": "nonverbal-p14-1.png"
-    },
-    {
-        "id": "non-2020-012",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 2,
-        "question": "Which of the following frames completes the pattern?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": "",
-        "image": "nonverbal-p14-1.png"
-    },
-    {
-        "id": "non-2020-013",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 2,
-        "question": "Two pieces of the cube puzzle with three adjacent faces in each piece are shown and to \nbe used to form a cube. Each face is drawn with figure different to other sides. Which view \nfits to the arrangement of the symbol when the cube is assembled?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "A \n \n \nC"
-            },
-            {
-                "key": "B",
-                "text": "A"
-            },
-            {
-                "key": "C",
-                "text": "A"
-            },
-            {
-                "key": "D",
-                "text": ""
-            }
-        ],
-        "answer": "A",
-        "explanation": "",
-        "image": "nonverbal-p14-1.png"
-    },
-    {
-        "id": "non-2020-014",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 3,
-        "question": "A three-dimensional object is shown. Which top side view is correct?  \n  \n \n \nA \n \nA.  \n \n \nC.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-015",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 3,
-        "question": "Create a three-dimensional object out of the two given views below.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "A",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-016",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 3,
-        "question": "Which of the four choices below is the rotated version of the given figure? \n \n \n \nA.                          B.                                        C.                                       D.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-017",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 3,
-        "question": "If you rotate the given figure, which of the following will be the result?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-018",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 3,
-        "question": "Which is the next figure in the series? \n \n \n \n \n \n \nA.                                   B.                                     C.                                    D.",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-019",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 3,
-        "question": "Which of the four choices is the result when the figure is cut by a plane as shown below?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "B",
-        "explanation": ""
-    },
-    {
-        "id": "non-2020-020",
-        "subject": "nonverbal_reasoning",
-        "topic": "patterns",
-        "difficulty": 3,
-        "question": "Which of the four choices is the result when the figure is cut by a plane as shown below?",
-        "choices": [
-            {
-                "key": "A",
-                "text": "Option A"
-            },
-            {
-                "key": "B",
-                "text": "Option B"
-            },
-            {
-                "key": "C",
-                "text": "Option C"
-            },
-            {
-                "key": "D",
-                "text": "Option D"
-            }
-        ],
-        "answer": "D",
-        "explanation": ""
+  {
+    "id": "nvr-001",
+    "subject": "nonverbal-reasoning",
+    "topic": "pattern",
+    "difficulty": 1,
+    "question": "If a square is rotated 90° clockwise, which of the following describes the result?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It looks the same as the original"
+      },
+      {
+        "key": "B",
+        "text": "It becomes a rectangle"
+      },
+      {
+        "key": "C",
+        "text": "It becomes a diamond"
+      },
+      {
+        "key": "D",
+        "text": "It becomes a triangle"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A square has rotational symmetry of order 4. Rotating it 90° produces an identical shape.",
+    "wrongExplanations": {
+      "B": "A square remains a square when rotated; it doesn't change into a rectangle.",
+      "C": "A diamond (rhombus) has a different orientation, but a square rotated 90° still looks the same.",
+      "D": "Rotation doesn't add or remove sides. A 4-sided shape stays 4-sided."
     }
+  },
+  {
+    "id": "nvr-002",
+    "subject": "nonverbal-reasoning",
+    "topic": "pattern",
+    "difficulty": 1,
+    "question": "How many lines of symmetry does a regular hexagon have?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A regular hexagon has 6 lines of symmetry — 3 through opposite vertices and 3 through midpoints of opposite sides.",
+    "wrongExplanations": {
+      "A": "3 lines of symmetry describes an equilateral triangle, not a hexagon.",
+      "B": "4 lines of symmetry describes a square.",
+      "D": "12 is double the actual number. A hexagon has 6 lines of symmetry."
+    }
+  },
+  {
+    "id": "nvr-003",
+    "subject": "nonverbal-reasoning",
+    "topic": "spatial",
+    "difficulty": 2,
+    "question": "If you fold a piece of paper in half, punch a hole in the center of the folded edge, and unfold it, how many holes will you see?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Punching at the fold creates a single hole along the fold line. When unfolded, it's one hole (the fold is where the two layers meet).",
+    "wrongExplanations": {
+      "B": "2 holes would appear if you punched away from the fold line, not on the fold.",
+      "C": "3 holes would require multiple punches or additional folds.",
+      "D": "4 holes would require two folds and punching away from all fold lines."
+    }
+  },
+  {
+    "id": "nvr-004",
+    "subject": "nonverbal-reasoning",
+    "topic": "pattern",
+    "difficulty": 2,
+    "question": "A cube has 6 faces. If you paint all faces red and then cut it into 27 smaller equal cubes, how many smaller cubes have exactly 3 painted faces?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The 8 corner cubes each have exactly 3 painted faces (they sit at the intersection of 3 faces of the original cube).",
+    "wrongExplanations": {
+      "A": "A cube has 8 corners, not 4. Each corner cube has 3 painted faces.",
+      "B": "6 is the number of cubes with exactly 1 painted face (center of each face).",
+      "D": "12 is the number of edge cubes with exactly 2 painted faces."
+    }
+  },
+  {
+    "id": "nvr-005",
+    "subject": "nonverbal-reasoning",
+    "topic": "spatial",
+    "difficulty": 1,
+    "question": "Which of the following shapes is a mirror image (reflection) of the letter 'b'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "p"
+      },
+      {
+        "key": "B",
+        "text": "d"
+      },
+      {
+        "key": "C",
+        "text": "q"
+      },
+      {
+        "key": "D",
+        "text": "g"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Reflecting 'b' horizontally (left-right mirror) produces 'd'. They are mirror images of each other.",
+    "wrongExplanations": {
+      "A": "'p' is what you get by rotating 'b' 180°, or reflecting it vertically.",
+      "C": "'q' is a vertical reflection of 'd', not a mirror of 'b'.",
+      "D": "'g' is a completely different letter shape, not a reflection of 'b'."
+    }
+  },
+  {
+    "id": "nvr-006",
+    "subject": "nonverbal-reasoning",
+    "topic": "pattern",
+    "difficulty": 2,
+    "question": "If ★ ○ △ represents 1-2-3, what does △ ★ ○ represent?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1-2-3"
+      },
+      {
+        "key": "B",
+        "text": "3-2-1"
+      },
+      {
+        "key": "C",
+        "text": "3-1-2"
+      },
+      {
+        "key": "D",
+        "text": "2-3-1"
+      }
+    ],
+    "answer": "C",
+    "explanation": "★=1, ○=2, △=3. So △ ★ ○ = 3-1-2.",
+    "wrongExplanations": {
+      "A": "1-2-3 is ★ ○ △, which is the original order.",
+      "B": "3-2-1 would be △ ○ ★.",
+      "D": "2-3-1 would be ○ △ ★."
+    }
+  },
+  {
+    "id": "nvr-007",
+    "subject": "nonverbal-reasoning",
+    "topic": "spatial",
+    "difficulty": 3,
+    "question": "A cube is painted blue on all sides and cut into 64 smaller equal cubes. How many cubes have NO painted face?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A 4×4×4 cube has an inner 2×2×2 core = 8 cubes with no painted faces (completely enclosed).",
+    "explanationLatex": "Inner core: $(4-2)^3 = 2^3 = 8$ cubes with no painted face.",
+    "wrongExplanations": {
+      "A": "There are interior cubes that don't touch any outer face.",
+      "B": "4 would be too few. The inner core is 2×2×2 = 8.",
+      "D": "16 overcounts. Only the 2×2×2 = 8 interior cubes have no paint."
+    }
+  },
+  {
+    "id": "nvr-008",
+    "subject": "nonverbal-reasoning",
+    "topic": "pattern",
+    "difficulty": 1,
+    "question": "Which shape does NOT belong in the group: Circle, Oval, Sphere, Triangle?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Circle"
+      },
+      {
+        "key": "B",
+        "text": "Oval"
+      },
+      {
+        "key": "C",
+        "text": "Sphere"
+      },
+      {
+        "key": "D",
+        "text": "Triangle"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Circle, oval, and sphere are all rounded shapes with no straight edges or corners. Triangle has straight edges and corners.",
+    "wrongExplanations": {
+      "A": "A circle is a rounded shape, like the others in the group.",
+      "B": "An oval is a rounded shape (elongated circle), it fits with the group.",
+      "C": "A sphere is a rounded 3D shape. While it's 3D, it's still rounded like the others."
+    }
+  },
+  {
+    "id": "nvr-009",
+    "subject": "nonverbal-reasoning",
+    "topic": "spatial",
+    "difficulty": 2,
+    "question": "If you look at a clock in a mirror at 3:00, what time does it appear to show?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3:00"
+      },
+      {
+        "key": "B",
+        "text": "6:00"
+      },
+      {
+        "key": "C",
+        "text": "9:00"
+      },
+      {
+        "key": "D",
+        "text": "12:00"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A mirror reverses left and right. At 3:00, the hour hand points right. In the mirror, it appears to point left, showing 9:00.",
+    "wrongExplanations": {
+      "A": "3:00 would appear unchanged only if the clock face were symmetrical at that position.",
+      "B": "6:00 would be a vertical flip. Mirrors flip horizontally.",
+      "D": "12:00 has the hand pointing up, which is not what a mirror reflection of 3:00 shows."
+    }
+  },
+  {
+    "id": "nvr-010",
+    "subject": "nonverbal-reasoning",
+    "topic": "pattern",
+    "difficulty": 3,
+    "question": "What is the next figure in the sequence: 1 dot, 3 dots, 6 dots, 10 dots, ___?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12 dots"
+      },
+      {
+        "key": "B",
+        "text": "14 dots"
+      },
+      {
+        "key": "C",
+        "text": "15 dots"
+      },
+      {
+        "key": "D",
+        "text": "16 dots"
+      }
+    ],
+    "answer": "C",
+    "explanation": "These are triangular numbers. Each term adds one more than the previous increment: +2, +3, +4, +5. So 10 + 5 = 15.",
+    "explanationLatex": "Triangular numbers: $T_n = \\frac{n(n+1)}{2}$. $T_5 = \\frac{5 \\times 6}{2} = 15$",
+    "wrongExplanations": {
+      "A": "12 adds only 2 to 10. The increments are +2, +3, +4, so next is +5.",
+      "B": "14 adds 4 to 10. But the increment increases by 1 each time, so it should be +5.",
+      "D": "16 adds 6 to 10. The next increment should be 5, not 6."
+    }
+  },
+  {
+    "id": "non-2020-001",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 1,
+    "question": "Which one is identical to this figure? \n \n \n \nA.                      \n \nC.  \n \n \nB.                       \n \nD.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "image": "nonverbal-p11-1.png"
+  },
+  {
+    "id": "non-2020-002",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 1,
+    "question": "Which box contains the same shape as the top series?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "When the other options are spatially rotated, they are a mirror image of the",
+    "image": "nonverbal-p11-1.png"
+  },
+  {
+    "id": "non-2020-003",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 1,
+    "question": "Which of the following frames completes the pattern? \n \n \nOptions:",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Each diagram can be seen as a series of triangles around a horizontal axis. [385] Back view [399]",
+    "image": "nonverbal-p11-1.png"
+  },
+  {
+    "id": "non-2020-004",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 1,
+    "question": "Which of the following frames does not belong to the group? \n \n \n\n \n \n \n",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "image": "nonverbal-p11-1.png"
+  },
+  {
+    "id": "non-2020-005",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 1,
+    "question": "A three-dimensional object is shown. Which front side view is correct?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-006",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 1,
+    "question": "Which of the four figures below is the result when the figure is folded along the dotted \nlines?  \n \n \n \n \n \nA.                               \n B.                                            C.                                          D.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-007",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 1,
+    "question": "Which of the four choices below is the rotated version of the given figure?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-008",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 2,
+    "question": "If you rotate the given figure, which of the following will be the result? \n \n \n \n \n \nA.                                     B.                                    C.                                D.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "image": "nonverbal-p13-1.png"
+  },
+  {
+    "id": "non-2020-009",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 2,
+    "question": "Which is the next figure in the series? \n \n \n \n \n \nA.                               B.                                 C.                                D.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "",
+    "image": "nonverbal-p13-1.png"
+  },
+  {
+    "id": "non-2020-010",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 2,
+    "question": "Which cube cannot be made based on the unfolded cube?",
+    "choices": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": ""
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "",
+    "image": "nonverbal-p13-1.png"
+  },
+  {
+    "id": "non-2020-011",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 2,
+    "question": "Which of the answer cubes is the original cube rotated in any direction?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "image": "nonverbal-p14-1.png"
+  },
+  {
+    "id": "non-2020-012",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 2,
+    "question": "Which of the following frames completes the pattern?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "",
+    "image": "nonverbal-p14-1.png"
+  },
+  {
+    "id": "non-2020-013",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 2,
+    "question": "Two pieces of the cube puzzle with three adjacent faces in each piece are shown and to \nbe used to form a cube. Each face is drawn with figure different to other sides. Which view \nfits to the arrangement of the symbol when the cube is assembled?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "A \n \n \nC"
+      },
+      {
+        "key": "B",
+        "text": "A"
+      },
+      {
+        "key": "C",
+        "text": "A"
+      },
+      {
+        "key": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "",
+    "image": "nonverbal-p14-1.png"
+  },
+  {
+    "id": "non-2020-014",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 3,
+    "question": "A three-dimensional object is shown. Which top side view is correct?  \n  \n \n \nA \n \nA.  \n \n \nC.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-015",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 3,
+    "question": "Create a three-dimensional object out of the two given views below.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-016",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 3,
+    "question": "Which of the four choices below is the rotated version of the given figure? \n \n \n \nA.                          B.                                        C.                                       D.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-017",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 3,
+    "question": "If you rotate the given figure, which of the following will be the result?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-018",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 3,
+    "question": "Which is the next figure in the series? \n \n \n \n \n \n \nA.                                   B.                                     C.                                    D.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-019",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 3,
+    "question": "Which of the four choices is the result when the figure is cut by a plane as shown below?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "non-2020-020",
+    "subject": "nonverbal_reasoning",
+    "topic": "patterns",
+    "difficulty": 3,
+    "question": "Which of the four choices is the result when the figure is cut by a plane as shown below?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Option A"
+      },
+      {
+        "key": "B",
+        "text": "Option B"
+      },
+      {
+        "key": "C",
+        "text": "Option C"
+      },
+      {
+        "key": "D",
+        "text": "Option D"
+      }
+    ],
+    "answer": "D",
+    "explanation": ""
+  }
 ]
