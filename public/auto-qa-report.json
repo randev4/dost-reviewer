@@ -1,0 +1,728 @@
+{
+  "eng-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "eng-005": {
+    "issues": [],
+    "notes": ""
+  },
+  "eng-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "eng-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "eng-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-015": {
+    "issues": [
+      "missing-image",
+      "bad-explanation"
+    ],
+    "notes": "The question refers to 'tank designs below' but no image is provided, and the explanation is completely irrelevant to the question."
+  },
+  "mec-2020-013": {
+    "issues": [],
+    "notes": "The question has a grammatical inconsistency regarding 'rectangular block' vs. 'different types of blocks'; the answer key is incorrect as brick, not copper, would have the hottest surface due to lower thermal conductivity; and the explanation is completely irrelevant to the question."
+  },
+  "mec-2020-014": {
+    "issues": [
+      "typo-question",
+      "typo-choices",
+      "wrong-answer",
+      "bad-explanation"
+    ],
+    "notes": "Point III in the question is truncated, point IV is completely missing, all choices refer to the non-existent point IV, and the explanation is missing. The designated answer key is incorrect given the malformed question and choices."
+  },
+  "mec-2020-016": {
+    "issues": [],
+    "notes": "The choices contain extraneous, unrelated words ('Copper Aluminum Steel Brick'), and the explanation is completely missing."
+  },
+  "mec-2020-012": {
+    "issues": [
+      "missing-image",
+      "typo-question",
+      "typo-choices",
+      "bad-explanation"
+    ],
+    "notes": "The question refers to a missing image, the explanation is completely irrelevant to the question, and there are typos in the question text and garbled text associated with the choices."
+  },
+  "mec-2020-017": {
+    "issues": [],
+    "notes": "The explanation is completely missing."
+  },
+  "nvr-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-029": {
+    "issues": [
+      "missing-image",
+      "bad-explanation"
+    ],
+    "notes": "The question refers to systems (I, II, III, IV) but no image is provided, making it unanswerable, and the explanation is missing."
+  },
+  "mec-2020-030": {
+    "issues": [
+      "missing-image",
+      "wrong-answer",
+      "bad-explanation"
+    ],
+    "notes": "Crucial information about the relative sizes of meshes W, X, Y, Z is missing, making the question unanswerable and the answer unverifiable; there is a typo in the question ('course' instead of 'coarse'), and the explanation is completely nonsensical."
+  },
+  "mec-2020-027": {
+    "issues": [
+      "missing-image",
+      "typo-question",
+      "typo-choices",
+      "bad-explanation"
+    ],
+    "notes": "The question refers to points A, B, C, D on a composite wall but no image is provided; the temperature unit is incomplete, and the choices are generic placeholders; the explanation is incomplete and contains extraneous text."
+  },
+  "mec-2020-028": {
+    "issues": [
+      "typo-question",
+      "wrong-answer",
+      "bad-explanation"
+    ],
+    "notes": "The question is missing information about how pulley D and pulley E are linked, making the direction of rotation for E ambiguous and the answer key unprovable without an unstated assumption. Additionally, the explanation is missing."
+  },
+  "nvr-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-001": {
+    "issues": [
+      "typo-question",
+      "wrong-answer",
+      "bad-explanation"
+    ],
+    "notes": "The question's choice labeling (A. C. B. D.) is confusing and generic, no figure in the image is identical in orientation to the reference figure, and the explanation is missing."
+  },
+  "non-2020-005": {
+    "issues": [
+      "missing-image",
+      "bad-explanation"
+    ],
+    "notes": "The question refers to a 3D object and options that are not provided, and the explanation is missing."
+  },
+  "non-2020-006": {
+    "issues": [
+      "missing-image",
+      "bad-explanation"
+    ],
+    "notes": "The question refers to figures and folding but no image is provided, and the explanation is missing."
+  },
+  "non-2020-002": {
+    "issues": [
+      "wrong-answer",
+      "bad-explanation"
+    ],
+    "notes": "All four options (A, B, C, D) are rotations of the shapes in the top series, making the question have multiple correct answers, and the explanation is incomplete, grammatically incorrect, and factually wrong in its reasoning."
+  },
+  "non-2020-004": {
+    "issues": [
+      "bad-explanation"
+    ],
+    "notes": "The explanation is completely missing, which makes it impossible to understand the reasoning behind the correct answer."
+  },
+  "sci-2020-021": {
+    "issues": [],
+    "notes": "The explanation is completely missing."
+  },
+  "eng-006": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-007": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-008": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-009": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-010": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-001": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-002": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-003": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-004": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-005": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-006": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-007": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-008": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-009": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-010": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-011": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-012": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-013": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-014": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-015": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-016": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-017": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-018": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-019": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-020": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-021": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-022": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-023": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-024": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-025": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-026": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-027": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-028": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-029": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-030": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-031": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-032": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-033": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-034": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-035": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-036": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-037": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-038": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-039": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-040": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-041": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-042": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "eng-2020-043": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "math-001": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-002": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-003": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-004": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-005": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-006": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-007": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-008": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-009": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-010": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-011": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-012": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-001": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-002": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-003": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-004": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-005": {
+    "issues": [
+      "incorrect-image"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-006": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-007": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-008": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-009": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-010": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-011": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-012": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-013": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-014": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-015": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-016": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-017": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-018": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-019": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-020": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-021": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-022": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-023": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-024": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-025": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-026": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-027": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-028": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-029": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-030": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-031": {
+    "issues": [
+      "other"
+    ],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-032": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-033": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-034": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-035": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-036": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-037": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-038": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-039": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "mat-2020-040": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "math-practice1-001": {
+    "issues": [],
+    "notes": "Failed after retries"
+  },
+  "sci-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-005": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-006": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-011": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-012": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-053": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-059": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-058": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-057": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-056": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  }
+}

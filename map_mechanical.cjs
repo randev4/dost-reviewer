@@ -1,7 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+require('dotenv').config();
 
-const API_KEY = "AIzaSyAiE4XR2r-zeddc_dmLW4lShkIHPJfMRQM";
+const API_KEY = process.env.GEMINI_API_KEY;
+if (!API_KEY) {
+    console.error("ERROR: GEMINI_API_KEY is not set in the .env file.");
+    process.exit(1);
+}
+
 const MODEL = "gemini-2.5-flash";
 const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`;
 

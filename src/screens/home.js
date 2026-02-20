@@ -6,10 +6,10 @@ import { SUBJECTS } from '../lib/subjects.js';
 import { getOverallStats, getSubjectStats, getInProgress } from '../lib/storage.js';
 
 export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz }) {
-    const stats = getOverallStats();
-    const inProgress = getInProgress();
+  const stats = getOverallStats();
+  const inProgress = getInProgress();
 
-    app.innerHTML = `
+  app.innerHTML = `
     <header class="header">
       <div class="header-content">
         <div class="header-logo">
@@ -19,11 +19,19 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
             <div class="header-subtitle">Scholarship Exam Practice</div>
           </div>
         </div>
+        <button class="header-theme-btn" id="btn-theme" aria-label="Toggle Theme">
+          🌙
+        </button>
         <button class="header-stats-btn" id="btn-dashboard" aria-label="View Dashboard">
           📊
         </button>
       </div>
     </header>
+
+    <div class="notification-bar d-none" id="notif-bar">
+      <div class="notification-content" id="notif-text">Loading...</div>
+      <button class="notification-close" id="btn-close-notif" aria-label="Dismiss">&times;</button>
+    </div>
 
     <div class="screen">
       <div class="hero">
@@ -63,8 +71,8 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
       <div class="section-title">Choose a Subject</div>
       <div class="subject-grid">
         ${SUBJECTS.map(subject => {
-        const subStats = getSubjectStats(subject.id);
-        return `
+    const subStats = getSubjectStats(subject.id);
+    return `
             <div class="subject-card" data-subject="${subject.id}" style="--subject-color: ${subject.color}">
               <span class="subject-icon">${subject.icon}</span>
               <div class="subject-name">${subject.name}</div>
@@ -79,26 +87,68 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
               `}
             </div>
           `;
-    }).join('')}
+  }).join('')}
       </div>
     </div>
   `;
 
-    // Bind events
-    document.querySelectorAll('.subject-card').forEach(card => {
-        card.addEventListener('click', () => {
-            onSelectSubject(card.dataset.subject);
-        });
+  // Bind events
+  document.querySelectorAll('.subject-card').forEach(card => {
+    card.addEventListener('click', () => {
+      onSelectSubject(card.dataset.subject);
     });
+  });
 
-    document.getElementById('btn-dashboard')?.addEventListener('click', onOpenDashboard);
+  document.getElementById('btn-dashboard')?.addEventListener('click', onOpenDashboard);
 
-    document.getElementById('resume-card')?.addEventListener('click', () => {
-        if (inProgress) onResumeQuiz(inProgress);
-    });
+  document.getElementById('resume-card')?.addEventListener('click', () => {
+    if (inProgress) onResumeQuiz(inProgress);
+  });
+
+  // Theme Toggle Logic
+  const themeBtn = document.getElementById('btn-theme');
+  const updateThemeIcon = () => {
+    themeBtn.textContent = document.body.classList.contains('light-theme') ? '☀️' : '🌙';
+  };
+  updateThemeIcon(); // init
+
+  themeBtn?.addEventListener('click', () => {
+    document.body.classList.toggle('light-theme');
+    const isLight = document.body.classList.contains('light-theme');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    updateThemeIcon();
+  });
+
+  // Notification Logic
+  const notifBar = document.getElementById('notif-bar');
+  const notifText = document.getElementById('notif-text');
+  const closeNotifBtn = document.getElementById('btn-close-notif');
+
+  fetch('/notif.txt?t=' + Date.now())
+    .then(res => {
+      if (!res.ok) throw new Error('No notif.txt');
+      return res.text();
+    })
+    .then(text => {
+      const trimmed = text.trim();
+      if (trimmed) {
+        const dismissedNotif = localStorage.getItem('dismissed_notif');
+        if (dismissedNotif !== trimmed) {
+          // Show it
+          notifText.textContent = trimmed;
+          notifBar.classList.remove('d-none');
+        }
+      }
+    })
+    .catch(() => { /* do nothing */ });
+
+  closeNotifBtn?.addEventListener('click', () => {
+    notifBar.classList.add('d-none');
+    localStorage.setItem('dismissed_notif', notifText.textContent.trim());
+  });
 }
 
 function getSubjectName(id) {
-    const subject = SUBJECTS.find(s => s.id === id);
-    return subject ? subject.name : id;
+  const subject = SUBJECTS.find(s => s.id === id);
+  return subject ? subject.name : id;
 }

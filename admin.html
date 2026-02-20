@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin QA Review — DOST-SEI Reviewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="/admin.css" />
+</head>
+
+<body>
+
+  <!-- ═══ Toolbar ═══ -->
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <h1>🛠️ Admin QA Review</h1>
+      <div class="toolbar-stats" id="stats">
+        <span class="stat"><span class="dot-indicator red"></span> <span id="stat-flagged">0</span> Flagged</span>
+        <span class="stat"><span class="dot-indicator green"></span> <span id="stat-clean">0</span> Clean</span>
+        <span class="stat"><span class="dot-indicator dim"></span> <span id="stat-unreviewed">0</span> Unreviewed</span>
+      </div>
+      <button class="btn btn-primary" onclick="exportReport()">📥 Export Report</button>
+      <button class="btn btn-outline" onclick="importReport()">📤 Import</button>
+      <button class="btn btn-primary" id="btn-deploy" style="background-color: #00ad9f; border-color: #00ad9f;"
+        onclick="deployNetlify()">🚀 Deploy to Netlify</button>
+      <button class="btn btn-outline" style="border-color:var(--primary); color:var(--primary)"
+        onclick="downloadFixedData()">💾 Download Fixed JSONs</button>
+      <button class="btn btn-danger" onclick="clearAllMarks()">🗑️ Clear All</button>
+      <span id="sync-status" style="font-size:12px; font-weight:600;">🔴 Offline</span>
+    </div>
+  </div>
+
+  <!-- ═══ Filter Bar ═══ -->
+  <div class="filter-bar">
+    <select id="filter-subject">
+      <option value="all">All Subjects</option>
+      <option value="science">Science</option>
+      <option value="mathematics">Mathematics</option>
+      <option value="english">English</option>
+      <option value="mechanical-technical">Mechanical-Technical</option>
+      <option value="nonverbal-reasoning">Nonverbal Reasoning</option>
+      <option value="verbal-reasoning">Verbal Reasoning</option>
+    </select>
+    <select id="filter-issue">
+      <option value="all">All Issue Types</option>
+    </select>
+    <div class="status-chips">
+      <div class="chip active" data-status="all">All</div>
+      <div class="chip flagged" data-status="flagged">🚩 Flagged</div>
+      <div class="chip clean" data-status="clean">✅ Clean</div>
+      <div class="chip" data-status="unreviewed">Unreviewed</div>
+    </div>
+    <input type="text" id="filter-search" placeholder="Search by ID or text..." />
+  </div>
+
+  <!-- ═══ Card List ═══ -->
+  <div class="card-list" id="card-list">
+    <div class="empty-state">
+      <div class="icon">⏳</div>
+      <p>Loading questions...</p>
+    </div>
+  </div>
+
+  <!-- Hidden file input for import -->
+  <input type="file" id="import-file" accept=".json" style="display:none" />
+
+  <script>
+    // ═══════════════════════════════════════════
+    // Configuration
+    // ═══════════════════════════════════════════
+    const DATA_FILES = [
+      { file: 'science', label: 'Science' },
+      { file: 'mathematics', label: 'Mathematics' },
+      { file: 'english', label: 'English' },
+      { file: 'mechanical-technical', label: 'Mechanical-Technical' },
+      { file: 'nonverbal-reasoning', label: 'Nonverbal Reasoning' },
+      { file: 'verbal-reasoning', label: 'Verbal Reasoning' },
+    ];
+
+    const ISSUE_TYPES = [
+      { id: 'incorrect-image', emoji: '❌', label: 'Incorrect image' },
+      { id: 'cropped-image', emoji: '🔲', label: 'Image cropped/incomplete' },
+      { id: 'missing-image', emoji: '🖼️', label: 'Missing image' },
+      { id: 'no-latex', emoji: '📐', label: 'No LaTeX used' },
+      { id: 'broken-latex', emoji: '🔢', label: 'Broken/garbled LaTeX' },
+      { id: 'typo-question', emoji: '✏️', label: 'Typo in question' },
+      { id: 'typo-choices', emoji: '✏️', label: 'Typo in choices' },
+      { id: 'wrong-answer', emoji: '❓', label: 'Wrong/missing answer key' },
+      { id: 'bad-explanation', emoji: '📝', label: 'Missing/wrong explanation' },
+      { id: 'duplicate', emoji: '🔀', label: 'Duplicate question' },
+      { id: 'other', emoji: '⚠️', label: 'Other' },
+    ];
+
+    const STORAGE_KEY = 'admin-qa-marks';
+    const WS_PORT = 4000;
+
+    // ═══════════════════════════════════════════
+    // State
+    // ═══════════════════════════════════════════
+    let allQuestions = [];
+    let marks = {}; // { [questionId]: { issues: ['incorrect-image', ...], notes: '' } }
+    let edits = {}; // { [questionId]: { questionLatex, explanationLatex, choices } }
+    let filters = { subject: 'all', issue: 'all', status: 'all', search: '' };
+    let ws = null;    // WebSocket connection
+    let _remoteUpdate = false;  // flag to avoid echo-loops
+
+    // ═══════════════════════════════════════════
+    // Data Loading
+    // ═══════════════════════════════════════════
+    async function loadAll() {
+      const promises = DATA_FILES.map(async (d) => {
+        try {
+          const res = await fetch(`/src/data/${d.file}.json`);
+          const questions = await res.json();
+          return questions.map(q => ({ ...q, _subject: d.file, _subjectLabel: d.label }));
+        } catch (e) {
+          console.error(`Failed to load ${d.file}:`, e);
+          return [];
+        }
+      });
+      const results = await Promise.all(promises);
+      allQuestions = results.flat();
+      console.log(`Loaded ${allQuestions.length} questions`);
+    }
+
+    // ═══════════════════════════════════════════
+    // Persistence
+    // ═══════════════════════════════════════════
+    function loadMarks() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) marks = JSON.parse(raw);
+      } catch (e) { marks = {}; }
+    }
+
+    function loadEdits() {
+      try {
+        const raw = localStorage.getItem('admin-qa-edits');
+        if (raw) edits = JSON.parse(raw);
+      } catch (e) { edits = {}; }
+    }
+
+    function saveMarks() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(marks));
+    }
+
+    // ═══════════════════════════════════════════
+    // WebSocket Sync
+    // ═══════════════════════════════════════════
+    function connectSync() {
+      const wsUrl = `ws://${location.hostname}:${WS_PORT}`;
+      try {
+        ws = new WebSocket(wsUrl);
+      } catch (e) {
+        console.warn('WebSocket not available:', e);
+        return;
+      }
+
+      ws.addEventListener('open', () => {
+        console.log('[sync] Connected to sync server');
+        updateSyncIndicator(true);
+      });
+
+      ws.addEventListener('message', (event) => {
+        let msg;
+        try { msg = JSON.parse(event.data); } catch { return; }
+
+        if (msg.type === 'full-sync') {
+          // Server is the SINGLE SOURCE OF TRUTH — replace marks entirely
+          marks = msg.marks;
+          saveMarks();
+          renderAll();
+        } else if (msg.type === 'update') {
+          // A specific question was updated by another device
+          marks[msg.id] = msg.mark;
+          saveMarks();
+          // Re-render only that card if it's currently visible
+          const card = document.querySelector(`.q-card[data-id="${msg.id}"]`);
+          if (card) {
+            const wasOpen = card.classList.contains('open');
+            const q = allQuestions.find(q => q.id === msg.id);
+            if (q) {
+              _remoteUpdate = true;
+              const temp = document.createElement('div');
+              temp.innerHTML = renderCard(q);
+              card.replaceWith(temp.firstElementChild);
+              if (wasOpen) document.querySelector(`.q-card[data-id="${msg.id}"]`).classList.add('open');
+              _remoteUpdate = false;
+            }
+          }
+          updateStats();
+        } else if (msg.type === 'deploy-status') {
+          const btn = document.getElementById('btn-deploy');
+          if (btn) {
+            if (msg.status === 'success') {
+              btn.textContent = '✅ Deployed successfully!';
+              setTimeout(() => btn.innerHTML = '🚀 Deploy to Netlify', 3000);
+            } else {
+              btn.textContent = '❌ Deploy Failed';
+              console.error('Deploy error output:', msg.output);
+              alert('Deployment failed. Check console for details.\n\n' + msg.output);
+              setTimeout(() => btn.innerHTML = '🚀 Deploy to Netlify', 3000);
+            }
+          }
+        }
+      });
+
+      ws.addEventListener('close', () => {
+        updateSyncIndicator(false);
+        console.warn('[sync] Disconnected. Reconnecting in 3s...');
+        setTimeout(connectSync, 3000);
+      });
+
+      ws.addEventListener('error', () => {
+        updateSyncIndicator(false);
+      });
+    }
+
+    function broadcastMark(id) {
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        ws.send(JSON.stringify({ type: 'update', id, mark: marks[id] }));
+      }
+    }
+
+    function syncContent(id) {
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        const qObj = allQuestions.find(qq => qq.id === id);
+        if (qObj) {
+          ws.send(JSON.stringify({ type: 'update-content', id, subject: qObj._subject, question: qObj }));
+        }
+      }
+    }
+
+    function deployNetlify() {
+      if (!confirm('This will trigger a live Netlify deployment with the latest saved JSONs. Proceed?')) return;
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        const btn = document.getElementById('btn-deploy');
+        if (btn) btn.textContent = '⏳ Deploying...';
+        ws.send(JSON.stringify({ type: 'deploy-netlify' }));
+      } else {
+        alert('Server is offline. Cannot deploy.');
+      }
+    }
+
+    function updateSyncIndicator(online) {
+      const el = document.getElementById('sync-status');
+      if (!el) return;
+      el.textContent = online ? '🟢 Synced' : '🔴 Offline';
+      el.style.color = online ? 'var(--green)' : 'var(--red)';
+    }
+
+    function applyEditsToQuestions() {
+      allQuestions.forEach(q => {
+        if (edits[q.id]) {
+          const e = edits[q.id];
+          if (e.questionLatex !== undefined) q.questionLatex = e.questionLatex;
+          if (e.explanationLatex !== undefined) q.explanationLatex = e.explanationLatex;
+          if (e.choices) {
+            let choiceItems = q.choices?.items || q.choices || [];
+            choiceItems.forEach(c => {
+              const upd = e.choices.find(x => x.key === c.key);
+              if (upd) c.textLatex = upd.textLatex;
+            });
+          }
+        }
+      });
+    }
+
+    function getStatus(qId) {
+      if (!marks[qId]) return 'unreviewed';
+      if (marks[qId].issues && marks[qId].issues.length > 0) return 'flagged';
+      return 'clean';
+    }
+
+    // ═══════════════════════════════════════════
+    // Filtering
+    // ═══════════════════════════════════════════
+    function getFilteredQuestions() {
+      return allQuestions.filter(q => {
+        if (filters.subject !== 'all' && q._subject !== filters.subject) return false;
+        const status = getStatus(q.id);
+        if (filters.status !== 'all' && status !== filters.status) return false;
+        if (filters.issue !== 'all') {
+          if (!marks[q.id] || !marks[q.id].issues.includes(filters.issue)) return false;
+        }
+        if (filters.search) {
+          const s = filters.search.toLowerCase();
+          const haystack = (q.id + ' ' + q.question + ' ' + (q.questionLatex || '')).toLowerCase();
+          if (!haystack.includes(s)) return false;
+        }
+        return true;
+      });
+    }
+
+    // ═══════════════════════════════════════════
+    // Stats
+    // ═══════════════════════════════════════════
+    function updateStats() {
+      let flagged = 0, clean = 0, unreviewed = 0;
+      allQuestions.forEach(q => {
+        const s = getStatus(q.id);
+        if (s === 'flagged') flagged++;
+        else if (s === 'clean') clean++;
+        else unreviewed++;
+      });
+      document.getElementById('stat-flagged').textContent = flagged;
+      document.getElementById('stat-clean').textContent = clean;
+      document.getElementById('stat-unreviewed').textContent = unreviewed;
+    }
+
+    // ═══════════════════════════════════════════
+    // Rendering
+    // ═══════════════════════════════════════════
+    function escapeHtml(str) {
+      const d = document.createElement('div');
+      d.textContent = str || '';
+      return d.innerHTML;
+    }
+
+    function renderKatex(text) {
+      if (!text) return '';
+      // Replace actual newlines with <br>
+      let html = escapeHtml(text).replace(/(?:\\n|\n)/g, '<br>');
+      // Render $...$ inline math
+      html = html.replace(/\$([^$]+)\$/g, (_, tex) => {
+        try {
+          return katex.renderToString(tex, { throwOnError: false, displayMode: false });
+        } catch (e) { return tex; }
+      });
+      return html;
+    }
+
+    function renderCard(q) {
+      const status = getStatus(q.id);
+      const m = marks[q.id] || { issues: [], notes: '' };
+      const issueDots = m.issues.map(issueId => {
+        const t = ISSUE_TYPES.find(i => i.id === issueId);
+        return t ? `<span class="issue-dot" title="${t.label}">${t.emoji}</span>` : '';
+      }).join('');
+
+      const preview = (q.question || '').substring(0, 100);
+
+      // Choices — handle both array-of-objects and items property
+      const choiceItems = q.choices?.items || q.choices || [];
+      const choicesHtml = choiceItems.map(c => {
+        const isCorrect = c.key === q.answer;
+        const choiceContent = renderKatex(c.textLatex || c.text);
+        const choiceImg = c.image ? `<img src="/images/questions/${c.image}" alt="${c.key}" />` : '';
+        return `<div class="choice-item ${isCorrect ? 'correct' : ''}">
+      <div class="render-block" style="display:flex; gap:8px;">
+        <span class="choice-key-badge">${c.key}</span>
+        <span>${choiceContent}${choiceImg}</span>
+      </div>
+      <div class="edit-block" style="display:none; width:100%; margin-top:4px;">
+        <div style="font-weight:700; font-size:11px; margin-bottom:4px; color:var(--text-dim);">Choice ${c.key}</div>
+        <textarea class="edit-input-choice edit-input" data-key="${c.key}" rows="2">${escapeHtml(c.textLatex || c.text)}</textarea>
+      </div>
+    </div>`;
+      }).join('');
+
+      // Issue tags — auto-save on click
+      const tagsHtml = ISSUE_TYPES.map(t => {
+        const sel = m.issues.includes(t.id) ? 'selected' : '';
+        return `<label class="issue-tag ${sel}" data-issue="${t.id}">
+      <input type="checkbox" ${sel ? 'checked' : ''} onchange="this.parentNode.classList.toggle('selected', this.checked); autoSaveIssueTags('${q.id}')" />${t.emoji} ${t.label}
+    </label>`;
+      }).join('');
+
+      return `
+  <div class="q-card ${status}" data-id="${q.id}">
+    <div class="card-header" onclick="toggleCard('${q.id}')">
+      <span class="card-id">${q.id}</span>
+      <span class="subject-badge ${q._subject}">${q._subjectLabel}</span>
+      <span class="card-question-preview">${escapeHtml(preview)}</span>
+      <span class="card-issue-dots">${issueDots}</span>
+      <span class="card-toggle">▼</span>
+    </div>
+    <div class="card-body">
+      <div class="q-section">
+        <div class="q-section-label">
+          Question
+          <button class="btn-edit-toggle" onclick="toggleEditMode('${q.id}')">✏️ Edit Content</button>
+        </div>
+        <div class="q-text render-block">${renderKatex(q.questionLatex || q.question)}</div>
+        <div class="edit-block" style="display:none; margin-top:8px;">
+          <textarea class="edit-input-question edit-input" rows="3">${escapeHtml(q.questionLatex || q.question)}</textarea>
+        </div>
+      </div>
+
+      ${q.image ? `<div class="q-section">
+        <div class="q-section-label">Image</div>
+        <div class="q-image-container">
+          <img src="/images/questions/${q.image}" alt="Question image" />
+        </div>
+      </div>` : `<div class="q-section">
+        <div class="q-section-label">Image</div>
+        <div class="q-image-container"><span class="no-image">No image assigned</span></div>
+      </div>`}
+
+      <div class="q-section">
+        <div class="q-section-label">Choices (Answer: <span class="answer-badge">${q.answer || '?'}</span>)</div>
+        <div class="choices-grid">${choicesHtml}</div>
+      </div>
+
+      <div class="q-section">
+        <div class="q-section-label">Explanation</div>
+        <div class="explanation-text render-block">${renderKatex(q.explanationLatex || q.explanation || '<em>No explanation</em>')}</div>
+        <div class="edit-block" style="display:none; margin-top:8px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+            <div style="font-size:11px; color:var(--text-dim); font-weight:600;">Edit Explanation LaTeX</div>
+            <button class="btn btn-outline" style="padding:4px 8px; font-size:11px; border-color:var(--purple); color:var(--purple);" onclick="generateExplanation('${q.id}', this)">✨ Auto-Generate</button>
+          </div>
+          <textarea class="edit-input-explanation edit-input" rows="3">${escapeHtml(q.explanationLatex || q.explanation || '')}</textarea>
+        </div>
+      </div>
+
+      <div class="marking-panel">
+        <h4>🏷️ Issue Marking <span style="font-size:11px; font-weight:400; color:var(--text-dim);">(auto-saves on click)</span></h4>
+        <div class="issue-tags">${tagsHtml}</div>
+        <textarea class="notes-input" placeholder="Additional notes... (auto-saves on blur)" data-id="${q.id}" onblur="autoSaveIssueTags('${q.id}')">${escapeHtml(m.notes)}</textarea>
+        <div class="marking-actions">
+          <button class="btn btn-primary" onclick="saveMark('${q.id}')">Save Content Edits</button>
+          <button class="btn btn-outline" onclick="markClean('${q.id}')">✅ Mark Clean</button>
+        </div>
+      </div>
+    </div>
+  </div>`;
+    }
+
+    function renderAll() {
+      const filtered = getFilteredQuestions();
+      const container = document.getElementById('card-list');
+      if (filtered.length === 0) {
+        container.innerHTML = `<div class="empty-state"><div class="icon">🔍</div><p>No questions match your filters. (${allQuestions.length} total loaded)</p></div>`;
+        return;
+      }
+      container.innerHTML = filtered.map(renderCard).join('');
+      updateStats();
+    }
+
+    // ═══════════════════════════════════════════
+    // Interactions
+    // ═══════════════════════════════════════════
+    function toggleCard(id) {
+      const el = document.querySelector(`.q-card[data-id="${id}"]`);
+      if (el) el.classList.toggle('open');
+    }
+
+    function toggleEditMode(id) {
+      const card = document.querySelector(`.q-card[data-id="${id}"]`);
+      if (!card) return;
+      card.classList.toggle('edit-mode-active');
+      const isEdit = card.classList.contains('edit-mode-active');
+
+      card.querySelectorAll('.render-block').forEach(el => el.style.display = isEdit ? 'none' : '');
+      card.querySelectorAll('.edit-block').forEach(el => el.style.display = isEdit ? 'block' : 'none');
+      const btn = card.querySelector('.btn-edit-toggle');
+      if (btn) btn.textContent = isEdit ? '❌ Cancel Editing' : '✏️ Edit Content';
+    }
+
+    function autoSaveIssueTags(id) {
+      const card = document.querySelector(`.q-card[data-id="${id}"]`);
+      if (!card) return;
+      const issues = [];
+      card.querySelectorAll('.issue-tag input:checked').forEach(cb => {
+        issues.push(cb.closest('.issue-tag').dataset.issue);
+      });
+      const notes = card.querySelector('.notes-input')?.value.trim() || '';
+      if (!marks[id]) marks[id] = {};
+      marks[id].issues = issues;
+      marks[id].notes = notes;
+      saveMarks();
+      broadcastMark(id);
+      // Update card status color without full re-render
+      const status = getStatus(id);
+      card.className = card.className.replace(/\b(flagged|clean|unreviewed)\b/g, '').trim() + ' ' + status;
+      updateStats();
+    }
+
+    async function generateExplanation(id, btn) {
+      const q = allQuestions.find(qq => qq.id === id);
+      if (!q) return;
+
+      const card = document.querySelector(`.q-card[data-id="${id}"]`);
+      const textarea = card.querySelector('.edit-input-explanation');
+
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '⏳ Generating...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch('http://localhost:4001/api/generate-explanation', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            question: q.questionLatex || q.question,
+            choices: q.choices?.items || q.choices || [],
+            correctAnswer: q.answer
+          })
+        });
+
+        if (!res.ok) throw new Error('API request failed');
+        const data = await res.json();
+
+        if (data.explanation) {
+          textarea.value = data.explanation;
+          textarea.style.borderColor = 'var(--purple)';
+          setTimeout(() => textarea.style.borderColor = 'var(--border)', 1500);
+        }
+      } catch (err) {
+        alert('Failed to generate explanation: ' + err.message);
+      } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+
+    function saveMark(id) {
+      const card = document.querySelector(`.q-card[data-id="${id}"]`);
+      if (!card) return;
+
+      const isEditMode = card.classList.contains('edit-mode-active');
+
+      if (isEditMode) {
+        const qLatex = card.querySelector('.edit-input-question').value;
+        const eLatex = card.querySelector('.edit-input-explanation').value;
+        const cLatex = Array.from(card.querySelectorAll('.edit-input-choice')).map(inp => ({ key: inp.dataset.key, textLatex: inp.value }));
+
+        if (!edits[id]) edits[id] = {};
+        edits[id].questionLatex = qLatex;
+        edits[id].explanationLatex = eLatex;
+        edits[id].choices = cLatex;
+        localStorage.setItem('admin-qa-edits', JSON.stringify(edits));
+
+        let qObj = allQuestions.find(qq => qq.id === id);
+        if (qObj) {
+          qObj.questionLatex = qLatex;
+          qObj.explanationLatex = eLatex;
+          let choiceItems = qObj.choices?.items || qObj.choices || [];
+          choiceItems.forEach(c => {
+            const upd = cLatex.find(x => x.key === c.key);
+            if (upd) c.textLatex = upd.textLatex;
+          });
+        }
+      }
+
+      // Also save issue tags/notes
+      autoSaveIssueTags(id);
+
+      if (isEditMode) {
+        const temp = document.createElement('div');
+        temp.innerHTML = renderCard(allQuestions.find(q => q.id === id));
+        card.replaceWith(temp.firstElementChild);
+        document.querySelector(`.q-card[data-id="${id}"]`).classList.add('open');
+
+        // Push full JSON update to server
+        syncContent(id);
+      } else {
+        const status = getStatus(id);
+        card.className = `q-card open ${status}`;
+      }
+
+      updateStats();
+
+      const btn = document.querySelector(`.q-card[data-id="${id}"] .btn-primary`);
+      if (btn) {
+        btn.textContent = '✓ Saved!';
+        setTimeout(() => { btn.textContent = 'Save Content Edits'; }, 1200);
+      }
+    }
+
+    function markClean(id) {
+      marks[id] = { issues: [], notes: marks[id]?.notes || '' };
+      saveMarks();
+      broadcastMark(id);
+      syncContent(id); // push the question file update directly too, just in case
+      renderAll();
+    }
+
+    // ═══════════════════════════════════════════
+    // Export / Import
+    // ═══════════════════════════════════════════
+    function exportReport() {
+      const report = {
+        exportedAt: new Date().toISOString(),
+        totalQuestions: allQuestions.length,
+        totalFlagged: 0,
+        totalClean: 0,
+        totalUnreviewed: 0,
+        flaggedItems: [],
+        cleanItems: [],
+      };
+
+      allQuestions.forEach(q => {
+        const status = getStatus(q.id);
+        if (status === 'flagged') {
+          report.totalFlagged++;
+          const m = marks[q.id];
+          const issueLabels = m.issues.map(iid => {
+            const t = ISSUE_TYPES.find(i => i.id === iid);
+            return t ? t.label : iid;
+          });
+          report.flaggedItems.push({
+            id: q.id,
+            subject: q._subject,
+            question: q.question.substring(0, 120),
+            issues: issueLabels,
+            issueIds: m.issues,
+            notes: m.notes
+          });
+        } else if (status === 'clean') {
+          report.totalClean++;
+          report.cleanItems.push(q.id);
+        } else {
+          report.totalUnreviewed++;
+        }
+      });
+
+      const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `qa-review-report-${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function importReport() {
+      document.getElementById('import-file').click();
+    }
+
+    function downloadFixedData() {
+      if (!confirm('This will download 6 separate JSON files containing all your text edits. Proceed?')) return;
+      const subjects = ['science', 'mathematics', 'english', 'mechanical-technical', 'nonverbal-reasoning', 'verbal-reasoning'];
+      subjects.forEach((subj, idx) => {
+        setTimeout(() => {
+          let qs = allQuestions.filter(q => q._subject === subj).map(q => {
+            let cleanQ = { ...q };
+            delete cleanQ._subject;
+            delete cleanQ._subjectLabel;
+            return cleanQ;
+          });
+          const blob = new Blob([JSON.stringify(qs, null, 2)], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = `${subj}.json`;
+          a.click();
+          URL.revokeObjectURL(url);
+        }, idx * 500); // delay to prevent browser block
+      });
+    }
+
+    document.getElementById('import-file').addEventListener('change', async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const data = JSON.parse(text);
+        if (data.flaggedItems) {
+          data.flaggedItems.forEach(item => {
+            marks[item.id] = { issues: item.issueIds || [], notes: item.notes || '' };
+          });
+          if (data.cleanItems) {
+            data.cleanItems.forEach(id => {
+              if (!marks[id]) marks[id] = { issues: [], notes: '' };
+            });
+          }
+        } else {
+          Object.assign(marks, data);
+        }
+        saveMarks();
+        renderAll();
+        alert(`Imported successfully! ${Object.keys(marks).length} items loaded.`);
+      } catch (err) {
+        alert('Failed to import: ' + err.message);
+      }
+      e.target.value = '';
+    });
+
+    function clearAllMarks() {
+      if (!confirm('⚠️ This will clear ALL your review marks AND edits. Are you sure?')) return;
+      marks = {};
+      edits = {};
+      saveMarks();
+      localStorage.removeItem('admin-qa-edits');
+      // reload original
+      loadAll().then(renderAll);
+    }
+
+    // ═══════════════════════════════════════════
+    // Filter Event Listeners
+    // ═══════════════════════════════════════════
+    document.getElementById('filter-subject').addEventListener('change', (e) => {
+      filters.subject = e.target.value;
+      renderAll();
+    });
+
+    document.getElementById('filter-issue').addEventListener('change', (e) => {
+      filters.issue = e.target.value;
+      renderAll();
+    });
+
+    document.getElementById('filter-search').addEventListener('input', (e) => {
+      filters.search = e.target.value;
+      renderAll();
+    });
+
+    // Status chips
+    document.querySelectorAll('.chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        filters.status = chip.dataset.status;
+        renderAll();
+      });
+    });
+
+    // Populate issue filter dropdown
+    (function populateIssueFilter() {
+      const sel = document.getElementById('filter-issue');
+      ISSUE_TYPES.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.id;
+        opt.textContent = `${t.emoji} ${t.label}`;
+        sel.appendChild(opt);
+      });
+    })();
+
+    // ═══════════════════════════════════════════
+    // Init
+    // ═══════════════════════════════════════════
+    async function loadAutoQA() {
+      // Only used as fallback when sync server is offline
+      if (ws && ws.readyState === WebSocket.OPEN) return;
+      try {
+        const res = await fetch('/auto-qa-report.json');
+        if (res.ok) {
+          const autoMarks = await res.json();
+          let updated = false;
+          for (const [id, m] of Object.entries(autoMarks)) {
+            if (!marks[id] || (marks[id].issues.length === 0 && !marks[id].notes)) {
+              marks[id] = m;
+              updated = true;
+            }
+          }
+          if (updated) saveMarks();
+        }
+      } catch (e) { }
+    }
+
+    (async function init() {
+      loadMarks();
+      loadEdits();
+      connectSync();
+      await loadAutoQA();
+      await loadAll();
+      applyEditsToQuestions();
+      renderAll();
+    })();
+  </script>
+
+</body>
+
+</html>

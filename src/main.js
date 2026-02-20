@@ -17,6 +17,12 @@ const app = document.getElementById('app');
 // Pre-load KaTeX for faster rendering
 preloadKaTeX();
 
+// Init Theme
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'light') {
+    document.body.classList.add('light-theme');
+}
+
 // Question data cache
 const questionCache = {};
 
