@@ -630,8 +630,7 @@
         ],
         "answer": "A",
         "explanation": "Assuming the standard diagram where the intersection of A and B is further intersected with C, or a combined region. A is the most likely intended structure.",
-        "explanationLatex": "The notation $(A \\cup B) \\cap C$ represents elements in C that are also in either A or B.",
-        "image": "math-p43-1.png"
+        "explanationLatex": "The notation $(A \\cup B) \\cap C$ represents elements in C that are also in either A or B."
     },
     {
         "id": "mat-2020-006",
