@@ -432,23 +432,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "light"
+                "text": "light",
+                "textLatex": "light"
             },
             {
                 "key": "B",
-                "text": "light and water"
+                "text": "light and water",
+                "textLatex": "light and water"
             },
             {
                 "key": "C",
-                "text": "light, water and carbon dioxide"
+                "text": "light, water and carbon dioxide",
+                "textLatex": "light, water and carbon dioxide"
             },
             {
                 "key": "D",
-                "text": "light, water, carbon dioxide and oxygen"
+                "text": "light, water, carbon dioxide and oxygen",
+                "textLatex": "light, water, carbon dioxide and oxygen"
             }
         ],
         "answer": "C",
-        "explanation": "To photosynthesize, plants need light, water, and carbon dioxide. They do [810] Developing One’s Skills in Test-Taking"
+        "explanation": "To photosynthesize, plants need light, water, and carbon dioxide. They do [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "Plants produce their own food molecules through a process called photosynthesis. What \ndo plants need for photosynthesis to push through?",
+        "explanationLatex": "Photosynthesis requires light energy, water absorbed from the soil, and carbon dioxide from the atmosphere to create glucose and oxygen. Oxygen is a product, not a requirement, for the process."
     },
     {
         "id": "sci-2020-003",

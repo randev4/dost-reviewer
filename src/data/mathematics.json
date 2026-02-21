@@ -698,8 +698,8 @@
         ],
         "answer": "C",
         "explanation": "Let $P$ be protesters and $M$ be policemen. $P = 12M$. Arrests = 72. Rate = 3 arrests per 2 police = 1.5 arrests/police. $1.5M = 72 \\Rightarrow M = 48$. Protesters $P = 12(48) = 576$.",
-        "explanationLatex": "Policemen $M$: $\\frac{3}{2}M = 72 \\Rightarrow M = 48$. Protesters: $12 \\times 48 = 576$.",
-        "image": "math-p43-1.png"
+        "explanationLatex": "Let $P$ be the number of policemen. The number of arrests is $72$, and since there are $3$ arrests for every $2$ policemen, we have $\\frac{3}{2}P = 72$, which means $P = 48$. Given that protesters outnumbered policemen by $12$ to $1$, the number of protesters is $12 \\times 48 = 576$.",
+        "image": null
     },
     {
         "id": "mat-2020-008",
@@ -964,8 +964,8 @@
         ],
         "answer": "D",
         "explanation": "I is true (hypotenuse > legs). II is true (sum of angles is $180^\\circ$). III is the Pythagorean Theorem ($a^2+b^2=c^2$).",
-        "explanationLatex": "I: Hypotenuse is longest. II: $\\sum \\text{angles} = 180^\\circ$. III: $a^2+b^2=c^2$.",
-        "image": "math-p45-1.png",
+        "explanationLatex": "All three statements are fundamental properties of any triangle: the hypotenuse is always the longest side in a right triangle, the sum of internal angles is always $180^\\circ$, and the Pythagorean theorem (statement III) specifically applies to right triangles.",
+        "image": null,
         "questionLatex": "Which of the following is true about right triangle ABC? \\nI. The hypotenuse is the longest side. \\nII. The sum of the degree measures of its internal angles is $180^\\circ$. \\nIII. The sum of the squares of the lengths of its legs is equal to the square of the length of its hypotenuse."
     },
     {
@@ -1032,9 +1032,9 @@
         ],
         "answer": "C",
         "explanation": "Complementary angles in a right triangle have equal sine and cosine.",
-        "image": "math-p45-1.png",
+        "image": null,
         "questionLatex": "Which of the following expressions is equal to $\\sin A$? \\nI. $\\cos B$ \\nII. $\\cos D$ \\nIII. $\\cos E$",
-        "explanationLatex": "If $A$ and $B$ are complementary angles in a right triangle, then $\\sin A = \\cos B$."
+        "explanationLatex": "In a right triangle, the sine of an angle is equal to the cosine of its complementary angle. Since angles A and B are complementary, and angles A and D are complementary, $\\sin A = \\cos B$ and $\\sin A = \\cos D$."
     },
     {
         "id": "mat-2020-018",
