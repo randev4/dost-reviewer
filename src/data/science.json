@@ -399,23 +399,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "5x"
+                "text": "5x",
+                "textLatex": "5x"
             },
             {
                 "key": "B",
-                "text": "20x"
+                "text": "20x",
+                "textLatex": "20x"
             },
             {
                 "key": "C",
-                "text": "80x"
+                "text": "80x",
+                "textLatex": "80x"
             },
             {
                 "key": "D",
-                "text": "100x"
+                "text": "100x",
+                "textLatex": "100x"
             }
         ],
         "answer": "A",
-        "explanation": "Magnification is the product of the magnification of the eyepiece and the [154] objective used. To compute for the magnification of the objective, you should"
+        "explanation": "Magnification is the product of the magnification of the eyepiece and the [154] objective used. To compute for the magnification of the objective, you should",
+        "questionLatex": "Using a compound microscope, you want to view a plant cell under a magnification of \n100x. Given that your eyepiece has a magnification of 20x, which objective should you use \nto achieve your desired magnification?",
+        "explanationLatex": "Total magnification is calculated by multiplying the eyepiece magnification by the objective lens magnification. To achieve 100x total magnification with a 20x eyepiece, you need a 5x objective lens ($20 \\times 5 = 100$)."
     },
     {
         "id": "sci-2020-002",

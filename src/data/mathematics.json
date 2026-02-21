@@ -2006,17 +2006,17 @@
             {
                 "key": "A",
                 "text": "b^2 - 4ac > 0, and b^2 - 4ac is not a perfect square",
-                "textLatex": "$b^2 - 4ac > 0, \\text{ and } b^2 - 4ac \\text{ is not a perfect square}$"
+                "textLatex": "$b^2 - 4ac \\gt 0, \\text{ and } b^2 - 4ac \\text{ is not a perfect square}$"
             },
             {
                 "key": "B",
                 "text": "b^2 - 4ac > 0, and b^2 - 4ac is a perfect square",
-                "textLatex": "$b^2 - 4ac > 0, \\text{ and } b^2 - 4ac \\text{ is a perfect square}$"
+                "textLatex": "$b^2 - 4ac \\gt 0, \\text{ and } b^2 - 4ac \\text{ is a perfect square}$"
             },
             {
                 "key": "C",
                 "text": "b^2 - 4ac < 0",
-                "textLatex": "$b^2 - 4ac < 0$"
+                "textLatex": "$b^2 - 4ac \\lt 0$"
             },
             {
                 "key": "D",
@@ -2027,7 +2027,7 @@
         "answer": "C",
         "explanation": "If a parabola does not intersect the x-axis, it has no real roots. For a quadratic equation $ax^2 + bx + c = 0$, this occurs when the discriminant $b^2 - 4ac < 0$.",
         "questionLatex": "Which statement must be true if a parabola represented by the equation $y = ax^2 + bx + c$ does not intersect the x-axis?",
-        "explanationLatex": "If a parabola does not intersect the x-axis, the corresponding quadratic equation $ax^2 + bx + c = 0$ has no real roots. This happens if and only if the discriminant is negative, meaning $b^2 - 4ac < 0$."
+        "explanationLatex": "If a parabola does not intersect the x-axis, the corresponding quadratic equation $ax^2 + bx + c = 0$ has no real roots. This happens if and only if the discriminant is negative, meaning $b^2 - 4ac \\lt 0$."
     },
     {
         "id": "math-practice1-009",
@@ -3214,7 +3214,8 @@
         ],
         "answer": "D",
         "explanation": "",
-        "questionLatex": "The length of $\\overline{AC}$ is $5\\text{ meters}$. The length of $\\overline{BC}$ is $2\\text{ meters}$. Find $\\overline{AB}$."
+        "questionLatex": "The length of $\\overline{AC}$ is $5\\text{ meters}$. The length of $\\overline{BC}$ is $2\\text{ meters}$. Find $\\overline{AB}$.",
+        "explanationLatex": "The question is flawed as it presents a scenario that violates the triangle inequality theorem, where the sum of two sides must be greater than the third side. Given the options, none of them correctly represent a valid length for $\\overline{AB}$ if A, B, and C are collinear, or if they form a triangle."
     },
     {
         "id": "math-practice1-053",
