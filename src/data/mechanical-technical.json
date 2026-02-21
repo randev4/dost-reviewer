@@ -358,23 +358,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I, II, III"
+                "text": "I, II, III",
+                "textLatex": "I, II, III"
             },
             {
                 "key": "B",
-                "text": "I, III, II"
+                "text": "I, III, II",
+                "textLatex": "I, III, II"
             },
             {
                 "key": "C",
-                "text": "II, III, I"
+                "text": "II, III, I",
+                "textLatex": "II, III, I"
             },
             {
                 "key": "D",
-                "text": "III, II, I"
+                "text": "III, II, I",
+                "textLatex": "III, II, I"
             }
         ],
         "answer": "D",
-        "explanation": "Separate into polygonal regions because it is easier to use area addition [187]"
+        "explanation": "Separate into polygonal regions because it is easier to use area addition [187]",
+        "questionLatex": "Arrange through which medium the sound travel does from the slowest to fastest. \n\\nI. Solid \n\\nII. Liquid \n\\nIII. Gas",
+        "explanationLatex": "Sound travels fastest in solids because their particles are tightly packed, allowing vibrations to transmit efficiently, followed by liquids, and then gases, where particles are most spread out."
     },
     {
         "id": "mec-2020-003",
@@ -385,23 +391,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "2 x 10-5 coulombs"
+                "text": "2 x 10-5 coulombs",
+                "textLatex": "2 x 10-5 coulombs"
             },
             {
                 "key": "B",
-                "text": "5 x 10-5 coulombs"
+                "text": "5 x 10-5 coulombs",
+                "textLatex": "5 x 10-5 coulombs"
             },
             {
                 "key": "C",
-                "text": "15 x 10-5 coulombs"
+                "text": "15 x 10-5 coulombs",
+                "textLatex": "15 x 10-5 coulombs"
             },
             {
                 "key": "D",
-                "text": "50 x 10-5 coulombs"
+                "text": "50 x 10-5 coulombs",
+                "textLatex": "50 x 10-5 coulombs"
             }
         ],
         "answer": "B",
-        "explanation": "2 circles is equivalent to 3 squares [207]"
+        "explanation": "2 circles is equivalent to 3 squares [207]",
+        "questionLatex": "A current of 5 μA flows through a wire. How many coulombs of charge have passed through the wire in 10 seconds?",
+        "explanationLatex": "Charge is the product of current and time ($Q = I \\times t$). Converting 5 μA to amperes ($5 \\times 10^{-6}$ A) and multiplying by 10 seconds gives $5 \\times 10^{-5}$ C."
     },
     {
         "id": "mec-2020-004",
@@ -412,23 +424,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "use more gears"
+                "text": "use more gears",
+                "textLatex": "use more gears"
             },
             {
                 "key": "B",
-                "text": "use two gears of the same size"
+                "text": "use two gears of the same size",
+                "textLatex": "use two gears of the same size"
             },
             {
                 "key": "C",
-                "text": "use two gears of different sizes"
+                "text": "use two gears of different sizes",
+                "textLatex": "use two gears of different sizes"
             },
             {
                 "key": "D",
-                "text": "use two large gears"
+                "text": "use two large gears",
+                "textLatex": "use two large gears"
             }
         ],
         "answer": "C",
-        "explanation": "Remember that 1 circle is ―as heavy as‖ 1.5 squares. [232]"
+        "explanation": "Remember that 1 circle is ―as heavy as‖ 1.5 squares. [232]",
+        "questionLatex": "How can gears be used to change the speed of a machine?",
+        "explanationLatex": "Using gears of different sizes changes the gear ratio, which directly alters the output speed relative to the input speed. A smaller driven gear will increase speed, while a larger driven gear will decrease it."
     },
     {
         "id": "mec-2020-005",
@@ -467,24 +485,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "5 RPM"
+                "text": "5 RPM",
+                "textLatex": "5 RPM"
             },
             {
                 "key": "B",
-                "text": "20 RPM"
+                "text": "20 RPM",
+                "textLatex": "20 RPM"
             },
             {
                 "key": "C",
-                "text": "40 RPM"
+                "text": "40 RPM",
+                "textLatex": "40 RPM"
             },
             {
                 "key": "D",
-                "text": "80 RPM"
+                "text": "80 RPM",
+                "textLatex": "80 RPM"
             }
         ],
         "answer": "A",
         "explanation": "20 does not divide 350 [280]",
-        "image": "mechanical-p52-5.png"
+        "image": "mechanical-p52-5.png",
+        "questionLatex": "In the figure shown below, gears A, B and C are connected by a chain. The diameters of \nthe gears are 2 inches, 4 inches, and 8 inches respectively.  If gear A is turning at 20 \nrevolutions per minute (RPM), what is the turning rate of gear C?",
+        "explanationLatex": "The angular velocity of a gear is inversely proportional to its diameter when connected by a chain. Since gear C has a diameter four times that of gear A (8 inches vs. 2 inches), its turning rate will be one-fourth that of gear A, so $20 \\text{ RPM} / 4 = 5 \\text{ RPM}$."
     },
     {
         "id": "mec-2020-007",
@@ -549,23 +573,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "an overtone"
+                "text": "an overtone",
+                "textLatex": "an overtone"
             },
             {
                 "key": "B",
-                "text": "diffraction"
+                "text": "diffraction",
+                "textLatex": "diffraction"
             },
             {
                 "key": "C",
-                "text": "resonance"
+                "text": "resonance",
+                "textLatex": "resonance"
             },
             {
                 "key": "D",
-                "text": "interference"
+                "text": "interference",
+                "textLatex": "interference"
             }
         ],
         "answer": "C",
-        "explanation": "s = 80 so 30% of it 24 [349]"
+        "explanation": "s = 80 so 30% of it 24 [349]",
+        "questionLatex": "During your piano recital, a pure musical note causes a thin wooden panel in the school \ntheater to vibrate with the same frequency. This is an example of __________________.",
+        "explanationLatex": "Resonance occurs when an external force (the musical note) vibrates at the natural frequency of an object (the wooden panel), causing the object to vibrate with increased amplitude."
     },
     {
         "id": "mec-2020-010",
@@ -576,23 +606,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Projectile W"
+                "text": "Projectile W",
+                "textLatex": "Projectile W"
             },
             {
                 "key": "B",
-                "text": "Projectile X"
+                "text": "Projectile X",
+                "textLatex": "Projectile X"
             },
             {
                 "key": "C",
-                "text": "Projectile Y"
+                "text": "Projectile Y",
+                "textLatex": "Projectile Y"
             },
             {
                 "key": "D",
-                "text": "Both Projectile X and Y"
+                "text": "Both Projectile X and Y",
+                "textLatex": "Both Projectile X and Y"
             }
         ],
         "answer": "B",
-        "explanation": "2.25 + 4.75 + 2.25 = 9.25 [372] Displacement is the area under the v-t graph and there are three different"
+        "explanation": "2.25 + 4.75 + 2.25 = 9.25 [372] Displacement is the area under the v-t graph and there are three different",
+        "questionLatex": "In a projectile motion: for a given initial velocity $V_i$ and angle $\\theta$ which is less than 60°, \ndetermine the projectile that will reach the farthest.",
+        "explanationLatex": "2.25 + 4.75 + 2.25 = 9.25 [372] Displacement is the area under the v-t graph and there are three different"
     },
     {
         "id": "mec-2020-011",
@@ -792,24 +828,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "carve wood"
+                "text": "carve wood",
+                "textLatex": "carve wood"
             },
             {
                 "key": "B",
-                "text": "drive nails"
+                "text": "drive nails",
+                "textLatex": "drive nails"
             },
             {
                 "key": "C",
-                "text": "tighten bolts"
+                "text": "tighten bolts",
+                "textLatex": "tighten bolts"
             },
             {
                 "key": "D",
-                "text": "weld metal"
+                "text": "weld metal",
+                "textLatex": "weld metal"
             }
         ],
         "answer": "A",
         "explanation": "",
-        "image": "mechanical-p55-5.jpeg"
+        "image": "mechanical-p55-5.jpeg",
+        "questionLatex": "The tool shown below would most likely be used to:",
+        "explanationLatex": "The tool is a chisel, which is specifically designed for shaping and carving wood by removing small pieces at a time."
     },
     {
         "id": "mec-2020-019",
@@ -901,23 +943,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "1.01 m3/kg"
+                "text": "1.01 m3/kg",
+                "textLatex": "1.01 m3/kg"
             },
             {
                 "key": "B",
-                "text": "2.02 m3/kg"
+                "text": "2.02 m3/kg",
+                "textLatex": "2.02 m3/kg"
             },
             {
                 "key": "C",
-                "text": "990 kg/m"
+                "text": "990 kg/m",
+                "textLatex": "990 kg/m"
             },
             {
                 "key": "D",
-                "text": "1980 kg/m"
+                "text": "1980 kg/m",
+                "textLatex": "1980 kg/m"
             }
         ],
         "answer": "C",
-        "explanation": "Given are animals and their corresponding structures used in food [499]"
+        "explanation": "Given are animals and their corresponding structures used in food [499]",
+        "questionLatex": "You are in a resort enjoying your summer vacation in the pool. Curious as you are, you \nwanted to know the density of water in the pool. The owner told you that the pool has a \n300-cubic meter capacity which is equivalent to 297,000 kg of water. What is the density \nof water inside the pool?",
+        "explanationLatex": "Density is calculated by dividing mass by volume. In this case, 297,000 kg divided by 300 m$^3$ equals 990 kg/m$^3$."
     },
     {
         "id": "mec-2020-023",
@@ -928,23 +976,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "A wrench"
+                "text": "A wrench",
+                "textLatex": "A wrench"
             },
             {
                 "key": "B",
-                "text": "A screwdriver"
+                "text": "A screwdriver",
+                "textLatex": "A screwdriver"
             },
             {
                 "key": "C",
-                "text": "A plane"
+                "text": "A plane",
+                "textLatex": "A plane"
             },
             {
                 "key": "D",
-                "text": "A hammer"
+                "text": "A hammer",
+                "textLatex": "A hammer"
             }
         ],
         "answer": "C",
-        "explanation": "Phytoplanktons are photosynthetic making them a producer. [519] The absence of hole on the guava is sign that the worm was already [536]"
+        "explanation": "Phytoplanktons are photosynthetic making them a producer. [519] The absence of hole on the guava is sign that the worm was already [536]",
+        "questionLatex": "Mr. Havana found a large piece of wood drifting during the flood after the Typhoon \nYolanda. Since he sees the wood as still useful, he plans to smoothen the surface using a \nhand tool. Which of the following tools can he use to smooth the piece of wood?",
+        "explanationLatex": "A plane is specifically designed for shaving thin layers of wood to create a smooth, flat surface. The other tools listed are for fastening, turning screws, or striking, not for smoothing wood."
     },
     {
         "id": "mec-2020-024",
@@ -955,23 +1009,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Higher"
+                "text": "Higher",
+                "textLatex": "Higher"
             },
             {
                 "key": "B",
-                "text": "Lower"
+                "text": "Lower",
+                "textLatex": "Lower"
             },
             {
                 "key": "C",
-                "text": "the same"
+                "text": "the same",
+                "textLatex": "the same"
             },
             {
                 "key": "D",
-                "text": "higher or lower depending upon the exact frequency"
+                "text": "higher or lower depending upon the exact frequency",
+                "textLatex": "higher or lower depending upon the exact frequency"
             }
         ],
         "answer": "B",
-        "explanation": "The tendency to increase or decrease the wavelength of the sound due to [810] Developing One’s Skills in Test-Taking"
+        "explanation": "The tendency to increase or decrease the wavelength of the sound due to [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "A firetruck is sounding its horn while it’s moving away from you to respond to a burning \nhouse. As you observe, the pitch of the horn's sound relative to its normal pitch is \n____________________.",
+        "explanationLatex": "Due to the Doppler effect, as the firetruck moves away, the sound waves are stretched, resulting in a lower observed frequency and thus a lower pitch."
     },
     {
         "id": "mec-2020-025",
