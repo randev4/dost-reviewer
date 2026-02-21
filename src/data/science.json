@@ -564,23 +564,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "IBi"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "IAi"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "IBIB"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "ii"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Rico, having a blood type AB, married Cora with a blood type B. They had four children with the following blood types: Child 1 - blood type AB, Child 2 — blood type B, Child 3 -\nblood type A and Child 4 — blood type B. By performing a testcross, what is the genotype of Cora?",
+        "explanationLatex": "Cora's genotype must be $I^Bi$ because one child has blood type A ($I^Ai$), meaning they inherited an $i$ allele from Cora, and another child has blood type AB ($I^AI^B$), meaning they inherited an $I^B$ allele from Cora."
     },
     {
         "id": "sci-2020-007",
@@ -1082,29 +1088,32 @@
             {
                 "key": "A",
                 "text": "Option A",
-                "textLatex": "Option A"
+                "textLatex": "",
+                "image": "paste-sci-2020-022-cA-1771650488584.png"
             },
             {
                 "key": "B",
                 "text": "Option B",
-                "textLatex": "Option B"
+                "textLatex": "",
+                "image": "paste-sci-2020-022-cB-1771650500342.png"
             },
             {
                 "key": "C",
                 "text": "Option C",
-                "textLatex": "Option C"
+                "textLatex": "",
+                "image": "paste-sci-2020-022-cC-1771650511827.png"
             },
             {
                 "key": "D",
                 "text": "Option D",
-                "textLatex": "Option D"
+                "textLatex": "",
+                "image": "paste-sci-2020-022-cD-1771650522772.png"
             }
         ],
         "answer": "D",
         "explanation": "",
-        "image": "science-p31-1.png",
-        "questionLatex": "A total solar eclipse was last seen in the Philippines on Oct. 24, 1995. Which of the \nfollowing images shows the correct configuration of the Earth, Moon, and Sun during that \ntime?",
-        "explanationLatex": ""
+        "questionLatex": "A total solar eclipse was last seen in the Philippines on Oct. 24, 1995. Which of the following images shows the correct configuration of the Earth, Moon, and Sun during that time?",
+        "explanationLatex": "A total solar eclipse occurs when the Moon passes directly between the Sun and Earth, blocking the Sun's light entirely. Option D correctly depicts this alignment, with the Moon positioned between the Sun and Earth."
     },
     {
         "id": "sci-2020-023",
@@ -1878,23 +1887,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "maximum displacement"
+                "text": "maximum displacement",
+                "textLatex": "maximum displacement"
             },
             {
                 "key": "B",
-                "text": "constant velocity"
+                "text": "constant velocity",
+                "textLatex": "constant velocity"
             },
             {
                 "key": "C",
-                "text": "increasing speed"
+                "text": "increasing speed",
+                "textLatex": "increasing speed"
             },
             {
                 "key": "D",
-                "text": "changing acceleration"
+                "text": "changing acceleration",
+                "textLatex": "changing acceleration"
             }
         ],
         "answer": "B",
-        "explanation": "The best answer is B. A horizontal graph in a velocity versus time g [313] 1. Siltstone P"
+        "explanation": "The best answer is B. A horizontal graph in a velocity versus time g [313] 1. Siltstone P",
+        "questionLatex": "In a velocity versus time graph, how can a horizontal graph be interpreted?",
+        "explanationLatex": "A horizontal line on a velocity-time graph indicates that the velocity value remains unchanged over time, which is the definition of constant velocity."
     },
     {
         "id": "sci-2020-047",

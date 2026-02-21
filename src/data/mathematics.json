@@ -630,7 +630,8 @@
         ],
         "answer": "A",
         "explanation": "Assuming the standard diagram where the intersection of A and B is further intersected with C, or a combined region. A is the most likely intended structure.",
-        "explanationLatex": "The notation $(A \\cup B) \\cap C$ represents elements in C that are also in either A or B."
+        "explanationLatex": "The shaded region represents the intersection of set C with the union of sets A and B, meaning it includes all elements that are in C AND either in A or in B (or both).",
+        "image": "paste-mat-2020-005-q-1771650623455.png"
     },
     {
         "id": "mat-2020-006",
@@ -977,29 +978,28 @@
             {
                 "key": "A",
                 "text": "Option A",
-                "textLatex": "Option A"
+                "textLatex": "Investment A because the investment duration is longer"
             },
             {
                 "key": "B",
                 "text": "Option B",
-                "textLatex": "Option B"
+                "textLatex": "Investment B because the interest rate is higher"
             },
             {
                 "key": "C",
                 "text": "Option C",
-                "textLatex": "Option C"
+                "textLatex": "Investment A because the total interest earned is higher"
             },
             {
                 "key": "D",
                 "text": "Option D",
-                "textLatex": "Option D"
+                "textLatex": "Investment B because the total interest earned is higher"
             }
         ],
         "answer": "D",
         "explanation": "This question relies on a missing table. Based on the provided choices, the best choice cannot be fully deduced without the original data.",
-        "explanationLatex": "This question relies on a missing table. Based on the provided choices, the best choice cannot be fully deduced without the original data.",
-        "image": "math-p45-1.png",
-        "questionLatex": "Given the following investment opportunities with simple annual interest rates and duration:"
+        "explanationLatex": "To determine the better investment, we must calculate the total interest earned for each. Investment B yields a higher total interest, making it the more profitable choice.",
+        "questionLatex": "Given the following investment opportunities with simple annual interest rates and duration, what is the better investment opportunity and why?"
     },
     {
         "id": "mat-2020-017",
@@ -1098,8 +1098,9 @@
         ],
         "answer": "D",
         "explanation": "This is based on analyzing the intersections in the provided Venn Diagram. Total people is 30.",
-        "questionLatex": "A survey was conducted on 30 people on their TV viewing preference and is presented in a Venn diagram shown above. Which of the following narrative best describes the Venn diagram?",
-        "explanationLatex": "This is based on analyzing the intersections in the provided Venn Diagram. Total people is 30."
+        "questionLatex": "A survey was conducted on 30 people on their TV viewing preference and is presented in a Venn diagram shown below. Which of the following narrative best describes the Venn diagram?",
+        "explanationLatex": "The total number of Kapamilya viewers is $10+6+2+2 = 20$, and Kapuso viewers is $8+6+2+2 = 18$. The 2 outside the circles represent those who are neither Kapamilya nor Kapuso.",
+        "image": "paste-mat-2020-019-q-1771650875197.png"
     },
     {
         "id": "mat-2020-020",
