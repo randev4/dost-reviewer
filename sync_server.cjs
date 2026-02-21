@@ -81,6 +81,11 @@ wss.on('connection', (ws, req) => {
                             delete data[index]._subject;
                             delete data[index]._subjectLabel;
 
+                            // Explicit handle for image removal
+                            if (question.image === null) {
+                                delete data[index].image;
+                            }
+
                             fs.writeFileSync(filePath, JSON.stringify(data, null, 4));
                             console.log(`[sync] Directly saved ${id} to ${subject}.json`);
 
@@ -96,20 +101,36 @@ wss.on('connection', (ws, req) => {
 
         if (msg.type === 'deploy-netlify') {
             console.log('[sync] Triggering Netlify deployment via Git...');
-            // We use git add src/data/*.json to only deploy changes in the questions data
-            exec('git add "src/data/*.json" && git commit -m "Admin QA fixes" && git push', (error, stdout, stderr) => {
-                let status = 'success';
-                let output = stdout || '';
-                if (error) {
-                    console.error('[sync] Git deploy error:', stderr || error.message);
-                    // It might fail if there's nothing to commit, which is fine, but we'll return error so client knows
-                    status = 'error';
-                    output = stderr || error.message;
-                } else {
-                    console.log('[sync] Git pushed successfully:', stdout);
+            try {
+                const { execSync } = require('child_process');
+
+                // Add only the JSON data files
+                execSync('git add src/data/', { stdio: 'pipe' });
+
+                // Check if there are changes to commit
+                let hasChanges = false;
+                try {
+                    execSync('git diff --cached --quiet', { stdio: 'pipe' });
+                } catch (e) {
+                    // git diff --quiet exits with 1 if there ARE changes
+                    hasChanges = true;
                 }
-                ws.send(JSON.stringify({ type: 'deploy-status', status, output }));
-            });
+
+                if (hasChanges) {
+                    execSync('git commit -m "Admin QA fixes"', { stdio: 'pipe' });
+                } else {
+                    console.log('[sync] No data changes to commit.');
+                }
+
+                // Always try to push what we have (even if someone else committed)
+                const pushOut = execSync('git push', { encoding: 'utf8', stdio: 'pipe' });
+                console.log('[sync] Git pushed successfully:\n', pushOut);
+
+                ws.send(JSON.stringify({ type: 'deploy-status', status: 'success', output: hasChanges ? 'Changes committed and pushed.' : 'No data changes to commit, but push check completed.' }));
+            } catch (error) {
+                console.error('[sync] Git deploy error:', error.message);
+                ws.send(JSON.stringify({ type: 'deploy-status', status: 'error', output: error.stderr ? error.stderr.toString() : error.message }));
+            }
         }
     });
 
