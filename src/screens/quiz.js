@@ -138,7 +138,7 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
     let choicesHtml = '';
     for (const choice of q.choices.items) {
       const isSelected = selectedAnswer === choice.key;
-      const choiceText = await renderLatex(choice.textLatex || choice.text);
+      const choiceText = await renderLatex(choice.textLatex ?? choice.text);
       choicesHtml += `
         <button class="choice-btn ${isSelected ? 'selected' : ''}" data-key="${choice.key}">
           <span class="choice-key">${choice.key}</span>

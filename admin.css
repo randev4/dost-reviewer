@@ -656,3 +656,50 @@ body {
 .empty-state p {
   font-size: 14px;
 }
+
+/* ── Paste Zone ── */
+.paste-zone {
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  font-size: 11px;
+  color: var(--text-dim);
+  text-align: center;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  outline: none;
+  user-select: none;
+}
+
+.paste-zone:hover {
+  border-color: var(--primary);
+  color: var(--text-muted);
+  background: var(--primary-dim);
+}
+
+.paste-zone:focus {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-dim);
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.paste-preview {
+  min-height: 0;
+}
+
+/* ── Question & Choice Images ── */
+.q-image-container img {
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  display: block;
+}
+
+.choice-item img {
+  max-width: 200px;
+  max-height: 150px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  display: block;
+  margin-top: 6px;
+}

@@ -85,23 +85,19 @@ function applyDifficultyWeight(questions, bias) {
  * Returns { shuffledChoices, correctKey }
  */
 function shuffleChoices(choices, correctKey) {
-    // Find the correct answer text
-    const correctChoice = choices.find(c => c.key === correctKey);
-    const correctText = correctChoice.text;
-
     // Shuffle
     const shuffled = shuffleArray([...choices]);
 
-    // Re-assign keys A, B, C, D...
+    // Re-assign keys A, B, C, D... while preserving all other fields (textLatex, image, etc.)
     const keys = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
     const remapped = shuffled.map((c, i) => ({
+        ...c,
         key: keys[i],
-        text: c.text,
         originalKey: c.key
     }));
 
-    // Find new correct key
-    const newCorrect = remapped.find(c => c.text === correctText);
+    // Find new correct key using originalKey (more reliable than matching by text)
+    const newCorrect = remapped.find(c => c.originalKey === correctKey);
 
     return {
         items: remapped,

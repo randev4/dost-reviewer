@@ -1,10 +1,58 @@
 const { WebSocketServer, WebSocket } = require('ws');
+const http = require('http');
 const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
 
 const PORT = 4000;
+const HTTP_PORT = 4002;   // HTTP upload endpoint
+const IMAGES_DIR = path.join(__dirname, 'public', 'images', 'questions');
 const REPORT_PATH = path.join(__dirname, 'public', 'auto-qa-report.json');
+
+// ─── HTTP Upload Server ────────────────────────────────────────────────────
+const uploadServer = http.createServer((req, res) => {
+    // Allow CORS so admin.html (served by Vite) can call this
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Filename');
+
+    if (req.method === 'OPTIONS') { res.writeHead(204); res.end(); return; }
+
+    const url = new URL(req.url, `http://localhost:${HTTP_PORT}`);
+
+    if (req.method === 'POST' && url.pathname === '/api/upload-image') {
+        // Filename is passed via query string: /api/upload-image?name=paste-xxx.png
+        const suggestedName = url.searchParams.get('name') || `paste-${Date.now()}.png`;
+        // Sanitise: only allow safe filename characters
+        const filename = suggestedName.replace(/[^a-zA-Z0-9._-]/g, '_');
+        const dest = path.join(IMAGES_DIR, filename);
+
+        const chunks = [];
+        req.on('data', chunk => chunks.push(chunk));
+        req.on('end', () => {
+            try {
+                fs.mkdirSync(IMAGES_DIR, { recursive: true });
+                fs.writeFileSync(dest, Buffer.concat(chunks));
+                console.log(`[upload] Saved pasted image → ${filename}`);
+                res.writeHead(200, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify({ ok: true, filename }));
+            } catch (e) {
+                console.error('[upload] Save failed:', e.message);
+                res.writeHead(500, { 'Content-Type': 'application/json' });
+                res.end(JSON.stringify({ ok: false, error: e.message }));
+            }
+        });
+        req.on('error', () => { res.writeHead(500); res.end(); });
+        return;
+    }
+
+    res.writeHead(404); res.end();
+});
+
+uploadServer.listen(HTTP_PORT, () => {
+    console.log(`📤 Image upload server running on http://0.0.0.0:${HTTP_PORT}`);
+});
+// ──────────────────────────────────────────────────────────────────────────
 
 // Load initial marks from auto-qa-report.json (optional baseline)
 let sharedMarks = {};
@@ -84,6 +132,14 @@ wss.on('connection', (ws, req) => {
                             // Explicit handle for image removal
                             if (question.image === null) {
                                 delete data[index].image;
+                            }
+
+                            // Clean up null choice images
+                            if (Array.isArray(data[index].choices)) {
+                                data[index].choices.forEach(c => {
+                                    if (c.image === null) delete c.image;
+                                    // If textLatex is explicitly empty string from admin.html, it gets saved as ""
+                                });
                             }
 
                             fs.writeFileSync(filePath, JSON.stringify(data, null, 4));

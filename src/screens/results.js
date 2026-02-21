@@ -113,8 +113,12 @@ async function renderReviewItems(results) {
     const correctChoice = q.choices.items.find(c => c.key === r.correctKey);
     const userChoice = r.userAnswer ? q.choices.items.find(c => c.key === r.userAnswer) : null;
 
-    const correctText = correctChoice ? await renderLatex(correctChoice.textLatex || correctChoice.text) : '—';
-    const userText = userChoice ? await renderLatex(userChoice.textLatex || userChoice.text) : '<em>No answer</em>';
+    const correctText = correctChoice ? await renderLatex(correctChoice.textLatex ?? correctChoice.text) : '—';
+    const userText = userChoice ? await renderLatex(userChoice.textLatex ?? userChoice.text) : '<em>No answer</em>';
+
+    // Choice images
+    const correctImg = correctChoice?.image ? `<img class="choice-image" src="/images/questions/${correctChoice.image}" alt="Correct choice" style="max-width:120px; margin-top:4px; border-radius:4px; display:block;" />` : '';
+    const userImg = userChoice?.image ? `<img class="choice-image" src="/images/questions/${userChoice.image}" alt="Your choice" style="max-width:120px; margin-top:4px; border-radius:4px; display:block;" />` : '';
 
     // Render explanation
     const explanation = await renderLatex(r.explanation);
@@ -134,11 +138,11 @@ async function renderReviewItems(results) {
         <div class="review-answer-row">
           ${!r.isCorrect && r.userAnswer ? `
             <span class="review-answer-tag your-answer">
-              Your answer: ${r.userAnswer}. ${userText}
+              Your answer: ${r.userAnswer}. ${userText}${userImg}
             </span>
           ` : ''}
           <span class="review-answer-tag correct-answer">
-            Correct: ${r.correctKey}. ${correctText}
+            Correct: ${r.correctKey}. ${correctText}${correctImg}
           </span>
         </div>
         <div class="review-explanation">

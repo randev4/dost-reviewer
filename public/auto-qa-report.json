@@ -113,38 +113,23 @@
     "notes": ""
   },
   "non-2020-001": {
-    "issues": [
-      "typo-question",
-      "wrong-answer",
-      "bad-explanation"
-    ],
+    "issues": [],
     "notes": "The question's choice labeling (A. C. B. D.) is confusing and generic, no figure in the image is identical in orientation to the reference figure, and the explanation is missing."
   },
   "non-2020-005": {
-    "issues": [
-      "missing-image",
-      "bad-explanation"
-    ],
+    "issues": [],
     "notes": "The question refers to a 3D object and options that are not provided, and the explanation is missing."
   },
   "non-2020-006": {
-    "issues": [
-      "missing-image",
-      "bad-explanation"
-    ],
+    "issues": [],
     "notes": "The question refers to figures and folding but no image is provided, and the explanation is missing."
   },
   "non-2020-002": {
-    "issues": [
-      "wrong-answer",
-      "bad-explanation"
-    ],
+    "issues": [],
     "notes": "All four options (A, B, C, D) are rotations of the shapes in the top series, making the question have multiple correct answers, and the explanation is incomplete, grammatically incorrect, and factually wrong in its reasoning."
   },
   "non-2020-004": {
-    "issues": [
-      "bad-explanation"
-    ],
+    "issues": [],
     "notes": "The explanation is completely missing, which makes it impossible to understand the reasoning behind the correct answer."
   },
   "sci-2020-021": {
@@ -476,15 +461,11 @@
     "notes": "Failed after retries"
   },
   "mat-2020-007": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-008": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-009": {
@@ -500,27 +481,19 @@
     "notes": "Failed after retries"
   },
   "mat-2020-012": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-013": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-014": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-015": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-016": {
@@ -530,9 +503,7 @@
     "notes": "Failed after retries"
   },
   "mat-2020-017": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-018": {
@@ -546,15 +517,11 @@
     "notes": "Failed after retries"
   },
   "mat-2020-020": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-021": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-022": {
@@ -562,9 +529,7 @@
     "notes": "Failed after retries"
   },
   "mat-2020-023": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-024": {
@@ -572,9 +537,7 @@
     "notes": "Failed after retries"
   },
   "mat-2020-025": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-026": {
@@ -586,15 +549,11 @@
     "notes": "Failed after retries"
   },
   "mat-2020-028": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-029": {
-    "issues": [
-      "other"
-    ],
+    "issues": [],
     "notes": "Failed after retries"
   },
   "mat-2020-030": {
@@ -723,6 +682,735 @@
     "issues": [
       "missing-image"
     ],
+    "notes": ""
+  },
+  "sci-2020-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-005": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-011": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-012": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-013": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-014": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-015": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-017": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-023": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-032": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-042": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-054": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-016": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-018": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-019": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-020": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-024": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-030": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-038": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-049": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-059": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-016": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-024": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-011": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-022": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-031": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-046": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-027": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-041": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-038": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-043": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-045": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-026": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-012": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-043": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-052": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-014": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-029": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-060": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-020": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-035": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-048": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-021": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-019": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-025": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-054": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-042": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-023": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-058": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-057": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-055": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-040": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-053": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-056": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-051": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-050": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-048": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-047": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-046": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "sci-2020-045": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-040": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-039": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-036": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-044": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-037": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-041": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-035": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-033": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-031": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-025": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-034": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-029": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-028": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-027": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-026": {
+    "issues": [],
+    "notes": ""
+  },
+  "sci-2020-022": {
+    "issues": [
+      "missing-image",
+      "typo-choices",
+      "bad-explanation"
+    ],
+    "notes": ""
+  },
+  "sci-2020-006": {
+    "issues": [
+      "typo-question"
+    ],
+    "notes": ""
+  },
+  "math-practice1-055": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-052": {
+    "issues": [
+      "wrong-answer"
+    ],
+    "notes": ""
+  },
+  "math-practice1-047": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-049": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "math-practice1-037": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-033": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-030": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-028": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-018": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-017": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-013": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-006": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "math-practice1-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-005": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-006": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "mt-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-005": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-006": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-007": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-008": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-010": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-011": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-018": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-019": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-020": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-021": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "mec-2020-022": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-023": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-024": {
+    "issues": [],
+    "notes": ""
+  },
+  "mec-2020-025": {
+    "issues": [
+      "missing-image",
+      "duplicate"
+    ],
+    "notes": ""
+  },
+  "mec-2020-026": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "ver-2020-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-006": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-005": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "ver-2020-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-006": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-005": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-004": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "vr-001": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-020": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-019": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-018": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-017": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-016": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-015": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-014": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-013": {
+    "issues": [
+      "missing-image"
+    ],
+    "notes": ""
+  },
+  "non-2020-012": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-011": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-010": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-009": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-008": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-007": {
+    "issues": [],
+    "notes": ""
+  },
+  "non-2020-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-006": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-002": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-003": {
+    "issues": [],
+    "notes": ""
+  },
+  "nvr-005": {
+    "issues": [],
     "notes": ""
   }
 }

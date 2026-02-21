@@ -265,7 +265,13 @@
             let choiceItems = q.choices?.items || q.choices || [];
             choiceItems.forEach(c => {
               const upd = e.choices.find(x => x.key === c.key);
-              if (upd) c.textLatex = upd.textLatex;
+              if (upd) {
+                c.textLatex = upd.textLatex;
+                if (upd.image !== undefined) {
+                  if (upd.image) c.image = upd.image;
+                  else delete c.image;
+                }
+              }
             });
           }
         }
@@ -350,7 +356,7 @@
       const choiceItems = q.choices?.items || q.choices || [];
       const choicesHtml = choiceItems.map(c => {
         const isCorrect = c.key === q.answer;
-        const choiceContent = renderKatex(c.textLatex || c.text);
+        const choiceContent = renderKatex(c.textLatex ?? c.text);
         const choiceImg = c.image ? `<img src="/images/questions/${c.image}" alt="${c.key}" />` : '';
         return `<div class="choice-item ${isCorrect ? 'correct' : ''}">
       <div class="render-block" style="display:flex; gap:8px;">
@@ -359,7 +365,16 @@
       </div>
       <div class="edit-block" style="display:none; width:100%; margin-top:4px;">
         <div style="font-weight:700; font-size:11px; margin-bottom:4px; color:var(--text-dim);">Choice ${c.key}</div>
-        <textarea class="edit-input-choice edit-input" data-key="${c.key}" rows="2">${escapeHtml(c.textLatex || c.text)}</textarea>
+        <textarea class="edit-input-choice edit-input" data-key="${c.key}" rows="2">${escapeHtml(c.textLatex ?? c.text)}</textarea>
+        <div class="choice-image-edit" style="margin-top:6px; display:flex; flex-direction:column; gap:4px;">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span style="font-size:11px; color:var(--text-dim); white-space:nowrap;">🖼️ Image:</span>
+            <input type="text" class="edit-input edit-input-choice-img" data-key="${c.key}" placeholder="e.g. mechanical-p51-1.jpeg" value="${escapeHtml(c.image || '')}" style="flex:1; padding:4px 8px; font-size:12px;" />
+            ${c.image ? `<button class="btn btn-outline" style="padding:3px 8px; font-size:11px; border-color:var(--red); color:var(--red);" onclick="this.previousElementSibling.value=''; this.remove();">✕</button>` : ''}
+          </div>
+          <div class="paste-zone" data-qid="${q.id}" data-target="choice" data-choice-key="${c.key}" tabindex="0" onclick="this.focus()" style="cursor:pointer;">📋 Click here then Ctrl+V to paste image for Choice ${c.key}</div>
+          <div class="paste-preview" id="paste-preview-c-${q.id}-${c.key}"></div>
+        </div>
       </div>
     </div>`;
       }).join('');
@@ -395,12 +410,21 @@
 
       ${q.image ? `<div class="q-section">
         <div class="q-section-label">Image</div>
-        <div class="q-image-container">
-          <img src="/images/questions/${q.image}" alt="Question image" />
+        <div class="q-image-container render-block">
+          <img src="/images/questions/${q.image}" alt="Question image" style="transition: opacity 0.2s;" id="img-preview-${q.id}" />
+        </div>
+        <div class="edit-block" style="display:none; margin-top:8px; display:flex; flex-direction:column; gap:6px;">
+           <button class="btn btn-outline btn-remove-img" id="btn-remove-img-${q.id}" data-remove="false" style="border-color:var(--danger); color:var(--danger);" onclick="toggleImageRemoval('${q.id}')">🗑️ Remove Image</button>
+           <div class="paste-zone" data-qid="${q.id}" data-target="question" tabindex="0" onclick="this.focus()" style="cursor:pointer;">📋 Click here then Ctrl+V to paste a new image</div>
+           <div class="paste-preview" id="paste-preview-q-${q.id}"></div>
         </div>
       </div>` : `<div class="q-section">
         <div class="q-section-label">Image</div>
-        <div class="q-image-container"><span class="no-image">No image assigned</span></div>
+        <div class="q-image-container render-block"><span class="no-image">No image assigned</span></div>
+        <div class="edit-block" style="display:none; margin-top:8px;">
+          <div class="paste-zone" data-qid="${q.id}" data-target="question" tabindex="0" onclick="this.focus()" style="cursor:pointer;">📋 Click here then Ctrl+V to paste an image</div>
+          <div class="paste-preview" id="paste-preview-q-${q.id}"></div>
+        </div>
       </div>`}
 
       <div class="q-section">
@@ -462,6 +486,27 @@
       card.querySelectorAll('.edit-block').forEach(el => el.style.display = isEdit ? 'block' : 'none');
       const btn = card.querySelector('.btn-edit-toggle');
       if (btn) btn.textContent = isEdit ? '❌ Cancel Editing' : '✏️ Edit Content';
+    }
+
+    function toggleImageRemoval(id) {
+      const btn = document.getElementById(`btn-remove-img-${id}`);
+      const img = document.getElementById(`img-preview-${id}`);
+      if (!btn || !img) return;
+
+      const isRemoving = btn.dataset.remove === 'true';
+      if (isRemoving) {
+        // Undo removal
+        btn.dataset.remove = 'false';
+        btn.textContent = '🗑️ Remove Image';
+        img.style.opacity = '1';
+        img.style.filter = 'none';
+      } else {
+        // Stage for removal
+        btn.dataset.remove = 'true';
+        btn.textContent = '↩️ Undo Remove Image';
+        img.style.opacity = '0.3';
+        img.style.filter = 'grayscale(100%)';
+      }
     }
 
     function autoSaveIssueTags(id) {
@@ -531,21 +576,42 @@
         const qLatex = card.querySelector('.edit-input-question').value;
         const eLatex = card.querySelector('.edit-input-explanation').value;
         const cLatex = Array.from(card.querySelectorAll('.edit-input-choice')).map(inp => ({ key: inp.dataset.key, textLatex: inp.value }));
+        // Collect choice image filenames
+        const cImages = Array.from(card.querySelectorAll('.edit-input-choice-img')).map(inp => ({ key: inp.dataset.key, image: inp.value.trim() || null }));
+        const removeImgBtn = card.querySelector(`#btn-remove-img-${id}`);
+        const removeImage = removeImgBtn ? removeImgBtn.dataset.remove === 'true' : false;
+        // Pasted question image (set by paste handler via hidden input)
+        const pastedQImg = card.querySelector('.edit-input-question-img')?.value?.trim() || null;
 
         if (!edits[id]) edits[id] = {};
         edits[id].questionLatex = qLatex;
         edits[id].explanationLatex = eLatex;
-        edits[id].choices = cLatex;
+        // Merge choice text and image edits
+        edits[id].choices = cLatex.map(c => {
+          const imgEdit = cImages.find(x => x.key === c.key);
+          return { ...c, image: imgEdit ? imgEdit.image : undefined };
+        });
+        if (removeImage) edits[id].image = null;
+        else if (pastedQImg) edits[id].image = pastedQImg;
+
         localStorage.setItem('admin-qa-edits', JSON.stringify(edits));
 
         let qObj = allQuestions.find(qq => qq.id === id);
         if (qObj) {
           qObj.questionLatex = qLatex;
           qObj.explanationLatex = eLatex;
+          if (removeImage) qObj.image = null;
+          else if (pastedQImg) qObj.image = pastedQImg;
           let choiceItems = qObj.choices?.items || qObj.choices || [];
           choiceItems.forEach(c => {
-            const upd = cLatex.find(x => x.key === c.key);
-            if (upd) c.textLatex = upd.textLatex;
+            const upd = edits[id].choices.find(x => x.key === c.key);
+            if (upd) {
+              c.textLatex = upd.textLatex;
+              if (upd.image !== undefined) {
+                if (upd.image) c.image = upd.image;
+                else delete c.image;
+              }
+            }
           });
         }
       }
@@ -764,6 +830,113 @@
       applyEditsToQuestions();
       renderAll();
     })();
+
+    // ═══════════════════════════════════════════
+    // Paste Image (Ctrl+V)
+    // ═══════════════════════════════════════════
+    const UPLOAD_URL = `http://${location.hostname}:4002/api/upload-image`;
+
+    async function uploadPastedImage(blob, qId, target, choiceKey) {
+      // Build a filename: paste-<qId>-<choiceKey|q>-<timestamp>.<ext>
+      const ext = blob.type === 'image/png' ? 'png' : blob.type === 'image/jpeg' ? 'jpg' : 'png';
+      const suffix = target === 'choice' ? `c${choiceKey}` : 'q';
+      const filename = `paste-${qId}-${suffix}-${Date.now()}.${ext}`;
+
+      // Show uploading state
+      const previewId = target === 'choice'
+        ? `paste-preview-c-${qId}-${choiceKey}`
+        : `paste-preview-q-${qId}`;
+      const previewEl = document.getElementById(previewId);
+      if (previewEl) previewEl.innerHTML = `<span style="font-size:11px;color:var(--text-dim);">⏳ Uploading...</span>`;
+
+      try {
+        const res = await fetch(`${UPLOAD_URL}?name=${encodeURIComponent(filename)}`, {
+          method: 'POST',
+          headers: { 'Content-Type': blob.type || 'image/png' },
+          body: blob
+        });
+        const data = await res.json();
+        if (!data.ok) throw new Error(data.error || 'Upload failed');
+
+        // Populate the right input
+        const card = document.querySelector(`.q-card[data-id="${qId}"]`);
+        if (!card) return;
+
+        if (target === 'choice') {
+          const inp = card.querySelector(`.edit-input-choice-img[data-key="${choiceKey}"]`);
+          if (inp) inp.value = data.filename;
+        } else {
+          // Question image — store filename in a hidden input, update preview
+          let hiddenInp = card.querySelector('.edit-input-question-img');
+          if (!hiddenInp) {
+            hiddenInp = document.createElement('input');
+            hiddenInp.type = 'hidden';
+            hiddenInp.className = 'edit-input-question-img';
+            card.querySelector('.card-body').appendChild(hiddenInp);
+          }
+          hiddenInp.value = data.filename;
+
+          // Update the visible image preview if it exists, else show a new one
+          const existingImg = document.getElementById(`img-preview-${qId}`);
+          if (existingImg) {
+            existingImg.src = `/images/questions/${data.filename}`;
+          }
+        }
+
+        // Show thumbnail in paste zone preview
+        if (previewEl) {
+          const objUrl = URL.createObjectURL(blob);
+          previewEl.innerHTML = `<img src="${objUrl}" style="max-height:80px; max-width:200px; border-radius:4px; border:1px solid var(--border); margin-top:4px; background:#fff; padding:3px;" />
+            <span style="font-size:11px; color:var(--green); display:block; margin-top:2px;">✓ Saved as ${data.filename}</span>`;
+        }
+      } catch (err) {
+        if (previewEl) previewEl.innerHTML = `<span style="font-size:11px;color:var(--red);">❌ Upload failed: ${err.message}</span>`;
+        console.error('[paste-upload]', err);
+      }
+    }
+
+    // Global paste listener — works anywhere on the page
+    document.addEventListener('paste', async (e) => {
+      // Only act if we're in an edit-mode card
+      const activeCard = document.querySelector('.q-card.edit-mode-active');
+      if (!activeCard) return;
+      const qId = activeCard.dataset.id;
+
+      // Check clipboard for image data
+      const items = e.clipboardData?.items;
+      if (!items) return;
+      let imageItem = null;
+      for (const item of items) {
+        if (item.type.startsWith('image/')) { imageItem = item; break; }
+      }
+      if (!imageItem) return;
+
+      e.preventDefault(); // don't paste into text fields accidentally
+
+      const blob = imageItem.getAsFile();
+      if (!blob) return;
+
+      // Context: which paste zone (or field) is focused?
+      const focused = document.activeElement;
+      let target = 'question';
+      let choiceKey = null;
+
+      const pasteZone = focused?.closest?.('.paste-zone') || focused?.classList?.contains('paste-zone') && focused;
+      if (pasteZone || focused?.closest?.('.paste-zone')) {
+        const zone = focused.closest('.paste-zone') || focused;
+        target = zone.dataset.target || 'question';
+        choiceKey = zone.dataset.choiceKey || null;
+      } else if (focused?.classList?.contains('edit-input-choice-img')) {
+        target = 'choice';
+        choiceKey = focused.dataset.key;
+      } else if (focused?.classList?.contains('edit-input-choice') || focused?.closest?.('.choice-image-edit')) {
+        target = 'choice';
+        const choiceItem = focused.closest('[data-key]') || focused.closest('.choice-item')?.querySelector('[data-key]');
+        choiceKey = choiceItem?.dataset?.key || null;
+      }
+
+      await uploadPastedImage(blob, qId, target, choiceKey);
+    });
   </script>
 
 </body>
