@@ -782,24 +782,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "A \n \n \nC"
+                "text": "A \n \n \nC",
+                "textLatex": "",
+                "image": "paste-non-2020-013-cA-1771648901697.png"
             },
             {
                 "key": "B",
-                "text": "A"
+                "text": "A",
+                "textLatex": "",
+                "image": "paste-non-2020-013-cB-1771648915269.png"
             },
             {
                 "key": "C",
-                "text": "A"
+                "text": "A",
+                "textLatex": "",
+                "image": "paste-non-2020-013-cC-1771648937319.png"
             },
             {
                 "key": "D",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-non-2020-013-cD-1771648948251.png"
             }
         ],
         "answer": "A",
         "explanation": "",
-        "image": "nonverbal-p14-1.png"
+        "questionLatex": "Two pieces of the cube puzzle with three adjacent faces in each piece are shown and to \nbe used to form a cube. Each face is drawn with figure different to other sides. Which view \nfits to the arrangement of the symbol when the cube is assembled?",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-014",
@@ -810,23 +819,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-014-cA-1771648983749.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-014-cB-1771648995881.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C",
+                "image": "paste-non-2020-014-cC-1771649005438.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-014-cD-1771649012875.png"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "A three-dimensional object is shown. Which top side view is correct?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-014-q-1771648974521.png"
     },
     {
         "id": "non-2020-015",
@@ -837,23 +857,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-015-cA-1771649067498.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-015-cB-1771649084293.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-015-cC-1771649095319.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-015-cD-1771649103995.png"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Create a three-dimensional object out of the two given views below.",
+        "explanationLatex": "",
+        "image": "paste-non-2020-015-q-1771649057322.png"
     },
     {
         "id": "non-2020-016",
@@ -864,23 +895,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-016-cA-1771649141866.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-016-cB-1771649151693.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-016-cC-1771649161575.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-016-cD-1771649177112.png"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the four choices below is the rotated version of the given figure?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-016-q-1771649132318.png"
     },
     {
         "id": "non-2020-017",
@@ -891,23 +933,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-017-cA-1771649210431.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-017-cB-1771649225725.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-017-cC-1771649236464.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-017-cD-1771649247928.png"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "If you rotate the given figure, which of the following will be the result?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-017-q-1771649200068.png"
     },
     {
         "id": "non-2020-018",
@@ -918,23 +971,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-018-cA-1771649280401.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-018-cB-1771649294543.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-018-cC-1771649306743.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-018-cD-1771649317539.png"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which is the next figure in the series?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-018-q-1771649270592.png"
     },
     {
         "id": "non-2020-019",
@@ -945,23 +1009,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-019-cA-1771649344161.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-019-cB-1771649353987.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-019-cC-1771649367199.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-019-cD-1771649383088.png"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the four choices is the result when the figure is cut by a plane as shown below?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-019-q-1771649334866.png"
     },
     {
         "id": "non-2020-020",
@@ -972,22 +1047,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-020-cA-1771649416730.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-020-cB-1771649427317.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-020-cC-1771649439624.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-020-cD-1771649448729.png"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the four choices is the result when the figure is cut by a plane as shown below?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-020-q-1771649404960.png"
     }
 ]
