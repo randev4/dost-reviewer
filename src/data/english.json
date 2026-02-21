@@ -539,7 +539,7 @@
         "answer": "C",
         "explanation": "",
         "questionLatex": "1) Telescopes opened our eyes to the modern age of astronomy. 2) It was Galileo who first \nused this instrument to observe the skies up close. 3) Through the telescope, Galileo \ndiscovered that moons orbit around Jupiter. 4) Scientists after him then discovered that \nthere are eight moons in the said planet. 5) Early telescopes were able to show that the sun \nand not the Earth is the center of the universe. 6) The more advanced telescopes that came \nlater revealed geography and weather on the planets in the",
-        "explanationLatex": ""
+        "explanationLatex": "Sentence 6 serves to summarize the advancements and broader implications of telescopes discussed throughout the paragraph, effectively bringing the discussion to a close."
     },
     {
         "id": "eng-2020-009",
@@ -550,23 +550,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Telescopes studied gravity and speed of light."
+                "text": "Telescopes studied gravity and speed of light.",
+                "textLatex": "Telescopes studied gravity and speed of light."
             },
             {
                 "key": "B",
-                "text": "Scientists used telescopes to learn about planets."
+                "text": "Scientists used telescopes to learn about planets.",
+                "textLatex": "Scientists used telescopes to learn about planets."
             },
             {
                 "key": "C",
-                "text": "Galileo discovered moons orbiting around Jupiter."
+                "text": "Galileo discovered moons orbiting around Jupiter.",
+                "textLatex": "Galileo discovered moons orbiting around Jupiter."
             },
             {
                 "key": "D",
-                "text": "Astronomy became modern because of telescopes."
+                "text": "Astronomy became modern because of telescopes.",
+                "textLatex": "Astronomy became modern because of telescopes."
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item #8 (Telescopes). \n \nHow did telescopes help in discovering the wonders in space?",
+        "explanationLatex": "Telescopes allowed for detailed observation of celestial bodies, directly leading to discoveries about planets and other objects in space. While Galileo's discovery is an example, the broader impact of telescopes was enabling scientists to learn about planets in general."
     },
     {
         "id": "eng-2020-010",
@@ -577,23 +583,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Sentences 3 and"
+                "text": "Sentences 3 and",
+                "textLatex": "Sentences 3 and"
             },
             {
                 "key": "B",
-                "text": "Sentences 1 and"
+                "text": "Sentences 1 and",
+                "textLatex": "Sentences 1 and"
             },
             {
                 "key": "C",
-                "text": "Sentences 2 and"
+                "text": "Sentences 2 and",
+                "textLatex": "Sentences 2 and"
             },
             {
                 "key": "D",
-                "text": "Sentences 6 and"
+                "text": "Sentences 6 and",
+                "textLatex": "Sentences 6 and"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item #8 (Telescopes). \n \nThe use of telescopes led to important discoveries. Which sentences support this?",
+        "explanationLatex": "Sentences 3 and 4 directly state that Galileo's use of the telescope led to discoveries about the Moon and Jupiter's moons, respectively. These are clear examples of telescopes leading to important discoveries."
     },
     {
         "id": "eng-2020-011",
@@ -604,23 +616,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "cause-effect"
+                "text": "cause-effect",
+                "textLatex": "cause-effect"
             },
             {
                 "key": "B",
-                "text": "problem-solution"
+                "text": "problem-solution",
+                "textLatex": "problem-solution"
             },
             {
                 "key": "C",
-                "text": "definition by example"
+                "text": "definition by example",
+                "textLatex": "definition by example"
             },
             {
                 "key": "D",
-                "text": "comparison-contrast"
+                "text": "comparison-contrast",
+                "textLatex": "comparison-contrast"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "1Renewable energy is more cost-efficient and environment-friendly than fossil fuels. The \nprocess of generating it relies on wind, sun, water, and organic matter. 2Since these \nenergy sources are abundant and easily replenished, the cost of electricity is not too \nexpensive. 3In contrast, fossil fuels depend on limited resources that may eventually \ndeplete, thus the cost of electricity can considerably increase. 4Electricity generated from \nrenewable sources is also more beneficial to nature.  ",
+        "explanationLatex": "The passage directly compares and contrasts renewable energy with fossil fuels based on their cost-efficiency, environmental impact, and resource availability."
     },
     {
         "id": "eng-2020-012",
@@ -631,23 +649,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "The reduced cost of electricity helps consumers."
+                "text": "The reduced cost of electricity helps consumers.",
+                "textLatex": "The reduced cost of electricity helps consumers."
             },
             {
                 "key": "B",
-                "text": "The environment benefits from the use of renewable energy."
+                "text": "The environment benefits from the use of renewable energy.",
+                "textLatex": "The environment benefits from the use of renewable energy."
             },
             {
                 "key": "C",
-                "text": "The use of renewable energy benefits people and the environment."
+                "text": "The use of renewable energy benefits people and the environment.",
+                "textLatex": "The use of renewable energy benefits people and the environment."
             },
             {
                 "key": "D",
-                "text": "The need for alternative energy resource demands increased attention."
+                "text": "The need for alternative energy resource demands increased attention.",
+                "textLatex": "The need for alternative energy resource demands increased attention."
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item #11 (Renewable energy). If you are to use the author’s claims to \nadvocate the use of renewable energy, which of the following should be emphasized?",
+        "explanationLatex": "The author's claims likely highlight both the environmental advantages and the positive impacts on people (e.g., reduced costs, improved health), making a combined emphasis the most comprehensive and accurate representation."
     },
     {
         "id": "eng-2020-013",
@@ -658,23 +682,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Enumerate the disadvantages of fossil fuels."
+                "text": "Enumerate the disadvantages of fossil fuels.",
+                "textLatex": "Enumerate the disadvantages of fossil fuels."
             },
             {
                 "key": "B",
-                "text": "Describe the process of producing renewable energy."
+                "text": "Describe the process of producing renewable energy.",
+                "textLatex": "Describe the process of producing renewable energy."
             },
             {
                 "key": "C",
-                "text": "Draw charts that indicate difference in cost of electricity."
+                "text": "Draw charts that indicate difference in cost of electricity.",
+                "textLatex": "Draw charts that indicate difference in cost of electricity."
             },
             {
                 "key": "D",
-                "text": "Show a comparison of renewable energy and fossil fuels."
+                "text": "Show a comparison of renewable energy and fossil fuels.",
+                "textLatex": "Show a comparison of renewable energy and fossil fuels."
             }
         ],
         "answer": "D",
-        "explanation": "The answer is “Show a comparison of renewable energy and fossil fuels”. [810] Developing One’s Skills in Test-Taking"
+        "explanation": "The answer is “Show a comparison of renewable energy and fossil fuels”. [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "Same text as item #11 (Renewable energy). An infographic based on the passage will be \ndesigned to inform the public about the advantages of renewable energy. How should the \ninformation be presented?",
+        "explanationLatex": "To effectively inform the public about the advantages of renewable energy, a comparison with fossil fuels directly highlights these benefits by contrasting them with the alternatives. This approach allows the audience to clearly see why renewable energy is advantageous."
     },
     {
         "id": "eng-2020-014",
@@ -718,23 +748,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which underlined part of the sentence shows an ERROR? \nHam and cheese are \nA \nmy favorite sandwich, while  \nB \nwater and pineapple juice are  \nC \nmy favorite drinks. \nD",
+        "explanationLatex": "The subject \"Ham and cheese\" is plural, so the verb \"are\" is correct, but the predicate nominative \"sandwich\" should also be plural (\"sandwiches\") to agree with the plural subject."
     },
     {
         "id": "eng-2020-016",
@@ -745,23 +781,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which underlined part of the sentence shows an ERROR? \nMy baby sister always falls  \nA \nasleep whenever  \nB \nI sings to  \nC \nher favorite song.      \nD",
+        "explanationLatex": "The subject \"I\" requires the base form of the verb \"sing,\" not \"sings.\" \"Sings\" is used with third-person singular subjects like \"she\" or \"he.\""
     },
     {
         "id": "eng-2020-017",
@@ -871,23 +913,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "boundary"
+                "text": "boundary",
+                "textLatex": "boundary"
             },
             {
                 "key": "B",
-                "text": "core"
+                "text": "core",
+                "textLatex": "core"
             },
             {
                 "key": "C",
-                "text": "flank"
+                "text": "flank",
+                "textLatex": "flank"
             },
             {
                 "key": "D",
-                "text": "margin"
+                "text": "margin",
+                "textLatex": "margin"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Article: \n“Mobile Phones” \nThe Philippines is known as the texting capital of the world. Filipinos send over 200 million texts daily, ten times the per capita world average. Texting allows Filipinos to express themselves in new ways. They text what they would not normally say in a face-to-face encounter. This has led to new ways of relating with others as well as opened areas of \ninner-subjective reflection. New and radical identities become possible. However, these technologies have also h",
+        "explanationLatex": "The article discusses how mobile phones create \"new and radical identities\" and \"new ways of relating,\" implying a shift from traditional norms. \"Margin\" best fits this context, suggesting that these new identities and relationships exist outside or at the edge of established social structures."
     },
     {
         "id": "eng-2020-021",
@@ -1267,23 +1315,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "cause-effect"
+                "text": "cause-effect",
+                "textLatex": "cause-effect"
             },
             {
                 "key": "B",
-                "text": "classification"
+                "text": "classification",
+                "textLatex": "classification"
             },
             {
                 "key": "C",
-                "text": "process"
+                "text": "process",
+                "textLatex": "process"
             },
             {
                 "key": "D",
-                "text": "definition"
+                "text": "definition",
+                "textLatex": "definition"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "1 Metabolism is a biochemical process wherein what we eat and drink are converted into energy. 2 Calories in food and beverages are combined with oxygen to release energy our body needs. 3 The number of calories burned by the body to carry out its basic functions, like breathing and growing cells, is technically called metabolic rate—also known as metabolism. 4 There are several factors that determine how much calories our body burns each day. 5 Body size, sex, and age are some of these",
+        "explanationLatex": "Sentence 3 explicitly defines \"metabolic rate\" as \"the number of calories burned by the body to carry out its basic functions,\" which is then equated to \"metabolism.\" This directly provides a definition for the term."
     },
     {
         "id": "eng-2020-031",
@@ -1294,23 +1348,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Relevant details were included."
+                "text": "Relevant details were included.",
+                "textLatex": "Relevant details were included."
             },
             {
                 "key": "B",
-                "text": "Technical terms were clarified."
+                "text": "Technical terms were clarified.",
+                "textLatex": "Technical terms were clarified."
             },
             {
                 "key": "C",
-                "text": "Examples were used to explain concepts."
+                "text": "Examples were used to explain concepts.",
+                "textLatex": "Examples were used to explain concepts."
             },
             {
                 "key": "D",
-                "text": "Research data were used to validate the information."
+                "text": "Research data were used to validate the information.",
+                "textLatex": "Research data were used to validate the information."
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item # 30 (Passage on Metabolism) \n \nIf you are to explain the effectiveness of the paragraph in achieving its purpose, which of \nthe following will NOT support your claim?",
+        "explanationLatex": "The paragraph effectively explains metabolism using relevant details, clarified technical terms, and illustrative examples, but it does not present any research data to validate the information."
     },
     {
         "id": "eng-2020-032",
@@ -1321,23 +1381,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Construct a paragraph that explains “Metabolism” as a process."
+                "text": "Construct a paragraph that explains “Metabolism” as a process.",
+                "textLatex": "Construct a paragraph that explains “Metabolism” as a process."
             },
             {
                 "key": "B",
-                "text": "Draw a concept map plotting the important details about “Metabolism.”"
+                "text": "Draw a concept map plotting the important details about “Metabolism.”",
+                "textLatex": "Draw a concept map plotting the important details about “Metabolism.”"
             },
             {
                 "key": "C",
-                "text": "Illustrate the digestive system that shows a graphic representation of metabolic \nrate."
+                "text": "Illustrate the digestive system that shows a graphic representation of metabolic \nrate.",
+                "textLatex": "Illustrate the digestive system that shows a graphic representation of metabolic \nrate."
             },
             {
                 "key": "D",
-                "text": "Make a table that indicates the factors that affect metabolic rate."
+                "text": "Make a table that indicates the factors that affect metabolic rate.",
+                "textLatex": "Make a table that indicates the factors that affect metabolic rate."
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item # 30 (Passage on Metabolism) \n \nAn infographic based on the passage will be designed to illustrate “Metabolism.” How \nshould the information be presented?",
+        "explanationLatex": "A concept map visually organizes information and shows relationships between key ideas, making it ideal for illustrating a complex process like metabolism in an infographic."
     },
     {
         "id": "eng-2020-033",
@@ -1375,23 +1441,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which underlined part of the sentence shows an ERROR? \n \nPhysics are  \nA \nthe science concerned with  \nB \nthe qualities and properties  \nC \nof matter and energy.  \nD \n \n \n\n \n \n \n",
+        "explanationLatex": "\"Physics\" is a singular subject, even though it ends in 's', and therefore requires a singular verb (\"is\") rather than the plural verb \"are.\""
     },
     {
         "id": "eng-2020-035",
@@ -1402,23 +1474,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which underlined part of the sentence shows an ERROR? \n \nRock and roll are \nA \nthe kind of music his mother  \nB \nlistened to when \nC \nshe was growing up. \nD",
+        "explanationLatex": "The subject \"Rock and roll\" is a singular concept (a genre of music), so it requires the singular verb \"is\" instead of the plural \"are.\""
     },
     {
         "id": "eng-2020-036",
@@ -1429,23 +1507,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which underlined part of the sentence shows an ERROR? \n \nThe 12-year-old boy, \nA \nalong with his classmates \nB \nand their parents, \nC \nare going to the amusement park. \nD",
+        "explanationLatex": "The subject of the sentence is \"The 12-year-old boy\" (singular), and the phrase \"along with his classmates and their parents\" is parenthetical, meaning the verb should be singular (\"is\") to agree with the singular subject."
     },
     {
         "id": "eng-2020-037",
@@ -1456,23 +1540,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which underlined part of the sentence shows an ERROR? \nLucia’s \nA \nfather’s \nB \nnephew is also \nC \nhis cousin.       \nD",
+        "explanationLatex": "A nephew is the son of one's brother or sister, while a cousin is the child of one's aunt or uncle. Therefore, a nephew cannot simultaneously be a cousin to the same person."
     },
     {
         "id": "eng-2020-038",
@@ -1483,23 +1573,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Death comes to one and all."
+                "text": "Death comes to one and all.",
+                "textLatex": "Death comes to one and all."
             },
             {
                 "key": "B",
-                "text": "Life is full of challenges."
+                "text": "Life is full of challenges.",
+                "textLatex": "Life is full of challenges."
             },
             {
                 "key": "C",
-                "text": "Roaches will outlast humans."
+                "text": "Roaches will outlast humans.",
+                "textLatex": "Roaches will outlast humans."
             },
             {
                 "key": "D",
-                "text": "The tough will survive."
+                "text": "The tough will survive.",
+                "textLatex": "The tough will survive."
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "“A Eulogy of Roaches” (an excerpt) Bienvenido Lumbera \n \nBlessed are the cockroaches. \n \nIn this country they are \nthe citizens who last. \nThey need no police \nto promulgate their peace \nbecause they tolerate \neach other’s smell or greed. \n \nFriends to dark and filth, \nthey do not choose their meat. \nThey settle where they wish \nand have no rent to pay. \nEviction is a word \nquite meaningless to them \nwho do not have to own \n\n \n \n \n \ntheir dingy crack of wall. \nNot knowing dearth or taxes, \nthey ",
+        "explanationLatex": "The poem highlights the roaches' resilience and ability to thrive in harsh conditions, implying that even these ultimate survivors are not exempt from the universal truth of mortality. While they may outlast humans, the poem doesn't suggest they are immortal, thus \"Death comes to one and all\" is the most encompassing theme."
     },
     {
         "id": "eng-2020-039",
@@ -1510,23 +1606,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "accolade"
+                "text": "accolade",
+                "textLatex": "accolade"
             },
             {
                 "key": "B",
-                "text": "tribute"
+                "text": "tribute",
+                "textLatex": "tribute"
             },
             {
                 "key": "C",
-                "text": "triumph"
+                "text": "triumph",
+                "textLatex": "triumph"
             },
             {
                 "key": "D",
-                "text": "worship"
+                "text": "worship",
+                "textLatex": "worship"
             }
         ],
         "answer": "B",
-        "explanation": "This is a vocabulary in context item. A and B are similar in meaning, but [810] Developing One’s Skills in Test-Taking"
+        "explanation": "This is a vocabulary in context item. A and B are similar in meaning, but [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe word EULOGY is closest in meaning to _____.",
+        "explanationLatex": "A eulogy is a speech or piece of writing that praises someone or something highly, especially a deceased person, making \"tribute\" the most fitting synonym."
     },
     {
         "id": "eng-2020-040",
@@ -1537,23 +1639,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "confused"
+                "text": "confused",
+                "textLatex": "confused"
             },
             {
                 "key": "B",
-                "text": "detached"
+                "text": "detached",
+                "textLatex": "detached"
             },
             {
                 "key": "C",
-                "text": "sad"
+                "text": "sad",
+                "textLatex": "sad"
             },
             {
                 "key": "D",
-                "text": "scared"
+                "text": "scared",
+                "textLatex": "scared"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe attitude of the author in the preceding poem is _____.",
+        "explanationLatex": ""
     },
     {
         "id": "eng-2020-041",
@@ -1564,23 +1672,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "death"
+                "text": "death",
+                "textLatex": "death"
             },
             {
                 "key": "B",
-                "text": "filth"
+                "text": "filth",
+                "textLatex": "filth"
             },
             {
                 "key": "C",
-                "text": "pain"
+                "text": "pain",
+                "textLatex": "pain"
             },
             {
                 "key": "D",
-                "text": "smell"
+                "text": "smell",
+                "textLatex": "smell"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nRoaches could be said to live with each other in peace and harmony because according to \nthe poem, they tolerate their own kind’s _____.",
+        "explanationLatex": "The poem states roaches \"do not mind each other's smell,\" indicating a tolerance that contributes to their peaceful coexistence."
     },
     {
         "id": "eng-2020-042",
@@ -1591,23 +1705,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "To, CC/BCC, Message, Subject"
+                "text": "To, CC/BCC, Message, Subject",
+                "textLatex": "To, CC/BCC, Message, Subject"
             },
             {
                 "key": "B",
-                "text": "To, CC/BCC, Subject, Message"
+                "text": "To, CC/BCC, Subject, Message",
+                "textLatex": "To, CC/BCC, Subject, Message"
             },
             {
                 "key": "C",
-                "text": "To, Subject, Message, Attachments"
+                "text": "To, Subject, Message, Attachments",
+                "textLatex": "To, Subject, Message, Attachments"
             },
             {
                 "key": "D",
-                "text": "To, Subject, Message, Signature"
+                "text": "To, Subject, Message, Signature",
+                "textLatex": "To, Subject, Message, Signature"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nIf you were to write the roaches in the poem an email, which parts of a mail should be \nconsidered the most important and in what order would you write them?",
+        "explanationLatex": "The \"To\" field and \"Subject\" line are crucial for addressing the recipient and conveying the email's purpose, followed by the \"Message\" content, and finally the \"Signature\" for identification."
     },
     {
         "id": "eng-2020-043",
@@ -1618,22 +1738,28 @@
         "choices": [
             {
                 "key": "A",
-                "text": "abandonment"
+                "text": "abandonment",
+                "textLatex": "abandonment"
             },
             {
                 "key": "B",
-                "text": "departure"
+                "text": "departure",
+                "textLatex": "departure"
             },
             {
                 "key": "C",
-                "text": "expulsion"
+                "text": "expulsion",
+                "textLatex": "expulsion"
             },
             {
                 "key": "D",
-                "text": "suspension"
+                "text": "suspension",
+                "textLatex": "suspension"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Same text as item # 38 (“A Eulogy of Roaches”) \n \nThe word EVICTION in line 12 is closest in meaning to _____.",
+        "explanationLatex": "In the context of removing roaches, \"expulsion\" accurately reflects the forceful act of driving them out, which aligns with the meaning of \"eviction.\" While \"departure\" implies leaving, it doesn't carry the same connotation of being forced out."
     }
 ]

@@ -464,7 +464,7 @@
             {
                 "key": "B",
                 "text": "Option B",
-                "textLatex": "Option B",
+                "textLatex": "",
                 "image": "paste-mec-2020-005-cB-1771651783556.png"
             },
             {
@@ -476,7 +476,7 @@
             {
                 "key": "D",
                 "text": "Option D",
-                "textLatex": "Option D",
+                "textLatex": "",
                 "image": "paste-mec-2020-005-cD-1771651803830.png"
             }
         ],
