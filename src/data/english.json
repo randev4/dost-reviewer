@@ -1234,23 +1234,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Mathematics make daily life more manageable as math knowledge guide in \nmaking practical decisions."
+                "text": "Mathematics make daily life more manageable as math knowledge guide in \nmaking practical decisions.",
+                "textLatex": "Mathematics make daily life more manageable as math knowledge guide in \nmaking practical decisions."
             },
             {
                 "key": "B",
-                "text": "Mathematics inform nations to become more competitive in the global economy \nthrough adapting relevant technologies."
+                "text": "Mathematics inform nations to become more competitive in the global economy \nthrough adapting relevant technologies.",
+                "textLatex": "Mathematics inform nations to become more competitive in the global economy \nthrough adapting relevant technologies."
             },
             {
                 "key": "C",
-                "text": "Mathematics helps students find financially and professionally rewarding careers \nin different fields, thus improving the quality of their lives."
+                "text": "Mathematics helps students find financially and professionally rewarding careers \nin different fields, thus improving the quality of their lives.",
+                "textLatex": "Mathematics helps students find financially and professionally rewarding careers \nin different fields, thus improving the quality of their lives."
             },
             {
                 "key": "D",
-                "text": "Mathematics does not only provide opportunities for improving personal and \nprofessional lives of people but also opportunities for developing the economy of \na nation."
+                "text": "Mathematics does not only provide opportunities for improving personal and \nprofessional lives of people but also opportunities for developing the economy of \na nation.",
+                "textLatex": "Mathematics does not only provide opportunities for improving personal and \nprofessional lives of people but also opportunities for developing the economy of \na nation."
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "1Mathematics is the key to opportunity. 2No longer just the language of science, \nmathematics now contributes in direct and fundamental ways to our daily life and nation \nbuilding. 3For students, it opens doors to careers. 4For citizens, it enables informed \ndecision. 5For nations, it provides knowledge to compete in a technological economy. 6To \nparticipate fully in the world of the future, we must tap the power of mathematics. \nAccording to the passage, why is Mathematics considered important?",
+        "explanationLatex": "The passage highlights how mathematics offers opportunities for individual careers and informed decisions (personal/professional life) and also enables nations to compete in a technological economy (national development). This comprehensive scope is best captured by option D."
     },
     {
         "id": "eng-2020-028",
