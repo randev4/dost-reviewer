@@ -331,25 +331,25 @@
             {
                 "key": "A",
                 "text": "Option A",
-                "textLatex": "Option A",
+                "textLatex": "",
                 "image": "paste-non-2020-001-cA-1771645708206.png"
             },
             {
                 "key": "B",
                 "text": "Option B",
-                "textLatex": "Option B",
+                "textLatex": "",
                 "image": "paste-non-2020-001-cB-1771645722525.png"
             },
             {
                 "key": "C",
                 "text": "Option C",
-                "textLatex": "Option C",
+                "textLatex": "",
                 "image": "paste-non-2020-001-cC-1771645733682.png"
             },
             {
                 "key": "D",
                 "text": "Option D",
-                "textLatex": "Option D",
+                "textLatex": "",
                 "image": "paste-non-2020-001-cD-1771645742349.png"
             }
         ],
@@ -430,7 +430,7 @@
         ],
         "answer": "D",
         "explanation": "Each diagram can be seen as a series of triangles around a horizontal axis. [385] Back view [399]",
-        "questionLatex": "Which of the following frames completes the pattern? \n \n \nOptions:",
+        "questionLatex": "Which of the following frames completes the pattern?",
         "explanationLatex": "Each diagram can be seen as a series of triangles around a horizontal axis."
     },
     {
@@ -480,25 +480,25 @@
             {
                 "key": "A",
                 "text": "Option A",
-                "textLatex": "Option A",
+                "textLatex": "",
                 "image": "paste-non-2020-005-cA-1771646462238.png"
             },
             {
                 "key": "B",
                 "text": "Option B",
-                "textLatex": "Option B",
+                "textLatex": "",
                 "image": "paste-non-2020-005-cB-1771646473328.png"
             },
             {
                 "key": "C",
                 "text": "Option C",
-                "textLatex": "Option C",
+                "textLatex": "",
                 "image": "paste-non-2020-005-cC-1771646484977.png"
             },
             {
                 "key": "D",
                 "text": "Option D",
-                "textLatex": "Option D",
+                "textLatex": "",
                 "image": "paste-non-2020-005-cD-1771646496377.png"
             }
         ],
@@ -518,31 +518,31 @@
             {
                 "key": "A",
                 "text": "Option A",
-                "textLatex": "Option A",
+                "textLatex": "",
                 "image": "paste-non-2020-006-cA-1771646538130.png"
             },
             {
                 "key": "B",
                 "text": "Option B",
-                "textLatex": "Option B",
+                "textLatex": "",
                 "image": "paste-non-2020-006-cB-1771646546515.png"
             },
             {
                 "key": "C",
                 "text": "Option C",
-                "textLatex": "Option C",
+                "textLatex": "",
                 "image": "paste-non-2020-006-cC-1771646557799.png"
             },
             {
                 "key": "D",
                 "text": "Option D",
-                "textLatex": "Option D",
+                "textLatex": "",
                 "image": "paste-non-2020-006-cD-1771646567279.png"
             }
         ],
         "answer": "B",
         "explanation": "",
-        "questionLatex": "Which of the four figures below is the result when the figure is folded along the dotted \nlines?  \n \n \n \n \n \nA.                               \n B.                                            C.                                          D.",
+        "questionLatex": "Which of the four figures below is the result when the figure is folded along the dotted lines?",
         "explanationLatex": "",
         "image": "paste-non-2020-006-q-1771646526329.png"
     },
@@ -555,23 +555,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-007-cA-1771647869936.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-007-cB-1771647888134.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-007-cC-1771647903104.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-007-cD-1771647912803.png"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the four choices below is the rotated version of the given figure?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-007-q-1771647850801.png"
     },
     {
         "id": "non-2020-008",
@@ -582,24 +593,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-008-cA-1771648171904.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-008-cB-1771648180201.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-008-cC-1771648189056.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-008-cD-1771648206123.png"
             }
         ],
         "answer": "C",
         "explanation": "",
-        "image": "nonverbal-p13-1.png"
+        "questionLatex": "If you rotate the given figure, which of the following will be the result? \n \n \n \n \n \nA.                                     B.                                    C.                                D.",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-009",
@@ -610,24 +630,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-009-cA-1771648261218.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-009-cB-1771648281052.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-009-cC-1771648301639.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-009-cD-1771648333039.png"
             }
         ],
         "answer": "C",
         "explanation": "",
-        "image": "nonverbal-p13-1.png"
+        "image": "paste-non-2020-009-q-1771648249454.png",
+        "questionLatex": "Which is the next figure in the series?",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-010",
@@ -638,24 +668,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-non-2020-010-cA-1771648368727.png"
             },
             {
                 "key": "B",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-non-2020-010-cB-1771648381573.png"
             },
             {
                 "key": "C",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-non-2020-010-cC-1771648395594.png"
             },
             {
                 "key": "D",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-non-2020-010-cD-1771648403973.png"
             }
         ],
         "answer": "B",
         "explanation": "",
-        "image": "nonverbal-p13-1.png"
+        "image": "paste-non-2020-010-q-1771648357460.png",
+        "questionLatex": "Which cube cannot be made based on the unfolded cube?",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-011",
@@ -666,24 +706,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-011-cA-1771648442866.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-011-cB-1771648452697.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-011-cC-1771648462698.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-011-cD-1771648482618.png"
             }
         ],
         "answer": "D",
         "explanation": "",
-        "image": "nonverbal-p14-1.png"
+        "image": "nonverbal-p14-1.png",
+        "questionLatex": "Which of the answer cubes is the original cube rotated in any direction?",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-012",
@@ -694,24 +744,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-012-cA-1771648524898.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-012-cB-1771648534682.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-012-cC-1771648550308.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-012-cD-1771648565430.png"
             }
         ],
         "answer": "D",
         "explanation": "",
-        "image": "nonverbal-p14-1.png"
+        "questionLatex": "Which of the following frames completes the pattern?",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-013",
