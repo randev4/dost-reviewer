@@ -1,592 +1,688 @@
 [
-  {
-    "id": "vr-001",
-    "subject": "verbal-reasoning",
-    "topic": "analogy",
-    "difficulty": 1,
-    "question": "BOOK : LIBRARY :: PAINTING : ?",
-    "choices": [
-      {
-        "key": "A",
-        "text": "Canvas"
-      },
-      {
-        "key": "B",
-        "text": "Museum"
-      },
-      {
-        "key": "C",
-        "text": "Artist"
-      },
-      {
-        "key": "D",
-        "text": "Color"
-      }
-    ],
-    "answer": "B",
-    "explanation": "A book is stored/displayed in a library. Similarly, a painting is stored/displayed in a museum.",
-    "wrongExplanations": {
-      "A": "A canvas is what a painting is made on, not where it is displayed.",
-      "C": "An artist creates a painting, but the analogy is about where items are kept.",
-      "D": "Color is a material used in painting, not a place."
+    {
+        "id": "vr-001",
+        "subject": "verbal-reasoning",
+        "topic": "analogy",
+        "difficulty": 1,
+        "question": "BOOK : LIBRARY :: PAINTING : ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Canvas"
+            },
+            {
+                "key": "B",
+                "text": "Museum"
+            },
+            {
+                "key": "C",
+                "text": "Artist"
+            },
+            {
+                "key": "D",
+                "text": "Color"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A book is stored/displayed in a library. Similarly, a painting is stored/displayed in a museum.",
+        "wrongExplanations": {
+            "A": "A canvas is what a painting is made on, not where it is displayed.",
+            "C": "An artist creates a painting, but the analogy is about where items are kept.",
+            "D": "Color is a material used in painting, not a place."
+        }
+    },
+    {
+        "id": "vr-002",
+        "subject": "verbal-reasoning",
+        "topic": "analogy",
+        "difficulty": 1,
+        "question": "HOT : COLD :: TALL : ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Big"
+            },
+            {
+                "key": "B",
+                "text": "Short"
+            },
+            {
+                "key": "C",
+                "text": "Long"
+            },
+            {
+                "key": "D",
+                "text": "Thin"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Hot and cold are antonyms (opposites). The antonym of tall is short.",
+        "wrongExplanations": {
+            "A": "Big is a synonym-like word for tall, not its opposite.",
+            "C": "Long relates to horizontal measurement; the opposite of tall (vertical) is short.",
+            "D": "Thin is the opposite of thick or fat, not tall."
+        }
+    },
+    {
+        "id": "vr-003",
+        "subject": "verbal-reasoning",
+        "topic": "analogy",
+        "difficulty": 2,
+        "question": "FISH : SCHOOL :: WOLF : ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Pack"
+            },
+            {
+                "key": "B",
+                "text": "Herd"
+            },
+            {
+                "key": "C",
+                "text": "Flock"
+            },
+            {
+                "key": "D",
+                "text": "Den"
+            }
+        ],
+        "answer": "A",
+        "explanation": "A group of fish is called a school. A group of wolves is called a pack.",
+        "wrongExplanations": {
+            "B": "A herd refers to a group of cattle, sheep, or elephants, not wolves.",
+            "C": "A flock refers to a group of birds or sheep.",
+            "D": "A den is where a wolf lives, not the term for a group of wolves."
+        }
+    },
+    {
+        "id": "vr-004",
+        "subject": "verbal-reasoning",
+        "topic": "series",
+        "difficulty": 2,
+        "question": "Complete the series: 2, 6, 18, 54, ___",
+        "choices": [
+            {
+                "key": "A",
+                "text": "108"
+            },
+            {
+                "key": "B",
+                "text": "162"
+            },
+            {
+                "key": "C",
+                "text": "72"
+            },
+            {
+                "key": "D",
+                "text": "216"
+            }
+        ],
+        "answer": "B",
+        "explanation": "Each number is multiplied by 3: 2→6→18→54→162. This is a geometric sequence with ratio 3.",
+        "wrongExplanations": {
+            "A": "108 is 54 × 2. The pattern uses a multiplier of 3, not 2.",
+            "C": "72 is 54 + 18. The pattern is multiplication, not addition of previous terms.",
+            "D": "216 is 54 × 4. The common ratio is 3, not 4."
+        }
+    },
+    {
+        "id": "vr-005",
+        "subject": "verbal-reasoning",
+        "topic": "analogy",
+        "difficulty": 2,
+        "question": "DOCTOR : STETHOSCOPE :: CARPENTER : ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Wood",
+                "textLatex": "Wood"
+            },
+            {
+                "key": "B",
+                "text": "Nail",
+                "textLatex": "Nail"
+            },
+            {
+                "key": "C",
+                "text": "Hammer",
+                "textLatex": "Hammer"
+            },
+            {
+                "key": "D",
+                "text": "House",
+                "textLatex": "House"
+            }
+        ],
+        "answer": "C",
+        "explanation": "A doctor uses a stethoscope as their primary tool. A carpenter uses a hammer as their primary tool.",
+        "wrongExplanations": {
+            "A": "Wood is the material a carpenter works with, not a tool they use.",
+            "B": "A nail is a fastener, not a tool. The analogy pairs a professional with their tool.",
+            "D": "A house is the product of a carpenter's work, not a tool."
+        },
+        "questionLatex": "DOCTOR : STETHOSCOPE :: CARPENTER : ?",
+        "explanationLatex": "This analogy pairs a professional with a primary tool they use for their work. A carpenter's primary tool, essential for their craft, is a hammer."
+    },
+    {
+        "id": "vr-006",
+        "subject": "verbal-reasoning",
+        "topic": "series",
+        "difficulty": 3,
+        "question": "Complete the series: 1, 1, 2, 3, 5, 8, ___",
+        "choices": [
+            {
+                "key": "A",
+                "text": "10",
+                "textLatex": "10"
+            },
+            {
+                "key": "B",
+                "text": "11",
+                "textLatex": "11"
+            },
+            {
+                "key": "C",
+                "text": "13",
+                "textLatex": "13"
+            },
+            {
+                "key": "D",
+                "text": "15",
+                "textLatex": "15"
+            }
+        ],
+        "answer": "C",
+        "explanation": "This is the Fibonacci sequence where each number is the sum of the two preceding numbers: 5 + 8 = 13.",
+        "wrongExplanations": {
+            "A": "10 is 8 + 2. In this pattern, you add the two most recent numbers: 5 + 8.",
+            "B": "11 is 8 + 3. Use the last two numbers: 8 + 5 = 13.",
+            "D": "15 does not fit the pattern. Each term = sum of previous two terms."
+        },
+        "questionLatex": "Complete the series: 1, 1, 2, 3, 5, 8, ___",
+        "explanationLatex": "This is a Fibonacci sequence where each number is the sum of the two preceding ones. Following this pattern, 5 + 8 = 13."
+    },
+    {
+        "id": "vr-007",
+        "subject": "verbal-reasoning",
+        "topic": "analogy",
+        "difficulty": 1,
+        "question": "PEN : WRITE :: KNIFE : ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sharp",
+                "textLatex": "Sharp"
+            },
+            {
+                "key": "B",
+                "text": "Cut",
+                "textLatex": "Cut"
+            },
+            {
+                "key": "C",
+                "text": "Fork",
+                "textLatex": "Fork"
+            },
+            {
+                "key": "D",
+                "text": "Kitchen",
+                "textLatex": "Kitchen"
+            }
+        ],
+        "answer": "B",
+        "explanation": "A pen is used to write. A knife is used to cut. The analogy pairs a tool with its function.",
+        "wrongExplanations": {
+            "A": "Sharp describes a property of a knife, not its function.",
+            "C": "A fork is another utensil, but the analogy is about tool → action.",
+            "D": "Kitchen is a place where a knife might be found, not its action."
+        },
+        "questionLatex": "PEN : WRITE :: KNIFE : ?",
+        "explanationLatex": "A pen is used to write, just as a knife is used to cut. This analogy establishes a relationship between an object and its primary function."
+    },
+    {
+        "id": "vr-008",
+        "subject": "verbal-reasoning",
+        "topic": "series",
+        "difficulty": 1,
+        "question": "What comes next? A, C, E, G, ___",
+        "choices": [
+            {
+                "key": "A",
+                "text": "H",
+                "textLatex": "H"
+            },
+            {
+                "key": "B",
+                "text": "I",
+                "textLatex": "I"
+            },
+            {
+                "key": "C",
+                "text": "J",
+                "textLatex": "J"
+            },
+            {
+                "key": "D",
+                "text": "K",
+                "textLatex": "K"
+            }
+        ],
+        "answer": "B",
+        "explanation": "The pattern skips one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I.",
+        "wrongExplanations": {
+            "A": "H is the letter immediately after G. The pattern skips every other letter.",
+            "C": "J would mean skipping two letters (H, I). The pattern only skips one.",
+            "D": "K would mean skipping three letters. The pattern skips exactly one letter."
+        },
+        "questionLatex": "What comes next? A, C, E, G, ___",
+        "explanationLatex": "The pattern skips every other letter of the alphabet: A (skip B) C (skip D) E (skip F) G (skip H) I."
+    },
+    {
+        "id": "vr-009",
+        "subject": "verbal-reasoning",
+        "topic": "analogy",
+        "difficulty": 3,
+        "question": "ARCHITECT : BLUEPRINT :: COMPOSER : ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Orchestra",
+                "textLatex": "Orchestra"
+            },
+            {
+                "key": "B",
+                "text": "Instrument",
+                "textLatex": "Instrument"
+            },
+            {
+                "key": "C",
+                "text": "Score",
+                "textLatex": "Score"
+            },
+            {
+                "key": "D",
+                "text": "Concert",
+                "textLatex": "Concert"
+            }
+        ],
+        "answer": "C",
+        "explanation": "An architect creates a blueprint (the plan). A composer creates a score (the musical plan/notation).",
+        "wrongExplanations": {
+            "A": "An orchestra performs the music but is not created by the composer in the same way.",
+            "B": "An instrument is a tool for playing music, not the composer's creation/plan.",
+            "D": "A concert is a performance event, not the document a composer creates."
+        },
+        "questionLatex": "ARCHITECT : BLUEPRINT :: COMPOSER : ?",
+        "explanationLatex": "An architect creates a blueprint as a detailed plan for a building, just as a composer creates a score as a detailed plan for a musical piece."
+    },
+    {
+        "id": "vr-010",
+        "subject": "verbal-reasoning",
+        "topic": "series",
+        "difficulty": 2,
+        "question": "Complete: 100, 95, 85, 70, ___",
+        "choices": [
+            {
+                "key": "A",
+                "text": "50",
+                "textLatex": "50"
+            },
+            {
+                "key": "B",
+                "text": "55",
+                "textLatex": "55"
+            },
+            {
+                "key": "C",
+                "text": "60",
+                "textLatex": "60"
+            },
+            {
+                "key": "D",
+                "text": "45",
+                "textLatex": "45"
+            }
+        ],
+        "answer": "A",
+        "explanation": "The differences increase by 5: -5, -10, -15, -20. So 70 - 20 = 50.",
+        "wrongExplanations": {
+            "B": "55 would mean a difference of 15 (same as before). The differences are increasing.",
+            "C": "60 would mean a difference of 10. The next difference should be 20.",
+            "D": "45 would mean a difference of 25. The pattern increases by 5 each step, so the next difference is 20."
+        },
+        "questionLatex": "Complete: 100, 95, 85, 70, ___",
+        "explanationLatex": "The pattern involves subtracting increasing multiples of 5: first 5, then 10, then 15. Following this, the next subtraction should be 20, making the next number 70 - 20 = 50."
+    },
+    {
+        "id": "ver-2020-001",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 1,
+        "question": "SARAH:TBSBT::PALMA:",
+        "choices": [
+            {
+                "key": "A",
+                "text": "NBQJBO",
+                "textLatex": "NBQJBO"
+            },
+            {
+                "key": "B",
+                "text": "RIFJMBO",
+                "textLatex": "RIFJMBO"
+            },
+            {
+                "key": "C",
+                "text": "QBMNB",
+                "textLatex": "QBMNB"
+            },
+            {
+                "key": "D",
+                "text": "SBSSZ",
+                "textLatex": "SBSSZ"
+            }
+        ],
+        "answer": "C",
+        "explanation": "",
+        "questionLatex": "SARAH:TBSBT::PALMA:",
+        "explanationLatex": "The pattern involves shifting each letter in the first word one position forward in the alphabet to get the second word. Applying this to PALMA, P becomes Q, A becomes B, L becomes M, M becomes N, and A becomes B, resulting in QBMNB."
+    },
+    {
+        "id": "ver-2020-002",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 1,
+        "question": "BIG:ENORMOUS::SMALL:",
+        "choices": [
+            {
+                "key": "A",
+                "text": "MINISCULE",
+                "textLatex": "MINISCULE"
+            },
+            {
+                "key": "B",
+                "text": "VOLUMINOUS",
+                "textLatex": "VOLUMINOUS"
+            },
+            {
+                "key": "C",
+                "text": "MACROSCOPIC",
+                "textLatex": "MACROSCOPIC"
+            },
+            {
+                "key": "D",
+                "text": "PARASITIC",
+                "textLatex": "PARASITIC"
+            }
+        ],
+        "answer": "A",
+        "explanation": "",
+        "questionLatex": "BIG:ENORMOUS::SMALL:",
+        "explanationLatex": "The relationship between BIG and ENORMOUS is one of synonymity and intensity, where ENORMOUS is a more extreme version of BIG. Similarly, MINISCULE is a more extreme and precise synonym for SMALL."
+    },
+    {
+        "id": "ver-2020-003",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 1,
+        "question": "GALILEO GALILEI:TELESCOPE::BENJAMIN FRANKLIN:",
+        "choices": [
+            {
+                "key": "A",
+                "text": "ELECTRICITY",
+                "textLatex": "ELECTRICITY"
+            },
+            {
+                "key": "B",
+                "text": "STEAM ENGINE",
+                "textLatex": "STEAM ENGINE"
+            },
+            {
+                "key": "C",
+                "text": "TELEGRAPH WIRE",
+                "textLatex": "TELEGRAPH WIRE"
+            },
+            {
+                "key": "D",
+                "text": "MOTION PICTURE CAMERA",
+                "textLatex": "MOTION PICTURE CAMERA"
+            }
+        ],
+        "answer": "A",
+        "explanation": "",
+        "questionLatex": "GALILEO GALILEI:TELESCOPE::BENJAMIN FRANKLIN:",
+        "explanationLatex": "This analogy links famous individuals to their most notable inventions or discoveries. Galileo is renowned for his work with the telescope, just as Benjamin Franklin is famous for his experiments and discoveries related to electricity."
+    },
+    {
+        "id": "ver-2020-004",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 2,
+        "question": "ALBERT EINSTEIN:LAW OF GRAVITY:: ALEXANDER FLEMING:",
+        "choices": [
+            {
+                "key": "A",
+                "text": "PENICILLIN",
+                "textLatex": "PENICILLIN"
+            },
+            {
+                "key": "B",
+                "text": "MONOGRAPH",
+                "textLatex": "MONOGRAPH"
+            },
+            {
+                "key": "C",
+                "text": "TELEPHONE",
+                "textLatex": "TELEPHONE"
+            },
+            {
+                "key": "D",
+                "text": "SONOGRAM",
+                "textLatex": "SONOGRAM"
+            }
+        ],
+        "answer": "A",
+        "explanation": "",
+        "questionLatex": "ALBERT EINSTEIN:LAW OF GRAVITY:: ALEXANDER FLEMING:",
+        "explanationLatex": "This analogy links a famous person to their most significant discovery or invention. Albert Einstein is renowned for the Law of Gravity (specifically, his theory of general relativity), just as Alexander Fleming is celebrated for his discovery of penicillin."
+    },
+    {
+        "id": "ver-2020-005",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 2,
+        "question": "BAT:BALL::BOW:_________",
+        "choices": [
+            {
+                "key": "A",
+                "text": "ARROW",
+                "textLatex": "ARROW"
+            },
+            {
+                "key": "B",
+                "text": "TIE",
+                "textLatex": "TIE"
+            },
+            {
+                "key": "C",
+                "text": "STRING",
+                "textLatex": "STRING"
+            },
+            {
+                "key": "D",
+                "text": "BONE",
+                "textLatex": "BONE"
+            }
+        ],
+        "answer": "A",
+        "explanation": "",
+        "questionLatex": "BAT:BALL::BOW:_________",
+        "explanationLatex": "This analogy describes an object and the projectile it launches. A bat hits a ball, and similarly, a bow shoots an arrow."
+    },
+    {
+        "id": "ver-2020-006",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 2,
+        "question": "HIDE:CONCEAL::STOP:________",
+        "choices": [
+            {
+                "key": "A",
+                "text": "PAUSE",
+                "textLatex": "PAUSE"
+            },
+            {
+                "key": "B",
+                "text": "REFLECT",
+                "textLatex": "REFLECT"
+            },
+            {
+                "key": "C",
+                "text": "HALT",
+                "textLatex": "HALT"
+            },
+            {
+                "key": "D",
+                "text": "PONDER",
+                "textLatex": "PONDER"
+            }
+        ],
+        "answer": "C",
+        "explanation": "",
+        "questionLatex": "HIDE:CONCEAL::STOP:________",
+        "explanationLatex": "The relationship between \"HIDE\" and \"CONCEAL\" is one of synonymity. \"HALT\" is the best synonym for \"STOP\" among the given choices."
+    },
+    {
+        "id": "ver-2020-007",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 3,
+        "question": "BOWED STRINGS:VIOLIN::WOODWIND:________",
+        "choices": [
+            {
+                "key": "A",
+                "text": "GUITAR",
+                "textLatex": "GUITAR"
+            },
+            {
+                "key": "B",
+                "text": "FLUTE",
+                "textLatex": "FLUTE"
+            },
+            {
+                "key": "C",
+                "text": "PIANO",
+                "textLatex": "PIANO"
+            },
+            {
+                "key": "D",
+                "text": "HORN",
+                "textLatex": "HORN"
+            }
+        ],
+        "answer": "B",
+        "explanation": "",
+        "questionLatex": "BOWED STRINGS:VIOLIN::WOODWIND:________",
+        "explanationLatex": "This analogy pairs an instrument type with a specific instrument belonging to that type. A violin is a bowed string instrument, and a flute is a woodwind instrument."
+    },
+    {
+        "id": "ver-2020-008",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 3,
+        "question": "WHALE:POD::KITTEN:_______",
+        "choices": [
+            {
+                "key": "A",
+                "text": "PACK",
+                "textLatex": "PACK"
+            },
+            {
+                "key": "B",
+                "text": "HERD",
+                "textLatex": "HERD"
+            },
+            {
+                "key": "C",
+                "text": "LITTER",
+                "textLatex": "LITTER"
+            },
+            {
+                "key": "D",
+                "text": "PRIDE",
+                "textLatex": "PRIDE"
+            }
+        ],
+        "answer": "C",
+        "explanation": "",
+        "questionLatex": "WHALE:POD::KITTEN:_______",
+        "explanationLatex": "A group of whales is called a pod, and similarly, a group of kittens is called a litter. This is an analogy based on collective nouns for animals."
+    },
+    {
+        "id": "ver-2020-009",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 3,
+        "question": "SPONGE:POROUS::SKUNK:________",
+        "choices": [
+            {
+                "key": "A",
+                "text": "SHINY",
+                "textLatex": "SHINY"
+            },
+            {
+                "key": "B",
+                "text": "CARNIVOROUS",
+                "textLatex": "CARNIVOROUS"
+            },
+            {
+                "key": "C",
+                "text": "NOCTURNAL",
+                "textLatex": "NOCTURNAL"
+            },
+            {
+                "key": "D",
+                "text": "SMELLY",
+                "textLatex": "SMELLY"
+            }
+        ],
+        "answer": "D",
+        "explanation": "",
+        "questionLatex": "SPONGE:POROUS::SKUNK:________",
+        "explanationLatex": "A sponge is characterized by being porous, meaning it has many holes. Similarly, a skunk is famously characterized by being smelly due to its defense mechanism."
+    },
+    {
+        "id": "ver-2020-010",
+        "subject": "verbal_reasoning",
+        "topic": "reasoning",
+        "difficulty": 3,
+        "question": "DO:DID::COST:_______",
+        "choices": [
+            {
+                "key": "A",
+                "text": "COSTED",
+                "textLatex": "COSTED"
+            },
+            {
+                "key": "B",
+                "text": "COAST",
+                "textLatex": "COAST"
+            },
+            {
+                "key": "C",
+                "text": "COASTED",
+                "textLatex": "COASTED"
+            },
+            {
+                "key": "D",
+                "text": "COST",
+                "textLatex": "COST"
+            }
+        ],
+        "answer": "D",
+        "explanation": "",
+        "questionLatex": "DO:DID::COST:_______",
+        "explanationLatex": "The relationship is between the present tense and past tense of a verb. \"DO\" is the present tense of \"DID,\" and similarly, \"COST\" is both the present and past tense form of the verb."
     }
-  },
-  {
-    "id": "vr-002",
-    "subject": "verbal-reasoning",
-    "topic": "analogy",
-    "difficulty": 1,
-    "question": "HOT : COLD :: TALL : ?",
-    "choices": [
-      {
-        "key": "A",
-        "text": "Big"
-      },
-      {
-        "key": "B",
-        "text": "Short"
-      },
-      {
-        "key": "C",
-        "text": "Long"
-      },
-      {
-        "key": "D",
-        "text": "Thin"
-      }
-    ],
-    "answer": "B",
-    "explanation": "Hot and cold are antonyms (opposites). The antonym of tall is short.",
-    "wrongExplanations": {
-      "A": "Big is a synonym-like word for tall, not its opposite.",
-      "C": "Long relates to horizontal measurement; the opposite of tall (vertical) is short.",
-      "D": "Thin is the opposite of thick or fat, not tall."
-    }
-  },
-  {
-    "id": "vr-003",
-    "subject": "verbal-reasoning",
-    "topic": "analogy",
-    "difficulty": 2,
-    "question": "FISH : SCHOOL :: WOLF : ?",
-    "choices": [
-      {
-        "key": "A",
-        "text": "Pack"
-      },
-      {
-        "key": "B",
-        "text": "Herd"
-      },
-      {
-        "key": "C",
-        "text": "Flock"
-      },
-      {
-        "key": "D",
-        "text": "Den"
-      }
-    ],
-    "answer": "A",
-    "explanation": "A group of fish is called a school. A group of wolves is called a pack.",
-    "wrongExplanations": {
-      "B": "A herd refers to a group of cattle, sheep, or elephants, not wolves.",
-      "C": "A flock refers to a group of birds or sheep.",
-      "D": "A den is where a wolf lives, not the term for a group of wolves."
-    }
-  },
-  {
-    "id": "vr-004",
-    "subject": "verbal-reasoning",
-    "topic": "series",
-    "difficulty": 2,
-    "question": "Complete the series: 2, 6, 18, 54, ___",
-    "choices": [
-      {
-        "key": "A",
-        "text": "108"
-      },
-      {
-        "key": "B",
-        "text": "162"
-      },
-      {
-        "key": "C",
-        "text": "72"
-      },
-      {
-        "key": "D",
-        "text": "216"
-      }
-    ],
-    "answer": "B",
-    "explanation": "Each number is multiplied by 3: 2→6→18→54→162. This is a geometric sequence with ratio 3.",
-    "wrongExplanations": {
-      "A": "108 is 54 × 2. The pattern uses a multiplier of 3, not 2.",
-      "C": "72 is 54 + 18. The pattern is multiplication, not addition of previous terms.",
-      "D": "216 is 54 × 4. The common ratio is 3, not 4."
-    }
-  },
-  {
-    "id": "vr-005",
-    "subject": "verbal-reasoning",
-    "topic": "analogy",
-    "difficulty": 2,
-    "question": "DOCTOR : STETHOSCOPE :: CARPENTER : ?",
-    "choices": [
-      {
-        "key": "A",
-        "text": "Wood"
-      },
-      {
-        "key": "B",
-        "text": "Nail"
-      },
-      {
-        "key": "C",
-        "text": "Hammer"
-      },
-      {
-        "key": "D",
-        "text": "House"
-      }
-    ],
-    "answer": "C",
-    "explanation": "A doctor uses a stethoscope as their primary tool. A carpenter uses a hammer as their primary tool.",
-    "wrongExplanations": {
-      "A": "Wood is the material a carpenter works with, not a tool they use.",
-      "B": "A nail is a fastener, not a tool. The analogy pairs a professional with their tool.",
-      "D": "A house is the product of a carpenter's work, not a tool."
-    }
-  },
-  {
-    "id": "vr-006",
-    "subject": "verbal-reasoning",
-    "topic": "series",
-    "difficulty": 3,
-    "question": "Complete the series: 1, 1, 2, 3, 5, 8, ___",
-    "choices": [
-      {
-        "key": "A",
-        "text": "10"
-      },
-      {
-        "key": "B",
-        "text": "11"
-      },
-      {
-        "key": "C",
-        "text": "13"
-      },
-      {
-        "key": "D",
-        "text": "15"
-      }
-    ],
-    "answer": "C",
-    "explanation": "This is the Fibonacci sequence where each number is the sum of the two preceding numbers: 5 + 8 = 13.",
-    "wrongExplanations": {
-      "A": "10 is 8 + 2. In this pattern, you add the two most recent numbers: 5 + 8.",
-      "B": "11 is 8 + 3. Use the last two numbers: 8 + 5 = 13.",
-      "D": "15 does not fit the pattern. Each term = sum of previous two terms."
-    }
-  },
-  {
-    "id": "vr-007",
-    "subject": "verbal-reasoning",
-    "topic": "analogy",
-    "difficulty": 1,
-    "question": "PEN : WRITE :: KNIFE : ?",
-    "choices": [
-      {
-        "key": "A",
-        "text": "Sharp"
-      },
-      {
-        "key": "B",
-        "text": "Cut"
-      },
-      {
-        "key": "C",
-        "text": "Fork"
-      },
-      {
-        "key": "D",
-        "text": "Kitchen"
-      }
-    ],
-    "answer": "B",
-    "explanation": "A pen is used to write. A knife is used to cut. The analogy pairs a tool with its function.",
-    "wrongExplanations": {
-      "A": "Sharp describes a property of a knife, not its function.",
-      "C": "A fork is another utensil, but the analogy is about tool → action.",
-      "D": "Kitchen is a place where a knife might be found, not its action."
-    }
-  },
-  {
-    "id": "vr-008",
-    "subject": "verbal-reasoning",
-    "topic": "series",
-    "difficulty": 1,
-    "question": "What comes next? A, C, E, G, ___",
-    "choices": [
-      {
-        "key": "A",
-        "text": "H"
-      },
-      {
-        "key": "B",
-        "text": "I"
-      },
-      {
-        "key": "C",
-        "text": "J"
-      },
-      {
-        "key": "D",
-        "text": "K"
-      }
-    ],
-    "answer": "B",
-    "explanation": "The pattern skips one letter each time: A(skip B)C(skip D)E(skip F)G(skip H)I.",
-    "wrongExplanations": {
-      "A": "H is the letter immediately after G. The pattern skips every other letter.",
-      "C": "J would mean skipping two letters (H, I). The pattern only skips one.",
-      "D": "K would mean skipping three letters. The pattern skips exactly one letter."
-    }
-  },
-  {
-    "id": "vr-009",
-    "subject": "verbal-reasoning",
-    "topic": "analogy",
-    "difficulty": 3,
-    "question": "ARCHITECT : BLUEPRINT :: COMPOSER : ?",
-    "choices": [
-      {
-        "key": "A",
-        "text": "Orchestra"
-      },
-      {
-        "key": "B",
-        "text": "Instrument"
-      },
-      {
-        "key": "C",
-        "text": "Score"
-      },
-      {
-        "key": "D",
-        "text": "Concert"
-      }
-    ],
-    "answer": "C",
-    "explanation": "An architect creates a blueprint (the plan). A composer creates a score (the musical plan/notation).",
-    "wrongExplanations": {
-      "A": "An orchestra performs the music but is not created by the composer in the same way.",
-      "B": "An instrument is a tool for playing music, not the composer's creation/plan.",
-      "D": "A concert is a performance event, not the document a composer creates."
-    }
-  },
-  {
-    "id": "vr-010",
-    "subject": "verbal-reasoning",
-    "topic": "series",
-    "difficulty": 2,
-    "question": "Complete: 100, 95, 85, 70, ___",
-    "choices": [
-      {
-        "key": "A",
-        "text": "50"
-      },
-      {
-        "key": "B",
-        "text": "55"
-      },
-      {
-        "key": "C",
-        "text": "60"
-      },
-      {
-        "key": "D",
-        "text": "45"
-      }
-    ],
-    "answer": "A",
-    "explanation": "The differences increase by 5: -5, -10, -15, -20. So 70 - 20 = 50.",
-    "wrongExplanations": {
-      "B": "55 would mean a difference of 15 (same as before). The differences are increasing.",
-      "C": "60 would mean a difference of 10. The next difference should be 20.",
-      "D": "45 would mean a difference of 25. The pattern increases by 5 each step, so the next difference is 20."
-    }
-  },
-  {
-    "id": "ver-2020-001",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 1,
-    "question": "SARAH:TBSBT::PALMA:",
-    "choices": [
-      {
-        "key": "A",
-        "text": "NBQJBO"
-      },
-      {
-        "key": "B",
-        "text": "RIFJMBO"
-      },
-      {
-        "key": "C",
-        "text": "QBMNB"
-      },
-      {
-        "key": "D",
-        "text": "SBSSZ"
-      }
-    ],
-    "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-002",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 1,
-    "question": "BIG:ENORMOUS::SMALL:",
-    "choices": [
-      {
-        "key": "A",
-        "text": "MINISCULE"
-      },
-      {
-        "key": "B",
-        "text": "VOLUMINOUS"
-      },
-      {
-        "key": "C",
-        "text": "MACROSCOPIC"
-      },
-      {
-        "key": "D",
-        "text": "PARASITIC"
-      }
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-003",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 1,
-    "question": "GALILEO GALILEI:TELESCOPE::BENJAMIN FRANKLIN:",
-    "choices": [
-      {
-        "key": "A",
-        "text": "ELECTRICITY"
-      },
-      {
-        "key": "B",
-        "text": "STEAM ENGINE"
-      },
-      {
-        "key": "C",
-        "text": "TELEGRAPH WIRE"
-      },
-      {
-        "key": "D",
-        "text": "MOTION PICTURE CAMERA"
-      }
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-004",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 2,
-    "question": "ALBERT EINSTEIN:LAW OF GRAVITY:: ALEXANDER FLEMING:",
-    "choices": [
-      {
-        "key": "A",
-        "text": "PENICILLIN"
-      },
-      {
-        "key": "B",
-        "text": "MONOGRAPH"
-      },
-      {
-        "key": "C",
-        "text": "TELEPHONE"
-      },
-      {
-        "key": "D",
-        "text": "SONOGRAM"
-      }
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-005",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 2,
-    "question": "BAT:BALL::BOW:_________",
-    "choices": [
-      {
-        "key": "A",
-        "text": "ARROW"
-      },
-      {
-        "key": "B",
-        "text": "TIE"
-      },
-      {
-        "key": "C",
-        "text": "STRING"
-      },
-      {
-        "key": "D",
-        "text": "BONE"
-      }
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-006",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 2,
-    "question": "HIDE:CONCEAL::STOP:________",
-    "choices": [
-      {
-        "key": "A",
-        "text": "PAUSE"
-      },
-      {
-        "key": "B",
-        "text": "REFLECT"
-      },
-      {
-        "key": "C",
-        "text": "HALT"
-      },
-      {
-        "key": "D",
-        "text": "PONDER"
-      }
-    ],
-    "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-007",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 3,
-    "question": "BOWED STRINGS:VIOLIN::WOODWIND:________",
-    "choices": [
-      {
-        "key": "A",
-        "text": "GUITAR"
-      },
-      {
-        "key": "B",
-        "text": "FLUTE"
-      },
-      {
-        "key": "C",
-        "text": "PIANO"
-      },
-      {
-        "key": "D",
-        "text": "HORN"
-      }
-    ],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-008",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 3,
-    "question": "WHALE:POD::KITTEN:_______",
-    "choices": [
-      {
-        "key": "A",
-        "text": "PACK"
-      },
-      {
-        "key": "B",
-        "text": "HERD"
-      },
-      {
-        "key": "C",
-        "text": "LITTER"
-      },
-      {
-        "key": "D",
-        "text": "PRIDE"
-      }
-    ],
-    "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-009",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 3,
-    "question": "SPONGE:POROUS::SKUNK:________",
-    "choices": [
-      {
-        "key": "A",
-        "text": "SHINY"
-      },
-      {
-        "key": "B",
-        "text": "CARNIVOROUS"
-      },
-      {
-        "key": "C",
-        "text": "NOCTURNAL"
-      },
-      {
-        "key": "D",
-        "text": "SMELLY"
-      }
-    ],
-    "answer": "D",
-    "explanation": ""
-  },
-  {
-    "id": "ver-2020-010",
-    "subject": "verbal_reasoning",
-    "topic": "reasoning",
-    "difficulty": 3,
-    "question": "DO:DID::COST:_______",
-    "choices": [
-      {
-        "key": "A",
-        "text": "COSTED"
-      },
-      {
-        "key": "B",
-        "text": "COAST"
-      },
-      {
-        "key": "C",
-        "text": "COASTED"
-      },
-      {
-        "key": "D",
-        "text": "COST"
-      }
-    ],
-    "answer": "D",
-    "explanation": ""
-  }
 ]
