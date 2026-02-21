@@ -104,8 +104,14 @@ wss.on('connection', (ws, req) => {
             try {
                 const { execSync } = require('child_process');
 
-                // Add only the JSON data files
-                execSync('git add src/data/', { stdio: 'pipe' });
+                // 1. Generate version.txt with current timestamp
+                const versionPath = path.join(__dirname, 'public', 'version.txt');
+                const newVersion = Date.now().toString();
+                fs.writeFileSync(versionPath, newVersion);
+                console.log(`[sync] Generated new version timestamp: ${newVersion}`);
+
+                // 2. Add files (Data JSONs and the new version file)
+                execSync('git add src/data/ public/version.txt', { stdio: 'pipe' });
 
                 // Check if there are changes to commit
                 let hasChanges = false;

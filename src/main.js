@@ -26,6 +26,50 @@ if (savedTheme === 'light') {
 // Question data cache
 const questionCache = {};
 
+// --- Version Polling ---
+let AppVersion = null;
+let versionCheckTimer = null;
+
+async function checkAppVersion() {
+    try {
+        const res = await fetch('/version.txt?t=' + Date.now());
+        if (!res.ok) return;
+        const remoteVersion = (await res.text()).trim();
+
+        if (!remoteVersion) return;
+
+        if (AppVersion === null) {
+            // Initial load
+            AppVersion = remoteVersion;
+        } else if (AppVersion !== remoteVersion) {
+            // Version mismatch detected!
+            AppVersion = remoteVersion; // Prevent multiple popups
+            showUpdateBanner();
+        }
+    } catch (err) {
+        // Ignore network errors silently
+    }
+}
+
+function showUpdateBanner() {
+    if (document.getElementById('update-banner')) return;
+
+    clearInterval(versionCheckTimer); // Stop polling
+
+    const banner = document.createElement('div');
+    banner.id = 'update-banner';
+    banner.className = 'update-banner';
+    banner.innerHTML = `
+      <p>A new version of the Reviewer is available!</p>
+      <button onclick="location.reload(true)">Reload Now</button>
+    `;
+    document.body.appendChild(banner);
+}
+
+// Start version polling
+checkAppVersion();
+versionCheckTimer = setInterval(checkAppVersion, 60000); // Check every 60s
+
 async function loadQuestions(dataFile) {
     if (questionCache[dataFile]) return questionCache[dataFile];
 
@@ -120,6 +164,9 @@ function finishQuiz(subjectId, questions, answers) {
         onHome: showHome
     });
     window.scrollTo(0, 0);
+
+    // Check for updates when returning to the main menu/results seamlessly
+    checkAppVersion();
 }
 
 function showDashboard() {
