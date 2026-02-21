@@ -562,23 +562,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-mec-2020-008-cA-1771652121998.png"
             },
             {
                 "key": "B",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-mec-2020-008-cB-1771652136395.png"
             },
             {
                 "key": "C",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-mec-2020-008-cC-1771652147274.png"
             },
             {
                 "key": "D",
-                "text": ""
+                "text": "",
+                "textLatex": "",
+                "image": "paste-mec-2020-008-cD-1771652157426.png"
             }
         ],
         "answer": "C",
-        "explanation": "b can either be 1, 2, 3, 5, 6, 10, 15, or 30 [326]"
+        "explanation": "b can either be 1, 2, 3, 5, 6, 10, 15, or 30 [326]",
+        "questionLatex": "The pictures below show pairs of metal blocks and their temperatures. Which of these correctly shows the direction that heat energy will move?",
+        "explanationLatex": "Heat energy always flows from a region of higher temperature to a region of lower temperature. Option C correctly depicts this by showing heat moving from the 80°C block to the 20°C block."
     },
     {
         "id": "mec-2020-009",
@@ -644,7 +654,8 @@
         "answer": "B",
         "explanation": "2.25 + 4.75 + 2.25 = 9.25 [372] Displacement is the area under the v-t graph and there are three different",
         "questionLatex": "In a projectile motion: for a given initial velocity $V_i$ and angle $\\theta$ which is less than 60°, \ndetermine the projectile that will reach the farthest.",
-        "explanationLatex": "2.25 + 4.75 + 2.25 = 9.25 [372] Displacement is the area under the v-t graph and there are three different"
+        "explanationLatex": "The maximum range for a projectile occurs at an launch angle of 45 degrees. Since $\\theta < 60^\\circ$, the projectile launched at $45^\\circ$ (Projectile X) will travel the farthest.",
+        "image": "paste-mec-2020-010-q-1771652196821.png"
     },
     {
         "id": "mec-2020-011",
@@ -655,23 +666,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Bicycles W and Z"
+                "text": "Bicycles W and Z",
+                "textLatex": "Bicycles W and Z"
             },
             {
                 "key": "B",
-                "text": "Bicycles X and Y"
+                "text": "Bicycles X and Y",
+                "textLatex": "Bicycles X and Y"
             },
             {
                 "key": "C",
-                "text": "Bicycle W only"
+                "text": "Bicycle W only",
+                "textLatex": "Bicycle W only"
             },
             {
                 "key": "D",
-                "text": "Bicycle X only"
+                "text": "Bicycle X only",
+                "textLatex": "Bicycle X only"
             }
         ],
         "answer": "A",
-        "explanation": "Region 2 has the most number of organisms that performs various [560]"
+        "explanation": "Region 2 has the most number of organisms that performs various [560]",
+        "questionLatex": "Given the set of front and rear wheels, which bicycle will reach a greater distance upon one rotation of the pedal?",
+        "explanationLatex": "Bicycles W and Z have larger rear wheels, which means each pedal rotation will move the bicycle a greater distance compared to bicycles with smaller rear wheels.",
+        "image": "paste-mec-2020-011-q-1771652232722.png"
     },
     {
         "id": "mec-2020-012",
@@ -682,23 +700,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Situation A"
+                "text": "Situation A",
+                "textLatex": "Situation A"
             },
             {
                 "key": "B",
-                "text": "Situation B"
+                "text": "Situation B",
+                "textLatex": "Situation B"
             },
             {
                 "key": "C",
-                "text": "Situation C"
+                "text": "Situation C",
+                "textLatex": "Situation C"
             },
             {
                 "key": "D",
-                "text": "Situation D \nW \nVi \n \nX \n2Vi \n \nY \nVi \n2 \nW \nX \nY \nZ \nA \nB \nC \nD"
+                "text": "Situation D \nW \nVi \n \nX \n2Vi \n \nY \nVi \n2 \nW \nX \nY \nZ \nA \nB \nC \nD",
+                "textLatex": "Situation D"
             }
         ],
         "answer": "B",
-        "explanation": "Diminished number of beetles is a result of predation. Birds are possible [586]"
+        "explanation": "Diminished number of beetles is a result of predation. Birds are possible [586]",
+        "questionLatex": "Multiple holes of the same sizes are drilled on one side of the container but on different height. The container is filled with water, which of the following will be the flow of the  water jet on the holes.",
+        "explanationLatex": "The velocity of efflux is proportional to the square root of the depth, meaning water from lower holes will have a greater horizontal range due to higher velocity.",
+        "image": "paste-mec-2020-012-q-1771652272970.png"
     },
     {
         "id": "mec-2020-013",
@@ -736,23 +761,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I and IV only"
+                "text": "I and IV only",
+                "textLatex": "I and IV only"
             },
             {
                 "key": "B",
-                "text": "II and IV only"
+                "text": "II and IV only",
+                "textLatex": "II and IV only"
             },
             {
                 "key": "C",
-                "text": "II and III only"
+                "text": "II and III only",
+                "textLatex": "II and III only"
             },
             {
                 "key": "D",
-                "text": "III and IV only"
+                "text": "III and IV only",
+                "textLatex": "III and IV only"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "The water supply in your house comes from a water tank that is located beside your house.  One day, you noticed that water hardly comes out of the faucet in the bathroom at the second floor of your house.  Which of the following can you do to increase the exit speed of water in the second-floor bathroom? \n \n\\nI. Replace the water tank with one that has a larger capacity.  \n\\nII. Replace the second-floor bathroom faucet’s pipe with a larger diameter one. \n\\nIII. Increase the height of the water t",
+        "explanationLatex": "Increasing the height of the water tank increases the hydrostatic pressure, and increasing the pipe diameter reduces resistance, both leading to a higher exit speed of water."
     },
     {
         "id": "mec-2020-015",
@@ -763,23 +794,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-mec-2020-015-cA-1771652384153.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-mec-2020-015-cB-1771652398595.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-mec-2020-015-cC-1771652408775.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-mec-2020-015-cD-1771652421722.png"
             }
         ],
         "answer": "B",
-        "explanation": "The second image is a fruit belonging to the same trophic level as the [779] SYENSIYA-bilidad: Developing One’s Skills in Test-taking"
+        "explanation": "The second image is a fruit belonging to the same trophic level as the [779] SYENSIYA-bilidad: Developing One’s Skills in Test-taking",
+        "questionLatex": "You are to construct a water tank with a horizontal exit pipe at the bottom.  You want the water to exit the pipe at high speed when the tank is full.  Which of the tank designs below should you consider?",
+        "explanationLatex": "To achieve high exit speed, the water pressure at the bottom of the tank needs to be maximized. This is accomplished by maximizing the height of the water column above the exit pipe, which option B does by having the tallest and narrowest design."
     },
     {
         "id": "mec-2020-016",
@@ -884,23 +925,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I and II"
+                "text": "I and II",
+                "textLatex": "I and II"
             },
             {
                 "key": "B",
-                "text": "I, II and III"
+                "text": "I, II and III",
+                "textLatex": "I, II and III"
             },
             {
                 "key": "C",
-                "text": "I, II and IV"
+                "text": "I, II and IV",
+                "textLatex": "I, II and IV"
             },
             {
                 "key": "D",
-                "text": "I, II, III and IV"
+                "text": "I, II, III and IV",
+                "textLatex": "I, II, III and IV"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which among the tool/s are used by electrician?",
+        "explanationLatex": "Electricians commonly use pliers (I) for gripping and cutting, screwdrivers (II) for fasteners, and wire strippers (III) to remove insulation from wires. While a wrench (IV) might be used occasionally, the first three are fundamental to electrical work.",
+        "image": "paste-mec-2020-019-q-1771652470688.png"
     },
     {
         "id": "mec-2020-020",
@@ -911,23 +959,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "A, C and E"
+                "text": "A, C and E",
+                "textLatex": "A, C and E"
             },
             {
                 "key": "B",
-                "text": "B, D and F"
+                "text": "B, D and F",
+                "textLatex": "B, D and F"
             },
             {
                 "key": "C",
-                "text": "C and D"
+                "text": "C and D",
+                "textLatex": "C and D"
             },
             {
                 "key": "D",
-                "text": "E and F"
+                "text": "E and F",
+                "textLatex": "E and F"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "In the figure shown below, which gears are turning clockwise?",
+        "explanationLatex": "When two gears mesh, they rotate in opposite directions. Since gear A turns counter-clockwise, gear B turns clockwise, gear C turns counter-clockwise, gear D turns clockwise, gear E turns counter-clockwise, and gear F turns clockwise.",
+        "image": "paste-mec-2020-020-q-1771652540008.png"
     },
     {
         "id": "mec-2020-021",
@@ -938,23 +993,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Point A"
+                "text": "Point A",
+                "textLatex": "Point A"
             },
             {
                 "key": "B",
-                "text": "Point B"
+                "text": "Point B",
+                "textLatex": "Point B"
             },
             {
                 "key": "C",
-                "text": "Point C"
+                "text": "Point C",
+                "textLatex": "Point C"
             },
             {
                 "key": "D",
-                "text": "Point D"
+                "text": "Point D",
+                "textLatex": "Point D"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "You are playing with a ball on an uneven surface as shown in the figure below. Assuming that the ball moves from point A to point D across the surface, at what point from the figure will your ball have a minimum gravitational potential energy?",
+        "explanationLatex": "Gravitational potential energy is directly proportional to height ($PE = mgh$). Point B is the lowest point on the surface, meaning it has the minimum height and thus the minimum gravitational potential energy.",
+        "image": "paste-mec-2020-021-q-1771652586189.png"
     },
     {
         "id": "mec-2020-022",
@@ -1064,23 +1126,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Projectile W"
+                "text": "Projectile W",
+                "textLatex": "Projectile W"
             },
             {
                 "key": "B",
-                "text": "Projectile X"
+                "text": "Projectile X",
+                "textLatex": "Projectile X"
             },
             {
                 "key": "C",
-                "text": "Projectile Y"
+                "text": "Projectile Y",
+                "textLatex": "Projectile Y"
             },
             {
                 "key": "D",
-                "text": "Both Projectile X and Y"
+                "text": "Both Projectile X and Y",
+                "textLatex": "Both Projectile X and Y"
             }
         ],
         "answer": "B",
-        "explanation": "All of those given are aquatic organisms capable of locomotion, except [604]"
+        "explanation": "All of those given are aquatic organisms capable of locomotion, except [604]",
+        "questionLatex": "In a projectile motion: for a given initial velocity $V_i$ and angle $\\theta$ which is less than 90°, \ndetermine the projectile that will reach the highest point (maximum height).",
+        "explanationLatex": "The maximum height of a projectile is determined by the vertical component of its initial velocity, $V_y = V_i \\sin\\theta$. Projectile X, having the largest initial velocity and a significant launch angle, will have the greatest vertical velocity component, leading to the highest point.",
+        "image": "paste-mec-2020-025-q-1771652631016.png"
     },
     {
         "id": "mec-2020-026",
@@ -1091,23 +1160,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I only"
+                "text": "I only",
+                "textLatex": "I only"
             },
             {
                 "key": "B",
-                "text": "II only"
+                "text": "II only",
+                "textLatex": "II only"
             },
             {
                 "key": "C",
-                "text": "II and III"
+                "text": "II and III",
+                "textLatex": "II and III"
             },
             {
                 "key": "D",
-                "text": "I and IV"
+                "text": "I and IV",
+                "textLatex": "I and IV"
             }
         ],
         "answer": "A",
-        "explanation": "Defective dynein molecules in cilia and flagella [626]"
+        "explanation": "Defective dynein molecules in cilia and flagella [626]",
+        "questionLatex": "A U-tube manometer is closed one end and open on the other end which is exposed to the atmosphere. It contains oil, water and air with different levels as shown. From the given statement below, which of them are true about the pressure at the same level?",
+        "explanationLatex": "In a continuous fluid at rest, pressure is constant at the same horizontal level. Statement I correctly applies this principle to points within the same fluid (oil) at the same elevation.",
+        "image": "paste-mec-2020-026-q-1771652708312.png"
     },
     {
         "id": "mec-2020-027",
@@ -1118,23 +1194,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "A",
-        "explanation": "In conduction of heat, the point closer to the thermal source has the higher [298] C [810] Developing One’s Skills in Test-Taking"
+        "explanation": "In conduction of heat, the point closer to the thermal source has the higher [298] C [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "Considering a steady state heat conduction across a plane composite wall composed of steel and brick. If both the brick and steel have the same thickness and the coefficient of thermal conductivity of steel is higher compared to that of the brick, which of the following points considered to be with the highest temperature given that the surrounding air on both sides is 100°",
+        "explanationLatex": "In a steady-state heat conduction scenario with identical surrounding temperatures, the highest temperature would typically be at the interface between the two materials, or within the material with lower thermal conductivity if the heat source is on that side, or at the surface exposed to the higher temperature if there's a temperature difference across the wall.",
+        "image": "paste-mec-2020-027-q-1771652929936.png"
     },
     {
         "id": "mec-2020-028",
@@ -1145,23 +1228,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Clockwise and twice the speed of the pulley at A"
+                "text": "Clockwise and twice the speed of the pulley at A",
+                "textLatex": "Clockwise and twice the speed of the pulley at A"
             },
             {
                 "key": "B",
-                "text": "Counter clockwise and twice the speed of the pulley at A"
+                "text": "Counter clockwise and twice the speed of the pulley at A",
+                "textLatex": "Counter clockwise and twice the speed of the pulley at A"
             },
             {
                 "key": "C",
-                "text": "Clockwise and the same speed as pulley at A"
+                "text": "Clockwise and the same speed as pulley at A",
+                "textLatex": "Clockwise and the same speed as pulley at A"
             },
             {
                 "key": "D",
-                "text": "Counter clockwise and the same speed as pulley at A"
+                "text": "Counter clockwise and the same speed as pulley at A",
+                "textLatex": "Counter clockwise and the same speed as pulley at A"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Pulleys A, B, C and D are linked together using a belt, while pulleys C and D are linked using a crossed belt. Pulleys A and E are of the same size, while pulleys B, C and D are of the same size and half of the bigger pulleys. What will be the rotation and speed of the pulley at E relative to the pulley at A if the pulley at A is rotating counter clockwise?",
+        "explanationLatex": "Pulleys A and B rotate in the same direction, and since B is half the size of A, B spins twice as fast. Pulleys B and C are the same size, so C spins at the same speed and direction as B. The crossed belt between C and D reverses the direction of D relative to C, but since D is the same size as C, their speeds are equal. Finally, pulleys D and E rotate in the same direction, and since E is the same size as A (and thus twice the size of D), E spins at half the speed of D. Combining these, E spins at the same speed as A and in the same direction.",
+        "image": "paste-mec-2020-028-q-1771653120177.png"
     },
     {
         "id": "mec-2020-029",
@@ -1172,23 +1262,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I and II only"
+                "text": "I and II only",
+                "textLatex": "I and II only"
             },
             {
                 "key": "B",
-                "text": "II and IV only"
+                "text": "II and IV only",
+                "textLatex": "II and IV only"
             },
             {
                 "key": "C",
-                "text": "I, II and III only"
+                "text": "I, II and III only",
+                "textLatex": "I, II and III only"
             },
             {
                 "key": "D",
-                "text": "II and III only"
+                "text": "II and III only",
+                "textLatex": "II and III only"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which system will have a downward motion on the suspended block if the lever on the right is moved downward?",
+        "explanationLatex": "For systems II and IV, moving the lever down directly pulls the string connected to the suspended block, causing it to move downward. In systems I and III, the lever's downward motion would cause the block to move upward.",
+        "image": "paste-mec-2020-029-q-1771653205677.png"
     },
     {
         "id": "mec-2020-030",
@@ -1199,22 +1296,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "W – X – Y – Z"
+                "text": "W – X – Y – Z",
+                "textLatex": "W – X – Y – Z"
             },
             {
                 "key": "C",
-                "text": "W – Z – Y – X"
+                "text": "W – Z – Y – X",
+                "textLatex": "W – Z – Y – X"
             },
             {
                 "key": "B",
-                "text": "Z – Y – X – W"
+                "text": "Z – Y – X – W",
+                "textLatex": "Z – Y – X – W"
             },
             {
                 "key": "D",
-                "text": "Z – X – Y – W  \nA \nB \nC \nE \nD \nMesh W \nMesh X \nMesh Y \nMesh Z"
+                "text": "Z – X – Y – W  \nA \nB \nC \nE \nD \nMesh W \nMesh X \nMesh Y \nMesh Z",
+                "textLatex": "Z – X – Y – W"
             }
         ],
         "answer": "A",
-        "explanation": "Given different sizes of sand grains (from gravels or rocks to the finest sand); [589] Mesh W [589] Mesh Y [590] Mesh Z [590] Mesh X [602] E only [810] Developing One’s Skills in Test-Taking"
+        "explanation": "Given different sizes of sand grains (from gravels or rocks to the finest sand); [589] Mesh W [589] Mesh Y [590] Mesh Z [590] Mesh X [602] E only [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "In sieving wet sand, which process is the most efficient to separate various sizes of aggregates to course and fine granules of sand using different sieving opening or wire mesh with one mesh is over the other.",
+        "explanationLatex": "To efficiently separate aggregates by size, sieves should be arranged from largest opening to smallest opening, allowing progressively finer particles to pass through. Therefore, the order W-X-Y-Z, representing decreasing mesh sizes, is the most efficient.",
+        "image": "paste-mec-2020-030-q-1771653240669.png"
     }
 ]
