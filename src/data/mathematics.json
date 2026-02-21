@@ -3182,7 +3182,8 @@
         "answer": "C",
         "explanation": "Because OM is the perpendicular bisector from the center to side XY, it is half the side length of the square. Thus side = 14. Area of square = 14^2 = 196. The diagonal of the square is 14*sqrt(2), which is also the diameter of the circle. The radius is 7*sqrt(2). The area of the circle is pi * (7*sqrt(2))^2 = 98*pi. The shaded region is Area of circle - Area of square = 98*pi - 196.",
         "questionLatex": "In the figure shown, square WXYZ is inscribed in circle O. Also, $\\overline{OM} \\perp \\overline{XY}$ and $OM = 7$. Find the area of the shaded region.",
-        "explanationLatex": "Since $OM \\perp XY$ from the center, $OM$ is the apothem. The side of the square is $2 \\times OM = 14$. The area of the square is $14^2 = 196$. The diagonal is $14\\sqrt{2}$, making the circle's radius $r = 7\\sqrt{2}$. The circle's area is $\\pi r^2 = \\pi (7\\sqrt{2})^2 = 98\\pi$. The shaded area is $98\\pi - 196$."
+        "explanationLatex": "Since $OM \\perp XY$ from the center, $OM$ is the apothem. The side of the square is $2 \\times OM = 14$. The area of the square is $14^2 = 196$. The diagonal is $14\\sqrt{2}$, making the circle's radius $r = 7\\sqrt{2}$. The circle's area is $\\pi r^2 = \\pi (7\\sqrt{2})^2 = 98\\pi$. The shaded area is $98\\pi - 196$.",
+        "image": "paste-math-practice1-049-q-1771651188076.png"
     },
     {
         "id": "math-practice1-052",
@@ -3215,7 +3216,8 @@
         "answer": "D",
         "explanation": "",
         "questionLatex": "The length of $\\overline{AC}$ is $5\\text{ meters}$. The length of $\\overline{BC}$ is $2\\text{ meters}$. Find $\\overline{AB}$.",
-        "explanationLatex": "The question is flawed as it presents a scenario that violates the triangle inequality theorem, where the sum of two sides must be greater than the third side. Given the options, none of them correctly represent a valid length for $\\overline{AB}$ if A, B, and C are collinear, or if they form a triangle."
+        "explanationLatex": "",
+        "image": "paste-math-practice1-052-q-1771651248403.png"
     },
     {
         "id": "math-practice1-053",
@@ -3347,7 +3349,8 @@
         "answer": "C",
         "explanation": "Let's assume lines $a, b, c$ are horizontal and lines $d, e$ are transversals. \\\\ If line $b$ and line $c$ are parallel, then the consecutive interior angles formed by transversal $e$ should sum to $180^\\circ$. \\\\ Given an angle of $120^\\circ$ for line $b$ and transversal $e$, and an angle of $60^\\circ$ for line $c$ and transversal $e$. \\\\ $120^\\circ + 60^\\circ = 180^\\circ$. This confirms that lines $b$ and $c$ are parallel. \\\\ For lines $a$ and $b$ with transversal $d$, the angles are $110^\\circ$ and $115^\\circ$. These are not equal or supplementary, so $a \\not\\parallel b$. \\\\ Therefore, $b \\parallel c$ is the true statement.",
         "questionLatex": "Based on the diagram below, which statement is true? (Angles are given as: line $a$ and a transversal have an angle of $110^\\circ$; line $b$ and the same transversal have an angle of $115^\\circ$; line $b$ and another transversal have an angle of $120^\\circ$; line $c$ and the second transversal have an angle of $60^\\circ$)",
-        "explanationLatex": "Let's assume lines $a, b, c$ are horizontal and lines $d, e$ are transversals. \\\\ If line $b$ and line $c$ are parallel, then the consecutive interior angles formed by transversal $e$ should sum to $180^\\circ$. \\\\ Given an angle of $120^\\circ$ for line $b$ and transversal $e$, and an angle of $60^\\circ$ for line $c$ and transversal $e$. \\\\ $120^\\circ + 60^\\circ = 180^\\circ$. This confirms that lines $b$ and $c$ are parallel. \\\\ For lines $a$ and $b$ with transversal $d$, the angles are $110^\\circ$ and $115^\\circ$. These are not equal or supplementary, so $a \\not\\parallel b$. \\\\ Therefore, $b \\parallel c$ is the true statement."
+        "explanationLatex": "Lines $b$ and $c$ are parallel because the consecutive interior angles ($120^\\circ$ and $60^\\circ$) formed by the transversal sum to $180^\\circ$.",
+        "image": "paste-math-practice1-056-q-1771651439813.png"
     },
     {
         "id": "math-practice1-057",

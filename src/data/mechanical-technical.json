@@ -457,24 +457,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-mec-2020-005-cA-1771651773393.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B",
+                "image": "paste-mec-2020-005-cB-1771651783556.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-mec-2020-005-cC-1771651793634.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D",
+                "image": "paste-mec-2020-005-cD-1771651803830.png"
             }
         ],
         "answer": "B",
         "explanation": "1500 = 0.3T so Tuition fee should be 5000 and 3500 is shouldered by the [259]",
-        "image": "mechanical-p51-1.jpeg"
+        "questionLatex": "Choose the most closely related tool or object for the tool given below.",
+        "explanationLatex": "The given image shows a wrench, which is used to turn nuts and bolts. Option B is a socket wrench, which serves the same primary function of tightening or loosening fasteners."
     },
     {
         "id": "mec-2020-006",
@@ -519,23 +528,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "The potential energy at A is greater than the potential energy at B"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "The potential energy at B is greater than the potential energy at A"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "The lowest potential energy is located at point A."
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "The lowest potential energy is located at point B."
             }
         ],
         "answer": "A",
-        "explanation": "m = 4 and n =  8 [304]"
+        "explanation": "m = 4 and n =  8 [304]",
+        "questionLatex": "You are playing with a ball on an uneven surface as shown in the figure. If the ball moves from point A to point D across the surface, what is the difference between the gravitational potential energy at point A and point B?",
+        "explanationLatex": "Gravitational potential energy is directly proportional to height. Since point A is at a higher elevation than point B, the potential energy at A is greater.",
+        "image": "paste-mec-2020-007-q-1771651880744.png"
     },
     {
         "id": "mec-2020-008",
