@@ -36,10 +36,10 @@ function loadKaTeX() {
  */
 export async function renderLatex(text) {
     if (!text) return '';
-    if (!text.includes('$')) return escapeHtml(text);
+    if (!text.includes('$')) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
 
     await loadKaTeX();
-    if (!window.katex) return escapeHtml(text);
+    if (!window.katex) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
 
     // Replace display math first ($$...$$)
     let result = text.replace(/\$\$([\s\S]*?)\$\$/g, (_, expr) => {
@@ -59,14 +59,17 @@ export async function renderLatex(text) {
         }
     });
 
+    // Replace literal '\n' and actual newlines with <br>
+    result = result.replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
+
     return result;
 }
 
 /** Synchronous version — returns plain text if KaTeX not loaded */
 export function renderLatexSync(text) {
     if (!text) return '';
-    if (!text.includes('$')) return escapeHtml(text);
-    if (!window.katex) return escapeHtml(text);
+    if (!text.includes('$')) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
+    if (!window.katex) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
 
     let result = text.replace(/\$\$([\s\S]*?)\$\$/g, (_, expr) => {
         try {
@@ -79,6 +82,8 @@ export function renderLatexSync(text) {
             return window.katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
         } catch { return escapeHtml(expr); }
     });
+
+    result = result.replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
 
     return result;
 }
