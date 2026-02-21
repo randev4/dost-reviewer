@@ -877,23 +877,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Lifting a 2-kilogram box 6 meters high"
+                "text": "Lifting a 2-kilogram box 6 meters high",
+                "textLatex": "Lifting a 2-kilogram box 6 meters high"
             },
             {
                 "key": "B",
-                "text": "Lifting a 3-kilogram box 5 meters high"
+                "text": "Lifting a 3-kilogram box 5 meters high",
+                "textLatex": "Lifting a 3-kilogram box 5 meters high"
             },
             {
                 "key": "C",
-                "text": "Lifting a 4-kilogram box 4 meters high"
+                "text": "Lifting a 4-kilogram box 4 meters high",
+                "textLatex": "Lifting a 4-kilogram box 4 meters high"
             },
             {
                 "key": "D",
-                "text": "Lifting a 5-kilogram box 3 meter high."
+                "text": "Lifting a 5-kilogram box 3 meter high.",
+                "textLatex": "Lifting a 5-kilogram box 3 meter high."
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the following will require the greatest amount of mechanical work?",
+        "explanationLatex": "Mechanical work is calculated as force times distance ($W = F \\times d$). Since force is mass times gravity ($F = m \\times g$), the work done is proportional to mass times height ($W \\propto m \\times h$). Calculating $m \\times h$ for each option reveals that 4 kg * 4 m = 16 J, which is the highest value."
     },
     {
         "id": "sci-2020-017",
@@ -904,23 +910,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "a 20-watt incandescent bulb used for 24 hours"
+                "text": "a 20-watt incandescent bulb used for 24 hours",
+                "textLatex": "a 20-watt incandescent bulb used for 24 hours"
             },
             {
                 "key": "B",
-                "text": "a 40-watt fluorescent lamp used for 8 hours"
+                "text": "a 40-watt fluorescent lamp used for 8 hours",
+                "textLatex": "a 40-watt fluorescent lamp used for 8 hours"
             },
             {
                 "key": "C",
-                "text": "a 60-watt electric fan used for 6 hours"
+                "text": "a 60-watt electric fan used for 6 hours",
+                "textLatex": "a 60-watt electric fan used for 6 hours"
             },
             {
                 "key": "D",
-                "text": "a 100-watt LCD TV used for 4 hours"
+                "text": "a 100-watt LCD TV used for 4 hours",
+                "textLatex": "a 100-watt LCD TV used for 4 hours"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the following consumed the greatest amount of energy?",
+        "explanationLatex": "Energy consumption is calculated by multiplying power (watts) by time (hours). The 20-watt bulb used for 24 hours consumes 480 watt-hours, which is greater than the other options."
     },
     {
         "id": "sci-2020-018",
@@ -931,23 +943,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "a 5-watt LED bulb used for 24 hours"
+                "text": "a 5-watt LED bulb used for 24 hours",
+                "textLatex": "a 5-watt LED bulb used for 24 hours"
             },
             {
                 "key": "B",
-                "text": "a 20-watt incandescent bulb used for 12 hours"
+                "text": "a 20-watt incandescent bulb used for 12 hours",
+                "textLatex": "a 20-watt incandescent bulb used for 12 hours"
             },
             {
                 "key": "C",
-                "text": "a 40-watt fluorescent lamp used for 10 hours"
+                "text": "a 40-watt fluorescent lamp used for 10 hours",
+                "textLatex": "a 40-watt fluorescent lamp used for 10 hours"
             },
             {
                 "key": "D",
-                "text": "a 60-watt electric fan used for 6 hours"
+                "text": "a 60-watt electric fan used for 6 hours",
+                "textLatex": "a 60-watt electric fan used for 6 hours"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the following consumed the least amount of energy?",
+        "explanationLatex": "Energy consumed is calculated by multiplying power (watts) by time (hours). Option A consumes the least energy at 120 watt-hours (5W * 24h), compared to 240 Wh for B, 400 Wh for C, and 360 Wh for D."
     },
     {
         "id": "sci-2020-019",
@@ -958,23 +976,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "conduction"
+                "text": "conduction",
+                "textLatex": "conduction"
             },
             {
                 "key": "B",
-                "text": "convection"
+                "text": "convection",
+                "textLatex": "convection"
             },
             {
                 "key": "C",
-                "text": "radiation"
+                "text": "radiation",
+                "textLatex": "radiation"
             },
             {
                 "key": "D",
-                "text": "refraction"
+                "text": "refraction",
+                "textLatex": "refraction"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Energy within the oceans is distributed through which process?",
+        "explanationLatex": "Convection is the primary process for energy distribution in oceans, as it involves the transfer of heat through the movement of fluids (water) due to density differences."
     },
     {
         "id": "sci-2020-020",
@@ -985,23 +1009,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "conduction"
+                "text": "conduction",
+                "textLatex": "conduction"
             },
             {
                 "key": "B",
-                "text": "convection"
+                "text": "convection",
+                "textLatex": "convection"
             },
             {
                 "key": "C",
-                "text": "radiation"
+                "text": "radiation",
+                "textLatex": "radiation"
             },
             {
                 "key": "D",
-                "text": "refraction"
+                "text": "refraction",
+                "textLatex": "refraction"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "The Earth is heated by the Sun by which process?",
+        "explanationLatex": "The Sun's energy travels through the vacuum of space to Earth primarily as electromagnetic waves, which is the definition of radiation. Conduction and convection require a medium for heat transfer, which is absent in space."
     },
     {
         "id": "sci-2020-021",
@@ -1039,24 +1069,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "D",
         "explanation": "",
-        "image": "science-p31-1.png"
+        "image": "science-p31-1.png",
+        "questionLatex": "A total solar eclipse was last seen in the Philippines on Oct. 24, 1995. Which of the \nfollowing images shows the correct configuration of the Earth, Moon, and Sun during that \ntime?",
+        "explanationLatex": ""
     },
     {
         "id": "sci-2020-023",
@@ -1067,23 +1103,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "east"
+                "text": "east",
+                "textLatex": "east"
             },
             {
                 "key": "B",
-                "text": "north"
+                "text": "north",
+                "textLatex": "north"
             },
             {
                 "key": "C",
-                "text": "south"
+                "text": "south",
+                "textLatex": "south"
             },
             {
                 "key": "D",
-                "text": "west"
+                "text": "west",
+                "textLatex": "west"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "You observe that when you are looking at the front of your house at 8:00 AM, the sun is \nto the right of you. Returning to the same exact spot at 4:00 pm, you notice that the sun \nis now to the left of you. At which direction were you facing at 8:00 AM and 4:00 pm?",
+        "explanationLatex": "If the sun is to your right in the morning (when it's in the east) and to your left in the afternoon (when it's in the west), you must be facing north. This orientation keeps the sun on opposite sides of you as it traverses the sky."
     },
     {
         "id": "sci-2020-024",
@@ -1094,23 +1136,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "a clastic sedimentary rock"
+                "text": "a clastic sedimentary rock",
+                "textLatex": "a clastic sedimentary rock"
             },
             {
                 "key": "B",
-                "text": "an extrusive igneous rock"
+                "text": "an extrusive igneous rock",
+                "textLatex": "an extrusive igneous rock"
             },
             {
                 "key": "C",
-                "text": "a foliated metamorphic rock"
+                "text": "a foliated metamorphic rock",
+                "textLatex": "a foliated metamorphic rock"
             },
             {
                 "key": "D",
-                "text": "an intrusive igneous rock"
+                "text": "an intrusive igneous rock",
+                "textLatex": "an intrusive igneous rock"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Mara poured saltwater solution on a cup of sand which she got from a beach in one of \ntheir outings. After a week she found out that a residue was left on the cup. The residue \ncemented the sand grains together, forming a rock-like hardened material. The residue is \nmost likely similar to___________.",
+        "explanationLatex": "The residue, formed by the cementing of sand grains, mimics the process of lithification in clastic sedimentary rocks, where sediments are compacted and cemented together."
     },
     {
         "id": "sci-2020-025",
@@ -1121,24 +1169,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Turn on the faucet with water running smoothly and adjust the table on a low \nslope."
+                "text": "Turn on the faucet with water running smoothly and adjust the table on a low \nslope.",
+                "textLatex": "Turn on the faucet with water running smoothly and adjust the table on a low \nslope."
             },
             {
                 "key": "B",
-                "text": "Turn on the faucet with water running smoothly and adjust the table on a high \nslope."
+                "text": "Turn on the faucet with water running smoothly and adjust the table on a high \nslope.",
+                "textLatex": "Turn on the faucet with water running smoothly and adjust the table on a high \nslope."
             },
             {
                 "key": "C",
-                "text": "Turn on the faucet with water running turbulently, then adjust the table on a low \nslope."
+                "text": "Turn on the faucet with water running turbulently, then adjust the table on a low \nslope.",
+                "textLatex": "Turn on the faucet with water running turbulently, then adjust the table on a low \nslope."
             },
             {
                 "key": "D",
-                "text": "Turn on the faucet with water running turbulently, then adjust table on a high \nslope."
+                "text": "Turn on the faucet with water running turbulently, then adjust table on a high \nslope.",
+                "textLatex": "Turn on the faucet with water running turbulently, then adjust table on a high \nslope."
             }
         ],
         "answer": "A",
         "explanation": "",
-        "image": "science-p32-3.jpeg"
+        "image": "science-p32-3.jpeg",
+        "questionLatex": "The illustration below shows how a delta is formed.  \n \nA mixture of sediment was placed on the closed-edge table. The faucet was turned on and \nallowed the sediment to flow downward. The sediment began forming at the lower end \nuntil a delta plane is formed. Using the illustration, how can a delta be formed without \nexcessive mass movement?",
+        "explanationLatex": "A low slope and smooth water flow allow for gradual sediment deposition, which is essential for delta formation without excessive mass movement."
     },
     {
         "id": "sci-2020-026",
@@ -1149,23 +1203,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Diameter of the storm"
+                "text": "Diameter of the storm",
+                "textLatex": "Diameter of the storm"
             },
             {
                 "key": "B",
-                "text": "Maximum wind speed"
+                "text": "Maximum wind speed",
+                "textLatex": "Maximum wind speed"
             },
             {
                 "key": "C",
-                "text": "Location of landfall"
+                "text": "Location of landfall",
+                "textLatex": "Location of landfall"
             },
             {
                 "key": "D",
-                "text": "Movement speed"
+                "text": "Movement speed",
+                "textLatex": "Movement speed"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "A typhoon warning has been raised in your area. You are trying to determine when the typhoon will arrive at your area.  Which of the following information will you need to look \nup?",
+        "explanationLatex": "To determine when the typhoon will arrive, you need to know how fast it's moving (movement speed) and its current distance from your location. The other options describe the typhoon's intensity or impact point, not its arrival time."
     },
     {
         "id": "sci-2020-027",
@@ -1176,23 +1236,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I – II – III - IV"
+                "text": "I – II – III - IV",
+                "textLatex": "I – II – III - IV"
             },
             {
                 "key": "B",
-                "text": "III – II – I - IV"
+                "text": "III – II – I - IV",
+                "textLatex": "III – II – I - IV"
             },
             {
                 "key": "C",
-                "text": "II – IV – I - II"
+                "text": "II – IV – I - II",
+                "textLatex": "II – IV – I - II"
             },
             {
                 "key": "D",
-                "text": "IV – II – III – I"
+                "text": "IV – II – III – I",
+                "textLatex": "IV – II – III – I"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "What is the correct sequence of precautions to take before, during, and after a typhoon? \n \nI. Stay away from flood waters, they may carry water-borne diseases \nII. Check the roof and windows of your house for any damage or loose attachment \nIII. Monitor the weather reports and the weather outside \nIV. Pack a bag with water, food, clothes, batteries, flashlights and other necessities",
+        "explanationLatex": "The correct sequence prioritizes preparation (IV, II) before the typhoon, followed by monitoring during (III), and finally safety measures after the typhoon has passed (I)."
     },
     {
         "id": "sci-2020-028",
@@ -1203,23 +1269,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Low angle slope, soil, and wet conditions"
+                "text": "Low angle slope, soil, and wet conditions",
+                "textLatex": "Low angle slope, soil, and wet conditions"
             },
             {
                 "key": "B",
-                "text": "High angle slope, soil, and wet conditions"
+                "text": "High angle slope, soil, and wet conditions",
+                "textLatex": "High angle slope, soil, and wet conditions"
             },
             {
                 "key": "C",
-                "text": "Low angle slope, rock, and wet conditions"
+                "text": "Low angle slope, rock, and wet conditions",
+                "textLatex": "Low angle slope, rock, and wet conditions"
             },
             {
                 "key": "D",
-                "text": "High angle slope, rock, and dry conditions"
+                "text": "High angle slope, rock, and dry conditions",
+                "textLatex": "High angle slope, rock, and dry conditions"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "The slope angles, nature of slope material and water saturation are some of the factors controlling the mass wasting process. Which of the following is a recipe for landslides?",
+        "explanationLatex": "Landslides are most likely to occur on steep slopes (high angle) where unconsolidated material like soil is present, especially when saturated with water, as this reduces friction and adds weight."
     },
     {
         "id": "sci-2020-029",
@@ -1230,23 +1302,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Diameter of the storm"
+                "text": "Diameter of the storm",
+                "textLatex": "Diameter of the storm"
             },
             {
                 "key": "B",
-                "text": "Maximum wind speed"
+                "text": "Maximum wind speed",
+                "textLatex": "Maximum wind speed"
             },
             {
                 "key": "C",
-                "text": "Amount of Rainfall"
+                "text": "Amount of Rainfall",
+                "textLatex": "Amount of Rainfall"
             },
             {
                 "key": "D",
-                "text": "Movement speed"
+                "text": "Movement speed",
+                "textLatex": "Movement speed"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "A typhoon warning has been raised in your area. You are trying to determine the nearest town that you can evacuate to to avoid the effects of the typhoon. Which of the following \ninformation will you need to look up?",
+        "explanationLatex": "To determine a safe evacuation distance, you need to know the storm's diameter, as this indicates the total area that will be affected by the typhoon's winds and rainfall. The other options describe intensity or speed, but not the overall spatial extent of the danger."
     },
     {
         "id": "sci-2020-030",
@@ -1257,23 +1335,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Stay away from flood waters, they may carry water-borne diseases"
+                "text": "Stay away from flood waters, they may carry water-borne diseases",
+                "textLatex": "Stay away from flood waters, they may carry water-borne diseases"
             },
             {
                 "key": "B",
-                "text": "Check the roof and windows of your house for any damage or loose attachment"
+                "text": "Check the roof and windows of your house for any damage or loose attachment",
+                "textLatex": "Check the roof and windows of your house for any damage or loose attachment"
             },
             {
                 "key": "C",
-                "text": "Monitor the weather reports and the weather outside"
+                "text": "Monitor the weather reports and the weather outside",
+                "textLatex": "Monitor the weather reports and the weather outside"
             },
             {
                 "key": "D",
-                "text": "Pack a bag with water, food, clothes, batteries, flashlights and other necessities"
+                "text": "Pack a bag with water, food, clothes, batteries, flashlights and other necessities",
+                "textLatex": "Pack a bag with water, food, clothes, batteries, flashlights and other necessities"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the following precautions SHOULD NOT be done while a typhoon is in your area?",
+        "explanationLatex": "Checking the roof and windows during a typhoon is extremely dangerous due to high winds and potential flying debris, making it a precaution that should NOT be taken."
     },
     {
         "id": "sci-2020-031",
@@ -1284,23 +1368,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Asteroid"
+                "text": "Asteroid",
+                "textLatex": "Asteroid"
             },
             {
                 "key": "B",
-                "text": "Comet"
+                "text": "Comet",
+                "textLatex": "Comet"
             },
             {
                 "key": "C",
-                "text": "Meteor"
+                "text": "Meteor",
+                "textLatex": "Meteor"
             },
             {
                 "key": "D",
-                "text": "Meteorite"
+                "text": "Meteorite",
+                "textLatex": "Meteorite"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Ceres is a 1000-km diameter rocky body which orbits the sun. What is the correct classification of Ceres?",
+        "explanationLatex": "Ceres is classified as an asteroid because it is a rocky body orbiting the Sun, and its size (1000 km) is characteristic of the largest asteroids, specifically a dwarf planet within the asteroid belt."
     },
     {
         "id": "sci-2020-032",
@@ -1311,23 +1401,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "10x"
+                "text": "10x",
+                "textLatex": "10x"
             },
             {
                 "key": "B",
-                "text": "90x"
+                "text": "90x",
+                "textLatex": "90x"
             },
             {
                 "key": "C",
-                "text": "100x"
+                "text": "100x",
+                "textLatex": "100x"
             },
             {
                 "key": "D",
-                "text": "110x"
+                "text": "110x",
+                "textLatex": "110x"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Using a compound microscope, you want to view a plant cell under a magnification of \n100x. Given that your eyepiece has a magnification of 10x, which objective should you use \nto achieve your desired magnification?",
+        "explanationLatex": "Total magnification is calculated by multiplying the eyepiece magnification by the objective lens magnification. To achieve 100x total magnification with a 10x eyepiece, a 10x objective lens is needed ($10 \\times 10 = 100$)."
     },
     {
         "id": "sci-2020-033",
@@ -1338,23 +1434,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "River"
+                "text": "River",
+                "textLatex": "River"
             },
             {
                 "key": "B",
-                "text": "Stream"
+                "text": "Stream",
+                "textLatex": "Stream"
             },
             {
                 "key": "C",
-                "text": "Estuary"
+                "text": "Estuary",
+                "textLatex": "Estuary"
             },
             {
                 "key": "D",
-                "text": "Freshwater Lake"
+                "text": "Freshwater Lake",
+                "textLatex": "Freshwater Lake"
             }
         ],
         "answer": "C",
-        "explanation": "When fish need some salt to live, this means that they have evolved in a [638] Carboxylic acids have the functional group R [638] OH. This is present in [700] OH."
+        "explanation": "When fish need some salt to live, this means that they have evolved in a [638] Carboxylic acids have the functional group R [638] OH. This is present in [700] OH.",
+        "questionLatex": "Imagine you have a pet fish called Kalayaan. You keep Kalayaan inside an aquarium, but she looks very weak. You then decide to add a tablespoon of salt into the water and this \nmade her look healthy. After a year of taking care of her, you decide to release her back to her natural habitat so that she can reproduce freely. Which aquatic biome do you think \nis right for her?",
+        "explanationLatex": "Adding salt to Kalayaan's water suggests she is a saltwater or brackish water species. An estuary is the only option that provides a mix of fresh and saltwater, making it the most suitable natural habitat for a fish that thrives with added salt."
     },
     {
         "id": "sci-2020-034",
@@ -1365,23 +1467,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "This character is said to be analogous."
+                "text": "This character is said to be analogous.",
+                "textLatex": "This character is said to be analogous."
             },
             {
                 "key": "B",
-                "text": "This character is said to be homologous."
+                "text": "This character is said to be homologous.",
+                "textLatex": "This character is said to be homologous."
             },
             {
                 "key": "C",
-                "text": "This character is said to be discontinuous."
+                "text": "This character is said to be discontinuous.",
+                "textLatex": "This character is said to be discontinuous."
             },
             {
                 "key": "D",
-                "text": "This character is said to be homoplasious."
+                "text": "This character is said to be homoplasious.",
+                "textLatex": "This character is said to be homoplasious."
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Cactus and euphorbs have prominent sharp and pointed spines on the surface of their body. The spines of cactus and stem-succulent euphorbs is a character that arose from a \ncommon evolutionary origin. What can be inferred from this character?",
+        "explanationLatex": "The question states that the spines arose from a common evolutionary origin, which is the definition of a homologous character."
     },
     {
         "id": "sci-2020-035",
@@ -1392,23 +1500,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "acid halide"
+                "text": "acid halide",
+                "textLatex": "acid halide"
             },
             {
                 "key": "B",
-                "text": "alkyl halide"
+                "text": "alkyl halide",
+                "textLatex": "alkyl halide"
             },
             {
                 "key": "C",
-                "text": "carboxylic acid"
+                "text": "carboxylic acid",
+                "textLatex": "carboxylic acid"
             },
             {
                 "key": "D",
-                "text": "acid anhydride"
+                "text": "acid anhydride",
+                "textLatex": "acid anhydride"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Brielle loves the sour taste of vinegar. This sour taste is due to an organic compound called \nacetic acid. What is the functional group present in acetic acid?  (CH3COOH Acetic acid)",
+        "explanationLatex": "Acetic acid contains a carboxyl group (-COOH), which is the defining functional group of carboxylic acids."
     },
     {
         "id": "sci-2020-036",
@@ -1419,23 +1533,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "CaCl2 + Na3PO4 → Ca3(PO4)2 + NaCl"
+                "text": "CaCl2 + Na3PO4 → Ca3(PO4)2 + NaCl",
+                "textLatex": "CaCl2 + Na3PO4 → Ca3(PO4)2 + NaCl"
             },
             {
                 "key": "B",
-                "text": "2CaCl2 + Na3PO4 → Ca2PO4 + 3NaCl"
+                "text": "2CaCl2 + Na3PO4 → Ca2PO4 + 3NaCl",
+                "textLatex": "2CaCl2 + Na3PO4 → Ca2PO4 + 3NaCl"
             },
             {
                 "key": "C",
-                "text": "3CaCl2 + 2Na3PO4 → Ca3(PO4)2 + 6NaCl"
+                "text": "3CaCl2 + 2Na3PO4 → Ca3(PO4)2 + 6NaCl",
+                "textLatex": "3CaCl2 + 2Na3PO4 → Ca3(PO4)2 + 6NaCl"
             },
             {
                 "key": "D",
-                "text": "3CaCl2 + Na3PO4 → Ca3(PO4)2 + 3NaCl"
+                "text": "3CaCl2 + Na3PO4 → Ca3(PO4)2 + 3NaCl",
+                "textLatex": "3CaCl2 + Na3PO4 → Ca3(PO4)2 + 3NaCl"
             }
         ],
         "answer": "C",
-        "explanation": "It has the balanced chemical equation with correct formula for the reactants [700] C [810] Developing One’s Skills in Test-Taking"
+        "explanation": "It has the balanced chemical equation with correct formula for the reactants [700] C [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "Calcium phosphates are historically known as good material for tooth replacement, repair of large bone defects caused by tumors and as injectable cement. One simple way of producing calcium phosphate is by collecting it from the reaction of Calcium chloride and Sodium phosphate. Write the balanced chemical equation to produce calcium phosphate.",
+        "explanationLatex": "To balance the equation, three calcium atoms are needed on both sides, requiring 3CaCl$_2$. This then necessitates two phosphate groups, hence 2Na$_3$PO$_4$, which in turn balances the sodium and chlorine atoms with 6NaCl."
     },
     {
         "id": "sci-2020-037",
@@ -1446,23 +1566,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "IV, III, I, II"
+                "text": "IV, III, I, II",
+                "textLatex": "IV, III, I, II"
             },
             {
                 "key": "B",
-                "text": "II, III, I, IV"
+                "text": "II, III, I, IV",
+                "textLatex": "II, III, I, IV"
             },
             {
                 "key": "C",
-                "text": "II, I, III, IV"
+                "text": "II, I, III, IV",
+                "textLatex": "II, I, III, IV"
             },
             {
                 "key": "D",
-                "text": "IV, II, I, III"
+                "text": "IV, II, I, III",
+                "textLatex": "IV, II, I, III"
             }
         ],
         "answer": "D",
-        "explanation": "It shows the correct sequence of steps in determining the empirical formula"
+        "explanation": "It shows the correct sequence of steps in determining the empirical formula",
+        "questionLatex": "Arrange the following steps to determine the empirical formula of a compound. \n \nI. Determine the ratio by dividing the number of moles of each element by the lowest number \nII. Compute for the number of moles from the given mass of each element. \nIII. Use the resulting ratio as the subscript in the formula \nIV. Identify the mass of each element stated in the problem or from the percentage \ngiven.",
+        "explanationLatex": "The process begins by identifying the mass of each element (IV), then converting these masses to moles (II). Next, the mole ratio is simplified by dividing by the smallest number of moles (I), and finally, these simplified ratios become the subscripts in the empirical formula (III)."
     },
     {
         "id": "sci-2020-038",
@@ -1473,23 +1599,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "1s2 2s2 3s2 2p6 3p"
+                "text": "1s2 2s2 3s2 2p6 3p",
+                "textLatex": "1s2 2s2 3s2 2p6 3p"
             },
             {
                 "key": "B",
-                "text": "1s2 2s2 2p2 3s6 3p"
+                "text": "1s2 2s2 2p2 3s6 3p",
+                "textLatex": "1s2 2s2 2p2 3s6 3p"
             },
             {
                 "key": "C",
-                "text": "1s2 2s2 2p6 3s2 3p"
+                "text": "1s2 2s2 2p6 3s2 3p",
+                "textLatex": "1s2 2s2 2p6 3s2 3p"
             },
             {
                 "key": "D",
-                "text": "1s2 2s2 2p6 3s1 3p"
+                "text": "1s2 2s2 2p6 3s1 3p",
+                "textLatex": "1s2 2s2 2p6 3s1 3p"
             }
         ],
         "answer": "C",
-        "explanation": "Follow Aufbau’s Principle in writing the electronic configuration. If the [166] 2s2 2p6 3s2 3p4, which is letter C."
+        "explanation": "Follow Aufbau’s Principle in writing the electronic configuration. If the [166] 2s2 2p6 3s2 3p4, which is letter C.",
+        "questionLatex": "What is the electronic configuration for a ground state element with a nuclear charge of +16?",
+        "explanationLatex": "A nuclear charge of +16 indicates 16 protons, meaning the neutral atom has 16 electrons. The electronic configuration 1s$^2$ 2s$^2$ 2p$^6$ 3s$^2$ 3p$^4$ correctly fills the orbitals in order of increasing energy for 16 electrons."
     },
     {
         "id": "sci-2020-039",
@@ -1500,23 +1632,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "9B (Z = 5)"
+                "text": "9B (Z = 5)",
+                "textLatex": "9B (Z = 5)"
             },
             {
                 "key": "B",
-                "text": "13C (Z = 6)"
+                "text": "13C (Z = 6)",
+                "textLatex": "13C (Z = 6)"
             },
             {
                 "key": "C",
-                "text": "14N (Z = 7)"
+                "text": "14N (Z = 7)",
+                "textLatex": "14N (Z = 7)"
             },
             {
                 "key": "D",
-                "text": "17O (Z = 8)"
+                "text": "17O (Z = 8)",
+                "textLatex": "17O (Z = 8)"
             }
         ],
         "answer": "C",
-        "explanation": "Solve for the proton number (P), neutron number (N) and electron number [504] R = vo2(sin 2θ) [534] where: [810] Developing One’s Skills in Test-Taking"
+        "explanation": "Solve for the proton number (P), neutron number (N) and electron number [504] R = vo2(sin 2θ) [534] where: [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "Which of the following nuclides have the same number of protons, neutrons and electrons?",
+        "explanationLatex": "For $^{14}$N (Z=7), the number of protons is 7, the number of electrons is 7 (for a neutral atom), and the number of neutrons is $14 - 7 = 7$."
     },
     {
         "id": "sci-2020-040",
@@ -1527,23 +1665,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "9B (Z = 5)"
+                "text": "9B (Z = 5)",
+                "textLatex": "9B (Z = 5)"
             },
             {
                 "key": "B",
-                "text": "13C (Z = 6)"
+                "text": "13C (Z = 6)",
+                "textLatex": "13C (Z = 6)"
             },
             {
                 "key": "C",
-                "text": "15N (Z = 7)"
+                "text": "15N (Z = 7)",
+                "textLatex": "15N (Z = 7)"
             },
             {
                 "key": "D",
-                "text": "16O (Z = 8)"
+                "text": "16O (Z = 8)",
+                "textLatex": "16O (Z = 8)"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the following nuclides have the same number of protons, neutrons and electrons?",
+        "explanationLatex": "For $^{16}$O (Z=8), the number of protons is 8 (from Z), the number of electrons is 8 (for a neutral atom), and the number of neutrons is $16 - 8 = 8$."
     },
     {
         "id": "sci-2020-041",
@@ -1554,24 +1698,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "π m"
+                "text": "π m",
+                "textLatex": "π m"
             },
             {
                 "key": "B",
-                "text": "2π m"
+                "text": "2π m",
+                "textLatex": "2π m"
             },
             {
                 "key": "C",
-                "text": "3π m"
+                "text": "3π m",
+                "textLatex": "3π m"
             },
             {
                 "key": "D",
-                "text": "4π m"
+                "text": "4π m",
+                "textLatex": "4π m"
             }
         ],
         "answer": "B",
         "explanation": "",
-        "image": "science-p35-1.png"
+        "image": "science-p35-1.png",
+        "questionLatex": "The propagation of a mechanical wave is described by the graph shown below. What is \nthe wavelength of the wave?",
+        "explanationLatex": "The wavelength is the spatial period of the wave, which is the distance over which the wave's shape repeats. From the graph, the wave completes one full cycle (e.g., from peak to peak or trough to trough) over a distance of $2\\pi$ meters."
     },
     {
         "id": "sci-2020-042",
@@ -1582,24 +1732,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "0°"
+                "text": "0°",
+                "textLatex": "0°"
             },
             {
                 "key": "B",
-                "text": "45°"
+                "text": "45°",
+                "textLatex": "45°"
             },
             {
                 "key": "C",
-                "text": "60°"
+                "text": "60°",
+                "textLatex": "60°"
             },
             {
                 "key": "D",
-                "text": "90°"
+                "text": "90°",
+                "textLatex": "90°"
             }
         ],
         "answer": "B",
         "explanation": "",
-        "image": "science-p36-1.png"
+        "image": "science-p36-1.png",
+        "questionLatex": "A stone is thrown at an angle, 𝜃, from the ground such that it becomes a projectile as \nshown in the figure below. At what angle, 𝜃, from the ground should the projectile be thrown so that it will have the \nmaximum range?",
+        "explanationLatex": "The maximum range for a projectile launched on level ground is achieved when the launch angle is 45 degrees, as this angle optimally balances the horizontal velocity component and the time the projectile spends in the air."
     },
     {
         "id": "sci-2020-043",
@@ -1610,23 +1766,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I and III"
+                "text": "I and III",
+                "textLatex": "I and III"
             },
             {
                 "key": "B",
-                "text": "III and IV"
+                "text": "III and IV",
+                "textLatex": "III and IV"
             },
             {
                 "key": "C",
-                "text": "I, and V"
+                "text": "I, and V",
+                "textLatex": "I, and V"
             },
             {
                 "key": "D",
-                "text": "II and IV"
+                "text": "II and IV",
+                "textLatex": "II and IV"
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Ben’s Monday morning school activities include the following: \nI. Fifteen minutes of break time spent eating in a table at the canteen.  \nII. Twenty minutes to walk to the nearby lecture room in Science. \nIII. Two hours to attend the Science lecture-laboratory. \nIV. Twenty-minute walk to a nearby canteen. \nV. An hour to attend a lecture in Math. \n \nIf you are Ben, which two activities do you think requires a change of speed and are NOT reasonable in doing the activity?",
+        "explanationLatex": "Activities II and IV involve walking, and a 20-minute walk to a \"nearby\" location is generally unreasonable, implying an unusually slow pace or an inaccurately described distance."
     },
     {
         "id": "sci-2020-044",
@@ -1637,24 +1799,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "0 m"
+                "text": "0 m",
+                "textLatex": "0 m"
             },
             {
                 "key": "B",
-                "text": "4 m"
+                "text": "4 m",
+                "textLatex": "4 m"
             },
             {
                 "key": "C",
-                "text": "8 m"
+                "text": "8 m",
+                "textLatex": "8 m"
             },
             {
                 "key": "D",
-                "text": "12 m"
+                "text": "12 m",
+                "textLatex": "12 m"
             }
         ],
         "answer": "C",
         "explanation": "",
-        "image": "science-p36-2.png"
+        "image": "science-p36-2.png",
+        "questionLatex": "The following graph shows the displacement vs time graph of a tricycle that you have boarded in going from your home to the market.\n \nWhat is the final displacement of the tricycle that you have boarded?",
+        "explanationLatex": "The final displacement is the position at the end of the journey, which the graph shows as 8 m at t=10s."
     },
     {
         "id": "sci-2020-045",
@@ -1665,23 +1833,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "I and II"
+                "text": "I and II",
+                "textLatex": "I and II"
             },
             {
                 "key": "B",
-                "text": "II and III"
+                "text": "II and III",
+                "textLatex": "II and III"
             },
             {
                 "key": "C",
-                "text": "I and III"
+                "text": "I and III",
+                "textLatex": "I and III"
             },
             {
                 "key": "D",
-                "text": "I and IV"
+                "text": "I and IV",
+                "textLatex": "I and IV"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Zeon’s Sunday trip from home using his bicycle is described by the following activities: \n \nI. Two hours bus nonstop trip from home to the church 70 m away. \nII. An hour spent to attendance the mass. \nIII. One-minute walk to the market 1 km away from the church; \nIV. Thirty minutes spent to buy goods from Aling Susan’s grocery store in the market. \n \nIf you are Zeon, which two activities do you think are NOT reasonable and requires a change of speed in doing the activity?",
+        "explanationLatex": "Activity I describes a bus trip of 70 meters in two hours, which is an extremely slow speed for a bus. Activity III describes walking 1 kilometer in one minute, which is an impossibly fast speed for walking."
     },
     {
         "id": "sci-2020-046",
@@ -1719,24 +1893,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Siltstone P, shale M, limestone C, and sandstone L"
+                "text": "Siltstone P, shale M, limestone C, and sandstone L",
+                "textLatex": "Siltstone P, shale M, limestone C, and sandstone L"
             },
             {
                 "key": "B",
-                "text": "Siltstone O and sandstone Q only"
+                "text": "Siltstone O and sandstone Q only",
+                "textLatex": "Siltstone O and sandstone Q only"
             },
             {
                 "key": "C",
-                "text": "Siltstone P and sandstone L only"
+                "text": "Siltstone P and sandstone L only",
+                "textLatex": "Siltstone P and sandstone L only"
             },
             {
                 "key": "D",
-                "text": "Siltstone O only"
+                "text": "Siltstone O only",
+                "textLatex": "Siltstone O only"
             }
         ],
         "answer": "A",
         "explanation": "",
-        "image": "science-p37-1.png"
+        "image": "science-p37-1.png",
+        "questionLatex": "What rock layers are older than the fossil in limestone D?",
+        "explanationLatex": "Based on the Law of Superposition, any rock layers beneath limestone D must be older. These layers are siltstone P, shale M, limestone C, and sandstone L."
     },
     {
         "id": "sci-2020-048",
@@ -1747,23 +1927,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Relative dating: superposition"
+                "text": "Relative dating: superposition",
+                "textLatex": "Relative dating: superposition"
             },
             {
                 "key": "B",
-                "text": "Relative dating: fossil succession"
+                "text": "Relative dating: fossil succession",
+                "textLatex": "Relative dating: fossil succession"
             },
             {
                 "key": "C",
-                "text": "Absolute dating: carbon dating"
+                "text": "Absolute dating: carbon dating",
+                "textLatex": "Absolute dating: carbon dating"
             },
             {
                 "key": "D",
-                "text": "Absolute dating: potassium-argon (K-AR) dating"
+                "text": "Absolute dating: potassium-argon (K-AR) dating",
+                "textLatex": "Absolute dating: potassium-argon (K-AR) dating"
             }
         ],
         "answer": "C",
-        "explanation": "Absolute dating uses the isotopes present in a fossil to know the age of the [810] Developing One’s Skills in Test-Taking"
+        "explanation": "Absolute dating uses the isotopes present in a fossil to know the age of the [810] Developing One’s Skills in Test-Taking",
+        "questionLatex": "You come across a fossil that is believed to be petrified wood. You are curious to know how old this fossil is. What dating technique will you use to know the age?",
+        "explanationLatex": "Petrified wood, being organic in origin, contains carbon that can be measured using carbon dating to determine its absolute age. Potassium-argon dating is used for igneous rocks, not organic fossils."
     },
     {
         "id": "sci-2020-049",
@@ -1774,23 +1960,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Distance of the Sun from the Earth"
+                "text": "Distance of the Sun from the Earth",
+                "textLatex": "Distance of the Sun from the Earth"
             },
             {
                 "key": "B",
-                "text": "The speed of the Earth’s rotation"
+                "text": "The speed of the Earth’s rotation",
+                "textLatex": "The speed of the Earth’s rotation"
             },
             {
                 "key": "C",
-                "text": "The tilt of the Earth"
+                "text": "The tilt of the Earth",
+                "textLatex": "The tilt of the Earth"
             },
             {
                 "key": "D",
-                "text": "The circumference of the Earth"
+                "text": "The circumference of the Earth",
+                "textLatex": "The circumference of the Earth"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the following properties affect the severity of the seasons all over the Earth?",
+        "explanationLatex": "The Earth's axial tilt causes different parts of the planet to receive more direct sunlight at different times of the year, leading to variations in temperature and the distinct seasons."
     },
     {
         "id": "sci-2020-050",
@@ -1801,23 +1993,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Diameter of the storm"
+                "text": "Diameter of the storm",
+                "textLatex": "Diameter of the storm"
             },
             {
                 "key": "B",
-                "text": "Maximum wind speed"
+                "text": "Maximum wind speed",
+                "textLatex": "Maximum wind speed"
             },
             {
                 "key": "C",
-                "text": "Location of landfall"
+                "text": "Location of landfall",
+                "textLatex": "Location of landfall"
             },
             {
                 "key": "D",
-                "text": "Movement speed"
+                "text": "Movement speed",
+                "textLatex": "Movement speed"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "A typhoon warning has been raised in your area. You are trying to determine the possible \ndamage that it might cause. Which of the following information will you need to look up?",
+        "explanationLatex": "The maximum wind speed directly correlates with the typhoon's intensity, which is the primary factor determining the extent of potential damage. Higher wind speeds lead to more destructive forces."
     },
     {
         "id": "sci-2020-051",
@@ -1828,24 +2026,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "An increase in the air pressure"
+                "text": "An increase in the air pressure",
+                "textLatex": "An increase in the air pressure"
             },
             {
                 "key": "B",
-                "text": "An increase in the biologic activity"
+                "text": "An increase in the biologic activity",
+                "textLatex": "An increase in the biologic activity"
             },
             {
                 "key": "C",
-                "text": "A decrease in slope"
+                "text": "A decrease in slope",
+                "textLatex": "A decrease in slope"
             },
             {
                 "key": "D",
-                "text": "A decrease of the amount of rainfall"
+                "text": "A decrease of the amount of rainfall",
+                "textLatex": "A decrease of the amount of rainfall"
             }
         ],
         "answer": "B",
         "explanation": "",
-        "image": "science-p38-1.jpeg"
+        "image": "science-p38-1.jpeg",
+        "questionLatex": "Study the diagram of soil development below which started from the underlying bedrock \nto the thick upper soil layer. What change would most likely to increase the thickness of \nthe upper soil layer?",
+        "explanationLatex": "Increased biological activity, such as from microorganisms and plant roots, contributes to the breakdown of organic matter and weathering of parent material, directly adding to the volume and depth of the upper soil layer."
     },
     {
         "id": "sci-2020-052",
@@ -1856,23 +2060,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "It becomes a significant part of human lives to differentiate how renewable and \nnon-renewable sources be used."
+                "text": "It becomes a significant part of human lives to differentiate how renewable and \nnon-renewable sources be used.",
+                "textLatex": "It becomes a significant part of human lives to differentiate how renewable and \nnon-renewable sources be used."
             },
             {
                 "key": "B",
-                "text": "Knowing these sources of energy plays an important role for people to value \nresourcefulness and energy conservation."
+                "text": "Knowing these sources of energy plays an important role for people to value \nresourcefulness and energy conservation.",
+                "textLatex": "Knowing these sources of energy plays an important role for people to value \nresourcefulness and energy conservation."
             },
             {
                 "key": "C",
-                "text": "The lifestyle is very much dependent on the utilization of these sources of energy."
+                "text": "The lifestyle is very much dependent on the utilization of these sources of energy.",
+                "textLatex": "The lifestyle is very much dependent on the utilization of these sources of energy."
             },
             {
                 "key": "D",
-                "text": "All of these."
+                "text": "All of these.",
+                "textLatex": "All of these."
             }
         ],
         "answer": "D",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "One important discussion that should be tackled in classroom is the wise consumption of energy. Energy comes in two sources like renewable and non-renewable sources. Why is it very essential to learn about these sources in school?",
+        "explanationLatex": "All the options (A, B, and C) highlight crucial reasons for learning about energy sources, as they collectively emphasize responsible usage, conservation, and the fundamental role energy plays in our lives."
     },
     {
         "id": "sci-2020-053",
@@ -1883,23 +2093,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Low angle slope, fractured rock, and dry conditions"
+                "text": "Low angle slope, fractured rock, and dry conditions",
+                "textLatex": "Low angle slope, fractured rock, and dry conditions"
             },
             {
                 "key": "B",
-                "text": "High angle slope, fractured rock, and wet conditions"
+                "text": "High angle slope, fractured rock, and wet conditions",
+                "textLatex": "High angle slope, fractured rock, and wet conditions"
             },
             {
                 "key": "C",
-                "text": "Low angle slope, rock, and dry conditions"
+                "text": "Low angle slope, rock, and dry conditions",
+                "textLatex": "Low angle slope, rock, and dry conditions"
             },
             {
                 "key": "D",
-                "text": "High angle slope, rock, and wet conditions"
+                "text": "High angle slope, rock, and wet conditions",
+                "textLatex": "High angle slope, rock, and wet conditions"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "The slope angles, nature of slope material and water saturation are some of the factors controlling the mass wasting process. Which of the following is the least susceptible to landslide?",
+        "explanationLatex": "A low angle slope, solid rock, and dry conditions all contribute to greater stability, making it the least prone to landslides."
     },
     {
         "id": "sci-2020-054",
@@ -1910,23 +2126,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "the yolk and the albumen (white)"
+                "text": "the yolk and the albumen (white)",
+                "textLatex": "the yolk and the albumen (white)"
             },
             {
                 "key": "B",
-                "text": "the yolk and the shell"
+                "text": "the yolk and the shell",
+                "textLatex": "the yolk and the shell"
             },
             {
                 "key": "C",
-                "text": "the albumen (white) and the shell"
+                "text": "the albumen (white) and the shell",
+                "textLatex": "the albumen (white) and the shell"
             },
             {
                 "key": "D",
-                "text": "the liquid and the solid albumen (white)"
+                "text": "the liquid and the solid albumen (white)",
+                "textLatex": "the liquid and the solid albumen (white)"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "You were peeling hard boiled eggs when you remembered that the eggs were used as an \nanalogy to the layers of the earth. Between which parts of the egg can the Moho be \nfound?",
+        "explanationLatex": "The Moho is the boundary between the Earth's crust and mantle, which is analogous to the boundary between the egg's shell and the albumen (white)."
     },
     {
         "id": "sci-2020-055",
@@ -1937,24 +2159,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Coarse sediments"
+                "text": "Coarse sediments",
+                "textLatex": "Coarse sediments"
             },
             {
                 "key": "B",
-                "text": "Hard igneous rock"
+                "text": "Hard igneous rock",
+                "textLatex": "Hard igneous rock"
             },
             {
                 "key": "C",
-                "text": "Sedimentary rock"
+                "text": "Sedimentary rock",
+                "textLatex": "Sedimentary rock"
             },
             {
                 "key": "D",
-                "text": "Silt and mud"
+                "text": "Silt and mud",
+                "textLatex": "Silt and mud"
             }
         ],
         "answer": "D",
         "explanation": "",
-        "image": "science-p39-1.jpeg"
+        "image": "science-p39-1.jpeg",
+        "questionLatex": "The intensity of earthquake that occurs on different parts of the Earth is shown in the diagram below. In which type of rock or soil profile where the houses are built experience the greatest earthquake?",
+        "explanationLatex": "Loose, unconsolidated sediments like silt and mud amplify seismic waves more than solid rock, leading to greater ground shaking and earthquake intensity. This phenomenon is known as site amplification."
     },
     {
         "id": "sci-2020-056",
@@ -1965,24 +2193,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": ""
+                "text": "",
+                "textLatex": "1"
             },
             {
                 "key": "B",
-                "text": ""
+                "text": "",
+                "textLatex": "2"
             },
             {
                 "key": "C",
-                "text": ""
+                "text": "",
+                "textLatex": "3"
             },
             {
                 "key": "D",
-                "text": ""
+                "text": "",
+                "textLatex": "4"
             }
         ],
         "answer": "D",
         "explanation": "Earth’s solid core is composed of iron with lesser amounts of solid nickel. [152] ▪",
-        "image": "science-p39-2.jpeg"
+        "image": "science-p39-2.jpeg",
+        "questionLatex": "The diagram below represents the partial inner structure of the Earth. Different layers are represented by 1, 2, 3 and 4. Some depths below the Earth are also shown. Which layer is mostly likely to contain solid nickel and iron?",
+        "explanationLatex": "Layer 4 represents the inner core, which is primarily composed of solid nickel and iron due to immense pressure and high temperatures."
     },
     {
         "id": "sci-2020-057",
@@ -1993,24 +2227,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D"
             }
         ],
         "answer": "B",
         "explanation": "Convection currents along the asthenosp [810] Developing One’s Skills in Test-Taking",
-        "image": "science-p40-3.png"
+        "image": "science-p40-3.png",
+        "questionLatex": "The illustration below shows a portion of the interior of the Earth. The location on the \ninterface between layers is shown in Point",
+        "explanationLatex": "Point B is located precisely at the boundary where two distinct layers of the Earth meet, which is defined as an interface. The other points are either within a layer or outside the depicted Earth structure."
     },
     {
         "id": "sci-2020-058",
@@ -2021,24 +2261,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "pebbles – silt – coarse sand – fine sand"
+                "text": "pebbles – silt – coarse sand – fine sand",
+                "textLatex": "pebbles – silt – coarse sand – fine sand"
             },
             {
                 "key": "B",
-                "text": "pebbles – coarse sand - fine sand - silt"
+                "text": "pebbles – coarse sand - fine sand - silt",
+                "textLatex": "pebbles – coarse sand - fine sand - silt"
             },
             {
                 "key": "C",
-                "text": "coarse sand – fine sand – pebbles – silt"
+                "text": "coarse sand – fine sand – pebbles – silt",
+                "textLatex": "coarse sand – fine sand – pebbles – silt"
             },
             {
                 "key": "D",
-                "text": "coarse sand – pebbles – silt – fine sand"
+                "text": "coarse sand – pebbles – silt – fine sand",
+                "textLatex": "coarse sand – pebbles – silt – fine sand"
             }
         ],
         "answer": "B",
         "explanation": "",
-        "image": "science-p40-2.jpeg"
+        "image": "science-p40-2.jpeg",
+        "questionLatex": "Equal volumes of sediments as shown below are mixed and poured into a column of water. How will you pour the sediments to facilitate proper settling down into the column of water?",
+        "explanationLatex": "Sediments settle based on size and density, with larger, denser particles settling faster. Therefore, pouring them from largest to smallest (pebbles, coarse sand, fine sand, then silt) will facilitate proper settling."
     },
     {
         "id": "sci-2020-059",
@@ -2049,24 +2295,30 @@
         "choices": [
             {
                 "key": "A",
-                "text": "destruction of oceanic crust"
+                "text": "destruction of oceanic crust",
+                "textLatex": "destruction of oceanic crust"
             },
             {
                 "key": "B",
-                "text": "destruction of continental crust"
+                "text": "destruction of continental crust",
+                "textLatex": "destruction of continental crust"
             },
             {
                 "key": "C",
-                "text": "existence of ancestral mountains"
+                "text": "existence of ancestral mountains",
+                "textLatex": "existence of ancestral mountains"
             },
             {
                 "key": "D",
-                "text": "existence of rising mantle convection currents"
+                "text": "existence of rising mantle convection currents",
+                "textLatex": "existence of rising mantle convection currents"
             }
         ],
         "answer": "D",
         "explanation": "",
-        "image": "science-p40-1.jpeg"
+        "image": "science-p40-1.jpeg",
+        "questionLatex": "The diagram below illustrates the magnetic orientation of igneous rock on the right-side \npart of a seafloor along a mid-ocean ridge. The age of the igneous rock and its distance \nfrom the ridge center are shown.  \n \nWhat evidence is manifested by the occurrence of high-heat flows at the center of the \nridge?",
+        "explanationLatex": "High heat flow at mid-ocean ridges is direct evidence of rising mantle convection currents, which bring hot material to the surface and drive seafloor spreading. This process is responsible for the creation of new oceanic crust at the ridge center."
     },
     {
         "id": "sci-2020-060",
@@ -2077,23 +2329,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "A-D-B-O-K-N-G-J-P-C-R"
+                "text": "A-D-B-O-K-N-G-J-P-C-R",
+                "textLatex": "A-D-B-O-K-N-G-J-P-C-R"
             },
             {
                 "key": "B",
-                "text": "A-D-B-O-K-N-P-C-R-G-J"
+                "text": "A-D-B-O-K-N-P-C-R-G-J",
+                "textLatex": "A-D-B-O-K-N-P-C-R-G-J"
             },
             {
                 "key": "C",
-                "text": "P-C-R-A-D-B-O-K-N-J-G"
+                "text": "P-C-R-A-D-B-O-K-N-J-G",
+                "textLatex": "P-C-R-A-D-B-O-K-N-J-G"
             },
             {
                 "key": "D",
-                "text": "R-C-P-J-G-N-K-O-B-D-A"
+                "text": "R-C-P-J-G-N-K-O-B-D-A",
+                "textLatex": "R-C-P-J-G-N-K-O-B-D-A"
             }
         ],
         "answer": "A",
         "explanation": "",
-        "image": "science-p41-1.jpeg"
+        "image": "science-p41-1.jpeg",
+        "questionLatex": "What is the correct sequence of events from oldest to youngest?",
+        "explanationLatex": "This sequence correctly orders the events from oldest to youngest by following the principles of superposition and cross-cutting relationships, where layers are deposited sequentially and faults/intrusions are younger than the rocks they cut."
     }
 ]

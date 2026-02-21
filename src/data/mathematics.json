@@ -1994,7 +1994,7 @@
         "answer": "B",
         "explanation": "Rearranging: $2x^2 - x - 4 = 0$. The discriminant is $b^2 - 4ac = (-1)^2 - 4(2)(-4) = 1 + 32 = 33$. Since $33$ is positive but not a perfect square, the roots are real, irrational, and unequal.",
         "questionLatex": "The roots of the equation $2x^2 - x = 4$ are",
-        "explanationLatex": "Rearranging to standard form gives $2x^2 - x - 4 = 0$. The discriminant is $\\Delta = b^2 - 4ac = (-1)^2 - 4(2)(-4) = 1 + 32 = 33$. Since $33 > 0$ and is not a perfect square, the roots are real and irrational."
+        "explanationLatex": "Rearranging to standard form gives $2x^2 - x - 4 = 0$. The discriminant is $\\Delta = b^2 - 4ac = (-1)^2 - 4(2)(-4) = 1 + 32 = 33$. Since $33 \\gt 0$ and is not a perfect square, the roots are real and irrational."
     },
     {
         "id": "math-practice1-008",
