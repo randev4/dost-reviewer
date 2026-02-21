@@ -330,24 +330,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A",
+                "image": "paste-non-2020-001-cA-1771645708206.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B",
+                "image": "paste-non-2020-001-cB-1771645722525.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C",
+                "image": "paste-non-2020-001-cC-1771645733682.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D",
+                "image": "paste-non-2020-001-cD-1771645742349.png"
             }
         ],
         "answer": "C",
         "explanation": "",
-        "image": "nonverbal-p11-1.png"
+        "questionLatex": "Which one is identical to this figure?",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-002",
@@ -358,24 +367,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-002-cA-1771646038640.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-002-cB-1771646050052.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-002-cC-1771646064090.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-002-cD-1771646093300.png"
             }
         ],
         "answer": "D",
         "explanation": "When the other options are spatially rotated, they are a mirror image of the",
-        "image": "nonverbal-p11-1.png"
+        "questionLatex": "Which box contains the same shape as the top series?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-002-q-1771646023733.png"
     },
     {
         "id": "non-2020-003",
@@ -386,24 +405,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-003-cA-1771646154156.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-003-cB-1771646177793.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-003-cC-1771646197235.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-003-cD-1771646219486.png"
             }
         ],
         "answer": "D",
         "explanation": "Each diagram can be seen as a series of triangles around a horizontal axis. [385] Back view [399]",
-        "image": "nonverbal-p11-1.png"
+        "questionLatex": "Which of the following frames completes the pattern? \n \n \nOptions:",
+        "explanationLatex": "Each diagram can be seen as a series of triangles around a horizontal axis."
     },
     {
         "id": "non-2020-004",
@@ -414,24 +442,33 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "",
+                "image": "paste-non-2020-004-cA-1771646301338.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "",
+                "image": "paste-non-2020-004-cB-1771646319205.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "",
+                "image": "paste-non-2020-004-cC-1771646338549.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "",
+                "image": "paste-non-2020-004-cD-1771646352907.png"
             }
         ],
         "answer": "D",
         "explanation": "",
-        "image": "nonverbal-p11-1.png"
+        "questionLatex": "Which of the following frames does not belong to the group? \n \n \n\n \n \n \n",
+        "explanationLatex": ""
     },
     {
         "id": "non-2020-005",
@@ -442,23 +479,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A",
+                "image": "paste-non-2020-005-cA-1771646462238.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B",
+                "image": "paste-non-2020-005-cB-1771646473328.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C",
+                "image": "paste-non-2020-005-cC-1771646484977.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D",
+                "image": "paste-non-2020-005-cD-1771646496377.png"
             }
         ],
         "answer": "A",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "A three-dimensional object is shown. Which front side view is correct?",
+        "explanationLatex": "",
+        "image": "paste-non-2020-005-q-1771646446331.png"
     },
     {
         "id": "non-2020-006",
@@ -469,23 +517,34 @@
         "choices": [
             {
                 "key": "A",
-                "text": "Option A"
+                "text": "Option A",
+                "textLatex": "Option A",
+                "image": "paste-non-2020-006-cA-1771646538130.png"
             },
             {
                 "key": "B",
-                "text": "Option B"
+                "text": "Option B",
+                "textLatex": "Option B",
+                "image": "paste-non-2020-006-cB-1771646546515.png"
             },
             {
                 "key": "C",
-                "text": "Option C"
+                "text": "Option C",
+                "textLatex": "Option C",
+                "image": "paste-non-2020-006-cC-1771646557799.png"
             },
             {
                 "key": "D",
-                "text": "Option D"
+                "text": "Option D",
+                "textLatex": "Option D",
+                "image": "paste-non-2020-006-cD-1771646567279.png"
             }
         ],
         "answer": "B",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the four figures below is the result when the figure is folded along the dotted \nlines?  \n \n \n \n \n \nA.                               \n B.                                            C.                                          D.",
+        "explanationLatex": "",
+        "image": "paste-non-2020-006-q-1771646526329.png"
     },
     {
         "id": "non-2020-007",
