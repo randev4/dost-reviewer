@@ -774,23 +774,29 @@
         "choices": [
             {
                 "key": "A",
-                "text": "wheelbarrow"
+                "text": "wheelbarrow",
+                "textLatex": "wheelbarrow"
             },
             {
                 "key": "B",
-                "text": "pliers"
+                "text": "pliers",
+                "textLatex": "pliers"
             },
             {
                 "key": "C",
-                "text": "ladder"
+                "text": "ladder",
+                "textLatex": "ladder"
             },
             {
                 "key": "D",
-                "text": "pulley \nCopper \nAluminum \nSteel \nBrick"
+                "text": "pulley \nCopper \nAluminum \nSteel \nBrick",
+                "textLatex": "pulley"
             }
         ],
         "answer": "C",
-        "explanation": ""
+        "explanation": "",
+        "questionLatex": "Which of the following machines is not an application of the lever principle?",
+        "explanationLatex": "A ladder is a simple machine, but it functions as an inclined plane or a series of rigid supports, not by pivoting around a fulcrum to multiply force like a lever."
     },
     {
         "id": "mec-2020-017",
