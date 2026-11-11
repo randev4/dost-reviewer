@@ -8,6 +8,7 @@ import { saveProgress } from '../lib/storage.js';
 import { bindImageZoom } from '../lib/lightbox.js';
 import { haptic } from '../lib/haptics.js';
 import { sound, isSoundEnabled, toggleSound } from '../lib/audio.js';
+import { fireCorrectConfetti } from '../lib/confetti.js';
 
 export function renderQuiz(app, {
   subject,
@@ -179,7 +180,8 @@ export function renderQuiz(app, {
   }
 
   function bindCheckEvent(q, index) {
-    document.getElementById('btn-check')?.addEventListener('click', async () => {
+    const checkBtn = document.getElementById('btn-check');
+    checkBtn?.addEventListener('click', async () => {
       const currentAnswer = answers[index];
       if (!currentAnswer) return;
 
@@ -189,6 +191,7 @@ export function renderQuiz(app, {
       if (isCorrect) {
         haptic.success();
         sound.correct();
+        fireCorrectConfetti(checkBtn);
       } else {
         haptic.warning();
         sound.incorrect();

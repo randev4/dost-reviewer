@@ -95,10 +95,12 @@ export const sound = {
     playTone({ freq: 620, freqEnd: 420, type: 'triangle', duration: 0.08, gain: 0.12 });
   },
 
-  // Uplifting major two-tone chime for correct items or progress milestones
+  // Uplifting, sparkling major chime for correct items
   correct() {
-    playTone({ freq: 587.33, type: 'sine', duration: 0.12, gain: 0.16 });
-    playTone({ freq: 880, type: 'triangle', duration: 0.22, gain: 0.18, delay: 0.07 });
+    playTone({ freq: 587.33, type: 'sine', duration: 0.12, gain: 0.14 });
+    playTone({ freq: 739.99, type: 'triangle', duration: 0.14, gain: 0.15, delay: 0.04 });
+    playTone({ freq: 880, type: 'sine', duration: 0.20, gain: 0.16, delay: 0.08 });
+    playTone({ freq: 1174.66, type: 'triangle', duration: 0.26, gain: 0.13, delay: 0.13 });
   },
 
   // Gentle, soft low chime for incorrect review (non-punishing)

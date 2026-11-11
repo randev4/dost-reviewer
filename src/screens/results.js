@@ -7,6 +7,7 @@ import { renderLatex } from '../lib/katex-render.js';
 import { bindImageZoom } from '../lib/lightbox.js';
 import { haptic } from '../lib/haptics.js';
 import { sound } from '../lib/audio.js';
+import { fireGrandConfetti } from '../lib/confetti.js';
 
 export function renderResults(app, { subject, subtopicId = 'all', subtopicName, gradeResult, onRetry, onHome }) {
   const subjectInfo = getSubjectById(subject);
@@ -111,6 +112,7 @@ export function renderResults(app, { subject, subtopicId = 'all', subtopicName, 
   setTimeout(() => {
     if (percentage >= 70) {
       sound.fanfare();
+      fireGrandConfetti();
     } else {
       sound.select();
     }
