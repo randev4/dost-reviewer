@@ -2,7 +2,7 @@
  * Home Screen — Subject selection grid with progress stats
  */
 
-import { SUBJECTS, getSubjectById, getSubtopicName } from '../lib/subjects.js';
+import { SUBJECTS, getSubjectById, getSubtopicName, TOTAL_QUESTIONS_COUNT } from '../lib/subjects.js';
 import { getOverallStats, getSubjectStats, getInProgress } from '../lib/storage.js';
 import { haptic } from '../lib/haptics.js';
 import { sound, isSoundEnabled, toggleSound } from '../lib/audio.js';
@@ -42,9 +42,9 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
 
     <div class="screen">
       <div class="hero">
-        <div class="hero-badge">🎓 Free Reviewer</div>
+        <div class="hero-badge">🎓 Free Reviewer · ${TOTAL_QUESTIONS_COUNT.toLocaleString()} Questions</div>
         <h1>Ace the DOST Exam</h1>
-        <p>Practice with randomized questions, get instant feedback, and track your progress.</p>
+        <p>Practice with ${TOTAL_QUESTIONS_COUNT.toLocaleString()} questions across Science, Math, English & Reasoning with instant feedback and step-by-step explanations.</p>
       </div>
 
       ${inProgress ? `

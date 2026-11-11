@@ -323,3 +323,9 @@ export function filterQuestionsBySubtopic(questions, subjectId, subtopicId) {
     if (!st || !st.matches) return questions;
     return questions.filter(q => st.matches.includes(q.topic));
 }
+
+export const TOTAL_QUESTIONS_COUNT = SUBJECTS.reduce((sum, s) => {
+    const allTopic = s.subtopics?.find(st => st.id === 'all');
+    return sum + (allTopic?.count || 0);
+}, 0);
+
