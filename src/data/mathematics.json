@@ -470,7 +470,7 @@
   {
     "id": "mat-2020-001",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "Which of the following defines a one-to-one function?",
     "questionLatex": "Which of the following defines a one-to-one function?",
@@ -503,7 +503,7 @@
   {
     "id": "mat-2020-002",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "geometry",
     "difficulty": 1,
     "question": "Which of the following statements are true?  \nI. \nA rectangle is a parallelogram. \n \nII. \nA square is a rhombus \nIII. \nA square is a rectangle. \nIV. \nA parallelogram is a rhombus.",
     "choices": [
@@ -536,7 +536,7 @@
   {
     "id": "mat-2020-003",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "geometry",
     "difficulty": 1,
     "question": "Which of the following propositional forms may represent the proposition below? \n“If two sides of a quadrilateral are parallel and congruent, then the quadrilateral is a parallelogram.”",
     "questionLatex": "Which of the following propositional forms may represent the proposition below? \\n\\\"If two sides of a quadrilateral are parallel and congruent, then the quadrilateral is a parallelogram.\\\"",
@@ -569,7 +569,7 @@
   {
     "id": "mat-2020-004",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "trigonometry",
     "difficulty": 2,
     "question": "If sin β = -3/5 and tan β > 0, what is the exact value of cos 2β?",
     "questionLatex": "If $\\sin \\beta = -\\frac{3}{5}$ and $\\tan \\beta > 0$, what is the exact value of $\\cos 2\\beta$?",
@@ -602,7 +602,7 @@
   {
     "id": "mat-2020-005",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "Use set notation to describe the shaded region.",
     "questionLatex": "Use set notation to describe the shaded region.",
@@ -636,7 +636,7 @@
   {
     "id": "mat-2020-006",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "Dianne is making a triangular wall with building blocks. The top row has one block, the second row has three, and the third has five, and so on. How many rows can she make with a set of 225 blocks?",
     "questionLatex": "Dianne is making a triangular wall with building blocks. The top row has $1$ block, the second row has $3$, and the third has $5$, and so on. How many rows can she make with a set of $225$ blocks?",
@@ -670,7 +670,7 @@
   {
     "id": "mat-2020-007",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "At a rally, protesters outnumbered the policemen by 12 to 1. Seventy-two arrests were made averaging 3 for every 2 policemen. How many protesters attended the rally?",
     "questionLatex": "At a rally, protesters outnumbered the policemen by $12$ to $1$. Seventy-two arrests were made averaging $3$ for every $2$ policemen. How many protesters attended the rally?",
@@ -704,7 +704,7 @@
   {
     "id": "mat-2020-008",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "statistics",
     "difficulty": 1,
     "question": "A student downloaded 6 music files to a portable MP3 player. In how many different orders can the songs be played?",
     "questionLatex": "A student downloaded $6$ music files to a portable MP3 player. In how many different orders can the songs be played?",
@@ -738,7 +738,7 @@
   {
     "id": "mat-2020-009",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "statistics",
     "difficulty": 1,
     "question": "A box contains ten balls with prime numbers less than 30: {2, 3, 5, 7, 11, 13, 17, 19, 23, 29}. If two balls are drawn from the box, what is the probability that the sum of numbers written on them is even?",
     "questionLatex": "A box contains ten balls with prime numbers less than $30$: $\\{2, 3, 5, 7, 11, 13, 17, 19, 23, 29\\}$. If two balls are drawn, what is the probability that their sum is even?",
@@ -771,7 +771,7 @@
   {
     "id": "mat-2020-010",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "Consider the geometric sequences $a, ar, ar^2, ar^3, \\dots$ and $b, bs, bs^2, bs^3, \\dots$. Which of the following sequences is geometric if $r=s$?",
     "questionLatex": "Consider the geometric sequences $a, ar, ar^2, ar^3, \\dots$ and $b, bs, bs^2, bs^3, \\dots$. Which of the following sequences is geometric if $r=s$?",
@@ -804,7 +804,7 @@
   {
     "id": "mat-2020-011",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "Suppose that $a + b = 2$. If the line given by $ax + by = 16$ passes through $(3, -2)$, what is the value of $a$ and $b$?",
     "questionLatex": "Suppose that $a + b = 2$. If the line given by $ax + by = 16$ passes through $(3, -2)$, what is the value of $a$ and $b$?",
@@ -837,7 +837,7 @@
   {
     "id": "mat-2020-012",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "Janine invested Php 80,000 into a venture that pays 3.5% annual simple interest. How much will she earn after a year?",
     "questionLatex": "Janine invested $\\text{Php } 80,000$ into a venture that pays $3.5\\%$ annual simple interest. How much will she earn after a year?",
@@ -870,7 +870,7 @@
   {
     "id": "mat-2020-013",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 1,
     "question": "Emma decided to invest Php 120,000 in an internet café and a photo booth. The internet café and the photo booth pay monthly interest 5% and 4.5%, respectively. If she wants to earn a total of Php 5,800 a monthly from the two businesses, how much must she allot to each business?",
     "questionLatex": "Emma decided to invest $\\text{Php } 120,000$ in an internet café and a photo booth. The internet café and the photo booth pay monthly interest $5\\%$ and $4.5\\%$, respectively. If she wants to earn a total of $\\text{Php } 5,800$ monthly, how much must she allot to each?",
@@ -903,7 +903,7 @@
   {
     "id": "mat-2020-014",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "What should be multiplied to the binomial $x-2y$ so that the product is a trinomial?",
     "questionLatex": "What should be multiplied to the binomial $x-2y$ so that the product is a trinomial?",
@@ -937,7 +937,7 @@
   {
     "id": "mat-2020-015",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "geometry",
     "difficulty": 2,
     "question": "Which of the following is true about right triangle ABC? \n \nI. \nThe hypotenuse is the longest side. \nII. \nThe sum of the degree measures of its internal angles is $180^\\circ$. \nIII. \nThe sum of the squares of the lengths of its legs is equal to the square of the length \nof its hypotenuse.",
     "choices": [
@@ -971,7 +971,7 @@
   {
     "id": "mat-2020-016",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "Given the following investment opportunities with simple annual interest rates and \nduration:",
     "choices": [
@@ -1004,7 +1004,7 @@
   {
     "id": "mat-2020-017",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "trigonometry",
     "difficulty": 2,
     "question": "Which of the following expressions is equal to $\\sin A$? \\nI. $\\cos B$ \\nII. $\\cos D$ \\nIII. $\\cos E$",
     "choices": [
@@ -1038,7 +1038,7 @@
   {
     "id": "mat-2020-018",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "Given sets $A = \\{Diego, Jepoy, Jasmine, Ivy, Emilia\\}$ and $B = \\{Arnaldo, Emilia, Raul, Diego, Maja\\}$. If A and B represent the friends of Arlene and Bayani, which notation represents their common friends?",
     "questionLatex": "Given $A = \\{Diego, Jepoy, Jasmine, Ivy, Emilia\\}$ and $B = \\{Arnaldo, Emilia, Raul, Diego, Maja\\}$. If A and B represent friends, which notation represents their common friends?",
@@ -1071,7 +1071,7 @@
   {
     "id": "mat-2020-019",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "statistics",
     "difficulty": 2,
     "question": "A survey was conducted on 30 people on their TV viewing preference and is presented in \na Venn diagram shown above. Which of the following narrative best describes the Venn \ndiagram?",
     "choices": [
@@ -1105,7 +1105,7 @@
   {
     "id": "mat-2020-020",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "Given the sequence of first nine prime numbers:  \n2, 3, 5, 7, 11, 13, 17, 19, 23 \nCan four numbers be chosen to form an arithmetic sequence?",
     "choices": [
@@ -1138,7 +1138,7 @@
   {
     "id": "mat-2020-021",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "statistics",
     "difficulty": 2,
     "question": "Twenty chocolate candies were placed in a jar and mixed thoroughly: 8 Curly Tops and 12 \nFlat Tops. Two students were asked to get a candy from the jar, one at a time, without \nlooking into the jar. The first student got a Flat Top while the second student did not show \nhis/her chocolate candy. If you were asked to pick a chocolate candy from the remaining \ncandies in the jar, what would be the more likely outcome?",
     "choices": [
@@ -1171,7 +1171,7 @@
   {
     "id": "mat-2020-022",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "statistics",
     "difficulty": 2,
     "question": "If you rolled two six-sided dice simultaneously, which of the following would be the most \nlikely outcome?",
     "choices": [
@@ -1204,7 +1204,7 @@
   {
     "id": "mat-2020-023",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "geometry",
     "difficulty": 2,
     "question": "If $x= 13, y= 17$ and $z$ are sides of a triangle, which of the following numbers is a possible \nvalue of $z$?",
     "choices": [
@@ -1237,7 +1237,7 @@
   {
     "id": "mat-2020-024",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "The elements of the sequence 1, 3, 6, 10, 15, 21, … are called triangular numbers. Which \nof the following statements are true about the sequence? \n \nI. \n55 is a triangular number. \nII. \nThe nth triangular number $t_n$ is given by $t_n=\\frac{n(n+1)}{2}$. \nIII. \nThe sum of two consecutive triangular numbers is a perfect square.",
     "choices": [
@@ -1270,7 +1270,7 @@
   {
     "id": "mat-2020-025",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "Let $X, Y$ and $Z$ be sets. Which of the following equalities is not true?",
     "choices": [
@@ -1303,7 +1303,7 @@
   {
     "id": "mat-2020-026",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "What should be multiplied to the binomial $a^2 - ab + b^2$ so that the product is a binomial?",
     "choices": [
@@ -1336,7 +1336,7 @@
   {
     "id": "mat-2020-027",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "geometry",
     "difficulty": 2,
     "question": "When graphed in the Cartesian plane, which of the following equations passes through quadrant I?",
     "questionLatex": "When graphed in the Cartesian plane, which of the following equations passes through quadrant I?",
@@ -1369,7 +1369,7 @@
   {
     "id": "mat-2020-028",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "Given the following investment opportunities with simple annual interest rates and \nduration: \nI. \n10% per annum for 5 years \nII. \n13% per annum for 4 years \nIII. \n15% per annum for 3 years \n \nArrange the investment opportunity from best opportunity to good opportunity.",
     "choices": [
@@ -1403,7 +1403,7 @@
   {
     "id": "mat-2020-029",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "A farmer borrowed Php $100,000$ from a cooperative with an annual simple interest rate \nof $10\\%$. Which of the following computation shows the amount the farmer owes the \ncooperative after 2 years?",
     "choices": [
@@ -1437,7 +1437,7 @@
   {
     "id": "mat-2020-030",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "trigonometry",
     "difficulty": 3,
     "question": "Which of the following expressions is correct? \n \nI. \n$\\cos A = \\cos D$ \nII. \n$\\cos A = \\sin B$ \nIII. \n$\\cos D = \\sin E$",
     "choices": [
@@ -1470,7 +1470,7 @@
   {
     "id": "mat-2020-031",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "trigonometry",
     "difficulty": 3,
     "question": "From the top end of 200-m long zip line, the angle of depression to the bottom end is 20 \ndegrees. Assuming the zip line is a straight line, which of the following expressions show \nhow to compute the height of the top end of the zip line?",
     "choices": [
@@ -1504,7 +1504,7 @@
   {
     "id": "mat-2020-032",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "Given: \nA = {Diego, Jepoy, Jasmine, Ivy, Emilia} \nB = {Arnaldo, Emilia, Raul, Diego, Maja} \n \nIf sets A and B represent the friends of Arlene and Bayani, respectively, what does A ∪ B \nrepresent?",
     "choices": [
@@ -1537,7 +1537,7 @@
   {
     "id": "mat-2020-033",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "Given the arithmetic sequence of six numbers:  \n6, 12, 18, 24, 30, 36 \n \nWhich three numbers can be chosen to form a geometric sequence?",
     "choices": [
@@ -1570,7 +1570,7 @@
   {
     "id": "mat-2020-034",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "statistics",
     "difficulty": 3,
     "question": "If you rolled two six-sided dice simultaneously, which of the following would be the most \nlikely outcome?",
     "choices": [
@@ -1603,7 +1603,7 @@
   {
     "id": "mat-2020-035",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "What is the domain of the function defined by $f(x) = \\sqrt{x^2 - 1}$?",
     "choices": [
@@ -1636,7 +1636,7 @@
   {
     "id": "mat-2020-036",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "geometry",
     "difficulty": 3,
     "question": "Which of the following propositional forms may represent the proposition below? “If the diagonals of a quadrilateral bisect each other and they are perpendicular, then the quadrilateral is a rhombus.”",
     "choices": [
@@ -1669,7 +1669,7 @@
   {
     "id": "mat-2020-037",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "Dianne is making a triangular wall with building blocks. The top row has three blocks, the second row has five, and the third has seven, and so on. How many rows can she make with a set of 120 blocks?",
     "questionLatex": "Dianne is making a triangular wall with building blocks. The top row has $3$ blocks, the second row has $5$, and the third has $7$, and so on. How many rows can she make with a set of $120$ blocks?",
@@ -1702,7 +1702,7 @@
   {
     "id": "mat-2020-038",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "statistics",
     "difficulty": 3,
     "question": "A committee of 10 students must select a president, vice-president, a secretary and a treasurer. In how many possible ways can this be done?",
     "questionLatex": "A committee of $10$ students must select a president, vice-president, a secretary and a treasurer. In how many possible ways can this be done?",
@@ -1735,7 +1735,7 @@
   {
     "id": "mat-2020-039",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "Assume that $a + b = -3$. If the line given by $ax + by = 18$ passes through $(-1, 2)$, what is the value of $a$ and $b$?",
     "questionLatex": "Assume that $a + b = -3$. If the line given by $ax + by = 18$ passes through $(-1, 2)$, what is the value of $a$ and $b$?",
@@ -1768,7 +1768,7 @@
   {
     "id": "mat-2020-040",
     "subject": "mathematics",
-    "topic": "general",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "Jhoanna buys a mixture of peanuts and green peas. Peanuts are sold for $50$ cents per $10\\text{g}$, and green peas for $80$ cents per $10\\text{g}$. If she wants $1\\text{kg}$ of the snack for $\\text{Php } 62.00$, what must be the composition?",
     "questionLatex": "Jhoanna buys a mixture of peanuts and green peas. Peanuts are sold for $50$ cents per $10\\text{g}$, and green peas for $80$ cents per $10\\text{g}$. If she wants $1\\text{kg}$ of the snack for $\\text{Php } 62.00$, what must be the composition?",

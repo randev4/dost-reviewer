@@ -24,7 +24,7 @@ export const SUBJECTS = [
                 name: 'Algebra',
                 icon: '🔢',
                 description: 'Expressions, equations, sequences, polynomials',
-                count: 132,
+                count: 155,
                 matches: ['algebra', 'sequences', 'simplification']
             },
             {
@@ -32,23 +32,15 @@ export const SUBJECTS = [
                 name: 'Geometry',
                 icon: '📐',
                 description: 'Triangles, circles, solids, coordinate geometry',
-                count: 92,
+                count: 98,
                 matches: ['geometry', 'coordinate_geometry']
-            },
-            {
-                id: 'trigonometry',
-                name: 'Trigonometry',
-                icon: '📐',
-                description: 'Identities, right triangles, radians, graphs',
-                count: 71,
-                matches: ['trigonometry']
             },
             {
                 id: 'statistics',
                 name: 'Statistics & Probability',
                 icon: '📊',
-                description: 'Data analysis, distributions, probability',
-                count: 77,
+                description: 'Data analysis, distributions, probability, counting',
+                count: 84,
                 matches: ['statistics']
             },
             {
@@ -60,12 +52,12 @@ export const SUBJECTS = [
                 matches: ['calculus']
             },
             {
-                id: 'general',
-                name: 'General Math Practice',
-                icon: '🎯',
-                description: 'Mixed problems from standard practice exams',
-                count: 40,
-                matches: ['general']
+                id: 'trigonometry',
+                name: 'Trigonometry',
+                icon: '📐',
+                description: 'Identities, right triangles, radians, graphs',
+                count: 75,
+                matches: ['trigonometry']
             }
         ]
     },
@@ -86,12 +78,12 @@ export const SUBJECTS = [
                 matches: null
             },
             {
-                id: 'biology',
-                name: 'Biology',
-                icon: '🧬',
-                description: 'Cells, genetics, ecology, organ systems',
-                count: 95,
-                matches: ['biology']
+                id: 'earth-space',
+                name: 'Earth & Space Science',
+                icon: '🌍',
+                description: 'Geology, meteorology, astronomy & cosmology',
+                count: 137,
+                matches: ['earth-science', 'earth_science', 'space-science']
             },
             {
                 id: 'chemistry',
@@ -102,36 +94,20 @@ export const SUBJECTS = [
                 matches: ['chemistry']
             },
             {
+                id: 'biology',
+                name: 'Biology',
+                icon: '🧬',
+                description: 'Cells, genetics, ecology, organ systems',
+                count: 95,
+                matches: ['biology']
+            },
+            {
                 id: 'physics',
                 name: 'Physics',
                 icon: '⚡',
                 description: 'Forces, energy, motion, thermodynamics, circuits',
                 count: 92,
                 matches: ['physics']
-            },
-            {
-                id: 'earth-science',
-                name: 'Earth Science',
-                icon: '🌍',
-                description: 'Geology, rocks, atmosphere, weather, tectonics',
-                count: 81,
-                matches: ['earth-science', 'earth_science']
-            },
-            {
-                id: 'space-science',
-                name: 'Space Science',
-                icon: '🪐',
-                description: 'Astronomy, planetary systems, stars, cosmology',
-                count: 51,
-                matches: ['space-science']
-            },
-            {
-                id: 'general',
-                name: 'General Science',
-                icon: '🔬',
-                description: 'Scientific method and general concepts',
-                count: 5,
-                matches: ['general']
             }
         ]
     },
@@ -140,7 +116,7 @@ export const SUBJECTS = [
         name: 'English',
         icon: '📝',
         color: '#f59e0b',
-        description: 'Grammar, Reading Comprehension, Vocabulary',
+        description: 'Grammar & Vocabulary, Reading Comprehension',
         dataFile: 'english',
         subtopics: [
             {
@@ -152,12 +128,12 @@ export const SUBJECTS = [
                 matches: null
             },
             {
-                id: 'grammar',
-                name: 'Grammar & Usage',
+                id: 'grammar-vocab',
+                name: 'Grammar & Vocabulary',
                 icon: '📝',
-                description: 'Syntax, verb tenses, error identification',
-                count: 102,
-                matches: ['grammar', 'language']
+                description: 'Syntax, verb tenses, word meanings, context clues',
+                count: 105,
+                matches: ['grammar', 'language', 'vocabulary']
             },
             {
                 id: 'reading',
@@ -166,14 +142,6 @@ export const SUBJECTS = [
                 description: 'Passages, inferences, main ideas, literature',
                 count: 52,
                 matches: ['reading']
-            },
-            {
-                id: 'vocabulary',
-                name: 'Vocabulary',
-                icon: '📚',
-                description: 'Word meanings, idioms, context clues',
-                count: 3,
-                matches: ['vocabulary']
             }
         ]
     },

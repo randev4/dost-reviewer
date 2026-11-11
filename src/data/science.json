@@ -1054,7 +1054,7 @@
   {
     "id": "sci-2020-021",
     "subject": "science",
-    "topic": "general",
+    "topic": "space-science",
     "difficulty": 2,
     "question": "An object with what looks like a tail is visible at the sky for days. What object is this?",
     "choices": [
@@ -1118,7 +1118,7 @@
   {
     "id": "sci-2020-023",
     "subject": "science",
-    "topic": "general",
+    "topic": "space-science",
     "difficulty": 2,
     "question": "You observe that when you are looking at the front of your house at 8:00 AM, the sun is \nto the right of you. Returning to the same exact spot at 4:00 pm, you notice that the sun \nis now to the left of you. At which direction were you facing at 8:00 AM and 4:00 pm?",
     "choices": [
@@ -1284,7 +1284,7 @@
   {
     "id": "sci-2020-028",
     "subject": "science",
-    "topic": "general",
+    "topic": "earth-science",
     "difficulty": 2,
     "question": "The slope angles, nature of slope material and water saturation are some of the factors \ncontrolling the mass wasting process. Which of the following is a recipe for landslides?",
     "choices": [
@@ -2114,7 +2114,7 @@
   {
     "id": "sci-2020-053",
     "subject": "science",
-    "topic": "general",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "The slope angles, nature of slope material and water saturation are some of the factors \ncontrolling the mass wasting process. Which of the following is the least susceptible to \nlandslide?",
     "choices": [
@@ -2350,7 +2350,7 @@
   {
     "id": "sci-2020-060",
     "subject": "science",
-    "topic": "general",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "What is the correct sequence of events from oldest to youngest?",
     "choices": [
