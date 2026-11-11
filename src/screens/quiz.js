@@ -3,7 +3,7 @@
  */
 
 import { getSubjectById } from '../lib/subjects.js';
-import { renderLatex } from '../lib/katex-render.js';
+import { renderLatex, renderExplanation } from '../lib/katex-render.js';
 import { saveProgress } from '../lib/storage.js';
 import { bindImageZoom } from '../lib/lightbox.js';
 import { haptic } from '../lib/haptics.js';
@@ -339,17 +339,17 @@ export function renderQuiz(app, {
 
     // Explanation
     const explanationContent = q.explanationLatex || q.explanation;
-    const renderedExplanation = await renderLatex(explanationContent);
+    const renderedExplanation = await renderExplanation(explanationContent);
 
     // Wrong reason if user made an incorrect choice
     let wrongReasonHtml = '';
     if (!isCorrect && selectedAnswer) {
       const selectedChoice = q.choices.items.find(c => c.key === selectedAnswer);
       if (selectedChoice && q.wrongExplanations && q.wrongExplanations[selectedChoice.originalKey]) {
-        const renderedWrongReason = await renderLatex(q.wrongExplanations[selectedChoice.originalKey]);
+        const renderedWrongReason = await renderExplanation(q.wrongExplanations[selectedChoice.originalKey]);
         wrongReasonHtml = `
           <div class="quiz-feedback-wrong-reason">
-            <strong>Why "${selectedAnswer}" is incorrect:</strong><br/>
+            <div class="quiz-feedback-wrong-title">⚠️ Why choice "${selectedAnswer}" is incorrect:</div>
             ${renderedWrongReason}
           </div>
         `;
@@ -369,7 +369,7 @@ export function renderQuiz(app, {
         ` : ''}
       </div>
       <div class="quiz-feedback-body">
-        <strong>💡 Explanation:</strong><br/>
+        <div class="quiz-feedback-title">💡 Explanation</div>
         ${renderedExplanation}
       </div>
       ${wrongReasonHtml}

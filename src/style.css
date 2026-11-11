@@ -121,6 +121,21 @@
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
+.light-theme .quiz-feedback-title,
+.light-theme .review-explanation-title {
+  color: var(--primary-700);
+}
+
+.light-theme .explanation-step-label {
+  color: var(--primary-700);
+}
+
+.light-theme .equation-display {
+  background: rgba(59, 130, 246, 0.07);
+  border-left-color: var(--primary-600);
+}
+
+
 
 /* --- Reset & Base --- */
 *,
@@ -923,21 +938,79 @@ body::before {
   color: var(--text-primary);
 }
 
-.quiz-feedback-body strong {
+.quiz-feedback-title,
+.review-explanation-title {
+  font-weight: 700;
+  font-size: var(--font-sm);
   color: var(--primary-400);
+  margin-bottom: var(--space-xs);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  letter-spacing: 0.01em;
+}
+
+.quiz-feedback-wrong-title,
+.wrong-reason-title {
+  font-weight: 700;
+  font-size: var(--font-xs);
+  color: var(--danger);
+  margin-bottom: var(--space-xs);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+/* Explanation Container & Step Structure */
+.explanation-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-top: var(--space-xs);
+}
+
+.explanation-step {
+  font-size: var(--font-sm);
+  line-height: 1.65;
+  color: var(--text-primary);
+  word-break: break-word;
+}
+
+.explanation-step-label {
+  color: var(--primary-400);
+  font-weight: 700;
+  display: inline-block;
+}
+
+/* Vertical Equation Blocks */
+.equation-display {
+  margin: var(--space-xs) 0;
+  padding: var(--space-xs) var(--space-md);
+  background: rgba(59, 130, 246, 0.08);
+  border-left: 3px solid var(--primary-500);
+  border-radius: var(--radius-sm);
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.equation-display .katex-display {
+  margin: 0;
+  padding: 4px 0;
+}
+
+.equation-display .katex {
+  font-size: 1.15em;
 }
 
 .quiz-feedback-wrong-reason {
-  margin-top: var(--space-sm);
+  margin-top: var(--space-md);
   padding-top: var(--space-sm);
-  border-top: 1px solid rgba(239, 68, 68, 0.15);
+  border-top: 1px solid rgba(239, 68, 68, 0.2);
   font-size: var(--font-xs);
   color: var(--danger);
   line-height: 1.5;
-}
-
-.quiz-feedback-wrong-reason strong {
-  color: var(--danger);
 }
 
 /* Quiz Navigation */

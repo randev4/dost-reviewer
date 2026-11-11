@@ -3,7 +3,7 @@
  */
 
 import { getSubjectById } from '../lib/subjects.js';
-import { renderLatex } from '../lib/katex-render.js';
+import { renderLatex, renderExplanation } from '../lib/katex-render.js';
 import { bindImageZoom } from '../lib/lightbox.js';
 import { haptic } from '../lib/haptics.js';
 import { sound } from '../lib/audio.js';
@@ -149,7 +149,7 @@ async function renderReviewItems(results) {
     const userImg = userChoice?.image ? `<img class="choice-image" src="/images/questions/${userChoice.image}" alt="Your choice" style="max-width:120px; margin-top:4px; border-radius:4px; display:block;" />` : '';
 
     // Render explanation
-    const explanation = await renderLatex(r.explanation);
+    const explanation = await renderExplanation(r.explanation);
 
     html += `
       <div class="review-item ${statusClass}">
@@ -174,11 +174,12 @@ async function renderReviewItems(results) {
           </span>
         </div>
         <div class="review-explanation">
-          <strong>💡 Explanation:</strong><br/>
+          <div class="review-explanation-title">💡 Explanation</div>
           ${explanation}
           ${r.wrongReason ? `
             <div class="wrong-reason">
-              <strong>Why "${r.userAnswer}" is wrong:</strong> ${await renderLatex(r.wrongReason)}
+              <div class="wrong-reason-title">⚠️ Why choice "${r.userAnswer}" is incorrect:</div>
+              ${await renderExplanation(r.wrongReason)}
             </div>
           ` : ''}
         </div>
