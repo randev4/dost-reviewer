@@ -1349,7 +1349,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: Counterclockwise."
+    "explanation": "When two gears mesh directly, they rotate in opposite directions. If gear A rotates clockwise, gear B must rotate counterclockwise."
   },
   {
     "id": "dost1001-0002",
@@ -1379,7 +1379,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: 2.0 m."
+    "explanation": "For the seesaw to be balanced, the torques on both sides of the pivot must be equal ($F_1 d_1 = F_2 d_2$). Given $F_1 = 300\\ \\text{N}$, $d_1 = 1.0\\ \\text{m}$, and $F_2 = 150\\ \\text{N}$, we can solve for $d_2$: $(300\\ \\text{N})(1.0\\ \\text{m}) = (150\\ \\text{N})d_2$, which gives $d_2 = (300\\ \\text{N} \\cdot 1.0\\ \\text{m}) / 150\\ \\text{N} = 2.0\\ \\text{m}$.",
+    "explanationLatex": "For the seesaw to be balanced, the torques on both sides of the pivot must be equal ($F_1 d_1 = F_2 d_2$). Given $F_1 = 300\\ \\text{N}$, $d_1 = 1.0\\ \\text{m}$, and $F_2 = 150\\ \\text{N}$, we can solve for $d_2$: $(300\\ \\text{N})(1.0\\ \\text{m}) = (150\\ \\text{N})d_2$, which gives $d_2 = (300\\ \\text{N} \\cdot 1.0\\ \\text{m}) / 150\\ \\text{N} = 2.0\\ \\text{m}$."
   },
   {
     "id": "dost1001-0003",
@@ -1409,7 +1410,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: 200 N."
+    "explanation": "An ideal fixed pulley changes the direction of the force but does not change its magnitude. Therefore, to lift a 200 N load, a downward effort of 200 N is required."
   },
   {
     "id": "dost1001-0004",
@@ -1439,7 +1440,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: continue its previous forward motion."
+    "explanation": "This phenomenon is an example of Newton's First Law of Motion (inertia). The passenger's body tends to maintain its state of motion (forward motion) even when the bus suddenly brakes."
   },
   {
     "id": "dost1001-0005",
@@ -1469,7 +1470,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Both bulbs go out."
+    "explanation": "In a series circuit, components are connected end-to-end, forming a single path for current. If one bulb is unscrewed, it creates an open circuit, breaking the path for current, so both bulbs will go out."
   },
   {
     "id": "dost1001-0006",
@@ -1500,8 +1501,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: 100 N.",
-    "explanationLatex": "Correct answer is $D$: 100 N."
+    "explanation": "According to Pascal's principle, pressure is transmitted undiminished throughout an enclosed fluid ($P_1 = P_2$, so $F_1/A_1 = F_2/A_2$). Given $F_1 = 20\\ \\text{N}$, $A_1 = 2\\ \\text{cm}^2$, and $A_2 = 10\\ \\text{cm}^2$, we can find $F_2$: $(20\\ \\text{N}) / (2\\ \\text{cm}^2) = F_2 / (10\\ \\text{cm}^2)$, which yields $F_2 = (20\\ \\text{N} \\cdot 10\\ \\text{cm}^2) / 2\\ \\text{cm}^2 = 100\\ \\text{N}$.",
+    "explanationLatex": "According to Pascal's principle, pressure is transmitted undiminished throughout an enclosed fluid ($P_1 = P_2$, so $F_1/A_1 = F_2/A_2$). Given $F_1 = 20\\ \\text{N}$, $A_1 = 2\\ \\text{cm}^2$, and $A_2 = 10\\ \\text{cm}^2$, we can find $F_2$: $(20\\ \\text{N}) / (2\\ \\text{cm}^2) = F_2 / (10\\ \\text{cm}^2)$, which yields $F_2 = (20\\ \\text{N} \\cdot 10\\ \\text{cm}^2) / 2\\ \\text{cm}^2 = 100\\ \\text{N}$."
   },
   {
     "id": "dost1001-0007",
@@ -1531,7 +1532,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: clockwise."
+    "explanation": "When two pulleys are connected by an uncrossed belt, they rotate in the same direction. If the driving pulley rotates clockwise, the driven pulley will also rotate clockwise."
   },
   {
     "id": "dost1001-0008",
@@ -1561,7 +1562,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: less force over more distance."
+    "explanation": "Ramps are inclined planes, which are simple machines that reduce the force required to lift a load by increasing the distance over which the force is applied. If ramp P is longer than ramp Q (implying it has a gentler slope for the same height), it requires less force over more distance."
   },
   {
     "id": "dost1001-0009",
@@ -1591,7 +1592,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Object B."
+    "explanation": "An object's resistance to tipping is determined by the width of its base and the height of its center of gravity. Object B has the widest base and the lowest center of gravity, making it the most stable and resistant to tipping."
   },
   {
     "id": "dost1001-0010",
@@ -1621,7 +1622,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: P has greater power than Q."
+    "explanation": "Work done is calculated as force multiplied by distance ($W = Fd$). Since both motors lift the same load (force) through the same vertical height (distance), they do the same amount of work. Power is work done per unit time ($P = W/t$). Since P takes less time ($5 \\text{ s}$) to do the same work as Q ($10 \\text{ s}$), P has greater power than Q.",
+    "explanationLatex": "Work done is calculated as force multiplied by distance ($W = Fd$). Since both motors lift the same load (force) through the same vertical height (distance), they do the same amount of work. Power is work done per unit time ($P = W/t$). Since P takes less time ($5 \\text{ s}$) to do the same work as Q ($10 \\text{ s}$), P has greater power than Q."
   },
   {
     "id": "dost1001-0011",
@@ -1651,7 +1653,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: 40 rpm counterclockwise."
+    "explanation": "When two gears mesh, they rotate in opposite directions. Since gear A rotates clockwise, gear B will rotate counterclockwise. The speed ratio is inversely proportional to the number of teeth: $N_A \\omega_A = N_B \\omega_B$. So, $(12 \\text{ teeth})(120 \\text{ rpm}) = (36 \\text{ teeth}) \\omega_B$, which gives $\\omega_B = (12 \\times 120) / 36 = 40 \\text{ rpm}$.",
+    "explanationLatex": "When two gears mesh, they rotate in opposite directions. Since gear A rotates clockwise, gear B will rotate counterclockwise. The speed ratio is inversely proportional to the number of teeth: $N_A \\omega_A = N_B \\omega_B$. So, $(12 \\text{ teeth})(120 \\text{ rpm}) = (36 \\text{ teeth}) \\omega_B$, which gives $\\omega_B = (12 \\times 120) / 36 = 40 \\text{ rpm}$."
   },
   {
     "id": "dost1001-0012",
@@ -1681,7 +1684,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: 175 N."
+    "explanation": "To find the upward force exerted by the right support, we can take moments about the left support. The plank's weight acts at its center ($2.0 \\text{ m}$ from either end), and the person stands $1.0 \\text{ m}$ from the left end. Sum of clockwise moments = Sum of counter-clockwise moments: $(200 \\text{ N})(2.0 \\text{ m}) + (300 \\text{ N})(1.0 \\text{ m}) = F_{right}(4.0 \\text{ m})$. This simplifies to $400 \\text{ Nm} + 300 \\text{ Nm} = F_{right}(4.0 \\text{ m})$, so $700 \\text{ Nm} = F_{right}(4.0 \\text{ m})$. Therefore, $F_{right} = 700 / 4.0 = 175 \\text{ N}$.",
+    "explanationLatex": "To find the upward force exerted by the right support, we can take moments about the left support. The plank's weight acts at its center ($2.0 \\text{ m}$ from either end), and the person stands $1.0 \\text{ m}$ from the left end. Sum of clockwise moments = Sum of counter-clockwise moments: $(200 \\text{ N})(2.0 \\text{ m}) + (300 \\text{ N})(1.0 \\text{ m}) = F_{right}(4.0 \\text{ m})$. This simplifies to $400 \\text{ Nm} + 300 \\text{ Nm} = F_{right}(4.0 \\text{ m})$, so $700 \\text{ Nm} = F_{right}(4.0 \\text{ m})$. Therefore, $F_{right} = 700 / 4.0 = 175 \\text{ N}$."
   },
   {
     "id": "dost1001-0013",
@@ -1711,7 +1715,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: 200 N."
+    "explanation": "A single movable pulley provides a mechanical advantage of 2, meaning the effort required is half the load. The load is supported by two segments of the rope, so the tension in each segment is half the total load. Therefore, the effort required to hold the $400 \\text{ N}$ load is $400 \\text{ N} / 2 = 200 \\text{ N}$.",
+    "explanationLatex": "A single movable pulley provides a mechanical advantage of 2, meaning the effort required is half the load. The load is supported by two segments of the rope, so the tension in each segment is half the total load. Therefore, the effort required to hold the $400 \\text{ N}$ load is $400 \\text{ N} / 2 = 200 \\text{ N}$."
   },
   {
     "id": "dost1001-0014",
@@ -1741,7 +1746,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Downward."
+    "explanation": "Acceleration is the rate of change of velocity. If an object is moving upward but slowing down, its velocity is directed upward, but its change in velocity is directed downward (it's decelerating). Therefore, its acceleration is directed downward."
   },
   {
     "id": "dost1001-0015",
@@ -1771,7 +1776,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: X and Y keep the same brightness, and total battery current increases."
+    "explanation": "When bulbs are connected in parallel, the voltage across each bulb is the same and equal to the battery voltage. Adding a third identical bulb Z in parallel does not change the voltage across bulbs X and Y, so their brightness remains the same. However, adding another parallel branch decreases the total equivalent resistance of the circuit, leading to an increase in the total current drawn from the battery ($I_{total} = V_{battery} / R_{equivalent}$).",
+    "explanationLatex": "When bulbs are connected in parallel, the voltage across each bulb is the same and equal to the battery voltage. Adding a third identical bulb Z in parallel does not change the voltage across bulbs X and Y, so their brightness remains the same. However, adding another parallel branch decreases the total equivalent resistance of the circuit, leading to an increase in the total current drawn from the battery ($I_{total} = V_{battery} / R_{equivalent}$)."
   },
   {
     "id": "dost1001-0016",
@@ -1801,7 +1807,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: C."
+    "explanation": "According to Torricelli's Law, the speed of efflux from a hole in a tank is given by $v = \\sqrt{2gh}$, where $h$ is the depth of the hole below the free surface of the liquid. Since hole C is deepest, it has the largest $h$, and thus will initially produce the fastest horizontal jet.",
+    "explanationLatex": "According to Torricelli's Law, the speed of efflux from a hole in a tank is given by $v = \\sqrt{2gh}$, where $h$ is the depth of the hole below the free surface of the liquid. Since hole C is deepest, it has the largest $h$, and thus will initially produce the fastest horizontal jet."
   },
   {
     "id": "dost1001-0017",
@@ -1831,7 +1838,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: 150 rpm counterclockwise."
+    "explanation": "For a crossed belt drive, the driven pulley rotates in the opposite direction to the driving pulley. The speed ratio is inversely proportional to the diameter ratio: $N_1 D_1 = N_2 D_2$. Given $N_1 = 300 \\text{ rpm}$, $D_1 = 10 \\text{ cm}$, and $D_2 = 20 \\text{ cm}$, we calculate $N_2 = (N_1 D_1) / D_2 = (300 \\text{ rpm} \\times 10 \\text{ cm}) / 20 \\text{ cm} = 150 \\text{ rpm}$. Since the driving pulley rotates clockwise, the driven pulley rotates counterclockwise.",
+    "explanationLatex": "For a crossed belt drive, the driven pulley rotates in the opposite direction to the driving pulley. The speed ratio is inversely proportional to the diameter ratio: $N_1 D_1 = N_2 D_2$. Given $N_1 = 300 \\text{ rpm}$, $D_1 = 10 \\text{ cm}$, and $D_2 = 20 \\text{ cm}$, we calculate $N_2 = (N_1 D_1) / D_2 = (300 \\text{ rpm} \\times 10 \\text{ cm}) / 20 \\text{ cm} = 150 \\text{ rpm}$. Since the driving pulley rotates clockwise, the driven pulley rotates counterclockwise."
   },
   {
     "id": "dost1001-0018",
@@ -1861,7 +1869,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: The load lies between the fulcrum and effort."
+    "explanation": "A second-class lever is characterized by the load being positioned between the fulcrum and the effort. In a wheelbarrow, the wheel acts as the fulcrum, the heavy bag is the load, and the handles are where the effort is applied."
   },
   {
     "id": "dost1001-0019",
@@ -1892,7 +1900,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: When the vertical line through its center of gravity passes beyond the supporting edge."
+    "explanation": "An object begins to topple when its center of gravity moves beyond its base of support. When the vertical line passing through the center of gravity falls outside the supporting edge, the torque created by gravity will cause the object to rotate and fall."
   },
   {
     "id": "dost1001-0020",
@@ -1922,7 +1930,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Each is dimmer."
+    "explanation": "In Circuit I, the single bulb receives the full voltage of the battery. In Circuit II, two identical bulbs are in series, meaning the total resistance of the circuit is doubled ($R_{total} = R_1 + R_2$). According to Ohm's Law ($I = V/R$), the total current in Circuit II is halved compared to Circuit I. Since brightness is proportional to power ($P = I^2 R$), and each bulb in Circuit II has half the current passing through it compared to the bulb in Circuit I, each bulb in Circuit II will be dimmer.",
+    "explanationLatex": "In Circuit I, the single bulb receives the full voltage of the battery. In Circuit II, two identical bulbs are in series, meaning the total resistance of the circuit is doubled ($R_{total} = R_1 + R_2$). According to Ohm's Law ($I = V/R$), the total current in Circuit II is halved compared to Circuit I. Since brightness is proportional to power ($P = I^2 R$), and each bulb in Circuit II has half the current passing through it compared to the bulb in Circuit I, each bulb in Circuit II will be dimmer."
   },
   {
     "id": "dost1001-0021",
@@ -1952,7 +1961,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: four times as large."
+    "explanation": "Kinetic energy is given by the formula $KE = \\frac{1}{2}mv^2$. If the speed ($v$) doubles, the new speed is $2v$. The new kinetic energy will be $KE_{new} = \\frac{1}{2}m(2v)^2 = \\frac{1}{2}m(4v^2) = 4 \\times (\\frac{1}{2}mv^2) = 4 \\times KE_{original}$. Therefore, the kinetic energy becomes four times as large.",
+    "explanationLatex": "Kinetic energy is given by the formula $KE = \\frac{1}{2}mv^2$. If the speed ($v$) doubles, the new speed is $2v$. The new kinetic energy will be $KE_{new} = \\frac{1}{2}m(2v)^2 = \\frac{1}{2}m(4v^2) = 4 \\times (\\frac{1}{2}mv^2) = 4 \\times KE_{original}$. Therefore, the kinetic energy becomes four times as large."
   },
   {
     "id": "dost1001-0022",
@@ -1982,7 +1992,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: 300 N."
+    "explanation": "For an ideal wheel-and-axle, the mechanical advantage is the ratio of the wheel radius to the axle radius, and the principle of moments states that the effort torque equals the load torque ($F_E r_W = F_L r_A$). Given $F_E = 50 \\text{ N}$, $r_W = 30 \\text{ cm}$, and $r_A = 5 \\text{ cm}$, we can find the load force $F_L = (F_E r_W) / r_A = (50 \\text{ N} \\times 30 \\text{ cm}) / 5 \\text{ cm} = 300 \\text{ N}$.",
+    "explanationLatex": "For an ideal wheel-and-axle, the mechanical advantage is the ratio of the wheel radius to the axle radius, and the principle of moments states that the effort torque equals the load torque ($F_E r_W = F_L r_A$). Given $F_E = 50 \\text{ N}$, $r_W = 30 \\text{ cm}$, and $r_A = 5 \\text{ cm}$, we can find the load force $F_L = (F_E r_W) / r_A = (50 \\text{ N} \\times 30 \\text{ cm}) / 5 \\text{ cm} = 300 \\text{ N}$."
   },
   {
     "id": "dost1001-0023",
@@ -2012,7 +2023,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: 60 rpm clockwise."
+    "explanation": "When gears mesh, adjacent gears rotate in opposite directions. Gear A rotates clockwise, so idler gear B rotates counterclockwise. Since gear B drives gear C, gear C will rotate in the opposite direction to B, which means gear C rotates clockwise. The speed ratio is inversely proportional to the number of teeth: $N_A T_A = N_B T_B = N_C T_C$. For gear A and C, $N_A T_A = N_C T_C$. Given $N_A = 60 \\text{ rpm}$, $T_A = 20$, and $T_C = 20$, we find $N_C = (N_A T_A) / T_C = (60 \\text{ rpm} \\times 20) / 20 = 60 \\text{ rpm}$.",
+    "explanationLatex": "When gears mesh, adjacent gears rotate in opposite directions. Gear A rotates clockwise, so idler gear B rotates counterclockwise. Since gear B drives gear C, gear C will rotate in the opposite direction to B, which means gear C rotates clockwise. The speed ratio is inversely proportional to the number of teeth: $N_A T_A = N_B T_B = N_C T_C$. For gear A and C, $N_A T_A = N_C T_C$. Given $N_A = 60 \\text{ rpm}$, $T_A = 20$, and $T_C = 20$, we find $N_C = (N_A T_A) / T_C = (60 \\text{ rpm} \\times 20) / 20 = 60 \\text{ rpm}$."
   },
   {
     "id": "dost1001-0024",
@@ -2042,7 +2054,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: to the left."
+    "explanation": "When the car accelerates to the right, an inertial force (pseudo-force) acts on the mass in the opposite direction of acceleration, i.e., to the left. This inertial force, combined with the downward gravitational force, causes the string to tilt to the left relative to the car's frame of reference."
   },
   {
     "id": "dost1001-0025",
@@ -2073,8 +2085,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: 2.0 cm.",
-    "explanationLatex": "Correct answer is $A$: 2.0 cm."
+    "explanation": "In an ideal hydraulic lift, the volume of fluid displaced by the input piston equals the volume of fluid displaced by the output piston. Thus, $A_1 d_1 = A_2 d_2$, where $A$ is the area and $d$ is the distance moved. Substituting the given values, $(5\\ \\text{cm}^2)(20\\ \\text{cm}) = (50\\ \\text{cm}^2)d_2$, which gives $d_2 = (100\\ \\text{cm}^3) / (50\\ \\text{cm}^2) = 2.0\\ \\text{cm}$.",
+    "explanationLatex": "In an ideal hydraulic lift, the volume of fluid displaced by the input piston equals the volume of fluid displaced by the output piston. Thus, $A_1 d_1 = A_2 d_2$, where $A$ is the area and $d$ is the distance moved. Substituting the given values, $(5\\ \\text{cm}^2)(20\\ \\text{cm}) = (50\\ \\text{cm}^2)d_2$, which gives $d_2 = (100\\ \\text{cm}^3) / (50\\ \\text{cm}^2) = 2.0\\ \\text{cm}$."
   },
   {
     "id": "dost1001-0026",
@@ -2104,7 +2116,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: 20 rpm clockwise."
+    "explanation": "For meshed gears, the product of the number of teeth and angular speed is constant ($N_1 \\omega_1 = N_2 \\omega_2$), and adjacent gears rotate in opposite directions. For gears on the same shaft, they rotate at the same speed and in the same direction.\n1. Gear A (20 teeth, 120 rpm clockwise) drives Gear B (40 teeth): $\\omega_B = (N_A/N_B) \\omega_A = (20/40) \\times 120\\ \\text{rpm} = 60\\ \\text{rpm}$ counterclockwise.\n2. Gear B and Gear C are on the same shaft: $\\omega_C = \\omega_B = 60\\ \\text{rpm}$ counterclockwise.\n3. Gear C (10 teeth, 60 rpm counterclockwise) drives Gear D (30 teeth): $\\omega_D = (N_C/N_D) \\omega_C = (10/30) \\times 60\\ \\text{rpm} = 20\\ \\text{rpm}$ clockwise.",
+    "explanationLatex": "For meshed gears, the product of the number of teeth and angular speed is constant ($N_1 \\omega_1 = N_2 \\omega_2$), and adjacent gears rotate in opposite directions. For gears on the same shaft, they rotate at the same speed and in the same direction.\n1. Gear A (20 teeth, 120 rpm clockwise) drives Gear B (40 teeth): $\\omega_B = (N_A/N_B) \\omega_A = (20/40) \\times 120\\ \\text{rpm} = 60\\ \\text{rpm}$ counterclockwise.\n2. Gear B and Gear C are on the same shaft: $\\omega_C = \\omega_B = 60\\ \\text{rpm}$ counterclockwise.\n3. Gear C (10 teeth, 60 rpm counterclockwise) drives Gear D (30 teeth): $\\omega_D = (N_C/N_D) \\omega_C = (10/30) \\times 60\\ \\text{rpm} = 20\\ \\text{rpm}$ clockwise."
   },
   {
     "id": "dost1001-0027",
@@ -2134,7 +2147,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: 50 N."
+    "explanation": "For the beam to be balanced, the sum of clockwise torques must equal the sum of counterclockwise torques. Counterclockwise torques: $(100\\ \\text{N})(2.0\\ \\text{m}) + (50\\ \\text{N})(1.0\\ \\text{m}) = 200\\ \\text{Nm} + 50\\ \\text{Nm} = 250\\ \\text{Nm}$. To balance this, a clockwise torque of $250\\ \\text{Nm}$ is needed. If the load $F$ is placed $5.0\\ \\text{m}$ to the right, then $F \\times 5.0\\ \\text{m} = 250\\ \\text{Nm}$, so $F = 250\\ \\text{Nm} / 5.0\\ \\text{m} = 50\\ \\text{N}$.",
+    "explanationLatex": "For the beam to be balanced, the sum of clockwise torques must equal the sum of counterclockwise torques. Counterclockwise torques: $(100\\ \\text{N})(2.0\\ \\text{m}) + (50\\ \\text{N})(1.0\\ \\text{m}) = 200\\ \\text{Nm} + 50\\ \\text{Nm} = 250\\ \\text{Nm}$. To balance this, a clockwise torque of $250\\ \\text{Nm}$ is needed. If the load $F$ is placed $5.0\\ \\text{m}$ to the right, then $F \\times 5.0\\ \\text{m} = 250\\ \\text{Nm}$, so $F = 250\\ \\text{Nm} / 5.0\\ \\text{m} = 50\\ \\text{N}$."
   },
   {
     "id": "dost1001-0028",
@@ -2164,7 +2178,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: 120 N."
+    "explanation": "For an ideal inclined plane, the force parallel to the ramp ($F_p$) needed to move an object at constant speed is given by $F_p = W \\sin\\theta$, where $W$ is the weight of the object and $\\sin\\theta = \\text{height} / \\text{length of ramp}$. Here, $W = 600\\ \\text{N}$, height $= 1.0\\ \\text{m}$, and length $= 5.0\\ \\text{m}$. So, $F_p = 600\\ \\text{N} \\times (1.0\\ \\text{m} / 5.0\\ \\text{m}) = 600\\ \\text{N} \\times 0.2 = 120\\ \\text{N}$.",
+    "explanationLatex": "For an ideal inclined plane, the force parallel to the ramp ($F_p$) needed to move an object at constant speed is given by $F_p = W \\sin\\theta$, where $W$ is the weight of the object and $\\sin\\theta = \\text{height} / \\text{length of ramp}$. Here, $W = 600\\ \\text{N}$, height $= 1.0\\ \\text{m}$, and length $= 5.0\\ \\text{m}$. So, $F_p = 600\\ \\text{N} \\times (1.0\\ \\text{m} / 5.0\\ \\text{m}) = 600\\ \\text{N} \\times 0.2 = 120\\ \\text{N}$."
   },
   {
     "id": "dost1001-0029",
@@ -2194,7 +2209,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: The elevator is moving downward while slowing."
+    "explanation": "The scale reading represents the normal force exerted by the scale on the person. If the scale reading is greater than the person's ordinary weight ($mg$), it means there is an upward net force, indicating an upward acceleration. This occurs when the elevator is accelerating upwards, or decelerating while moving downwards. Therefore, the elevator moving downward while slowing (decelerating downwards) results in an upward acceleration, making the apparent weight greater.",
+    "explanationLatex": "The scale reading represents the normal force exerted by the scale on the person. If the scale reading is greater than the person's ordinary weight ($mg$), it means there is an upward net force, indicating an upward acceleration. This occurs when the elevator is accelerating upwards, or decelerating while moving downwards. Therefore, the elevator moving downward while slowing (decelerating downwards) results in an upward acceleration, making the apparent weight greater."
   },
   {
     "id": "dost1001-0030",
@@ -2224,7 +2240,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: A gets dimmer; B gets brighter."
+    "explanation": "When bulb C burns out, the parallel branch containing C becomes an open circuit, effectively removing C from the circuit. This increases the total equivalent resistance of the parallel combination of B and C (since B is now the only path, its resistance is greater than the original parallel combination $R_{BC} = (R_B R_C)/(R_B+R_C)$). Since the total resistance of the circuit ($R_A + R_{BC}$) increases, the total current flowing from the battery through bulb A decreases, making bulb A dimmer. With C removed, all the current that previously split between B and C now flows solely through B, increasing the current through B and making it brighter.",
+    "explanationLatex": "When bulb C burns out, the parallel branch containing C becomes an open circuit, effectively removing C from the circuit. This increases the total equivalent resistance of the parallel combination of B and C (since B is now the only path, its resistance is greater than the original parallel combination $R_{BC} = (R_B R_C)/(R_B+R_C)$). Since the total resistance of the circuit ($R_A + R_{BC}$) increases, the total current flowing from the battery through bulb A decreases, making bulb A dimmer. With C removed, all the current that previously split between B and C now flows solely through B, increasing the current through B and making it brighter."
   },
   {
     "id": "dost1001-0031",
@@ -2254,7 +2271,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: They are equal."
+    "explanation": "According to Pascal's principle, in a continuous fluid at rest, points at the same horizontal level have the same pressure. Since points P and Q are at the same horizontal level within the connected water, and the water is a continuous fluid at rest, the pressures at P and Q must be equal. The presence of oil above P only affects the pressure at the oil-water interface, but not the pressure at the same horizontal level within the water below that interface."
   },
   {
     "id": "dost1001-0032",
@@ -2284,7 +2301,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: 0.5 clockwise revolution."
+    "explanation": "For a belt drive, the linear speed at the circumference of both pulleys is the same ($v = \\omega r$). Since the belt is uncrossed, both pulleys rotate in the same direction. The angular speed is inversely proportional to the radius ($\\omega_1 r_1 = \\omega_2 r_2$). If the input pulley (radius $r_1 = 5\\ \\text{cm}$) makes one revolution, its angular displacement is $2\\pi$ radians. The output pulley (radius $r_2 = 10\\ \\text{cm}$) will have an angular displacement $\\theta_2 = (r_1/r_2) \\theta_1 = (5\\ \\text{cm} / 10\\ \\text{cm}) \\times 1\\ \\text{revolution} = 0.5\\ \\text{revolution}$. Since the belt is uncrossed, the output pulley rotates clockwise.",
+    "explanationLatex": "For a belt drive, the linear speed at the circumference of both pulleys is the same ($v = \\omega r$). Since the belt is uncrossed, both pulleys rotate in the same direction. The angular speed is inversely proportional to the radius ($\\omega_1 r_1 = \\omega_2 r_2$). If the input pulley (radius $r_1 = 5\\ \\text{cm}$) makes one revolution, its angular displacement is $2\\pi$ radians. The output pulley (radius $r_2 = 10\\ \\text{cm}$) will have an angular displacement $\\theta_2 = (r_1/r_2) \\theta_1 = (5\\ \\text{cm} / 10\\ \\text{cm}) \\times 1\\ \\text{revolution} = 0.5\\ \\text{revolution}$. Since the belt is uncrossed, the output pulley rotates clockwise."
   },
   {
     "id": "dost1001-0033",
@@ -2314,7 +2332,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: 100 N."
+    "explanation": "For a first-class lever to be balanced, the torques on both sides of the fulcrum must be equal. Using the principle of moments, $F_1 d_1 = F_2 d_2$, where $F_1 = 600 \\text{ N}$, $d_1 = 0.20 \\text{ m}$, and $d_2 = 1.20 \\text{ m}$. Solving for the effort $F_2$: $(600 \\text{ N})(0.20 \\text{ m}) = F_2 (1.20 \\text{ m})$, which gives $120 \\text{ N}\\cdot\\text{m} = F_2 (1.20 \\text{ m})$, so $F_2 = \\frac{120 \\text{ N}\\cdot\\text{m}}{1.20 \\text{ m}} = 100 \\text{ N}$.",
+    "explanationLatex": "For a first-class lever to be balanced, the torques on both sides of the fulcrum must be equal. Using the principle of moments, $F_1 d_1 = F_2 d_2$, where $F_1 = 600 \\text{ N}$, $d_1 = 0.20 \\text{ m}$, and $d_2 = 1.20 \\text{ m}$. Solving for the effort $F_2$: $(600 \\text{ N})(0.20 \\text{ m}) = F_2 (1.20 \\text{ m})$, which gives $120 \\text{ N}\\cdot\\text{m} = F_2 (1.20 \\text{ m})$, so $F_2 = \\frac{120 \\text{ N}\\cdot\\text{m}}{1.20 \\text{ m}} = 100 \\text{ N}$."
   },
   {
     "id": "dost1001-0034",
@@ -2344,7 +2363,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Truck II, because its center of gravity is higher."
+    "explanation": "An object with a higher center of gravity is less stable and more prone to overturning, especially when subjected to lateral forces like those experienced during a sharp turn. Truck II, with its cargo carried high, has a higher center of gravity compared to Truck I, making it more likely to overturn."
   },
   {
     "id": "dost1001-0035",
@@ -2374,7 +2393,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: It becomes brighter."
+    "explanation": "When the switch is closed, it creates a short circuit across resistor R, effectively bypassing it. This reduces the total resistance in the series circuit, causing the total current from the battery to increase according to Ohm's Law ($I = V/R_{total}$). Since the bulb is in series, the increased current flowing through it will make it brighter.",
+    "explanationLatex": "When the switch is closed, it creates a short circuit across resistor R, effectively bypassing it. This reduces the total resistance in the series circuit, causing the total current from the battery to increase according to Ohm's Law ($I = V/R_{total}$). Since the bulb is in series, the increased current flowing through it will make it brighter."
   },
   {
     "id": "dost1001-0036",
@@ -2404,7 +2424,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: The block on the longer path is always faster."
+    "explanation": "According to the principle of conservation of mechanical energy, if there is no friction, the initial potential energy ($mgh$) is converted entirely into kinetic energy ($\\frac{1}{2}mv^2$) at the bottom. Since both blocks start from the same vertical height ($h$) and reach the same floor level, their initial potential energies are equal, and thus their final kinetic energies and speeds ($v = \\sqrt{2gh}$) will be the same, regardless of the ramp's shape or path length.",
+    "explanationLatex": "According to the principle of conservation of mechanical energy, if there is no friction, the initial potential energy ($mgh$) is converted entirely into kinetic energy ($\\frac{1}{2}mv^2$) at the bottom. Since both blocks start from the same vertical height ($h$) and reach the same floor level, their initial potential energies are equal, and thus their final kinetic energies and speeds ($v = \\sqrt{2gh}$) will be the same, regardless of the ramp's shape or path length."
   },
   {
     "id": "dost1001-0037",
@@ -2466,7 +2487,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: Left."
+    "explanation": "When a pinion gear rotates clockwise, its teeth on the bottom side move to the left. Since the pinion meshes with the horizontal rack, it will push the rack to the left."
   },
   {
     "id": "dost1001-0039",
@@ -2527,7 +2548,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: The forward propulsive force balances the backward resistive forces."
+    "explanation": "When an object moves at a constant speed, its acceleration is zero, meaning the net force acting on it is zero according to Newton's First Law. Therefore, the forward propulsive force generated by the cyclist must be equal in magnitude and opposite in direction to the backward resistive forces (like air resistance and friction)."
   },
   {
     "id": "dost1001-0041",
@@ -2557,7 +2578,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: 60 rpm clockwise."
+    "explanation": "First, calculate the speed of Gear B: $N_A T_A = N_B T_B \\Rightarrow (120 \\text{ rpm})(12 \\text{ teeth}) = N_B (24 \\text{ teeth}) \\Rightarrow N_B = 60 \\text{ rpm}$. Since Gear A rotates clockwise, Gear B, meshing with it, will rotate counterclockwise. Pulley P shares a shaft with Gear B, so Pulley P also rotates at 60 rpm counterclockwise. Pulley P is connected to Pulley Q by a crossed belt, which reverses the direction of rotation. Therefore, Pulley Q will rotate at 60 rpm clockwise.",
+    "explanationLatex": "First, calculate the speed of Gear B: $N_A T_A = N_B T_B \\Rightarrow (120 \\text{ rpm})(12 \\text{ teeth}) = N_B (24 \\text{ teeth}) \\Rightarrow N_B = 60 \\text{ rpm}$. Since Gear A rotates clockwise, Gear B, meshing with it, will rotate counterclockwise. Pulley P shares a shaft with Gear B, so Pulley P also rotates at 60 rpm counterclockwise. Pulley P is connected to Pulley Q by a crossed belt, which reverses the direction of rotation. Therefore, Pulley Q will rotate at 60 rpm clockwise."
   },
   {
     "id": "dost1001-0042",
@@ -2587,7 +2609,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: 30 cm."
+    "explanation": "Initially, the total counter-clockwise torque is $(6 \\text{ N})(20 \\text{ cm}) = 120 \\text{ N}\\cdot\\text{cm}$. The initial clockwise torque is $(4 \\text{ N})(15 \\text{ cm}) + (2 \\text{ N})(30 \\text{ cm}) = 60 \\text{ N}\\cdot\\text{cm} + 60 \\text{ N}\\cdot\\text{cm} = 120 \\text{ N}\\cdot\\text{cm}$. When the 2 N weight is removed, the clockwise torque becomes $(4 \\text{ N})(15 \\text{ cm}) = 60 \\text{ N}\\cdot\\text{cm}$. To restore balance, the 4 N weight must be moved to a new position $d$ such that $(4 \\text{ N})d = 120 \\text{ N}\\cdot\\text{cm}$, so $d = \\frac{120 \\text{ N}\\cdot\\text{cm}}{4 \\text{ N}} = 30 \\text{ cm}$.",
+    "explanationLatex": "Initially, the total counter-clockwise torque is $(6 \\text{ N})(20 \\text{ cm}) = 120 \\text{ N}\\cdot\\text{cm}$. The initial clockwise torque is $(4 \\text{ N})(15 \\text{ cm}) + (2 \\text{ N})(30 \\text{ cm}) = 60 \\text{ N}\\cdot\\text{cm} + 60 \\text{ N}\\cdot\\text{cm} = 120 \\text{ N}\\cdot\\text{cm}$. When the 2 N weight is removed, the clockwise torque becomes $(4 \\text{ N})(15 \\text{ cm}) = 60 \\text{ N}\\cdot\\text{cm}$. To restore balance, the 4 N weight must be moved to a new position $d$ such that $(4 \\text{ N})d = 120 \\text{ N}\\cdot\\text{cm}$, so $d = \\frac{120 \\text{ N}\\cdot\\text{cm}}{4 \\text{ N}} = 30 \\text{ cm}$."
   },
   {
     "id": "dost1001-0043",
@@ -2617,7 +2640,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: 200 N and 0.50 m."
+    "explanation": "For an ideal block-and-tackle with four rope segments supporting the load, the mechanical advantage is 4. The effort required is the load divided by the mechanical advantage, so $F_{effort} = 800\\ \\text{N} / 4 = 200\\ \\text{N}$. The distance the load rises is the distance the rope is pulled divided by the mechanical advantage, so $h_{load} = 2.0\\ \\text{m} / 4 = 0.50\\ \\text{m}$.",
+    "explanationLatex": "For an ideal block-and-tackle with four rope segments supporting the load, the mechanical advantage is 4. The effort required is the load divided by the mechanical advantage, so $F_{effort} = 800\\ \\text{N} / 4 = 200\\ \\text{N}$. The distance the load rises is the distance the rope is pulled divided by the mechanical advantage, so $h_{load} = 2.0\\ \\text{m} / 4 = 0.50\\ \\text{m}$."
   },
   {
     "id": "dost1001-0044",
@@ -2652,8 +2676,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: $36^\\circ$.",
-    "explanationLatex": "Correct answer is $B$: $36^\\circ$."
+    "explanation": "The angle $\\theta$ a pendulum makes with the vertical in a horizontally accelerating frame is given by $\\tan \\theta = a/g$. Initially, $\\tan 20^\\circ = a/g$. When the acceleration becomes $2a$, the new angle $\\theta'$ satisfies $\\tan \\theta' = 2a/g = 2 \\tan 20^\\circ$. Calculating $2 \\tan 20^\\circ \\approx 2 \\times 0.364 = 0.728$, we find $\\theta' = \\arctan(0.728) \\approx 36.05^\\circ$, which is closest to $36^\\circ$.",
+    "explanationLatex": "The angle $\\theta$ a pendulum makes with the vertical in a horizontally accelerating frame is given by $\\tan \\theta = a/g$. Initially, $\\tan 20^\\circ = a/g$. When the acceleration becomes $2a$, the new angle $\\theta'$ satisfies $\\tan \\theta' = 2a/g = 2 \\tan 20^\\circ$. Calculating $2 \\tan 20^\\circ \\approx 2 \\times 0.364 = 0.728$, we find $\\theta' = \\arctan(0.728) \\approx 36.05^\\circ$, which is closest to $36^\\circ$."
   },
   {
     "id": "dost1001-0045",
@@ -2683,7 +2707,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: X and Y become brighter; Z goes out."
+    "explanation": "When the switch across bulb Z is closed, it creates a short circuit across Z. Since the switch has negligible resistance, all current will flow through the switch and bypass bulb Z, causing Z to go out. With Z out of the circuit, the total resistance of the circuit decreases, leading to an increase in the total current from the battery. This increased current flows through the parallel combination of X and Y, making them brighter."
   },
   {
     "id": "dost1001-0046",
@@ -2713,7 +2737,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: 12.5 cm."
+    "explanation": "The pressure difference in a manometer is given by $\\Delta P = \\rho g h$. Since the gas pressure and atmospheric pressure remain unchanged, the pressure difference $\\Delta P$ is constant. Therefore, $\\rho_1 h_1 = \\rho_2 h_2$. Given $\\rho_2 = 0.80 \\rho_1$ and $h_1 = 10.0\\ \\text{cm}$, we have $\\rho_1 (10.0\\ \\text{cm}) = (0.80 \\rho_1) h_2$. Solving for $h_2$, we get $h_2 = 10.0\\ \\text{cm} / 0.80 = 12.5\\ \\text{cm}$.",
+    "explanationLatex": "The pressure difference in a manometer is given by $\\Delta P = \\rho g h$. Since the gas pressure and atmospheric pressure remain unchanged, the pressure difference $\\Delta P$ is constant. Therefore, $\\rho_1 h_1 = \\rho_2 h_2$. Given $\\rho_2 = 0.80 \\rho_1$ and $h_1 = 10.0\\ \\text{cm}$, we have $\\rho_1 (10.0\\ \\text{cm}) = (0.80 \\rho_1) h_2$. Solving for $h_2$, we get $h_2 = 10.0\\ \\text{cm} / 0.80 = 12.5\\ \\text{cm}$."
   },
   {
     "id": "dost1001-0047",
@@ -2743,7 +2768,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Forward."
+    "explanation": "For a rear-wheel-drive car to accelerate forward, the engine applies a torque to the rear wheels, causing them to push backward on the road. By Newton's third law, the road exerts an equal and opposite force on the tires, which is a static friction force directed forward, propelling the car."
   },
   {
     "id": "dost1001-0048",
@@ -2773,7 +2798,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: 0.50 m/s."
+    "explanation": "The useful output power of the hoist is $P_{out} = \\text{Efficiency} \\times P_{in} = 0.75 \\times 1000\\ \\text{W} = 750\\ \\text{W}$. Since the load is lifted at a constant speed, the output power is also given by $P_{out} = F \\times v$, where $F$ is the load and $v$ is the speed. Therefore, $750\\ \\text{W} = 1500\\ \\text{N} \\times v$, which gives $v = 750\\ \\text{W} / 1500\\ \\text{N} = 0.50\\ \\text{m/s}$.",
+    "explanationLatex": "The useful output power of the hoist is $P_{out} = \\text{Efficiency} \\times P_{in} = 0.75 \\times 1000\\ \\text{W} = 750\\ \\text{W}$. Since the load is lifted at a constant speed, the output power is also given by $P_{out} = F \\times v$, where $F$ is the load and $v$ is the speed. Therefore, $750\\ \\text{W} = 1500\\ \\text{N} \\times v$, which gives $v = 750\\ \\text{W} / 1500\\ \\text{N} = 0.50\\ \\text{m/s}$."
   },
   {
     "id": "dost1001-0049",
@@ -2804,8 +2830,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: It becomes 2.25 times as large.",
-    "explanationLatex": "Correct answer is $D$: It becomes 2.25 times as large."
+    "explanation": "Initially, the total resistance is $R_{total,1} = 6\\ \\Omega + 3\\ \\Omega = 9\\ \\Omega$. The current is $I_1 = V/R_{total,1} = 12\\ \\text{V} / 9\\ \\Omega = 4/3\\ \\text{A}$. The power dissipated by the motor is $P_{motor,1} = I_1^2 R_{motor} = (4/3\\ \\text{A})^2 \\times 6\\ \\Omega = (16/9) \\times 6\\ \\text{W} = 32/3\\ \\text{W}$. When the bypass switch is closed, the $3\\ \\Omega$ resistor is bypassed, so the total resistance becomes $R_{total,2} = 6\\ \\Omega$. The new current is $I_2 = V/R_{total,2} = 12\\ \\text{V} / 6\\ \\Omega = 2\\ \\text{A}$. The new power dissipated by the motor is $P_{motor,2} = I_2^2 R_{motor} = (2\\ \\text{A})^2 \\times 6\\ \\Omega = 4 \\times 6\\ \\text{W} = 24\\ \\text{W}$. The factor by which the motor's power changes is $P_{motor,2} / P_{motor,1} = 24\\ \\text{W} / (32/3)\\ \\text{W} = 24 \\times 3 / 32 = 72/32 = 9/4 = 2.25$.",
+    "explanationLatex": "Initially, the total resistance is $R_{total,1} = 6\\ \\Omega + 3\\ \\Omega = 9\\ \\Omega$. The current is $I_1 = V/R_{total,1} = 12\\ \\text{V} / 9\\ \\Omega = 4/3\\ \\text{A}$. The power dissipated by the motor is $P_{motor,1} = I_1^2 R_{motor} = (4/3\\ \\text{A})^2 \\times 6\\ \\Omega = (16/9) \\times 6\\ \\text{W} = 32/3\\ \\text{W}$. When the bypass switch is closed, the $3\\ \\Omega$ resistor is bypassed, so the total resistance becomes $R_{total,2} = 6\\ \\Omega$. The new current is $I_2 = V/R_{total,2} = 12\\ \\text{V} / 6\\ \\Omega = 2\\ \\text{A}$. The new power dissipated by the motor is $P_{motor,2} = I_2^2 R_{motor} = (2\\ \\text{A})^2 \\times 6\\ \\Omega = 4 \\times 6\\ \\text{W} = 24\\ \\text{W}$. The factor by which the motor's power changes is $P_{motor,2} / P_{motor,1} = 24\\ \\text{W} / (32/3)\\ \\text{W} = 24 \\times 3 / 32 = 72/32 = 9/4 = 2.25$."
   },
   {
     "id": "dost1001-0050",
@@ -2835,6 +2861,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: 2.1 m/s."
+    "explanation": "First, calculate the angular speed of the driving pulley: $\\omega_{drive} = 600\\ \\text{rpm} = 600 \\times (2\\pi/60)\\ \\text{rad/s} = 20\\pi\\ \\text{rad/s}$. The linear speed of the belt is $v_{belt} = r_{drive} \\omega_{drive} = (0.02\\ \\text{m}) \\times (20\\pi\\ \\text{rad/s}) = 0.4\\pi\\ \\text{m/s}$. Since the belt drives the 6.0 cm-radius pulley without slipping, the angular speed of this driven pulley is $\\omega_{driven} = v_{belt} / r_{driven} = (0.4\\pi\\ \\text{m/s}) / (0.06\\ \\text{m}) = (20/3)\\pi\\ \\text{rad/s}$. The conveyor roller is rigidly attached to this driven pulley, so its angular speed is also $\\omega_{roller} = (20/3)\\pi\\ \\text{rad/s}$. Finally, the linear speed of the conveyor belt is $v_{conveyor} = r_{roller} \\omega_{roller} = (0.10\\ \\text{m}) \\times (20/3)\\pi\\ \\text{rad/s} = (2/3)\\pi\\ \\text{m/s} \\approx 2.094\\ \\text{m/s}$, which is closest to $2.1\\ \\text{m/s}$.",
+    "explanationLatex": "First, calculate the angular speed of the driving pulley: $\\omega_{drive} = 600\\ \\text{rpm} = 600 \\times (2\\pi/60)\\ \\text{rad/s} = 20\\pi\\ \\text{rad/s}$. The linear speed of the belt is $v_{belt} = r_{drive} \\omega_{drive} = (0.02\\ \\text{m}) \\times (20\\pi\\ \\text{rad/s}) = 0.4\\pi\\ \\text{m/s}$. Since the belt drives the 6.0 cm-radius pulley without slipping, the angular speed of this driven pulley is $\\omega_{driven} = v_{belt} / r_{driven} = (0.4\\pi\\ \\text{m/s}) / (0.06\\ \\text{m}) = (20/3)\\pi\\ \\text{rad/s}$. The conveyor roller is rigidly attached to this driven pulley, so its angular speed is also $\\omega_{roller} = (20/3)\\pi\\ \\text{rad/s}$. Finally, the linear speed of the conveyor belt is $v_{conveyor} = r_{roller} \\omega_{roller} = (0.10\\ \\text{m}) \\times (20/3)\\pi\\ \\text{rad/s} = (2/3)\\pi\\ \\text{m/s} \\approx 2.094\\ \\text{m/s}$, which is closest to $2.1\\ \\text{m/s}$."
   }
 ]

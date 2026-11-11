@@ -713,7 +713,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: bird."
+    "explanation": "A SEED develops into a PLANT. Similarly, an EGG develops into a BIRD."
   },
   {
     "id": "dost1001-0102",
@@ -743,7 +743,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: judge."
+    "explanation": "A SCALPEL is a tool used by a SURGEON. Similarly, a GAVEL is a tool used by a JUDGE."
   },
   {
     "id": "dost1001-0103",
@@ -773,7 +773,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: solid."
+    "explanation": "EVAPORATE describes the phase transition of a LIQUID to a gas. Similarly, SUBLIME describes the phase transition of a SOLID directly to a gas."
   },
   {
     "id": "dost1001-0104",
@@ -803,7 +803,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: walk."
+    "explanation": "WHISPER is a quieter form of SPEAKING. Similarly, STROLL is a slower, more relaxed form of WALKING."
   },
   {
     "id": "dost1001-0105",
@@ -833,7 +833,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: play."
+    "explanation": "A CHAPTER is a major section of a BOOK. Similarly, a SCENE is a major section of a PLAY."
   },
   {
     "id": "dost1001-0106",
@@ -863,7 +863,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: pressure."
+    "explanation": "A THERMOMETER is an instrument used to measure TEMPERATURE. Similarly, a BAROMETER is an instrument used to measure PRESSURE."
   },
   {
     "id": "dost1001-0107",
@@ -893,7 +893,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: cowardly."
+    "explanation": "GENEROUS is an antonym for STINGY. Similarly, COURAGEOUS is an antonym for COWARDLY."
   },
   {
     "id": "dost1001-0108",
@@ -923,7 +923,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: horse."
+    "explanation": "A SAPLING is a young TREE. Similarly, a FOAL is a young HORSE."
   },
   {
     "id": "dost1001-0109",
@@ -953,7 +953,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: burn."
+    "explanation": "The relationship is that the first word describes a characteristic that makes the object susceptible to the action of the second word. Something fragile is likely to break, just as something flammable is likely to burn."
   },
   {
     "id": "dost1001-0110",
@@ -983,7 +983,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: definition."
+    "explanation": "The relationship is that the first item is a tool used for the purpose described by the second word. A map is used for navigation, and a dictionary is used for finding definitions."
   },
   {
     "id": "dost1001-0111",
@@ -1013,7 +1013,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: film."
+    "explanation": "The relationship is that the first word names the leader or director of the group or production named by the second word. A conductor leads an orchestra, and a director leads a film production."
   },
   {
     "id": "dost1001-0112",
@@ -1043,7 +1043,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: train."
+    "explanation": "The relationship describes the path followed by the second object. A planet follows an orbit, and a train follows a track."
   },
   {
     "id": "dost1001-0113",
@@ -1073,7 +1073,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: proficiency."
+    "explanation": "The relationship is that the first item leads to or results in the second item. A vaccine leads to immunity, and practice leads to proficiency."
   },
   {
     "id": "dost1001-0114",
@@ -1103,7 +1103,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: food."
+    "explanation": "The relationship is that the first word describes a severe lack of the second word. A drought is a lack of water, and a famine is a severe lack of food."
   },
   {
     "id": "dost1001-0115",
@@ -1133,7 +1133,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: eye."
+    "explanation": "The relationship is that the first word names a part of the second word, specifically a part that helps focus light. A lens is a part of a camera, and a cornea is a part of an eye."
   },
   {
     "id": "dost1001-0116",
@@ -1163,7 +1163,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: food."
+    "explanation": "The relationship is that the first word names a place where the second word is stored. An archive is a place where records are stored, and a pantry is a place where food is stored."
   },
   {
     "id": "dost1001-0117",
@@ -1193,7 +1193,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: current."
+    "explanation": "Friction opposes motion, just as electrical resistance opposes the flow of current. Both terms describe an opposing force or impediment to a particular phenomenon."
   },
   {
     "id": "dost1001-0118",
@@ -1223,7 +1223,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: opera."
+    "explanation": "A preface serves as an introduction to a book, setting the stage for what is to follow. Similarly, an overture is an introductory piece of music for an opera, preparing the audience for the main performance."
   },
   {
     "id": "dost1001-0119",
@@ -1253,7 +1253,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: investigation."
+    "explanation": "A hypothesis is a proposed explanation that needs to be tested through an experiment. Likewise, an allegation is a claim that needs to be verified or disproven through an investigation."
   },
   {
     "id": "dost1001-0120",
@@ -1283,7 +1283,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: concise."
+    "explanation": "Meticulous means showing great attention to detail, which is an intensified form of being careful. Similarly, terse means using few words, which is an intensified or more precise form of being concise."
   },
   {
     "id": "dost1001-0121",
@@ -1313,7 +1313,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: quartz."
+    "explanation": "Copper, silver, and iron are all metals, known for their conductivity and malleability. Quartz, on the other hand, is a mineral composed of silicon dioxide ($SiO_2$), which is a non-metal and typically a poor conductor.",
+    "explanationLatex": "Copper, silver, and iron are all metals, known for their conductivity and malleability. Quartz, on the other hand, is a mineral composed of silicon dioxide ($SiO_2$), which is a non-metal and typically a poor conductor."
   },
   {
     "id": "dost1001-0122",
@@ -1343,7 +1344,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: teacher : classroom."
+    "explanation": "Writer : pen, carpenter : saw, and painter : brush all represent a professional and the primary tool they use for their craft. Teacher : classroom, however, represents a professional and their workplace, not a tool."
   },
   {
     "id": "dost1001-0123",
@@ -1373,7 +1374,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: observe."
+    "explanation": "Infer, deduce, and conclude all involve forming a judgment or opinion based on reasoning and evidence. Observe, however, means to perceive or notice something, which is a sensory input process rather than a reasoning function."
   },
   {
     "id": "dost1001-0124",
@@ -1403,7 +1404,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: seed : soil."
+    "explanation": "Sapling : tree, larva : butterfly, and cub : lion all represent a young or immature form of an organism and its adult form. Seed : soil, however, represents a seed and the medium in which it grows, not its adult form."
   },
   {
     "id": "dost1001-0125",
@@ -1433,7 +1434,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: luminous."
+    "explanation": "Translucent, opaque, and transparent describe how much light passes *through* an object. Luminous describes an object that *produces* its own light, which is a different property."
   },
   {
     "id": "dost1001-0126",
@@ -1463,7 +1464,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: compass : speed."
+    "explanation": "Options A, C, and D all show a tool and the specific quantity it measures (e.g., thermometer measures temperature). Option B incorrectly pairs a compass, which measures direction, with speed."
   },
   {
     "id": "dost1001-0127",
@@ -1493,7 +1494,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: downpour."
+    "explanation": "The first sequence (WHISPER, SPEAK, SHOUT) shows an increasing intensity of vocal sound. Similarly, DRIZZLE, RAIN, DOWNPOUR represents an increasing intensity of precipitation."
   },
   {
     "id": "dost1001-0128",
@@ -1523,7 +1524,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: building."
+    "explanation": "The first sequence (PAGE, CHAPTER, BOOK) shows components building up to a larger whole in increasing order of scale. Similarly, ROOM, FLOOR, BUILDING follows this part-to-whole progression."
   },
   {
     "id": "dost1001-0129",
@@ -1554,8 +1555,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: test.",
-    "explanationLatex": "Correct answer is $B$: test."
+    "explanation": "The first chain (QUESTION $\\to$ ANSWER $\\to$ VERIFY) represents a logical progression in problem-solving or inquiry. The scientific method follows a similar progression: a HYPOTHESIS leads to a PREDICTION, which is then subjected to a TEST (experimentation) to gather evidence.",
+    "explanationLatex": "The first chain (QUESTION $\\to$ ANSWER $\\to$ VERIFY) represents a logical progression in problem-solving or inquiry. The scientific method follows a similar progression: a HYPOTHESIS leads to a PREDICTION, which is then subjected to a TEST (experimentation) to gather evidence."
   },
   {
     "id": "dost1001-0130",
@@ -1586,8 +1587,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: analyze.",
-    "explanationLatex": "Correct answer is $A$: analyze."
+    "explanation": "The sequence IGNORE $\\to$ NOTICE $\\to$ EXAMINE shows an increasing level of attention and scrutiny. Following this progression, EXAMINE leads to a deeper understanding or breakdown, which is best described by ANALYZE.",
+    "explanationLatex": "The sequence IGNORE $\\to$ NOTICE $\\to$ EXAMINE shows an increasing level of attention and scrutiny. Following this progression, EXAMINE leads to a deeper understanding or breakdown, which is best described by ANALYZE."
   },
   {
     "id": "dost1001-0131",
@@ -1617,7 +1618,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: statue."
+    "explanation": "The pattern establishes a creator and their primary artistic creation (AUTHOR creates a NOVEL, COMPOSER creates a SYMPHONY). Therefore, a SCULPTOR creates a STATUE."
   },
   {
     "id": "dost1001-0132",
@@ -1647,7 +1648,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: lumps."
+    "explanation": "A FILTER is used to remove IMPURITIES from a fluid. Similarly, a SIEVE is used to separate or remove LUMPS from dry ingredients."
   },
   {
     "id": "dost1001-0133",
@@ -1677,7 +1678,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: All kestrels are birds.."
+    "explanation": "The first premise, \"All kestrels are birds,\" is a direct statement of fact. Since the question asks which conclusion MUST be true, and this statement is given as a premise, it is necessarily true. The other options are either not necessarily true or contradict the given information."
   },
   {
     "id": "dost1001-0134",
@@ -1707,7 +1708,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Some kitchen tools do not conduct electricity well.."
+    "explanation": "We know that \"No ceramic objects conduct electricity well\" and \"Some kitchen tools are ceramic.\" Therefore, the \"some kitchen tools\" that are ceramic must also not conduct electricity well, leading to the conclusion that \"Some kitchen tools do not conduct electricity well.\""
   },
   {
     "id": "dost1001-0135",
@@ -1737,7 +1738,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: Mara is not a member of Team X.."
+    "explanation": "The first premise states that \"Every member of Team X submitted the report.\" The second premise states that \"Mara did not submit the report.\" If Mara did not submit the report, she cannot be a member of Team X, because all members of Team X submitted the report."
   },
   {
     "id": "dost1001-0136",
@@ -1767,7 +1768,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: Some renewable-energy projects require financial review.."
+    "explanation": "We are given that \"Some renewable-energy projects are expensive\" and \"All expensive projects require financial review.\" Combining these, the \"some renewable-energy projects\" that are expensive must also require financial review, leading to the conclusion that \"Some renewable-energy projects require financial review.\""
   },
   {
     "id": "dost1001-0137",
@@ -1797,7 +1798,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: No owls in the study were active at noon.."
+    "explanation": "The first premise states \"No nocturnal animals in the study were active at noon.\" The second premise states \"All owls in the study were nocturnal.\" Since all owls in the study are nocturnal, and no nocturnal animals were active at noon, it logically follows that \"No owls in the study were active at noon.\""
   },
   {
     "id": "dost1001-0138",
@@ -1827,7 +1828,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Passing Test A does not guarantee passing Test B.."
+    "explanation": "We know that \"All certified samples passed Test A\" and \"Some samples that passed Test A failed Test B.\" This means that even if a sample passes Test A, it is still possible for it to fail Test B, thus passing Test A does not guarantee passing Test B."
   },
   {
     "id": "dost1001-0139",
@@ -1857,7 +1858,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: The flashing indicator alone does not prove that the alarm is sounding.."
+    "explanation": "The statement \"Whenever the alarm sounds, the red indicator flashes\" establishes a conditional relationship where the alarm sounding is a sufficient condition for the indicator to flash. However, the indicator flashing (the consequent) does not necessarily mean the alarm is sounding (the antecedent), as there could be other reasons for the indicator to flash. This is a classic example of affirming the consequent, which is a logical fallacy."
   },
   {
     "id": "dost1001-0140",
@@ -1887,7 +1888,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: Q is not metallic.."
+    "explanation": "The statement \"If a specimen is metallic, it is electrically conductive\" can be written as $P \\rightarrow Q$, where $P$ is \"a specimen is metallic\" and $Q$ is \"it is electrically conductive.\" We are given that \"Specimen Q is not electrically conductive,\" which is $\\neg Q$. By the rule of contrapositive (or modus tollens), if $P \\rightarrow Q$ is true and $\\neg Q$ is true, then $\\neg P$ must also be true. Therefore, Specimen Q is not metallic.",
+    "explanationLatex": "The statement \"If a specimen is metallic, it is electrically conductive\" can be written as $P \\rightarrow Q$, where $P$ is \"a specimen is metallic\" and $Q$ is \"it is electrically conductive.\" We are given that \"Specimen Q is not electrically conductive,\" which is $\\neg Q$. By the rule of contrapositive (or modus tollens), if $P \\rightarrow Q$ is true and $\\neg Q$ is true, then $\\neg P$ must also be true. Therefore, Specimen Q is not metallic."
   },
   {
     "id": "dost1001-0141",
@@ -1917,7 +1919,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The sample was not acidic.."
+    "explanation": "This is an application of contrapositive reasoning. The given statements are: 1) If acidic ($A$), then indicator turns red ($R$). 2) If indicator turns red ($R$), then alarm sounds ($S$). The alarm did not sound ($\\neg S$). From statement 2, if $\\neg S$, then $\\neg R$ (the indicator did not turn red). From statement 1, if $\\neg R$, then $\\neg A$ (the sample was not acidic).",
+    "explanationLatex": "This is an application of contrapositive reasoning. The given statements are: 1) If acidic ($A$), then indicator turns red ($R$). 2) If indicator turns red ($R$), then alarm sounds ($S$). The alarm did not sound ($\\neg S$). From statement 2, if $\\neg S$, then $\\neg R$ (the indicator did not turn red). From statement 1, if $\\neg R$, then $\\neg A$ (the sample was not acidic)."
   },
   {
     "id": "dost1001-0142",
@@ -1947,7 +1950,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: Oil pressure was not too low and the fan did not fail.."
+    "explanation": "The machine shuts down if (low oil pressure OR fan fails). The machine did not shut down. For an \"OR\" condition to be false, both individual conditions must be false. Therefore, the oil pressure was NOT too low AND the fan did NOT fail."
   },
   {
     "id": "dost1001-0143",
@@ -1977,7 +1980,8 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Heavy rain was not forecast.."
+    "explanation": "This problem uses the contrapositive. The given statements are: 1) If heavy rain ($R$), then field test postponed ($P$). 2) If field test postponed ($P$), then equipment in storage ($S$). The equipment was not in storage ($\\neg S$). From statement 2, if $\\neg S$, then $\\neg P$ (the field test was not postponed). From statement 1, if $\\neg P$, then $\\neg R$ (heavy rain was not forecast).",
+    "explanationLatex": "This problem uses the contrapositive. The given statements are: 1) If heavy rain ($R$), then field test postponed ($P$). 2) If field test postponed ($P$), then equipment in storage ($S$). The equipment was not in storage ($\\neg S$). From statement 2, if $\\neg S$, then $\\neg P$ (the field test was not postponed). From statement 1, if $\\neg P$, then $\\neg R$ (heavy rain was not forecast)."
   },
   {
     "id": "dost1001-0144",
@@ -2007,7 +2011,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: Her project was complete and she passed the defense.."
+    "explanation": "The statement \"A student receives a distinction only if both the project is complete AND the oral defense is passed\" means that receiving a distinction is a sufficient condition for both the project being complete and the oral defense being passed. If Lia received a distinction, it necessarily follows that both conditions were met: her project was complete AND she passed the defense."
   },
   {
     "id": "dost1001-0145",
@@ -2037,7 +2041,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: Maintenance mode was active.."
+    "explanation": "The rule states a warning is sent if temperature exceeds the limit, UNLESS maintenance mode is active. This means if the temperature exceeds the limit AND maintenance mode is NOT active, then a warning is sent. Since the temperature exceeded the limit but no warning was sent, the \"unless\" condition must have been true, meaning maintenance mode was active."
   },
   {
     "id": "dost1001-0146",
@@ -2068,7 +2072,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: composition.",
+    "explanation": "The relationship in each row is a progression from a fundamental unit to a larger structure, and then to an even larger, more complex structure composed of the previous one. BRICK is a unit of a WALL, which is a unit of a BUILDING. WORD is a unit of a SENTENCE, which is a unit of a PARAGRAPH. Similarly, a NOTE is a unit of a MELODY, and a MELODY is a unit of a COMPOSITION.",
     "explanationLatex": "Correct answer is $B$: composition."
   },
   {
@@ -2100,8 +2104,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: direction.",
-    "explanationLatex": "Correct answer is $D$: direction."
+    "explanation": "The relationship in each row follows the pattern: Object $\\to$ Action $\\to$ Outcome/Purpose. You READ a BOOK to gain KNOWLEDGE. You EAT FOOD to get NOURISHMENT. Similarly, you CONSULT a MAP to find DIRECTION.",
+    "explanationLatex": "The relationship in each row follows the pattern: Object $\\to$ Action $\\to$ Outcome/Purpose. You READ a BOOK to gain KNOWLEDGE. You EAT FOOD to get NOURISHMENT. Similarly, you CONSULT a MAP to find DIRECTION."
   },
   {
     "id": "dost1001-0148",
@@ -2132,7 +2136,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: durable.",
+    "explanation": "The relationship in each row is a synonym, followed by an antonym of the first two words. SCARCE is a synonym for RARE, and ABUNDANT is an antonym. TIMID is a synonym for SHY, and BOLD is an antonym. Therefore, FRAGILE is a synonym for DELICATE, and the antonym for fragile/delicate is DURABLE.",
     "explanationLatex": "Correct answer is $A$: durable."
   },
   {
@@ -2164,7 +2168,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: churn.",
+    "explanation": "The matrix illustrates a three-step process where a raw material undergoes a specific transformation to yield a final product. For milk to become butter, it must undergo the process of churning, which separates the butterfat from the buttermilk.",
     "explanationLatex": "Correct answer is $C$: churn."
   },
   {
@@ -2196,7 +2200,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: diagnosis.",
+    "explanation": "The matrix establishes a logical progression from an initial state, through an intermediate analytical step, to a final outcome. In the context of symptoms, observation leads to a diagnosis, which is the identification of the nature of an illness or other problem.",
     "explanationLatex": "Correct answer is $B$: diagnosis."
   }
 ]

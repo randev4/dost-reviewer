@@ -1796,7 +1796,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The list of required documents is on the table.."
+    "explanation": "The subject of the sentence is \"list,\" which is singular, so the verb must also be singular (\"is\"). The phrase \"of required documents\" is a prepositional phrase that modifies \"list\" and does not affect the subject-verb agreement."
   },
   {
     "id": "dost1001-0152",
@@ -1826,7 +1826,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The adviser spoke to Lea and me after class.."
+    "explanation": "The pronouns \"Lea and me\" function as the objects of the preposition \"to.\" Therefore, the objective case pronoun \"me\" must be used, not the subjective case \"I.\""
   },
   {
     "id": "dost1001-0153",
@@ -1856,7 +1856,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Walking through the laboratory, Mara noticed the microscopes.."
+    "explanation": "The original sentence has a dangling modifier because \"Walking through the laboratory\" incorrectly modifies \"microscopes.\" Option A correctly places the subject \"Mara\" immediately after the introductory phrase, clarifying that Mara was the one walking."
   },
   {
     "id": "dost1001-0154",
@@ -1886,7 +1886,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: Yesterday, Paolo reviewed the chapter and answered the practice test.."
+    "explanation": "The adverb \"Yesterday\" indicates that the actions occurred in the past. Therefore, both verbs describing Paolo's actions must be in the simple past tense: \"reviewed\" and \"answered.\""
   },
   {
     "id": "dost1001-0155",
@@ -1916,7 +1916,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The workshop aims to explain the process, improve accuracy, and build confidence.."
+    "explanation": "For parallel structure, all items in a series should have the same grammatical form. In option B, \"explain,\" \"improve,\" and \"build\" are all infinitive verbs (implied \"to\" before each), creating a consistent structure."
   },
   {
     "id": "dost1001-0156",
@@ -1946,7 +1946,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The rainfall in June was higher than the rainfall in July.."
+    "explanation": "To make a logical comparison, the sentence must compare \"rainfall\" in June to \"rainfall\" in July, not \"rainfall\" to the month itself or its weather. Option B explicitly compares \"the rainfall in June\" to \"the rainfall in July.\""
   },
   {
     "id": "dost1001-0157",
@@ -1976,7 +1976,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: She gave a useful explanation of the graph.."
+    "explanation": "The choice between \"a\" and \"an\" depends on the sound of the word immediately following the article. \"Useful\" begins with a consonant sound (yoo-), so the indefinite article \"a\" is correct."
   },
   {
     "id": "dost1001-0158",
@@ -2006,7 +2006,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: The students' answers were checked twice.."
+    "explanation": "To show possession for a plural noun ending in $s$, an apostrophe is added after the $s$. Since \"students\" is already plural, \"students'\" correctly indicates that the answers belong to multiple students.",
+    "explanationLatex": "To show possession for a plural noun ending in $s$, an apostrophe is added after the $s$. Since \"students\" is already plural, \"students'\" correctly indicates that the answers belong to multiple students."
   },
   {
     "id": "dost1001-0159",
@@ -2036,7 +2037,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Each of the samples was labeled clearly.."
+    "explanation": "The indefinite pronoun \"Each\" is singular and requires a singular verb, \"was.\" The phrase \"of the samples\" is a prepositional phrase and does not affect the subject-verb agreement."
   },
   {
     "id": "dost1001-0160",
@@ -2066,7 +2067,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: If I were in your position, I would verify the data again.."
+    "explanation": "The subjunctive mood is used for hypothetical, contrary-to-fact, or wished-for conditions, and for the verb \"to be\" in such clauses, \"were\" is used for all persons, including \"I.\""
   },
   {
     "id": "dost1001-0161",
@@ -2096,7 +2097,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: was."
+    "explanation": "When \"neither...nor\" connects a singular subject (\"coordinator\") and a plural subject (\"volunteers\"), the verb agrees with the subject closest to it. Therefore, \"was\" should be \"were\" to agree with \"volunteers.\""
   },
   {
     "id": "dost1001-0162",
@@ -2126,7 +2127,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: The research team submitted its report before the deadline.."
+    "explanation": "In this sentence, \"its\" clearly refers to \"The research team,\" which is a collective noun acting as a singular unit. The other options have ambiguous pronoun references."
   },
   {
     "id": "dost1001-0163",
@@ -2156,7 +2157,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The students who submitted late received a deduction.."
+    "explanation": "A restrictive relative clause provides essential information about the noun it modifies and is not set off by commas. \"Who\" is the correct relative pronoun for people, and the absence of commas indicates that the clause \"who submitted late\" is essential to identify which students received a deduction."
   },
   {
     "id": "dost1001-0164",
@@ -2186,7 +2187,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: By the time the exam began, Mira had reviewed all her notes.."
+    "explanation": "The past perfect tense (\"had reviewed\") is used to describe an action that was completed before another action in the past (\"the exam began\"). This correctly shows that Mira's reviewing happened prior to the exam starting."
   },
   {
     "id": "dost1001-0165",
@@ -2216,7 +2217,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: The team repeated the experiment only once.."
+    "explanation": "In formal English, the adverb \"only\" should be placed immediately before the word or phrase it modifies to avoid ambiguity. Here, \"only once\" clearly limits the repetition of the experiment to a single instance."
   },
   {
     "id": "dost1001-0166",
@@ -2246,7 +2247,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: When students review regularly, they remember concepts more easily.."
+    "explanation": "This sentence maintains consistency in person and number by using the plural subject \"students\" and the corresponding plural pronoun \"they,\" avoiding illogical shifts in perspective."
   },
   {
     "id": "dost1001-0167",
@@ -2276,7 +2277,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The first trial failed; the team repeated the procedure.."
+    "explanation": "A semicolon correctly joins two independent clauses that are closely related in meaning, as seen in option B. Options A and C misuse the semicolon by pairing it with a subordinating conjunction (\"because\") or by separating a subject from its verb. Option D incorrectly uses both a comma and a semicolon."
   },
   {
     "id": "dost1001-0168",
@@ -2306,7 +2307,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: After reviewing the data, the researchers found the conclusion obvious.."
+    "explanation": "A participial phrase must logically modify the subject of the main clause. In option B, \"researchers\" are the ones \"reviewing the data,\" correctly linking the participial phrase to its subject. In options A, C, and D, the phrase \"After reviewing the data\" illogically modifies \"conclusion\" or \"there,\" creating a dangling modifier."
   },
   {
     "id": "dost1001-0169",
@@ -2336,7 +2337,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The revised method required fewer steps and less time.."
+    "explanation": "\"Fewer\" is used for countable nouns (like \"steps\"), while \"less\" is used for uncountable nouns (like \"time\"). Option B correctly applies this rule, using \"fewer steps\" and \"less time.\""
   },
   {
     "id": "dost1001-0170",
@@ -2366,7 +2367,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: The device is not only inexpensive but also reliable.."
+    "explanation": "Correlative conjunctions like \"not only...but also\" must maintain parallel structure, meaning the grammatical form following each part of the conjunction should be the same. Option C correctly places \"is\" before \"not only\" and then follows \"but also\" with an adjective (\"reliable\"), paralleling the adjective \"inexpensive.\""
   },
   {
     "id": "dost1001-0171",
@@ -2396,7 +2397,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: The sample was contaminated during transport, making the results unreliable.."
+    "explanation": "Option A combines the three sentences into a single, clear, and concise statement by using a participial phrase (\"making the results unreliable\") and a prepositional phrase (\"during transport\") to convey the cause and effect efficiently. The other options are either redundant, grammatically awkward, or illogical."
   },
   {
     "id": "dost1001-0172",
@@ -2426,7 +2427,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Because the road was flooded, classes were suspended.."
+    "explanation": "A subordinate clause, introduced by a subordinating conjunction like \"Because,\" provides supporting information, while the independent clause contains the main idea. Option A correctly places the reason (\"Because the road was flooded\") in the subordinate clause and the main event (\"classes were suspended\") in the independent clause."
   },
   {
     "id": "dost1001-0173",
@@ -2456,7 +2457,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The lecture ended; the students stayed for questions.."
+    "explanation": "A comma splice occurs when two independent clauses are joined only by a comma. Option B correctly uses a semicolon to separate two closely related independent clauses, \"The lecture ended\" and \"the students stayed for questions,\" thus avoiding a comma splice."
   },
   {
     "id": "dost1001-0174",
@@ -2486,7 +2487,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: After two revisions, the committee unanimously approved the proposal.."
+    "explanation": "For clarity and conciseness, adverbial phrases (like \"After two revisions\" and \"unanimously\") should be placed logically to modify the verb or the entire clause without ambiguity. Option B places the introductory phrase first, followed by the subject, adverb, verb, and object, creating a clear and natural sentence flow."
   },
   {
     "id": "dost1001-0175",
@@ -2516,7 +2517,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Although the first model was cheaper, the team chose the second because it was more reliable.."
+    "explanation": "The subordinating conjunction \"Although\" correctly introduces a subordinate clause showing contrast (\"Although the first model was cheaper\") and is followed by an independent clause, forming a grammatically correct complex sentence. Option B is incorrect because it uses \"but\" redundantly after \"although,\" creating a grammatical error. Options C and D misplace the conjunction or restructure the sentence awkwardly."
   },
   {
     "id": "dost1001-0176",
@@ -2546,7 +2547,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: The instructor told the student that the student needed to revise the report.."
+    "explanation": "To eliminate ambiguity when a pronoun like \"she\" could refer to either the instructor or the student, explicitly restating the noun (\"the student\") clarifies who needs to revise the report. This ensures that the sentence clearly communicates that the student, not the instructor, is responsible for the revision."
   },
   {
     "id": "dost1001-0177",
@@ -2576,7 +2577,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Because its support structure was unstable, the team rejected the otherwise elegant design.."
+    "explanation": "Placing the subordinate clause \"Because its support structure was unstable\" at the beginning of the sentence immediately highlights the reason for rejection, giving it primary emphasis. This structure effectively communicates the cause-and-effect relationship, making the reason for rejection the most prominent piece of information."
   },
   {
     "id": "dost1001-0178",
@@ -2606,7 +2607,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Because the instrument was not calibrated, the measurements were inaccurate.."
+    "explanation": "The phrase \"Due to the fact that\" is a wordy substitute for \"Because.\" Replacing it with \"Because\" and removing the unnecessary relative clause \"that were obtained\" streamlines the sentence while preserving its original meaning."
   },
   {
     "id": "dost1001-0179",
@@ -2636,7 +2637,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The result is consistent with the prediction.."
+    "explanation": "The correct idiomatic preposition to use with \"consistent\" when comparing something to a standard or expectation is \"with.\" Therefore, \"consistent with the prediction\" is the grammatically correct and natural-sounding phrase."
   },
   {
     "id": "dost1001-0180",
@@ -2666,7 +2667,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The new schedule may affect attendance, but its long-term effect is uncertain.."
+    "explanation": "\"Affect\" is typically used as a verb meaning \"to influence,\" while \"effect\" is typically used as a noun meaning \"a result\" or \"an outcome.\" In this sentence, \"affect attendance\" correctly uses \"affect\" as a verb, and \"long-term effect\" correctly uses \"effect\" as a noun."
   },
   {
     "id": "dost1001-0181",
@@ -2696,7 +2697,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: The comparison between the two methods revealed several differences.."
+    "explanation": "The conventional rule states that \"between\" is used for two entities, while \"among\" is used for three or more. In option C, \"between the two methods\" correctly applies this rule as it refers to exactly two entities."
   },
   {
     "id": "dost1001-0182",
@@ -2726,7 +2727,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The committee comprises six members.."
+    "explanation": "In traditional formal usage, \"comprise\" means \"to consist of\" or \"to include\" and should not be followed by \"of.\" Therefore, \"The committee comprises six members\" correctly uses the verb \"comprise\" to indicate that the committee includes or consists of six members."
   },
   {
     "id": "dost1001-0183",
@@ -2756,7 +2757,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: I interpret the data differently because the second trial shows the opposite trend.."
+    "explanation": "Option C demonstrates respectful disagreement and provides a specific, data-driven reason for the differing interpretation, which is appropriate for a formal academic discussion. Options A, B, and D are dismissive, accusatory, or informal, making them unsuitable for an academic setting."
   },
   {
     "id": "dost1001-0184",
@@ -2786,7 +2787,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Sometime next week, we should spend some time reviewing the results.."
+    "explanation": "\"Sometime\" (one word) means at an unspecified point in time, fitting the context \"Sometime next week.\" \"Some time\" (two words) refers to a duration or period of time, correctly used in \"spend some time reviewing the results.\""
   },
   {
     "id": "dost1001-0185",
@@ -2816,7 +2817,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: reduce."
+    "explanation": "To \"mitigate\" means to make something less severe, serious, or painful. In the context of \"mitigate the effects of urban heat,\" trees would lessen or reduce these effects."
   },
   {
     "id": "dost1001-0186",
@@ -2846,7 +2847,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: abundant."
+    "explanation": "\"Scarce\" means insufficient for the demand or in short supply. The most direct opposite is \"abundant,\" meaning existing or available in large quantities."
   },
   {
     "id": "dost1001-0187",
@@ -2876,7 +2877,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: flexible."
+    "explanation": "The relationship is one of antonyms: \"opaque\" is the opposite of \"transparent.\" Similarly, \"rigid\" (stiff, unbending) is the opposite of \"flexible\" (able to bend easily)."
   },
   {
     "id": "dost1001-0188",
@@ -2906,7 +2907,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: claim : verification."
+    "explanation": "The relationship between \"hypothesis\" and \"test\" is that a hypothesis is something proposed for explanation that is then subjected to a test to verify its validity. Similarly, a \"claim\" is an assertion that requires \"verification\" to prove its truth or accuracy."
   },
   {
     "id": "dost1001-0189",
@@ -2936,7 +2937,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: provisional."
+    "explanation": "\"Tentative\" means not certain or fixed; provisional. A \"tentative conclusion\" is one that is not yet final or fully confirmed, making \"provisional\" the closest synonym."
   },
   {
     "id": "dost1001-0190",
@@ -2966,7 +2967,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: verbose."
+    "explanation": "\"Concise\" means giving a lot of information clearly and in a few words; brief but comprehensive. The opposite would be using too many words, which is described by \"verbose.\""
   },
   {
     "id": "dost1001-0191",
@@ -2996,7 +2997,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: claim."
+    "explanation": "The analogy establishes a relationship where the first word describes an action performed on the second word to confirm its truth or validity. To \"corroborate\" means to confirm or give support to evidence, and similarly, to \"substantiate\" means to provide evidence to support or prove a claim."
   },
   {
     "id": "dost1001-0192",
@@ -3026,7 +3027,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: ticket : event admission."
+    "explanation": "The relationship between \"prerequisite\" and \"enrollment\" is that a prerequisite is something required *before* enrollment can occur. Similarly, a \"ticket\" is something required *before* \"event admission\" can be granted."
   },
   {
     "id": "dost1001-0193",
@@ -3056,7 +3057,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: overstate."
+    "explanation": "Given that the evidence came from a very small sample, researchers would be cautious not to \"overstate\" their conclusion, meaning they would avoid presenting it as more significant or certain than the limited data allows. \"Overstate\" accurately captures the idea of exaggerating the strength or scope of a conclusion."
   },
   {
     "id": "dost1001-0194",
@@ -3086,7 +3087,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: deferred."
+    "explanation": "To \"defer\" a decision means to postpone it to a later time, which accurately describes the committee's action of delaying a decision until missing data could be reviewed rather than rejecting it outright. The other options do not fit the context of postponing a decision for further review."
   },
   {
     "id": "dost1001-0195",
@@ -3116,7 +3117,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: close."
+    "explanation": "If the difference between two measurements can be attributed to \"ordinary instrument uncertainty,\" it implies that the measurements themselves were very similar or \"close\" to each other. \"Close\" accurately describes measurements that are nearly identical, making their minor differences attributable to random error."
   },
   {
     "id": "dost1001-0196",
@@ -3146,7 +3147,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: entrenched."
+    "explanation": "If a temporary policy became so ingrained that few people questioned it, it means it became \"entrenched,\" which describes something firmly established and difficult to change. The other options do not convey the idea of a policy becoming deeply rooted and accepted over time."
   },
   {
     "id": "dost1001-0197",
@@ -3176,7 +3177,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: differentiate."
+    "explanation": "To \"differentiate\" means to recognize or ascertain what makes something different, which is crucial for a reviewer to distinguish between a calculation error and a conceptual misunderstanding because they require different solutions. The other options do not convey the act of making a distinction between two distinct issues."
   },
   {
     "id": "dost1001-0198",
@@ -3206,7 +3207,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: consistent."
+    "explanation": "A \"consistent\" account means that the information provided remains the same and does not contradict itself, even after repeated questioning. This directly matches the description that \"the sequence of events remained the same.\""
   },
   {
     "id": "dost1001-0199",
@@ -3236,7 +3237,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: infer."
+    "explanation": "The word \"infer\" means to deduce or conclude information from evidence and reasoning rather than from explicit statements. In a scientific context, it is crucial not to assume causation (cause and effect) solely from correlation (a relationship between two variables), as correlation does not always imply causation."
   },
   {
     "id": "dost1001-0200",
@@ -3266,7 +3267,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: standardized."
+    "explanation": "The sentence indicates that the instructions were designed to ensure consistency across different test centers. \"Standardized\" means to make something conform to a standard, which directly supports the goal of administering the procedure in the same way everywhere."
   },
   {
     "id": "dost1001-0201",
@@ -3296,7 +3297,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Repeated observations helped Mina move from recording isolated measurements to recognizing relationships in weather data.."
+    "explanation": "The passage describes Mina's progression from simply recording data to \"noticing patterns\" and \"looking for relationships among the data,\" which shows her understanding deepened beyond treating each reading as an \"isolated number.\" This directly supports the idea that repeated observations led to recognizing relationships."
   },
   {
     "id": "dost1001-0202",
@@ -3326,7 +3327,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: It was assigned by her science teacher.."
+    "explanation": "The first sentence states, \"At first, she recorded temperature and rainfall simply because her science teacher assigned the task,\" clearly indicating the initial reason for her data collection."
   },
   {
     "id": "dost1001-0203",
@@ -3356,7 +3357,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: considered separately from other observations.."
+    "explanation": "The passage states, \"Instead of treating each reading as an isolated number, she began looking for relationships among the data.\" This context implies that \"isolated\" refers to considering each measurement individually, without connecting it to other observations or patterns."
   },
   {
     "id": "dost1001-0204",
@@ -3386,7 +3387,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: She has become more interested in interpreting data rather than merely recording it.."
+    "explanation": "The passage explains that Mina \"began noticing patterns\" and \"looking for relationships among the data\" after initially just recording it, indicating a shift in her engagement from mere recording to active interpretation. She also understood \"why scientists collect measurements over long periods,\" suggesting a deeper interest in the meaning of the data."
   },
   {
     "id": "dost1001-0205",
@@ -3416,7 +3417,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: illustrate how repeated data collection can lead to deeper scientific understanding.."
+    "explanation": "The passage illustrates how Mina's initial, simple task of recording data evolved into a deeper understanding of scientific principles, such as recognizing patterns and the importance of long-term data collection, thereby demonstrating how repeated data collection fosters deeper scientific understanding."
   },
   {
     "id": "dost1001-0206",
@@ -3446,7 +3447,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Volunteers supervised the reading room on two evenings each week.."
+    "explanation": "The passage states that the library used to close early due to limited staff, but \"A group of college volunteers offered to take turns supervising the reading room twice a week,\" which directly led to \"more senior high school students began using the library after classes.\" This volunteer effort directly increased the hours the library was open and accessible to students."
   },
   {
     "id": "dost1001-0207",
@@ -3476,7 +3477,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: During scholarship-application season.."
+    "explanation": "The passage explicitly states, \"The librarian noticed that the computers were especially busy during scholarship-application season.\" This directly answers the question."
   },
   {
     "id": "dost1001-0208",
@@ -3506,7 +3507,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: not sufficient in quantity.."
+    "explanation": "The context \"the library still had limited books and slow internet\" implies that the quantity of books was insufficient to meet the needs, similar to how slow internet is a deficiency. Therefore, \"not sufficient in quantity\" is the most fitting meaning for \"limited\" in this context."
   },
   {
     "id": "dost1001-0209",
@@ -3536,7 +3537,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Extended hours were useful even though they did not solve all of the library’s resource problems.."
+    "explanation": "The passage states that the volunteers' schedule \"gave students additional time and a quiet place to work,\" indicating usefulness, but also notes that \"The volunteers did not solve every problem—the library still had limited books and slow internet,\" acknowledging the limits. This directly supports the inference that extended hours were useful despite not solving all resource problems."
   },
   {
     "id": "dost1001-0210",
@@ -3566,7 +3567,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: It was a practical improvement with clear benefits but also clear limits.."
+    "explanation": "The passage highlights both the positive impact (\"gave students additional time and a quiet place to work\") and the limitations (\"did not solve every problem—the library still had limited books and slow internet\"). This balanced perspective indicates that the contribution was a practical improvement with clear benefits but also clear limits."
   },
   {
     "id": "dost1001-0211",
@@ -3596,7 +3597,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: They targeted sites with physical conditions similar to locations where seedlings had survived well.."
+    "explanation": "The passage states, \"Instead of planting more seedlings everywhere, the project team mapped which micro-sites had the highest survival rates. The next planting season, they concentrated effort in locations with similar elevation and water movement.\" This shows they targeted sites with conditions similar to where seedlings had previously survived well."
   },
   {
     "id": "dost1001-0212",
@@ -3657,7 +3658,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: small local areas with particular environmental conditions.."
+    "explanation": "The passage describes \"micro-sites\" as locations that \"experienced stronger waves and deeper flooding than others\" and where the team mapped \"highest survival rates,\" then concentrated effort in locations with \"similar elevation and water movement.\" This context clearly indicates that \"micro-sites\" refer to small, specific local areas with distinct environmental conditions."
   },
   {
     "id": "dost1001-0214",
@@ -3687,7 +3688,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: It presents a problem, describes evidence gathered from it, and explains an adjusted strategy.."
+    "explanation": "The passage first identifies a problem (uneven seedling survival), then describes the evidence gathered (mapping micro-sites with highest survival rates), and finally explains the adjusted strategy (concentrating effort in similar locations) and its outcome. This structure aligns with presenting a problem, describing evidence, and explaining an adjusted strategy."
   },
   {
     "id": "dost1001-0215",
@@ -3717,7 +3718,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Restoration methods should be adapted to conditions at the specific site.."
+    "explanation": "The team concluded that \"restoration should respond to local physical conditions rather than rely on a single planting pattern.\" This directly supports the principle that restoration methods should be adapted to the specific conditions of each site."
   },
   {
     "id": "dost1001-0216",
@@ -3747,7 +3748,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: Differences in starting temperature and beaker placement could help explain the inconsistent heating times.."
+    "explanation": "The passage explicitly states, \"They discovered that two groups had started with colder water, while another had placed its beaker off-center.\" This directly indicates that differences in starting temperature and beaker placement were identified as potential explanations for the inconsistent heating times."
   },
   {
     "id": "dost1001-0217",
@@ -3777,7 +3778,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: Other uncontrolled variables could have produced the observed difference.."
+    "explanation": "The teacher asked the class to \"examine other possibilities first\" because other uncontrolled variables, such as starting temperature and beaker placement, could have caused the observed differences in heating times, rather than a defective hot plate. This reflects a scientific approach of considering all potential factors before jumping to conclusions."
   },
   {
     "id": "dost1001-0218",
@@ -3807,7 +3808,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: cautious and evidence-seeking.."
+    "explanation": "The teacher's approach of asking the class to \"examine other possibilities first\" and then having them repeat the activity with standardized conditions demonstrates a cautious, evidence-seeking method, rather than immediately accepting the first explanation or dismissing results."
   },
   {
     "id": "dost1001-0219",
@@ -3837,7 +3838,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: It tests whether greater control of conditions reduces the variability in results.."
+    "explanation": "The passage states, \"The class repeated the activity using a common starting temperature and standardized placement. The second set of results was much more consistent.\" This shows that the repeated activity was designed to test whether controlling the identified variables would reduce the variability in the results."
   },
   {
     "id": "dost1001-0220",
@@ -3867,7 +3868,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Considering alternative explanations before accepting a conclusion.."
+    "explanation": "The phrase \"examine other possibilities first\" directly encourages considering multiple potential explanations for an observation before settling on a single conclusion, which is a fundamental scientific habit. This prevents premature conclusions and promotes thorough investigation."
   },
   {
     "id": "dost1001-0221",
@@ -3897,7 +3898,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Retrieval practice can reveal gaps in learning that rereading may conceal.."
+    "explanation": "The passage contrasts rereading with retrieval practice, stating that rereading \"may create an illusion of competence\" while retrieval practice \"expose[s] gaps that rereading can hide.\" The central claim is that retrieval practice is superior because it reveals what a student truly knows or doesn't know."
   },
   {
     "id": "dost1001-0222",
@@ -3927,7 +3928,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: It may require producing knowledge from memory rather than simply recognizing it.."
+    "explanation": "The passage explicitly states, \"Effective studying can therefore feel more difficult precisely because it requires the learner to produce knowledge rather than merely recognize it.\" This directly links the feeling of difficulty to the active process of recalling information from memory."
   },
   {
     "id": "dost1001-0223",
@@ -3957,7 +3958,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: a false sense of mastery created by familiarity.."
+    "explanation": "The passage defines \"illusion of competence\" as when \"a page looks recognizable even when the learner cannot explain the idea without looking,\" indicating a false sense of mastery derived from mere familiarity with the material."
   },
   {
     "id": "dost1001-0224",
@@ -3987,7 +3988,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: explanatory and corrective.."
+    "explanation": "The passage explains a common misconception about studying (rereading notes) and then corrects it by introducing a more effective method (retrieval practice), detailing how it works and why it's superior. This approach is characteristic of an explanatory and corrective tone."
   },
   {
     "id": "dost1001-0225",
@@ -4017,7 +4018,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Closing the notes and explaining a concept from memory.."
+    "explanation": "The passage defines retrieval practice as \"When students close their notes and attempt to recall a concept, solve a problem, or answer a question from memory.\" Option A directly aligns with this definition, as explaining a concept from memory requires active recall without external aids."
   },
   {
     "id": "dost1001-0226",
@@ -4047,7 +4048,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: The observed temperature pattern is promising but does not yet establish that tree planting alone caused the difference.."
+    "explanation": "The passage explicitly states that the initial result was \"encouraging, but the researchers warned against treating the pattern as proof that the trees alone caused the difference,\" and that the first survey was \"useful for generating a hypothesis, not for closing the case.\" This directly supports option A, highlighting the preliminary nature of the findings and the need for further investigation."
   },
   {
     "id": "dost1001-0227",
@@ -4077,7 +4078,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: To reduce the influence of other street characteristics that could affect temperature.."
+    "explanation": "The passage notes that \"Tree survival had been better on streets that were wider, less congested, and farther from large paved parking areas. Those characteristics could also affect temperature.\" Therefore, comparing similar streets in a follow-up study aims to control these \"other street characteristics\" (confounding variables) to isolate the effect of trees on temperature."
   },
   {
     "id": "dost1001-0228",
@@ -4107,7 +4108,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: treating the question as conclusively settled.."
+    "explanation": "The phrase \"not for closing the case\" is used in the context of scientific inquiry, where preliminary findings are not considered definitive proof. Therefore, it means not treating the question or hypothesis as conclusively settled, implying that further research is needed."
   },
   {
     "id": "dost1001-0229",
@@ -4137,7 +4138,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: It reports an association, identifies possible confounders, and proposes a stronger follow-up design.."
+    "explanation": "The passage first reports an observed association (trees and lower temperatures), then identifies other factors that could also influence temperature (\"possible confounders\" like street width and congestion), and finally proposes a more rigorous \"follow-up design\" (comparing similar streets, repeated measurements) to better isolate the effect of trees."
   },
   {
     "id": "dost1001-0230",
@@ -4167,7 +4168,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: a metaphor for not treating preliminary evidence as final proof.."
+    "explanation": "The expression \"not for closing the case\" is used metaphorically to convey that the initial survey's findings are not definitive proof and that the scientific investigation into the relationship between trees and temperature is not yet complete. It is not a literal legal reference, personification, or an example of rhyme."
   },
   {
     "id": "dost1001-0231",
@@ -4197,7 +4198,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: Reducing disposable-cup waste required both reliable refill infrastructure and student participation.."
+    "explanation": "The passage illustrates that while refill stations initially reduced waste, the decline reversed due to unreliable infrastructure. Waste levels only fell again after maintenance issues were addressed and station status was posted, indicating that both reliable infrastructure and student participation (using the stations) were crucial for success."
   },
   {
     "id": "dost1001-0232",
@@ -4227,7 +4228,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Students had practical reasons not to bring bottles when refill stations were unreliable.."
+    "explanation": "The passage states that \"many students had stopped bringing reusable bottles because several refill stations were frequently empty or under repair,\" indicating a practical reason for their behavior. The student council then argued that \"reminders would have limited effect if the infrastructure remained unreliable,\" directly addressing this practical issue."
   },
   {
     "id": "dost1001-0233",
@@ -4257,7 +4258,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: interdependent rather than mutually exclusive.."
+    "explanation": "The final sentence of the passage explicitly states, \"The episode suggested that behavior and infrastructure were not competing explanations; each affected whether the other could succeed.\" This indicates an interdependent relationship where both factors influence each other."
   },
   {
     "id": "dost1001-0234",
@@ -4287,7 +4288,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: It reveals a weakness in the initial improvement and motivates investigation of why the gains were not sustained.."
+    "explanation": "The passage describes an initial sharp fall in plastic waste, followed by a \"decline had partly reversed\" by the fourth month. This reversal prompted interviews that revealed problems with the refill stations, showing that the initial improvement was not sustained due to infrastructure issues."
   },
   {
     "id": "dost1001-0235",
@@ -4317,7 +4318,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Pair communication efforts with reliable maintenance of the refill system.."
+    "explanation": "The passage demonstrates that while an initial decline in waste occurred, it reversed when the infrastructure became unreliable. Only after \"Maintenance schedules were revised, broken valves were replaced, and station status was posted online\" did \"Waste levels fell again afterward,\" indicating that both communication (information campaigns) and reliable infrastructure are necessary."
   },
   {
     "id": "dost1001-0236",
@@ -4347,7 +4348,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: The bicycle brings back emotionally significant memories of his grandfather.."
+    "explanation": "The passage states, \"Instead, he wiped the seat with his sleeve and remembered being taught to balance on the narrow road behind the farm. For several minutes he did nothing.\" This directly links his pause to recalling memories of his grandfather."
   },
   {
     "id": "dost1001-0237",
@@ -4377,7 +4378,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: marked it with many small spots.."
+    "explanation": "\"Freckled\" refers to small, scattered spots, similar to how freckles appear on skin. In the context of rust, it means the frame was marked with many small spots of rust."
   },
   {
     "id": "dost1001-0238",
@@ -4407,7 +4408,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: quietly reflective and nostalgic.."
+    "explanation": "The passage describes Tomas finding an old bicycle, remembering his grandfather, and pausing reflectively before deciding to keep the damaged bike for sentimental reasons. This evokes a sense of quiet contemplation and nostalgia for the past."
   },
   {
     "id": "dost1001-0239",
@@ -4437,7 +4438,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: metaphorical imagery comparing rust spots to freckles.."
+    "explanation": "This phrase uses \"freckled\" to describe how rust appeared on the frame, comparing the scattered spots of rust to freckles on skin. This is a metaphorical comparison, creating a vivid image."
   },
   {
     "id": "dost1001-0240",
@@ -4467,7 +4468,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Its emotional value matters to him more than its practical usefulness.."
+    "explanation": "Tomas's act of placing the damaged, unusable bicycle with the tools he intends to keep, despite its lack of practical function, indicates that he values the memories and sentimental connection to his grandfather more than the object's utility. The passage highlights his remembrance of being taught to balance on the bike, emphasizing its emotional significance."
   },
   {
     "id": "dost1001-0241",
@@ -4497,7 +4498,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: A yearly average can be accurate yet still fail to describe short-lived but important pollution events.."
+    "explanation": "The passage's central argument is that while an annual average can be accurate, it may not fully represent important short-lived events, such as the high nitrate spikes after storms, which can still significantly impact aquatic organisms. The text explicitly states, \"the problem was not that the average was false; it was that the average was incomplete.\""
   },
   {
     "id": "dost1001-0242",
@@ -4527,7 +4528,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: Aquatic organisms may be affected by brief periods of very high concentration.."
+    "explanation": "The passage explicitly states that \"brief events that matter for aquatic organisms\" can be missed by an annual mean, and that \"short-lived nitrate spikes were higher than any measured the previous year.\" This indicates that even if the overall average decreased, these intense, short periods of high concentration could still be harmful to river life."
   },
   {
     "id": "dost1001-0243",
@@ -4557,7 +4558,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "Correct answer is A: qualified rather than dismissive.."
+    "explanation": "The monitoring team acknowledges that the annual mean \"can summarize overall exposure\" and recommends \"keeping the yearly statistic,\" but also points out its limitations in capturing \"brief events that matter.\" This shows a balanced, \"qualified\" perspective rather than outright dismissal or uncritical acceptance."
   },
   {
     "id": "dost1001-0244",
@@ -4587,7 +4588,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: captures one important aspect of the data but not the whole pattern.."
+    "explanation": "The passage explains that the average was \"incomplete\" because it \"may miss brief events that matter for aquatic organisms,\" even though it \"can summarize overall exposure.\" This suggests that while the average captures one aspect (overall exposure), it fails to present the full picture or pattern of nitrate levels, particularly the critical short-lived spikes."
   },
   {
     "id": "dost1001-0245",
@@ -4617,7 +4618,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Correct answer is B: Report the annual mean together with storm-event peaks and duration of elevated nitrate levels.."
+    "explanation": "The passage explicitly recommends \"keeping the yearly statistic while also reporting peak concentration, storm-event measurements, and the duration of elevated levels.\" Choice B directly aligns with this comprehensive reporting approach."
   },
   {
     "id": "dost1001-0246",
@@ -4647,7 +4648,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: She treats failure as information that can guide improvement.."
+    "explanation": "Lena's reaction, laughing and immediately sketching a narrower rudder because \"the boat had revealed exactly what she needed to redesign,\" shows that she views the poor race result not as a failure, but as valuable data for improving her design. She uses the outcome as information to guide her next steps."
   },
   {
     "id": "dost1001-0247",
@@ -4677,7 +4678,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: It contrasts the finished competition with Lena’s continuing process of learning and redesign.."
+    "explanation": "The sentence \"The race had ended; her experiment had not\" creates a clear contrast between the conclusion of the competition and Lena's ongoing process of learning, analyzing, and redesigning her boat. It highlights her continuous engagement with the engineering challenge beyond the formal event."
   },
   {
     "id": "dost1001-0248",
@@ -4707,7 +4708,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "Correct answer is D: simile emphasizing the boat’s poor responsiveness when turning.."
+    "explanation": "The phrase \"turns like a stubborn carabao\" uses \"like\" to compare the boat's turning ability to a carabao's stubbornness, which is the definition of a simile. This comparison emphasizes the boat's poor responsiveness and difficulty in turning, not that it is made of animal material, that the river is angry, or that it cannot move at all."
   },
   {
     "id": "dost1001-0249",
@@ -4737,7 +4738,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: A disappointing outcome can become useful feedback when approached with curiosity.."
+    "explanation": "Despite the boat finishing near the back, Lena \"laughed\" and saw the race as revealing \"exactly what she needed to redesign,\" immediately sketching a narrower rudder. This demonstrates that she viewed the disappointing outcome as valuable feedback for improvement, aligning with the theme that curiosity can transform negative results into useful insights."
   },
   {
     "id": "dost1001-0250",
@@ -4767,6 +4768,6 @@
       }
     ],
     "answer": "C",
-    "explanation": "Correct answer is C: He sees the results board mainly as a judgment, while Lena sees the race as a test that produced usable evidence.."
+    "explanation": "The passage states the brother \"stared at the results board as though it had delivered a verdict,\" indicating he viewed the outcome as a final judgment of failure. In contrast, Lena \"laughed\" and saw the race as an \"experiment\" that \"revealed exactly what she needed to redesign,\" treating it as a learning opportunity rather than a definitive failure."
   }
 ]

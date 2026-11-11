@@ -1,9 +1,9 @@
 /**
  * generate_and_apply_explanations.cjs
  *
- * 1. Generates pedagogical explanations for DOST-SEI 1001 Science and Mathematics items using OpenRouter (google/gemini-2.5-flash).
+ * 1. Generates pedagogical explanations for DOST-SEI 1001 items across all subjects using OpenRouter (google/gemini-2.5-flash).
  * 2. Writes the generated explanations to Markdown documents in `explanations/`.
- * 3. Parses the markdown data and updates `src/data/science.json` and `src/data/mathematics.json`.
+ * 3. Parses the markdown data and updates `src/data/<subject>.json`.
  */
 
 require('dotenv').config();
@@ -34,21 +34,25 @@ if (!fs.existsSync(EXPLANATIONS_DIR)) {
   fs.mkdirSync(EXPLANATIONS_DIR, { recursive: true });
 }
 
-const SYSTEM_PROMPT = `You are an expert STEM educator and scholarship exam coach preparing senior high school students in the Philippines for the DOST-SEI Undergraduate Scholarship Examination.
+const SYSTEM_PROMPT = `You are an expert educator and scholarship exam coach preparing senior high school students in the Philippines for the DOST-SEI Undergraduate Scholarship Examination.
 
 Your task is to write high-quality, pedagogical explanations for multiple-choice questions.
 
 For each item:
 1. Provide a clear, step-by-step pedagogical explanation (1-3 sentences) showing why the designated answer key is correct.
-2. For Mathematics: Show algebraic steps, calculations, formulas, or geometric reasoning clearly. Use LaTeX syntax ($...$) for all math expressions, variables, operations, and numbers in equations (e.g., $x^2 + 5x + 6 = 0$).
-3. For Science: Explain the underlying scientific concept, mechanism, formula, or law (e.g., cellular respiration, Newton's laws, stoichiometry, Mendelian genetics, plate tectonics, orbital mechanics). Use LaTeX syntax ($...$) for chemical formulas (e.g., $\\text{CO}_2$), physics equations (e.g., $F = ma$), and units.
-4. Do NOT use filler phrases like "The correct answer is C because...". Directly explain the concept and derivation.
-5. Be strictly accurate to the provided answer key.
+2. For Mathematics: Show algebraic steps, calculations, formulas, or geometric reasoning clearly. Use LaTeX syntax ($...$) for all math expressions, variables, operations, and numbers in equations.
+3. For Science: Explain the underlying scientific concept, mechanism, formula, or law. Use LaTeX syntax ($...$) for chemical formulas, physics equations, and units.
+4. For Mechanical-Technical: Explain the physical or mechanical principle (e.g., gear rotation directions, torque/lever balance $F_1 d_1 = F_2 d_2$, mechanical advantage of pulleys, hydraulic pressure, electrical circuits).
+5. For Non-Verbal / Spatial Reasoning: Explain the spatial transformation clearly (e.g., rotation by $90^\\circ$ or $180^\\circ$, axis of reflection, unfolding layers, net assembly).
+6. For Verbal Reasoning: Explain the precise logical relationship (e.g., tool-to-user, developmental stage, part-to-whole, category membership, syllogism deduction).
+7. For English (Grammar & Reading): State the grammatical rule (e.g., subject-verb agreement across intervening prepositional phrases, objective vs. subjective pronoun case) or cite the reading comprehension evidence from the passage.
+8. Do NOT use filler phrases like "The correct answer is C because...". Directly explain the rationale and rule.
+9. Be strictly accurate to the provided answer key.
 
 Format your output EXACTLY as follows for each item:
 
 ### ITEM: dost1001-XXXX
-EXPLANATION: [Your 1-3 sentence pedagogical explanation with LaTeX here]
+EXPLANATION: [Your 1-3 sentence pedagogical explanation with LaTeX if needed]
 
 Do not include any other markdown headers or preamble.`;
 
@@ -107,7 +111,7 @@ function saveToMarkdown(subjectName, items, explanationsMap, mdPath) {
 // Call OpenRouter API for a batch using structured text format
 async function fetchBatchExplanations(batch, retries = 3) {
   const itemsPrompt = batch.map(q => 
-    `ID: ${q.id}\nTopic: ${q.topic}\nQuestion: ${q.question}\nChoices: ${q.choices.map(c => `${c.key}) ${c.text}`).join(' | ')}\nAnswer: ${q.answer}`
+    `ID: ${q.id}\nSubject: ${q.subject}\nTopic: ${q.topic}\nQuestion: ${q.question}\nChoices: ${q.choices.map(c => `${c.key}) ${c.text}`).join(' | ')}\nAnswer: ${q.answer}`
   ).join('\n\n');
 
   for (let attempt = 1; attempt <= retries; attempt++) {
@@ -287,12 +291,22 @@ async function processSubject(subjectKey, subjectName) {
 }
 
 async function main() {
-  const subjectsToRun = [];
-  if (subjectFilter === 'all' || subjectFilter === 'science') {
-    subjectsToRun.push({ key: 'science', name: 'Science' });
-  }
-  if (subjectFilter === 'all' || subjectFilter === 'mathematics' || subjectFilter === 'math') {
-    subjectsToRun.push({ key: 'mathematics', name: 'Mathematics' });
+  const allSubjects = [
+    { key: 'science', name: 'Science' },
+    { key: 'mathematics', name: 'Mathematics' },
+    { key: 'english', name: 'English' },
+    { key: 'mechanical-technical', name: 'Mechanical-Technical' },
+    { key: 'nonverbal-reasoning', name: 'Non-Verbal Reasoning' },
+    { key: 'verbal-reasoning', name: 'Verbal Reasoning' }
+  ];
+
+  let subjectsToRun = [];
+  if (subjectFilter === 'all') {
+    subjectsToRun = allSubjects;
+  } else if (subjectFilter === 'remaining') {
+    subjectsToRun = allSubjects.filter(s => s.key !== 'science' && s.key !== 'mathematics');
+  } else {
+    subjectsToRun = allSubjects.filter(s => s.key === subjectFilter || (subjectFilter === 'math' && s.key === 'mathematics'));
   }
 
   const startTime = Date.now();

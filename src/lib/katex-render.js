@@ -1,50 +1,22 @@
 /**
  * KaTeX rendering utility
- * Renders LaTeX expressions within text content
+ * Bundles KaTeX and its CSS locally for reliable, offline, and cross-browser math rendering
  */
-
-let katexLoaded = false;
-let katexPromise = null;
-
-/** Load KaTeX CSS dynamically */
-function loadKaTeXCSS() {
-    if (document.querySelector('link[href*="katex"]')) return;
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css';
-    document.head.appendChild(link);
-}
-
-/** Load KaTeX JS dynamically */
-function loadKaTeX() {
-    if (katexPromise) return katexPromise;
-    loadKaTeXCSS();
-    katexPromise = new Promise((resolve) => {
-        if (window.katex) { katexLoaded = true; resolve(); return; }
-        const script = document.createElement('script');
-        script.src = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js';
-        script.onload = () => { katexLoaded = true; resolve(); };
-        script.onerror = () => { resolve(); }; // graceful degrade
-        document.head.appendChild(script);
-    });
-    return katexPromise;
-}
+import katex from 'katex';
+import 'katex/dist/katex.min.css';
 
 /**
  * Render text with inline LaTeX ($...$) and display LaTeX ($$...$$)
- * Returns HTML string.
+ * Synchronous version
  */
-export async function renderLatex(text) {
+export function renderLatexSync(text) {
     if (!text) return '';
     if (!text.includes('$')) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
-
-    await loadKaTeX();
-    if (!window.katex) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
 
     // Replace display math first ($$...$$)
     let result = text.replace(/\$\$([\s\S]*?)\$\$/g, (_, expr) => {
         try {
-            return window.katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
+            return katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
         } catch {
             return escapeHtml(expr);
         }
@@ -53,7 +25,7 @@ export async function renderLatex(text) {
     // Replace inline math ($...$)
     result = result.replace(/\$([^\$]+?)\$/g, (_, expr) => {
         try {
-            return window.katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
+            return katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
         } catch {
             return escapeHtml(expr);
         }
@@ -65,27 +37,12 @@ export async function renderLatex(text) {
     return result;
 }
 
-/** Synchronous version — returns plain text if KaTeX not loaded */
-export function renderLatexSync(text) {
-    if (!text) return '';
-    if (!text.includes('$')) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
-    if (!window.katex) return escapeHtml(text).replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
-
-    let result = text.replace(/\$\$([\s\S]*?)\$\$/g, (_, expr) => {
-        try {
-            return window.katex.renderToString(expr.trim(), { displayMode: true, throwOnError: false });
-        } catch { return escapeHtml(expr); }
-    });
-
-    result = result.replace(/\$([^\$]+?)\$/g, (_, expr) => {
-        try {
-            return window.katex.renderToString(expr.trim(), { displayMode: false, throwOnError: false });
-        } catch { return escapeHtml(expr); }
-    });
-
-    result = result.replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
-
-    return result;
+/**
+ * Render text with inline LaTeX ($...$) and display LaTeX ($$...$$)
+ * Returns HTML string (async for backward compatibility with callers)
+ */
+export async function renderLatex(text) {
+    return renderLatexSync(text);
 }
 
 function escapeHtml(str) {
@@ -94,7 +51,12 @@ function escapeHtml(str) {
     return div.innerHTML;
 }
 
-/** Pre-load KaTeX on app start */
+/** Pre-load KaTeX warm-up (already bundled locally) */
 export function preloadKaTeX() {
-    loadKaTeX();
+    try {
+        katex.renderToString('1', { throwOnError: false });
+    } catch {
+        // ignore
+    }
 }
+
