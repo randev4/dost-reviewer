@@ -2461,7 +2461,7 @@
   {
     "id": "math-practice1-023",
     "subject": "mathematics",
-    "topic": "algebra",
+    "topic": "geometry",
     "difficulty": 2,
     "question": "Refer to the figure shown. State the congruency postulate that can be used to prove that Triangle TUV is congruent to Triangle WXV. Given: TV is congruent to WV and UV is congruent to XV.",
     "choices": [
@@ -2692,7 +2692,7 @@
   {
     "id": "math-practice1-030",
     "subject": "mathematics",
-    "topic": "geometry",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "Find the square root of x^4 + 2x^3 + 5x^2 + 4x + 4.",
     "choices": [
@@ -2725,7 +2725,7 @@
   {
     "id": "math-practice1-031",
     "subject": "mathematics",
-    "topic": "geometry",
+    "topic": "algebra",
     "difficulty": 2,
     "question": "The product of the square roots of two consecutive positive numbers is 2*sqrt(14), what is their sum?",
     "choices": [
@@ -3088,7 +3088,7 @@
   {
     "id": "math-practice1-047",
     "subject": "mathematics",
-    "topic": "algebra",
+    "topic": "geometry",
     "difficulty": 3,
     "question": "Given: PQ is parallel to BC. Find the length of AC. (In triangle ABC, P is on AB, Q is on AC, AP=6, PB=8, QC=12)",
     "choices": [
@@ -3121,7 +3121,7 @@
   {
     "id": "math-practice1-048",
     "subject": "mathematics",
-    "topic": "algebra",
+    "topic": "geometry",
     "difficulty": 3,
     "question": "The numbers 27, 36, and 45 represents the length of the sides of a/an",
     "choices": [
@@ -3188,7 +3188,7 @@
   {
     "id": "math-practice1-052",
     "subject": "mathematics",
-    "topic": "algebra",
+    "topic": "geometry",
     "difficulty": 3,
     "question": "The length of AC is 5 meters. The length of BC is 2 meters. Find AB.",
     "choices": [
@@ -3222,7 +3222,7 @@
   {
     "id": "math-practice1-053",
     "subject": "mathematics",
-    "topic": "sequences",
+    "topic": "algebra",
     "difficulty": 3,
     "question": "What is the sum of $\\sqrt{-2}$ and $\\sqrt{-18}$?",
     "choices": [
@@ -3321,7 +3321,7 @@
   {
     "id": "math-practice1-056",
     "subject": "mathematics",
-    "topic": "algebra",
+    "topic": "geometry",
     "difficulty": 3,
     "question": "Based on the diagram below, which statement is true? (Angles are given as: line a and a transversal have an angle of $110^\\circ$; line b and the same transversal have an angle of $115^\\circ$; line b and another transversal have an angle of $120^\\circ$; line c and the second transversal have an angle of $60^\\circ$)",
     "choices": [

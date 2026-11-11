@@ -197,7 +197,7 @@
   {
     "id": "sci-007",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 1,
     "question": "Which layer of the atmosphere do we live in?",
     "choices": [
@@ -855,7 +855,7 @@
   {
     "id": "sci-2020-015",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "physics",
     "difficulty": 1,
     "question": "The following graph shows the displacement vs time graph of a “GRAB TAXI” that you have \nboarded from home: \n \n \nWhich graph shows that the taxi is NOT moving?",
     "choices": [
@@ -988,7 +988,7 @@
   {
     "id": "sci-2020-019",
     "subject": "science",
-    "topic": "physics",
+    "topic": "earth-science",
     "difficulty": 1,
     "question": "Energy within the oceans is distributed through which process?",
     "choices": [
@@ -1021,7 +1021,7 @@
   {
     "id": "sci-2020-020",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 1,
     "question": "The Earth is heated by the Sun by which process?",
     "choices": [
@@ -1081,7 +1081,7 @@
   {
     "id": "sci-2020-022",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "space-science",
     "difficulty": 2,
     "question": "A total solar eclipse was last seen in the Philippines on Oct. 24, 1995. Which of the \nfollowing images shows the correct configuration of the Earth, Moon, and Sun during that \ntime? \n  \n \n \n \n\n \n \n \n \nC. \nD.",
     "choices": [
@@ -1151,7 +1151,7 @@
   {
     "id": "sci-2020-024",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "earth-science",
     "difficulty": 2,
     "question": "Mara poured saltwater solution on a cup of sand which she got from a beach in one of \ntheir outings. After a week she found out that a residue was left on the cup. The residue \ncemented the sand grains together, forming a rock-like hardened material. The residue is \nmost likely similar to___________.",
     "choices": [
@@ -1184,7 +1184,7 @@
   {
     "id": "sci-2020-025",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "earth-science",
     "difficulty": 2,
     "question": "The illustration below shows how a delta is formed. \n \n \n \nA mixture of sediment was placed on the closed-edge table. The faucet was turned on and \nallowed the sediment to flow downward. The sediment began forming at the lower end \nuntil a delta plane is formed. Using the illustration, how can a delta be formed without \nexcessive mass movement?",
     "choices": [
@@ -1218,7 +1218,7 @@
   {
     "id": "sci-2020-026",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "earth-science",
     "difficulty": 2,
     "question": "A typhoon warning has been raised in your area. You are trying to determine when the \ntyphoon will arrive at your area.  Which of the following information will you need to look \nup?",
     "choices": [
@@ -1251,7 +1251,7 @@
   {
     "id": "sci-2020-027",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "earth-science",
     "difficulty": 2,
     "question": "What is the correct sequence of precautions to take before, during, and after a typhoon? \n \nI. \nStay away from flood waters, they may carry water-borne diseases \nII. \nCheck the roof and windows of your house for any damage or loose attachment \nIII. \nMonitor the weather reports and the weather outside \nIV. \nPack a bag with water, food, clothes, batteries, flashlights and other necessities",
     "choices": [
@@ -1317,7 +1317,7 @@
   {
     "id": "sci-2020-029",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "earth-science",
     "difficulty": 2,
     "question": "A typhoon warning has been raised in your area. You are trying to determine the nearest \ntown that you can evacuate to to avoid the effects of the typhoon. Which of the following \ninformation will you need to look up?",
     "choices": [
@@ -1350,7 +1350,7 @@
   {
     "id": "sci-2020-030",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "earth-science",
     "difficulty": 2,
     "question": "Which of the following precautions SHOULD NOT be done while a typhoon is in your area?",
     "choices": [
@@ -1383,7 +1383,7 @@
   {
     "id": "sci-2020-031",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "space-science",
     "difficulty": 2,
     "question": "Ceres is a 1000-km diameter rocky body which orbits the sun. What is the correct \nclassification of Ceres?",
     "choices": [
@@ -1482,7 +1482,7 @@
   {
     "id": "sci-2020-034",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "biology",
     "difficulty": 2,
     "question": "Cactus and euphorbs have prominent sharp and pointed spines on the surface of their \nbody. The spines of cactus and stem-succulent euphorbs is a character that arose from a \ncommon evolutionary origin. What can be inferred from this character?",
     "choices": [
@@ -1713,7 +1713,7 @@
   {
     "id": "sci-2020-041",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "physics",
     "difficulty": 3,
     "question": "The propagation of a mechanical wave is described by the graph shown below. What is \nthe wavelength of the wave?",
     "choices": [
@@ -1814,7 +1814,7 @@
   {
     "id": "sci-2020-044",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "physics",
     "difficulty": 3,
     "question": "The following graph shows the displacement vs time graph of a tricycle that you have \nboarded in going from your home to the market. \n \n \nWhat is the final displacement of the tricycle that you have boarded?",
     "choices": [
@@ -1881,7 +1881,7 @@
   {
     "id": "sci-2020-046",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "physics",
     "difficulty": 3,
     "question": "In a velocity versus time graph, how can a horizontal graph be interpreted?",
     "choices": [
@@ -1914,7 +1914,7 @@
   {
     "id": "sci-2020-047",
     "subject": "science",
-    "topic": "biology",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "What rock layers are older than the fossil in limestone D?",
     "choices": [
@@ -1948,7 +1948,7 @@
   {
     "id": "sci-2020-048",
     "subject": "science",
-    "topic": "biology",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "You come across a fossil that is believed to be petrified wood. You are curious to know \nhow old this fossil is. What dating technique will you use to know the age?",
     "choices": [
@@ -1981,7 +1981,7 @@
   {
     "id": "sci-2020-049",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "Which of the following properties affect the severity of the seasons all over the Earth?",
     "choices": [
@@ -2014,7 +2014,7 @@
   {
     "id": "sci-2020-050",
     "subject": "science",
-    "topic": "chemistry",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "A typhoon warning has been raised in your area. You are trying to determine the possible \ndamage that it might cause. Which of the following information will you need to look up?",
     "choices": [
@@ -2047,7 +2047,7 @@
   {
     "id": "sci-2020-051",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "Study the diagram of soil development below which started from the underlying bedrock \nto the thick upper soil layer. What change would most likely to increase the thickness of \nthe upper soil layer?",
     "choices": [
@@ -2147,7 +2147,7 @@
   {
     "id": "sci-2020-054",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "You were peeling hard boiled eggs when you remembered that the eggs were used as an \nanalogy to the layers of the earth. Between which parts of the egg can the Moho be \nfound?",
     "choices": [
@@ -2180,7 +2180,7 @@
   {
     "id": "sci-2020-055",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "The intensity of earthquake that occurs on different parts of the Earth is shown in the \ndiagram below.  \n \n \n \n \n \n \n \nIn which type of rock or soil profile where the houses are built experience the greatest \nearthquake?",
     "choices": [
@@ -2214,7 +2214,7 @@
   {
     "id": "sci-2020-056",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "The diagram below represents the partial inner structure of the Earth. Different layers are \nrepresented by 1, 2, 3 and 4. Some depths below the Earth are also shown.  \n \n \n \n \n \n \n \n \nWhich layer is mostly likely to contain solid nickel and iron?",
     "choices": [
@@ -2248,7 +2248,7 @@
   {
     "id": "sci-2020-057",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "The illustration below shows a portion of the interior of the Earth. The location on the \ninterface between layers is shown in Point",
     "choices": [
@@ -2282,7 +2282,7 @@
   {
     "id": "sci-2020-058",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "Equal volumes of sediments as shown below are mixed and poured into a column of \nwater. \n  \n \n \n \nHow will you pour the sediments to facilitate proper settling down into the column of \nwater?",
     "choices": [
@@ -2316,7 +2316,7 @@
   {
     "id": "sci-2020-059",
     "subject": "science",
-    "topic": "earth_science",
+    "topic": "earth-science",
     "difficulty": 3,
     "question": "The diagram below illustrates the magnetic orientation of igneous rock on the right-side \npart of a seafloor along a mid-ocean ridge. The age of the igneous rock and its distance \nfrom the ridge center are shown.  \n \nWhat evidence is manifested by the occurrence of high-heat flows at the center of the \nridge?",
     "choices": [

@@ -24,7 +24,7 @@ export const SUBJECTS = [
                 name: 'Algebra',
                 icon: '🔢',
                 description: 'Expressions, equations, sequences, polynomials',
-                count: 155,
+                count: 152,
                 matches: ['algebra', 'sequences', 'simplification']
             },
             {
@@ -32,7 +32,7 @@ export const SUBJECTS = [
                 name: 'Geometry',
                 icon: '📐',
                 description: 'Triangles, circles, solids, coordinate geometry',
-                count: 98,
+                count: 101,
                 matches: ['geometry', 'coordinate_geometry']
             },
             {
@@ -81,8 +81,8 @@ export const SUBJECTS = [
                 id: 'earth-space',
                 name: 'Earth & Space Science',
                 icon: '🌍',
-                description: 'Geology, meteorology, astronomy & cosmology',
-                count: 137,
+                description: 'Geology, meteorology, oceanography, astronomy & cosmology',
+                count: 148,
                 matches: ['earth-science', 'earth_science', 'space-science']
             },
             {
@@ -90,24 +90,24 @@ export const SUBJECTS = [
                 name: 'Chemistry',
                 icon: '🧪',
                 description: 'Atomic structure, chemical reactions, stoichiometry',
-                count: 109,
+                count: 96,
                 matches: ['chemistry']
-            },
-            {
-                id: 'biology',
-                name: 'Biology',
-                icon: '🧬',
-                description: 'Cells, genetics, ecology, organ systems',
-                count: 95,
-                matches: ['biology']
             },
             {
                 id: 'physics',
                 name: 'Physics',
                 icon: '⚡',
                 description: 'Forces, energy, motion, thermodynamics, circuits',
-                count: 92,
+                count: 95,
                 matches: ['physics']
+            },
+            {
+                id: 'biology',
+                name: 'Biology',
+                icon: '🧬',
+                description: 'Cells, genetics, ecology, organ systems',
+                count: 94,
+                matches: ['biology']
             }
         ]
     },
