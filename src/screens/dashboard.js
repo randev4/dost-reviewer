@@ -4,6 +4,7 @@
 
 import { SUBJECTS } from '../lib/subjects.js';
 import { getOverallStats, getSubjectStats, getHistory, resetAllData } from '../lib/storage.js';
+import { haptic } from '../lib/haptics.js';
 
 export function renderDashboard(app, { onBack }) {
     const stats = getOverallStats();
@@ -103,9 +104,13 @@ export function renderDashboard(app, { onBack }) {
   `;
 
     // Bind events
-    document.getElementById('btn-back').addEventListener('click', onBack);
+    document.getElementById('btn-back').addEventListener('click', () => {
+        haptic.light();
+        onBack();
+    });
 
     document.getElementById('btn-reset').addEventListener('click', () => {
+        haptic.warning();
         if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
             resetAllData();
             onBack();

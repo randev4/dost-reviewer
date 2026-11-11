@@ -3,9 +3,12 @@
  * Call bindImageZoom() after rendering DOM with images.
  */
 
+import { haptic } from './haptics.js';
+
 export function openLightbox(src, alt = 'Image') {
+    haptic.tap();
     // Remove existing lightbox if any
-    closeLightbox();
+    closeLightbox(false);
 
     const overlay = document.createElement('div');
     overlay.className = 'image-lightbox';
@@ -33,7 +36,8 @@ export function openLightbox(src, alt = 'Image') {
     document.body.appendChild(overlay);
 }
 
-export function closeLightbox() {
+export function closeLightbox(withHaptic = true) {
+    if (withHaptic) haptic.tap();
     const existing = document.querySelector('.image-lightbox');
     if (existing) existing.remove();
 }

@@ -6,6 +6,7 @@ import { getSubjectById } from '../lib/subjects.js';
 import { renderLatex } from '../lib/katex-render.js';
 import { saveProgress } from '../lib/storage.js';
 import { bindImageZoom } from '../lib/lightbox.js';
+import { haptic } from '../lib/haptics.js';
 
 export function renderQuiz(app, { subject, questions, currentIndex = 0, answers = {}, onBack, onFinish }) {
   const subjectInfo = getSubjectById(subject);
@@ -85,6 +86,7 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
 
     // Bind events
     document.getElementById('btn-back').addEventListener('click', () => {
+      haptic.light();
       if (confirm('Leave quiz? Your progress will be saved.')) {
         saveQuizProgress(subject, questions, index, answers);
         onBack();
@@ -92,25 +94,30 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
     });
 
     document.getElementById('btn-prev')?.addEventListener('click', () => {
+      haptic.light();
       if (index > 0) render(index - 1);
     });
 
     document.getElementById('btn-next')?.addEventListener('click', () => {
+      haptic.light();
       render(index + 1);
     });
 
     document.getElementById('btn-submit')?.addEventListener('click', () => {
       const unanswered = Object.keys(answers).length;
       if (unanswered < total) {
+        haptic.warning();
         const proceed = confirm(`You have ${total - unanswered} unanswered question(s). Submit anyway?`);
         if (!proceed) return;
       }
+      haptic.success();
       onFinish(answers);
     });
 
     // Question number dots
     document.querySelectorAll('.q-dot').forEach(dot => {
       dot.addEventListener('click', () => {
+        haptic.tap();
         render(parseInt(dot.dataset.index));
       });
     });
@@ -142,6 +149,7 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
     // Bind choice events
     choicesEl.querySelectorAll('.choice-btn').forEach(btn => {
       btn.addEventListener('click', () => {
+        haptic.tap();
         const key = btn.dataset.key;
         answers[questions.indexOf(q)] = key;
 

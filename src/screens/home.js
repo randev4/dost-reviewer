@@ -4,6 +4,7 @@
 
 import { SUBJECTS } from '../lib/subjects.js';
 import { getOverallStats, getSubjectStats, getInProgress } from '../lib/storage.js';
+import { haptic } from '../lib/haptics.js';
 
 export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz }) {
   const stats = getOverallStats();
@@ -95,13 +96,18 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
   // Bind events
   document.querySelectorAll('.subject-card').forEach(card => {
     card.addEventListener('click', () => {
+      haptic.medium();
       onSelectSubject(card.dataset.subject);
     });
   });
 
-  document.getElementById('btn-dashboard')?.addEventListener('click', onOpenDashboard);
+  document.getElementById('btn-dashboard')?.addEventListener('click', () => {
+    haptic.light();
+    onOpenDashboard();
+  });
 
   document.getElementById('resume-card')?.addEventListener('click', () => {
+    haptic.medium();
     if (inProgress) onResumeQuiz(inProgress);
   });
 
@@ -113,6 +119,7 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
   updateThemeIcon(); // init
 
   themeBtn?.addEventListener('click', () => {
+    haptic.tap();
     document.body.classList.toggle('light-theme');
     const isLight = document.body.classList.contains('light-theme');
     localStorage.setItem('theme', isLight ? 'light' : 'dark');
@@ -143,6 +150,7 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
     .catch(() => { /* do nothing */ });
 
   closeNotifBtn?.addEventListener('click', () => {
+    haptic.tap();
     notifBar.classList.add('d-none');
     localStorage.setItem('dismissed_notif', notifText.textContent.trim());
   });

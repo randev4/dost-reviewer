@@ -5,6 +5,7 @@
 import { getSubjectById } from '../lib/subjects.js';
 import { renderLatex } from '../lib/katex-render.js';
 import { bindImageZoom } from '../lib/lightbox.js';
+import { haptic } from '../lib/haptics.js';
 
 export function renderResults(app, { subject, gradeResult, onRetry, onHome }) {
   const subjectInfo = getSubjectById(subject);
@@ -86,9 +87,18 @@ export function renderResults(app, { subject, gradeResult, onRetry, onHome }) {
   `;
 
   // Bind actions
-  document.getElementById('btn-home').addEventListener('click', onHome);
-  document.getElementById('btn-home-bottom').addEventListener('click', onHome);
-  document.getElementById('btn-retry').addEventListener('click', onRetry);
+  document.getElementById('btn-home').addEventListener('click', () => {
+    haptic.light();
+    onHome();
+  });
+  document.getElementById('btn-home-bottom').addEventListener('click', () => {
+    haptic.light();
+    onHome();
+  });
+  document.getElementById('btn-retry').addEventListener('click', () => {
+    haptic.medium();
+    onRetry();
+  });
 
   // Render review items with LaTeX (async)
   renderReviewItems(results);
