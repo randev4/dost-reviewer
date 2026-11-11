@@ -1641,24 +1641,6 @@ body::before {
   color: #f59e0b;
 }
 
-.question-image-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: var(--space-sm) 0;
-}
-
-.image-tap-hint {
-  font-size: var(--font-xs);
-  color: var(--text-muted);
-  margin-top: 4px;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  opacity: 0.85;
-}
-
 /* --- Subtopic Selection Modal --- */
 .subtopic-modal-overlay {
   position: fixed;

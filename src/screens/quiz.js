@@ -70,12 +70,7 @@ export function renderQuiz(app, {
             <span class="question-difficulty">${diffDots}</span>
           </div>
           <div class="question-text" id="question-text">Loading...</div>
-          ${q.image ? `
-            <div class="question-image-wrapper">
-              <img class="question-image" src="/images/questions/${q.image}" alt="Question diagram" />
-              <div class="image-tap-hint">🔍 Tap image to zoom</div>
-            </div>
-          ` : hasMissingFigure ? `
+          ${q.image ? `<img class="question-image" src="/images/questions/${q.image}" alt="Question diagram" />` : hasMissingFigure ? `
             <div class="missing-figure-notice">
               <span>⚠️ <strong>Source Notice:</strong> This question's diagram was omitted in the source scan. The complete problem setup and reasoning are provided in the explanation below.</span>
             </div>
