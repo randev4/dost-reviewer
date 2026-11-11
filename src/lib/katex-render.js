@@ -25,8 +25,11 @@ export function renderLatexSync(text) {
     placeholderText = placeholderText.replace(/\\newline\b/gi, '\n');
     placeholderText = placeholderText.replace(/(?<!https?:)\/\/\s*/g, '\n');
 
-    // Step 3: Render KaTeX math
-    let result = placeholderText.replace(/___MATH_(\d+)___/g, (_, idStr) => {
+    // Step 3: Replace literal '\n' and actual newlines with <br> on text outside math
+    placeholderText = placeholderText.replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
+
+    // Step 4: Render KaTeX math into placeholders (preserves SVG paths and newlines inside math intact)
+    const result = placeholderText.replace(/___MATH_(\d+)___/g, (_, idStr) => {
         const idx = parseInt(idStr, 10);
         const rawMath = mathTokens[idx];
         const isDisplay = rawMath.startsWith('$$');
@@ -37,9 +40,6 @@ export function renderLatexSync(text) {
             return escapeHtml(rawMath);
         }
     });
-
-    // Replace literal '\n' and actual newlines with <br>
-    result = result.replace(/(?:\r\n|\r|\n|\\n)/g, '<br>');
 
     return result;
 }

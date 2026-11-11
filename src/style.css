@@ -1607,11 +1607,20 @@ body::before {
 .katex .hide-tail {
   overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .katex svg {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: inherit;
   fill: currentColor;
   stroke: currentColor;
+}
+
+.katex svg path {
+  stroke: none;
 }
 
 /* --- Subtopic Selection Modal --- */
