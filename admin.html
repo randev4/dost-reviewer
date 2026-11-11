@@ -195,6 +195,21 @@
             }
           }
           updateStats();
+        } else if (msg.type === 'question-deleted') {
+          // Remove the question from allQuestions array
+          allQuestions = allQuestions.filter(q => q.id !== msg.id);
+          // Remove the card from the DOM
+          const card = document.querySelector(`.q-card[data-id="${msg.id}"]`);
+          if (card) {
+            card.style.opacity = '0';
+            setTimeout(() => card.remove(), 300);
+          }
+          // Clean up marks
+          if (marks[msg.id]) {
+            delete marks[msg.id];
+            saveMarks();
+          }
+          updateStats();
         } else if (msg.type === 'deploy-status') {
           const btn = document.getElementById('btn-deploy');
           if (btn) {
@@ -451,6 +466,7 @@
         <div class="marking-actions">
           <button class="btn btn-primary" onclick="saveMark('${q.id}')">Save Content Edits</button>
           <button class="btn btn-outline" onclick="markClean('${q.id}')">✅ Mark Clean</button>
+          <button class="btn btn-outline edit-block" style="display:none; border-color:var(--red); color:var(--red); margin-left:auto;" onclick="deleteQuestion('${q.id}')">🗑️ Delete Question</button>
         </div>
       </div>
     </div>
@@ -638,6 +654,19 @@
       if (btn) {
         btn.textContent = '✓ Saved!';
         setTimeout(() => { btn.textContent = 'Save Content Edits'; }, 1200);
+      }
+    }
+
+    function deleteQuestion(id) {
+      if (!confirm(`Are you sure you want to completely PERMANENTLY delete question ${id} and all its images from the database? This cannot be undone.`)) return;
+
+      const q = allQuestions.find(qq => qq.id === id);
+      if (!q) return;
+
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        ws.send(JSON.stringify({ type: 'delete-question', id: q.id, subject: q._subject }));
+      } else {
+        alert('Cannot delete: Sync server is offline.');
       }
     }
 

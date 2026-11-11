@@ -155,6 +155,62 @@ wss.on('connection', (ws, req) => {
             }
         }
 
+        if (msg.type === 'delete-question') {
+            const { id, subject } = msg;
+            if (id && subject) {
+                const filePath = path.join(__dirname, 'src', 'data', `${subject}.json`);
+                if (fs.existsSync(filePath)) {
+                    try {
+                        let data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                        const index = data.findIndex(q => q.id === id);
+
+                        if (index !== -1) {
+                            const q = data[index];
+
+                            // 1. Delete associated images from disk
+                            const imagesToDelete = [];
+                            if (q.image) imagesToDelete.push(q.image);
+                            if (Array.isArray(q.choices)) {
+                                q.choices.forEach(c => {
+                                    if (c.image) imagesToDelete.push(c.image);
+                                });
+                            }
+
+                            imagesToDelete.forEach(imgFilename => {
+                                const imgPath = path.join(__dirname, 'public', 'images', 'questions', imgFilename);
+                                if (fs.existsSync(imgPath)) {
+                                    try {
+                                        fs.unlinkSync(imgPath);
+                                        console.log(`[sync] Deleted image file: ${imgFilename}`);
+                                    } catch (err) {
+                                        console.error(`[sync] Failed to delete image file ${imgFilename}:`, err.message);
+                                    }
+                                }
+                            });
+
+                            // 2. Remove from JSON array
+                            data.splice(index, 1);
+                            fs.writeFileSync(filePath, JSON.stringify(data, null, 4));
+                            console.log(`[sync] Deleted question ${id} from ${subject}.json`);
+
+                            // 3. Remove from shared marks and save report
+                            if (sharedMarks[id]) {
+                                delete sharedMarks[id];
+                                fs.writeFileSync(REPORT_PATH, JSON.stringify(sharedMarks, null, 2));
+                            }
+
+                            // 4. Notify all clients
+                            const deleteMsg = { type: 'question-deleted', id };
+                            ws.send(JSON.stringify(deleteMsg)); // send back to sender too
+                            broadcast(ws, deleteMsg);
+                        }
+                    } catch (e) {
+                        console.error(`Failed to delete question ${id}:`, e.message);
+                    }
+                }
+            }
+        }
+
         if (msg.type === 'deploy-netlify') {
             console.log('[sync] Triggering Netlify deployment via Git...');
             try {
@@ -166,8 +222,8 @@ wss.on('connection', (ws, req) => {
                 fs.writeFileSync(versionPath, newVersion);
                 console.log(`[sync] Generated new version timestamp: ${newVersion}`);
 
-                // 2. Add files (Data JSONs and the new version file)
-                execSync('git add src/data/ public/version.txt', { stdio: 'pipe' });
+                // 2. Add files (Data JSONs, images, and the new version file)
+                execSync('git add src/data/ public/images/questions/ public/version.txt', { stdio: 'pipe' });
 
                 // Check if there are changes to commit
                 let hasChanges = false;
