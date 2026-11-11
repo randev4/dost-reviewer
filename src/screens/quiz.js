@@ -68,21 +68,11 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
           `}
         </div>
 
-        <div style="display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; margin-top: var(--space-sm);">
+        <div class="quiz-dots">
           ${Array.from({ length: total }, (_, i) => {
       const answered = answers[i] != null;
       const isCurrent = i === index;
-      return `<div style="
-              width: 28px; height: 28px;
-              border-radius: 6px;
-              display: flex; align-items: center; justify-content: center;
-              font-size: 11px; font-weight: 600;
-              cursor: pointer;
-              border: 2px solid ${isCurrent ? 'var(--primary-500)' : 'var(--border-subtle)'};
-              background: ${answered ? 'var(--primary-600)' : 'var(--bg-card)'};
-              color: ${answered ? 'white' : 'var(--text-muted)'};
-              transition: all 0.15s ease;
-            " class="q-dot" data-index="${i}">${i + 1}</div>`;
+      return `<div class="q-dot ${isCurrent ? 'current' : ''} ${answered ? 'answered' : ''}" style="${isCurrent ? 'border-color: var(--primary-500);' : ''} ${answered ? 'background: var(--primary-600); color: white;' : ''}" data-index="${i}">${i + 1}</div>`;
     }).join('')}
         </div>
       </div>
@@ -163,6 +153,7 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
         const currentIdx = questions.indexOf(q);
         const dot = document.querySelector(`.q-dot[data-index="${currentIdx}"]`);
         if (dot) {
+          dot.classList.add('answered');
           dot.style.background = 'var(--primary-600)';
           dot.style.color = 'white';
         }

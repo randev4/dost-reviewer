@@ -832,7 +832,7 @@ body::before {
   display: flex;
   gap: var(--space-sm);
   margin-top: var(--space-lg);
-  padding-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
 }
 
 .nav-btn {
@@ -883,6 +883,96 @@ body::before {
   background: linear-gradient(135deg, var(--success), #16a34a);
   color: white;
   box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+/* Question Pagination Dots */
+.quiz-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 4px;
+  width: 100%;
+  max-width: 100%;
+  margin: var(--space-xs) auto 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.q-dot {
+  flex: 1 1 0px;
+  min-width: 0;
+  max-width: 32px;
+  height: 32px;
+  aspect-ratio: 1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid var(--border-subtle);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  transition: all 0.15s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@supports (aspect-ratio: 1) {
+  .q-dot {
+    height: auto;
+  }
+}
+
+.q-dot:hover {
+  border-color: var(--primary-400);
+}
+
+.q-dot.current {
+  border-color: var(--primary-500);
+}
+
+.q-dot.answered {
+  background: var(--primary-600);
+  color: #ffffff;
+}
+
+.q-dot:active {
+  transform: scale(0.92);
+}
+
+@media (max-width: 380px) {
+  .screen {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+
+  .quiz-dots {
+    gap: 3px;
+  }
+
+  .q-dot {
+    font-size: 10px;
+    border-radius: 5px;
+    border-width: 1.5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .quiz-dots {
+    gap: 2px;
+  }
+
+  .q-dot {
+    font-size: 9px;
+    border-radius: 4px;
+    border-width: 1px;
+  }
 }
 
 /* --- Results Screen --- */
