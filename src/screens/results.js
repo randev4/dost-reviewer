@@ -3,7 +3,7 @@
  */
 
 import { getSubjectById } from '../lib/subjects.js';
-import { renderLatex, renderExplanation } from '../lib/katex-render.js';
+import { renderLatex } from '../lib/katex-render.js';
 import { bindImageZoom } from '../lib/lightbox.js';
 import { haptic } from '../lib/haptics.js';
 import { sound } from '../lib/audio.js';
@@ -30,11 +30,11 @@ export function renderResults(app, { subject, subtopicId = 'all', subtopicName, 
   } else if (percentage >= 40) {
     scoreColor = 'var(--warning)';
     message = 'Keep Going! 💪';
-    submessage = 'Review the explanations below to learn from mistakes.';
+    submessage = 'Review your answers below to learn from mistakes.';
   } else {
     scoreColor = 'var(--danger)';
     message = 'Needs More Practice 📚';
-    submessage = 'Don\'t worry — study the explanations and try again!';
+    submessage = 'Don\'t worry — review your answers and try again!';
   }
 
   // SVG ring calculation
@@ -130,9 +130,20 @@ async function renderReviewItems(results) {
   for (let i = 0; i < results.length; i++) {
     const r = results[i];
     const q = r.question;
-    const statusClass = r.isCorrect ? 'correct' : 'incorrect';
-    const statusIcon = r.isCorrect ? '✅' : '❌';
-    const statusText = r.isCorrect ? 'Correct' : 'Incorrect';
+
+    let statusClass = 'incorrect';
+    let statusIcon = '❌';
+    let statusText = 'Incorrect';
+
+    if (r.isCorrect) {
+      statusClass = 'correct';
+      statusIcon = '✅';
+      statusText = 'Correct';
+    } else if (!r.userAnswer) {
+      statusClass = 'unanswered';
+      statusIcon = '⚪';
+      statusText = 'Unanswered';
+    }
 
     // Render question text
     const questionText = await renderLatex(q.questionLatex || q.question);
@@ -142,14 +153,11 @@ async function renderReviewItems(results) {
     const userChoice = r.userAnswer ? q.choices.items.find(c => c.key === r.userAnswer) : null;
 
     const correctText = correctChoice ? await renderLatex(correctChoice.textLatex ?? correctChoice.text) : '—';
-    const userText = userChoice ? await renderLatex(userChoice.textLatex ?? userChoice.text) : '<em>No answer</em>';
+    const userText = userChoice ? await renderLatex(userChoice.textLatex ?? userChoice.text) : '';
 
     // Choice images
     const correctImg = correctChoice?.image ? `<img class="choice-image" src="/images/questions/${correctChoice.image}" alt="Correct choice" style="max-width:120px; margin-top:4px; border-radius:4px; display:block;" />` : '';
     const userImg = userChoice?.image ? `<img class="choice-image" src="/images/questions/${userChoice.image}" alt="Your choice" style="max-width:120px; margin-top:4px; border-radius:4px; display:block;" />` : '';
-
-    // Render explanation
-    const explanation = await renderExplanation(r.explanation);
 
     html += `
       <div class="review-item ${statusClass}">
@@ -164,24 +172,25 @@ async function renderReviewItems(results) {
         <div class="review-question">${questionText}</div>
         ${q.image ? `<img class="question-image" src="/images/questions/${q.image}" alt="Question diagram" style="max-width: 100%; margin-bottom: var(--space-md);" />` : ''}
         <div class="review-answer-row">
-          ${!r.isCorrect && r.userAnswer ? `
+          ${r.isCorrect ? `
+            <span class="review-answer-tag correct-answer">
+              Your answer: ${r.correctKey}. ${correctText}${correctImg}
+            </span>
+          ` : r.userAnswer ? `
             <span class="review-answer-tag your-answer">
               Your answer: ${r.userAnswer}. ${userText}${userImg}
             </span>
-          ` : ''}
-          <span class="review-answer-tag correct-answer">
-            Correct: ${r.correctKey}. ${correctText}${correctImg}
-          </span>
-        </div>
-        <div class="review-explanation">
-          <div class="review-explanation-title">💡 Explanation</div>
-          ${explanation}
-          ${r.wrongReason ? `
-            <div class="wrong-reason">
-              <div class="wrong-reason-title">⚠️ Why choice "${r.userAnswer}" is incorrect:</div>
-              ${await renderExplanation(r.wrongReason)}
-            </div>
-          ` : ''}
+            <span class="review-answer-tag correct-answer">
+              Correct: ${r.correctKey}. ${correctText}${correctImg}
+            </span>
+          ` : `
+            <span class="review-answer-tag unanswered-tag">
+              Your answer: <em>Unanswered</em>
+            </span>
+            <span class="review-answer-tag correct-answer">
+              Correct: ${r.correctKey}. ${correctText}${correctImg}
+            </span>
+          `}
         </div>
       </div>
     `;

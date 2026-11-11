@@ -1288,6 +1288,10 @@ body::before {
   border-left-color: var(--danger);
 }
 
+.review-item.unanswered {
+  border-left-color: var(--text-muted);
+}
+
 .review-header {
   display: flex;
   align-items: center;
@@ -1311,6 +1315,10 @@ body::before {
   color: var(--danger);
 }
 
+.review-status.unanswered {
+  color: var(--text-muted);
+}
+
 .review-question {
   font-size: var(--font-sm);
   line-height: 1.6;
@@ -1322,7 +1330,6 @@ body::before {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-sm);
-  margin-bottom: var(--space-md);
   font-size: var(--font-sm);
 }
 
@@ -1340,6 +1347,12 @@ body::before {
   background: rgba(239, 68, 68, 0.1);
   color: var(--danger);
   border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.review-answer-tag.unanswered-tag {
+  background: rgba(148, 163, 184, 0.1);
+  color: var(--text-muted);
+  border: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 .review-answer-tag.correct-answer {
