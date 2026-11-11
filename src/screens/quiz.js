@@ -33,6 +33,7 @@ export function renderQuiz(app, {
     const isChecked = !!checkedItems[index];
     const progress = ((index + 1) / total) * 100;
     const isLast = index === total - 1;
+    const hasMissingFigure = !q.image && /shown (below|above)|in the figure|in the diagram|in the graph|refer to the graph|in the pedigree shown|table below/i.test(q.question);
 
     // Difficulty dots
     const diffDots = Array.from({ length: 3 }, (_, i) =>
@@ -69,7 +70,16 @@ export function renderQuiz(app, {
             <span class="question-difficulty">${diffDots}</span>
           </div>
           <div class="question-text" id="question-text">Loading...</div>
-          ${q.image ? `<img class="question-image" src="/images/questions/${q.image}" alt="Question diagram" />` : ''}
+          ${q.image ? `
+            <div class="question-image-wrapper">
+              <img class="question-image" src="/images/questions/${q.image}" alt="Question diagram" />
+              <div class="image-tap-hint">🔍 Tap image to zoom</div>
+            </div>
+          ` : hasMissingFigure ? `
+            <div class="missing-figure-notice">
+              <span>⚠️ <strong>Source Notice:</strong> This question's diagram was omitted in the source scan. The complete problem setup and reasoning are provided in the explanation below.</span>
+            </div>
+          ` : ''}
           <div class="choices ${isChecked ? 'locked' : ''}" id="choices-container">
             <!-- Choices rendered after LaTeX -->
           </div>

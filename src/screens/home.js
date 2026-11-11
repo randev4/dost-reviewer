@@ -77,6 +77,15 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
         </div>
       </div>
 
+      <div class="known-issues-card" id="btn-known-issues" style="margin-bottom: var(--space-lg); cursor: pointer;">
+        <span class="known-issues-icon">ℹ️</span>
+        <div class="known-issues-body">
+          <div class="known-issues-title">Current Quality Notice</div>
+          <div class="known-issues-desc">Some items have missing or tightly cropped diagrams from source scans · Tap for details</div>
+        </div>
+        <span class="known-issues-arrow">›</span>
+      </div>
+
       <div class="section-title">Choose a Subject</div>
       <div class="subject-grid">
         ${SUBJECTS.map(subject => {
@@ -242,10 +251,24 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
     updateThemeIcon();
   });
 
-  // Notification Logic
+  // Known Issues Modal & Notification Logic
   const notifBar = document.getElementById('notif-bar');
   const notifText = document.getElementById('notif-text');
   const closeNotifBtn = document.getElementById('btn-close-notif');
+  const knownIssuesBtn = document.getElementById('btn-known-issues');
+
+  knownIssuesBtn?.addEventListener('click', () => {
+    haptic.tap();
+    sound.tap();
+    openKnownIssuesModal();
+  });
+
+  notifText?.addEventListener('click', () => {
+    haptic.tap();
+    sound.tap();
+    openKnownIssuesModal();
+  });
+  if (notifText) notifText.style.cursor = 'pointer';
 
   fetch('/notif.txt?t=' + Date.now())
     .then(res => {
@@ -258,7 +281,7 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
         const dismissedNotif = localStorage.getItem('dismissed_notif');
         if (dismissedNotif !== trimmed) {
           // Show it
-          notifText.textContent = trimmed;
+          notifText.innerHTML = trimmed;
           notifBar.classList.remove('d-none');
         }
       }
@@ -269,8 +292,69 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
     haptic.tap();
     sound.tap();
     notifBar.classList.add('d-none');
-    localStorage.setItem('dismissed_notif', notifText.textContent.trim());
+    localStorage.setItem('dismissed_notif', notifText.innerHTML.trim());
   });
+
+  function openKnownIssuesModal() {
+    closeKnownIssuesModal();
+
+    const overlay = document.createElement('div');
+    overlay.className = 'subtopic-modal-overlay';
+    overlay.id = 'known-issues-overlay';
+
+    overlay.innerHTML = `
+      <div class="subtopic-modal" role="dialog" aria-modal="true" style="--modal-color: #f59e0b; max-width: 480px;">
+        <div class="subtopic-modal-header">
+          <div class="subtopic-modal-title-group">
+            <span class="subtopic-modal-icon">⚠️</span>
+            <div>
+              <h2 class="subtopic-modal-title">Reviewer Quality Notice</h2>
+              <p class="subtopic-modal-subtitle">Current status & known source material issues</p>
+            </div>
+          </div>
+          <button class="subtopic-modal-close" id="btn-close-issues" aria-label="Close">✕</button>
+        </div>
+
+        <div style="padding: var(--space-md); font-size: var(--font-sm); color: var(--text-secondary); line-height: 1.6;">
+          <div style="margin-bottom: var(--space-md); padding: var(--space-sm) var(--space-md); background: rgba(245, 158, 11, 0.1); border-left: 3px solid #f59e0b; border-radius: var(--radius-sm); color: var(--text-primary);">
+            <strong>Scanned Source Limitations:</strong><br/>
+            The newly integrated 1,001 items were transcribed from scanned scholarship review booklets. A few items have diagrams that are closely cropped, low-contrast, or omitted in the original printed scans.
+          </div>
+
+          <div style="margin-bottom: var(--space-md);">
+            <strong style="color: var(--text-primary);">💡 How to Study These Items:</strong>
+            <ul style="margin: var(--space-xs) 0 0 var(--space-md); padding-left: var(--space-xs);">
+              <li><strong>Tap to Zoom:</strong> On any question with a diagram, tap the image to open the full-screen zoomable viewer.</li>
+              <li><strong>Complete Explanations:</strong> 100% of questions (all 1,322 items) include complete pedagogical explanations that reconstruct the missing diagram context and show full mathematical/scientific derivations.</li>
+              <li><strong>Omitted Figures Notice:</strong> Questions with omitted figures show a warning badge with complete solution details upon answering.</li>
+            </ul>
+          </div>
+
+          <button class="nav-btn primary" id="btn-dismiss-issues" style="width: 100%; margin-top: var(--space-sm);">
+            Got It 👍
+          </button>
+        </div>
+      </div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    const close = () => {
+      haptic.light();
+      sound.tap();
+      overlay.remove();
+    };
+
+    overlay.querySelector('#btn-close-issues')?.addEventListener('click', close);
+    overlay.querySelector('#btn-dismiss-issues')?.addEventListener('click', close);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) close();
+    });
+  }
+
+  function closeKnownIssuesModal() {
+    document.getElementById('known-issues-overlay')?.remove();
+  }
 }
 
 function getSubjectName(id) {
