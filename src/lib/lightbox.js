@@ -4,9 +4,11 @@
  */
 
 import { haptic } from './haptics.js';
+import { sound } from './audio.js';
 
 export function openLightbox(src, alt = 'Image') {
     haptic.tap();
+    sound.tap();
     // Remove existing lightbox if any
     closeLightbox(false);
 
@@ -36,8 +38,11 @@ export function openLightbox(src, alt = 'Image') {
     document.body.appendChild(overlay);
 }
 
-export function closeLightbox(withHaptic = true) {
-    if (withHaptic) haptic.tap();
+export function closeLightbox(withFeedback = true) {
+    if (withFeedback) {
+        haptic.tap();
+        sound.tap();
+    }
     const existing = document.querySelector('.image-lightbox');
     if (existing) existing.remove();
 }

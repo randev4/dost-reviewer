@@ -6,9 +6,13 @@ import { getSubjectById } from '../lib/subjects.js';
 import { renderLatex } from '../lib/katex-render.js';
 import { bindImageZoom } from '../lib/lightbox.js';
 import { haptic } from '../lib/haptics.js';
+import { sound } from '../lib/audio.js';
 
-export function renderResults(app, { subject, gradeResult, onRetry, onHome }) {
+export function renderResults(app, { subject, subtopicId = 'all', subtopicName, gradeResult, onRetry, onHome }) {
   const subjectInfo = getSubjectById(subject);
+  const displaySubtitle = subtopicName && subtopicId !== 'all'
+    ? `${subjectInfo?.name || subject} · ${subtopicName}`
+    : (subjectInfo?.name || subject);
   const { correct, total, results } = gradeResult;
   const percentage = Math.round((correct / total) * 100);
 
@@ -43,7 +47,7 @@ export function renderResults(app, { subject, gradeResult, onRetry, onHome }) {
         <button class="header-back" id="btn-home">← Home</button>
         <div style="text-align: right;">
           <div class="header-title">Results</div>
-          <div class="header-subtitle">${subjectInfo?.name || subject}</div>
+          <div class="header-subtitle">${displaySubtitle}</div>
         </div>
       </div>
     </header>
@@ -70,7 +74,7 @@ export function renderResults(app, { subject, gradeResult, onRetry, onHome }) {
 
       <div class="results-actions">
         <button class="nav-btn primary" id="btn-retry" style="flex: 1;">
-          🔄 New Set
+          🔄 ${subtopicName && subtopicId !== 'all' ? `New ${subtopicName} Set` : 'New Set'}
         </button>
         <button class="nav-btn secondary" id="btn-home-bottom" style="flex: 1;">
           📋 Subjects
@@ -89,16 +93,28 @@ export function renderResults(app, { subject, gradeResult, onRetry, onHome }) {
   // Bind actions
   document.getElementById('btn-home').addEventListener('click', () => {
     haptic.light();
+    sound.tap();
     onHome();
   });
   document.getElementById('btn-home-bottom').addEventListener('click', () => {
     haptic.light();
+    sound.tap();
     onHome();
   });
   document.getElementById('btn-retry').addEventListener('click', () => {
     haptic.medium();
+    sound.select();
     onRetry();
   });
+
+  // Play celebration or completion audio
+  setTimeout(() => {
+    if (percentage >= 70) {
+      sound.fanfare();
+    } else {
+      sound.select();
+    }
+  }, 180);
 
   // Render review items with LaTeX (async)
   renderReviewItems(results);

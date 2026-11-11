@@ -57,10 +57,10 @@ export function selectQuestions(allQuestions, subject, count = 10) {
     // Shuffle the order of questions
     selected = shuffleArray(selected);
 
-    // Shuffle choices within each question (but preserve key labels)
+    // Shuffle choices within each question (unless noShuffle is set)
     selected = selected.map(q => ({
         ...q,
-        choices: shuffleChoices(q.choices, q.answer)
+        choices: shuffleChoices(q.choices, q.answer, q.noShuffle)
     }));
 
     return selected;
@@ -84,7 +84,14 @@ function applyDifficultyWeight(questions, bias) {
  * Shuffle choices while tracking which key maps to the correct answer.
  * Returns { shuffledChoices, correctKey }
  */
-function shuffleChoices(choices, correctKey) {
+function shuffleChoices(choices, correctKey, noShuffle = false) {
+    if (noShuffle) {
+        return {
+            items: choices.map(c => ({ ...c, originalKey: c.key })),
+            correctKey: correctKey
+        };
+    }
+
     // Shuffle
     const shuffled = shuffleArray([...choices]);
 

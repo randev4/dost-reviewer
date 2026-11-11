@@ -87,14 +87,14 @@ async function loadQuestions(dataFile) {
 
 function showHome() {
     renderHome(app, {
-        onSelectSubject: startQuiz,
+        onSelectSubject: (subjectId, subtopicId = 'all') => startQuiz(subjectId, subtopicId),
         onOpenDashboard: showDashboard,
         onResumeQuiz: resumeQuiz
     });
     window.scrollTo(0, 0);
 }
 
-async function startQuiz(subjectId) {
+async function startQuiz(subjectId, subtopicId = 'all') {
     // Show loading
     app.innerHTML = `
     <div class="screen" style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh;">
@@ -104,7 +104,7 @@ async function startQuiz(subjectId) {
   `;
 
     // Find subject config
-    const { SUBJECTS } = await import('./lib/subjects.js');
+    const { SUBJECTS, filterQuestionsBySubtopic, getSubtopicName } = await import('./lib/subjects.js');
     const subject = SUBJECTS.find(s => s.id === subjectId);
     if (!subject) { showHome(); return; }
 
@@ -123,33 +123,58 @@ async function startQuiz(subjectId) {
         return;
     }
 
-    // Select question set
-    const questions = selectQuestions(allQuestions, subjectId, 10);
+    // Filter by selected subtopic
+    const filteredQuestions = filterQuestionsBySubtopic(allQuestions, subjectId, subtopicId);
+    const subtopicName = getSubtopicName(subjectId, subtopicId);
+
+    if (filteredQuestions.length === 0) {
+        app.innerHTML = `
+      <div class="screen">
+        <div class="empty-state">
+          <div class="empty-state-icon">📭</div>
+          <p>No questions available for ${subtopicName} yet.</p>
+          <button class="nav-btn primary" style="margin-top: var(--space-lg); max-width: 200px;" onclick="location.reload()">Go Back</button>
+        </div>
+      </div>
+    `;
+        return;
+    }
+
+    // Select question set (up to 10)
+    const questions = selectQuestions(filteredQuestions, subjectId, Math.min(10, filteredQuestions.length));
 
     renderQuiz(app, {
         subject: subjectId,
+        subtopicId,
+        subtopicName,
         questions,
         currentIndex: 0,
         answers: {},
         onBack: showHome,
-        onFinish: (answers) => finishQuiz(subjectId, questions, answers)
+        onFinish: (answers) => finishQuiz(subjectId, subtopicId, subtopicName, questions, answers)
     });
     window.scrollTo(0, 0);
 }
 
-function resumeQuiz(inProgress) {
+async function resumeQuiz(inProgress) {
+    const subtopicId = inProgress.subtopicId || 'all';
+    const { getSubtopicName } = await import('./lib/subjects.js');
+    const subtopicName = getSubtopicName(inProgress.subject, subtopicId);
+
     renderQuiz(app, {
         subject: inProgress.subject,
+        subtopicId,
+        subtopicName,
         questions: inProgress.questions,
         currentIndex: inProgress.currentIndex,
         answers: inProgress.answers,
         onBack: showHome,
-        onFinish: (answers) => finishQuiz(inProgress.subject, inProgress.questions, answers)
+        onFinish: (answers) => finishQuiz(inProgress.subject, subtopicId, subtopicName, inProgress.questions, answers)
     });
     window.scrollTo(0, 0);
 }
 
-function finishQuiz(subjectId, questions, answers) {
+function finishQuiz(subjectId, subtopicId, subtopicName, questions, answers) {
     const gradeResult = gradeQuiz(questions, answers);
 
     // Save to history
@@ -159,8 +184,10 @@ function finishQuiz(subjectId, questions, answers) {
 
     renderResults(app, {
         subject: subjectId,
+        subtopicId,
+        subtopicName,
         gradeResult,
-        onRetry: () => startQuiz(subjectId),
+        onRetry: () => startQuiz(subjectId, subtopicId),
         onHome: showHome
     });
     window.scrollTo(0, 0);

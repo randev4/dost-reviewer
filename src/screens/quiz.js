@@ -7,10 +7,14 @@ import { renderLatex } from '../lib/katex-render.js';
 import { saveProgress } from '../lib/storage.js';
 import { bindImageZoom } from '../lib/lightbox.js';
 import { haptic } from '../lib/haptics.js';
+import { sound, isSoundEnabled, toggleSound } from '../lib/audio.js';
 
-export function renderQuiz(app, { subject, questions, currentIndex = 0, answers = {}, onBack, onFinish }) {
+export function renderQuiz(app, { subject, subtopicId = 'all', subtopicName, questions, currentIndex = 0, answers = {}, onBack, onFinish }) {
   const subjectInfo = getSubjectById(subject);
   const total = questions.length;
+  const displayTitle = subtopicName && subtopicId !== 'all'
+    ? `${subjectInfo?.name || subject} · ${subtopicName}`
+    : (subjectInfo?.name || subject);
 
   function render(index) {
     const q = questions[index];
@@ -27,9 +31,14 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
       <header class="header">
         <div class="header-content">
           <button class="header-back" id="btn-back">← Back</button>
-          <div style="text-align: right;">
-            <div class="header-title">${subjectInfo?.name || subject}</div>
-            <div class="header-subtitle">Question ${index + 1} of ${total}</div>
+          <div style="display: flex; align-items: center; gap: var(--space-sm);">
+            <button class="header-sound-btn" id="btn-sound" aria-label="Toggle Sound" style="width: 36px; height: 36px; font-size: 1.05rem;">
+              ${isSoundEnabled() ? '🔊' : '🔇'}
+            </button>
+            <div style="text-align: right;">
+              <div class="header-title">${displayTitle}</div>
+              <div class="header-subtitle">Question ${index + 1} of ${total}</div>
+            </div>
           </div>
         </div>
       </header>
@@ -85,21 +94,31 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
     });
 
     // Bind events
+    document.getElementById('btn-sound')?.addEventListener('click', () => {
+      haptic.tap();
+      const enabled = toggleSound();
+      const soundBtn = document.getElementById('btn-sound');
+      if (soundBtn) soundBtn.textContent = enabled ? '🔊' : '🔇';
+    });
+
     document.getElementById('btn-back').addEventListener('click', () => {
       haptic.light();
+      sound.tap();
       if (confirm('Leave quiz? Your progress will be saved.')) {
-        saveQuizProgress(subject, questions, index, answers);
+        saveQuizProgress(subject, subtopicId, questions, index, answers);
         onBack();
       }
     });
 
     document.getElementById('btn-prev')?.addEventListener('click', () => {
       haptic.light();
+      sound.prev();
       if (index > 0) render(index - 1);
     });
 
     document.getElementById('btn-next')?.addEventListener('click', () => {
       haptic.light();
+      sound.next();
       render(index + 1);
     });
 
@@ -107,10 +126,12 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
       const unanswered = Object.keys(answers).length;
       if (unanswered < total) {
         haptic.warning();
+        sound.incorrect();
         const proceed = confirm(`You have ${total - unanswered} unanswered question(s). Submit anyway?`);
         if (!proceed) return;
       }
       haptic.success();
+      sound.submit();
       onFinish(answers);
     });
 
@@ -118,6 +139,7 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
     document.querySelectorAll('.q-dot').forEach(dot => {
       dot.addEventListener('click', () => {
         haptic.tap();
+        sound.tap();
         render(parseInt(dot.dataset.index));
       });
     });
@@ -150,6 +172,7 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
     choicesEl.querySelectorAll('.choice-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         haptic.tap();
+        sound.tap();
         const key = btn.dataset.key;
         answers[questions.indexOf(q)] = key;
 
@@ -167,7 +190,7 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
         }
 
         // Save progress
-        saveQuizProgress(subject, questions, currentIdx, answers);
+        saveQuizProgress(subject, subtopicId, questions, currentIdx, answers);
       });
     });
   }
@@ -175,9 +198,10 @@ export function renderQuiz(app, { subject, questions, currentIndex = 0, answers 
   render(currentIndex);
 }
 
-function saveQuizProgress(subject, questions, currentIndex, answers) {
+function saveQuizProgress(subject, subtopicId, questions, currentIndex, answers) {
   saveProgress({
     subject,
+    subtopicId,
     questions,
     currentIndex,
     answers
