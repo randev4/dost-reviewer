@@ -150,6 +150,7 @@ async function startQuiz(subjectId, subtopicId = 'all') {
         questions,
         currentIndex: 0,
         answers: {},
+        checkedItems: {},
         onBack: showHome,
         onFinish: (answers) => finishQuiz(subjectId, subtopicId, subtopicName, questions, answers)
     });
@@ -168,6 +169,7 @@ async function resumeQuiz(inProgress) {
         questions: inProgress.questions,
         currentIndex: inProgress.currentIndex,
         answers: inProgress.answers,
+        checkedItems: inProgress.checkedItems || {},
         onBack: showHome,
         onFinish: (answers) => finishQuiz(inProgress.subject, subtopicId, subtopicName, inProgress.questions, answers)
     });
