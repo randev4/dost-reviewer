@@ -148,11 +148,13 @@ async function renderReviewItems(results) {
     // Render question text
     const questionText = await renderLatex(q.questionLatex || q.question);
 
-    // Find answer texts
-    const correctChoice = q.choices.items.find(c => c.key === r.correctKey);
+    const isUnanswered = !r.userAnswer;
+
+    // Find answer texts (omit correct answer lookup when unanswered)
+    const correctChoice = (!isUnanswered && q.choices.items) ? q.choices.items.find(c => c.key === r.correctKey) : null;
     const userChoice = r.userAnswer ? q.choices.items.find(c => c.key === r.userAnswer) : null;
 
-    const correctText = correctChoice ? await renderLatex(correctChoice.textLatex ?? correctChoice.text) : '—';
+    const correctText = correctChoice ? await renderLatex(correctChoice.textLatex ?? correctChoice.text) : '';
     const userText = userChoice ? await renderLatex(userChoice.textLatex ?? userChoice.text) : '';
 
     // Choice images
@@ -186,9 +188,6 @@ async function renderReviewItems(results) {
           ` : `
             <span class="review-answer-tag unanswered-tag">
               Your answer: <em>Unanswered</em>
-            </span>
-            <span class="review-answer-tag correct-answer">
-              Correct: ${r.correctKey}. ${correctText}${correctImg}
             </span>
           `}
         </div>
