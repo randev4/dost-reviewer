@@ -1530,6 +1530,17 @@ body::before {
   font-size: 1.1em;
 }
 
+/* Ensure radical SVGs and symbols remain crisp and never collapse */
+.katex .hide-tail {
+  overflow: hidden;
+  position: relative;
+}
+
+.katex svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
 /* --- Subtopic Selection Modal --- */
 .subtopic-modal-overlay {
   position: fixed;
