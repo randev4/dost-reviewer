@@ -184,121 +184,35 @@ export const SUBJECTS = [
         color: '#ef4444',
         description: 'Gears, Levers, Circuits, Forces & Motion',
         dataFile: 'mechanical-technical',
-        subtopics: [
-            {
-                id: 'all',
-                name: 'Combined (All Topics)',
-                icon: '🌟',
-                description: 'Mix of mechanical systems, gears, and forces',
-                count: 90,
-                matches: null
-            },
-            {
-                id: 'mechanical',
-                name: 'Machines & Mechanics',
-                icon: '⚙️',
-                description: 'Gears, pulleys, levers, mechanical advantage',
-                count: 85,
-                matches: ['mechanical', 'mechanics', 'gears', 'levers', 'pulleys']
-            },
-            {
-                id: 'circuits',
-                name: 'Circuits & Electrical',
-                icon: '💡',
-                description: 'Series/parallel circuits, switches, electrical load',
-                count: 3,
-                matches: ['electrical']
-            },
-            {
-                id: 'forces',
-                name: 'Forces & Hydraulics',
-                icon: '🧲',
-                description: 'Hydraulic systems, center of gravity, friction',
-                count: 2,
-                matches: ['forces']
-            }
-        ]
+        count: 90
     },
     {
         id: 'nonverbal-reasoning',
         name: 'Non-Verbal Reasoning',
         icon: '🔷',
         color: '#14b8a6',
-        description: 'Spatial Reasoning, Patterns, Visual Logic',
+        description: 'Spatial Reasoning, Patterns & Visual Logic',
         dataFile: 'nonverbal-reasoning',
-        subtopics: [
-            {
-                id: 'all',
-                name: 'Combined (All Topics)',
-                icon: '🌟',
-                description: 'Mix of spatial reasoning and visual patterns',
-                count: 80,
-                matches: null
-            },
-            {
-                id: 'spatial',
-                name: 'Spatial Reasoning',
-                icon: '🔷',
-                description: 'Cube nets, rotations, reflections, folding & views',
-                count: 54,
-                matches: ['spatial']
-            },
-            {
-                id: 'pattern',
-                name: 'Patterns & Visual Logic',
-                icon: '🧩',
-                description: 'Figure sequences, matrices, odd-one-out',
-                count: 26,
-                matches: ['pattern', 'patterns']
-            }
-        ]
+        count: 80
     },
     {
         id: 'verbal-reasoning',
         name: 'Verbal Reasoning',
         icon: '🧠',
         color: '#ec4899',
-        description: 'Logic, Word Analogies, Series & Deduction',
+        description: 'Logic, Analogies, Sequences & Deductions',
         dataFile: 'verbal-reasoning',
-        subtopics: [
-            {
-                id: 'all',
-                name: 'Combined (All Topics)',
-                icon: '🌟',
-                description: 'Mix of verbal deductions, analogies & series',
-                count: 70,
-                matches: null
-            },
-            {
-                id: 'verbal-logic',
-                name: 'Verbal Logic & Deduction',
-                icon: '🧠',
-                description: 'Syllogisms, logical conclusions, deductive reasoning',
-                count: 60,
-                matches: ['verbal-logic', 'reasoning']
-            },
-            {
-                id: 'analogy',
-                name: 'Word Analogies',
-                icon: '🔗',
-                description: 'Word relationships and conceptual pairs',
-                count: 6,
-                matches: ['analogy']
-            },
-            {
-                id: 'series',
-                name: 'Series & Sequencing',
-                icon: '🔢',
-                description: 'Alphanumeric patterns and sequence logic',
-                count: 4,
-                matches: ['series']
-            }
-        ]
+        count: 70
     }
 ];
 
 export function getSubjectById(id) {
     return SUBJECTS.find(s => s.id === id) || null;
+}
+
+export function hasSubtopics(subjectId) {
+    const s = getSubjectById(subjectId);
+    return Boolean(s?.subtopics && s.subtopics.length > 0);
 }
 
 export function getSubtopics(subjectId) {
@@ -312,20 +226,24 @@ export function getSubtopic(subjectId, subtopicId) {
 }
 
 export function getSubtopicName(subjectId, subtopicId) {
+    if (!hasSubtopics(subjectId)) return '';
     if (!subtopicId || subtopicId === 'all') return 'All Topics';
     const st = getSubtopic(subjectId, subtopicId);
     return st?.name || subtopicId;
 }
 
 export function filterQuestionsBySubtopic(questions, subjectId, subtopicId) {
-    if (!subtopicId || subtopicId === 'all') return questions;
+    if (!hasSubtopics(subjectId) || !subtopicId || subtopicId === 'all') return questions;
     const st = getSubtopic(subjectId, subtopicId);
     if (!st || !st.matches) return questions;
     return questions.filter(q => st.matches.includes(q.topic));
 }
 
 export const TOTAL_QUESTIONS_COUNT = SUBJECTS.reduce((sum, s) => {
-    const allTopic = s.subtopics?.find(st => st.id === 'all');
-    return sum + (allTopic?.count || 0);
+    if (s.subtopics && s.subtopics.length > 0) {
+        const allTopic = s.subtopics.find(st => st.id === 'all');
+        return sum + (allTopic?.count || 0);
+    }
+    return sum + (s.count || 0);
 }, 0);
 

@@ -2,7 +2,7 @@
  * Home Screen — Subject selection grid with progress stats
  */
 
-import { SUBJECTS, getSubjectById, getSubtopicName, TOTAL_QUESTIONS_COUNT } from '../lib/subjects.js';
+import { SUBJECTS, getSubjectById, getSubtopicName, hasSubtopics, TOTAL_QUESTIONS_COUNT } from '../lib/subjects.js';
 import { getOverallStats, getSubjectStats, getInProgress } from '../lib/storage.js';
 import { haptic } from '../lib/haptics.js';
 import { sound, isSoundEnabled, toggleSound } from '../lib/audio.js';
@@ -53,7 +53,7 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
             <div>
               <div style="font-size: var(--font-xs); color: var(--primary-400); font-weight: 600; text-transform: uppercase;">Continue Quiz</div>
               <div style="font-size: var(--font-sm); font-weight: 600; margin-top: 2px;">
-                ${getSubjectName(inProgress.subject)}${inProgress.subtopicId && inProgress.subtopicId !== 'all' ? ` · ${getSubtopicName(inProgress.subject, inProgress.subtopicId)}` : ''}
+                ${getSubjectName(inProgress.subject)}${inProgress.subtopicId && inProgress.subtopicId !== 'all' && getSubtopicName(inProgress.subject, inProgress.subtopicId) ? ` · ${getSubtopicName(inProgress.subject, inProgress.subtopicId)}` : ''}
               </div>
               <div style="font-size: var(--font-xs); color: var(--text-muted);">Question ${inProgress.currentIndex + 1} of ${inProgress.questions.length}</div>
             </div>
@@ -106,13 +106,18 @@ export function renderHome(app, { onSelectSubject, onOpenDashboard, onResumeQuiz
     card.addEventListener('click', () => {
       haptic.medium();
       sound.select();
-      openSubtopicModal(card.dataset.subject);
+      const subjectId = card.dataset.subject;
+      if (hasSubtopics(subjectId)) {
+        openSubtopicModal(subjectId);
+      } else {
+        onSelectSubject(subjectId, 'all');
+      }
     });
   });
 
   function openSubtopicModal(subjectId) {
     const subject = getSubjectById(subjectId);
-    if (!subject) return;
+    if (!subject || !hasSubtopics(subjectId)) return;
 
     closeSubtopicModal();
 
